@@ -118,6 +118,7 @@ def page(title, desc, active, body, page_id=""):
 <meta name="description" content="{esc(desc)}">
 <meta name="theme-color" content="#102A43">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="manifest" href="/manifest.json">
 <link rel="stylesheet" href="/styles.css">
 </head>
 <body data-page="{page_id}">
@@ -141,12 +142,14 @@ def paper_rows_static(e, year, stage):
     st = STATUS.get(e[0], "partial")
     p = portal_of(e)
     key = f"{e[0]}|{year}|{stage}|paper"
-    off = (f'<a class="btn sm" href="{p["url"]}" target="_blank" rel="noopener">Official Archive ↗</a>'
+    is_rrb = bool(p and "rrbapply" in p["url"])  # RRB: answer keys/response sheets, not complete papers
+    off = (f'<a class="btn sm" href="{p["url"]}" target="_blank" rel="noopener">{"Official Portal ↗" if is_rrb else "Official Archive ↗"}</a>'
            if p else f'<button class="btn sm" onclick="requestPaper(\'{e[0]}\',{year},\'{esc(stage)}\',\'Question Paper\')">Request Paper</button>')
-    keybtn = (f'<a class="btn sm ghost" href="{p["url"]}" target="_blank" rel="noopener">Official Key ↗</a>'
+    keybtn = (f'<a class="btn sm ghost" href="{p["url"]}" target="_blank" rel="noopener">{"Official Portal ↗" if is_rrb else "Official Key ↗"}</a>'
               if st == "official" and p else
               f'<button class="btn sm ghost" onclick="requestPaper(\'{e[0]}\',{year},\'{esc(stage)}\',\'Answer Key\')">Request Key</button>')
-    badge = ('<span class="badge b-off">✓ Official</span>' if st == "official"
+    badge = ('<span class="badge b-part">◐ Answer key on portal</span>' if is_rrb else
+             '<span class="badge b-off">✓ Official</span>' if st == "official"
              else ('<span class="badge b-part">◐ Check on portal</span>' if p else
                    '<span class="badge b-none">Not available yet</span>'))
     return f"""<tr><td><b>{esc(e[2])} {year} — {esc(stage)}</b><br><span class="small">Question Paper • Shift/Set as per official archive</span></td><td>{badge}</td><td style="white-space:nowrap">{off} <button class="btn sm ghost" data-save-paper="{esc(key)}" data-save-label="{esc(e[2])} {year} {esc(stage)} Paper">💾 Save</button></td></tr>
@@ -222,9 +225,10 @@ def home():
 <a class="qchip" href="/exams"><span>📑</span>Syllabus</a>
 </div>
 </div><div class="hero-img hero-img-new"><img src="/assets/img/hero-students.jpg" alt="Happy Indian students holding SSC, UPSC and JEE NEET preparation books"></div></div></div>
+<section class="container"><div class="countdown-strip"><span>⏰ <b>Next exam: SSC CHSL Tier-1</b> — starts 30 Nov 2026</span><span class="cd"><b id="cd-d">–</b> days <b id="cd-h">–</b>h <b id="cd-m">–</b>m <b id="cd-s">–</b>s</span><span class="small">Tentative — verify on ssc.gov.in</span><a href="/exams/ssc-chsl">View exam →</a></div></section>
 <section class="container"><div class="cat-strip">{strip_cards}</div></section>
 <section class="container"><div class="home-grid">
-<div class="card side-card"><h3>📍 Explore by State</h3><div class="state-list">{state_rows}<a class="state-row" href="/states"><span>View All States (28)</span><span>›</span></a></div></div>
+<div class="card side-card"><h3>📍 Explore by State</h3><div class="state-list">{state_rows}<a class="state-row" href="/states"><span>View All States &amp; UTs (36)</span><span>›</span></a></div></div>
 <div>
 <div class="card pyq-banner"><div><h3>📄 Previous Year Question Papers</h3><p>Year-wise | Shift-wise | PDF Download | Solutions</p><a class="btn purple" style="margin-top:12px" href="/papers">Explore Papers →</a></div><div class="pyq-art"><span class="pyq-tag">PYQ</span><span class="pdf-pill">PDF ↓</span></div></div>
 <div class="card" style="margin-top:14px"><div class="sec-head" style="margin-bottom:10px"><h3>🔥 Popular Exams</h3><a href="/exams">View All Exams →</a></div><div class="pop-grid">{pop_tiles}</div></div>
@@ -282,7 +286,7 @@ def exam_page(e):
 <h3 style="margin:8px 0">📄 <span id="paperYear">{y0}</span> — Stage / Paper</h3>
 <div class="pillrow" id="stagePills">{stages}</div>
 <div class="tbl-wrap"><table><tr><th>Resource</th><th>Status</th><th>Action</th></tr><tbody id="paperRows">{paper_rows_static(e, y0, s0)}</tbody></table></div>
-<div class="notice" style="margin-top:14px"><b>{y0} • {esc(s0)}:</b> {"Papers for this exam are available shift-wise in the official archive — the Official Archive button below opens the official site." if st == "official" else "Some years of this exam are available on the official portal; the rest show “Not available yet” — request them and they will be added after verification."}</div>
+<div class="notice" style="margin-top:14px"><b>{y0} • {esc(s0)}:</b> {"RRB does not publish complete official question papers. Answer keys and response sheets are released per CEN on the official RRB portal — use the Official Portal button. Practice questions below are ExamPath originals." if e[6] == 2 else ("Papers for this exam are available shift-wise in the official archive — the Official Archive button below opens the official site." if st == "official" else "Some years of this exam are available on the official portal; the rest show “Not available yet” — request them and they will be added after verification.")}</div>
 <div style="display:flex;gap:10px;flex-wrap:wrap"><a class="btn green" href="/practice?subject=all">✍️ Practice Questions</a><a class="btn orange" href="/mock">⏱️ Take a Mock Test</a><button class="btn ghost" onclick="shareLink('{esc(e[2])}','ExamPath India — {esc(e[2])} previous papers, mock tests and notes')">🔗 Share</button></div>
 <h3 style="margin:20px 0 8px">📖 Syllabus</h3><div class="card"><p>{esc(e[11])}</p></div>
 <h3 style="margin:20px 0 8px">📺 Sample Paper Viewer (working demo)</h3>
@@ -331,14 +335,14 @@ def state_page(s):
 def papers_page():
     off = [e for e in EXAMS if STATUS.get(e[0]) == "official"]
     cards = "".join(
-        f'<div class="card cat-card" onclick="location.href=\'/exams/{e[0]}\'"><div class="ic">📄</div><h3>{esc(e[2])}</h3><p>Years: {", ".join(str(y) for y in e[8])}</p><p class="small" style="margin-top:6px">Official source: {esc(portal_of(e)["body"]) if portal_of(e) else "—"}</p><div style="margin-top:10px"><span class="badge b-off">✓ Official archive</span></div></div>'
+        f'<div class="card cat-card" onclick="location.href=\'/exams/{e[0]}\'"><div class="ic">📄</div><h3>{esc(e[2])}</h3><p>Years: {", ".join(str(y) for y in e[8])}</p><p class="small" style="margin-top:6px">Official source: {esc(portal_of(e)["body"]) if portal_of(e) else "—"}</p><div style="margin-top:10px">{"<span class=\"badge b-part\">◐ Answer keys on portal</span>" if portal_of(e) and "rrbapply" in portal_of(e)["url"] else "<span class=\"badge b-off\">✓ Official archive</span>"}</div></div>'
         for e in off)
     portals = "".join(
         f'<div class="card"><h3>{esc(p["name"])}</h3><p>{esc(p["note"])}</p><a class="btn sm" style="margin-top:10px" href="{p["url"]}" target="_blank" rel="noopener">Open Official Site ↗</a></div>'
         for p in PORTALS)
     body = f"""<section class="container"><div class="sec-head"><h2>📄 Previous Year Papers</h2><a href="/">← Home</a></div>
 <div class="notice">Flow: <b>Category → State (if any) → Exam → Year → Stage → Shift/Set → Resource</b>. Selecting a year shows only that year's resources.</div>
-<h3 style="margin:10px 0">✅ Exams with an official archive ({len(off)})</h3>
+<h3 style="margin:10px 0">✅ Exams with an official source ({len(off)})</h3>
 <div class="grid g3">{cards}</div>
 <h3 style="margin:18px 0 10px">📺 Sample Paper — Viewer demo</h3>
 <div class="card"><p>ExamPath Original Practice Paper (20 Q) — the viewer, zoom, fullscreen, download and save all work.</p><button class="btn navy" style="margin-top:10px" onclick="openViewer()">📄 Open Viewer</button> <a class="btn ghost" href="/assets/sample-practice-paper.pdf" download>⬇️ PDF Download</a></div>

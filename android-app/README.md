@@ -1,7 +1,7 @@
 # ExamPath India — Android app (Capacitor)
 
 User App wrapper around `../final-deploy/` (the website, no login).
-appId `com.exampathindia.app`, appName "ExamPath India", v1.0.0.
+appId `com.exampathindia.app`, appName "ExamPath India", v1.1.0.
 
 Build: GitHub Actions (`.github/workflows/build-apk.yml`) — push to main builds
 the debug APK and uploads it as artifact `exampath-apk`. Local Gradle build is

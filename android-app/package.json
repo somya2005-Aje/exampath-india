@@ -1,7 +1,7 @@
 {
   "name": "exampath-india-android",
-  "version": "1.0.0",
-  "description": "DailyTools \u2014 Everything You Need, Every Day. (Capacitor wrapper around the DailyTools web app)",
+  "version": "1.1.0",
+  "description": "ExamPath India \u2014 One Nation. One Learning Platform. (Capacitor wrapper around the ExamPath India website)",
   "main": "index.js",
   "scripts": {},
   "keywords": [],
