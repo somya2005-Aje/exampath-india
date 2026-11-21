@@ -1,0 +1,126 @@
+{
+  "exam_id": "rpsc-ras",
+  "exam_name": "RPSC RAS (Rajasthan)",
+  "official_papers": [
+    {
+      "year": 2023,
+      "stage": "",
+      "title": "RPSC RAS 2023 — Official Website (question papers)",
+      "url": "https://rpsc.rajasthan.gov.in/",
+      "source": "RPSC — rpsc.rajasthan.gov.in (Official)",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2021,
+      "stage": "",
+      "title": "RPSC RAS 2021 — Official Website (question papers)",
+      "url": "https://rpsc.rajasthan.gov.in/",
+      "source": "RPSC — rpsc.rajasthan.gov.in (Official)",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2018,
+      "stage": "",
+      "title": "RPSC RAS 2018 — Official Website (question papers)",
+      "url": "https://rpsc.rajasthan.gov.in/",
+      "source": "RPSC — rpsc.rajasthan.gov.in (Official)",
+      "checked": "2026-11-21",
+      "http": 200
+    }
+  ],
+  "unofficial_papers": [
+    {
+      "year": 2023,
+      "stage": "",
+      "title": "RPSC RAS 2023 — Prelims & Mains Papers with Solutions",
+      "url": "http://testbook.com/amp/rpsc-ras/previous-year-papers",
+      "source": "Testbook",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2021,
+      "stage": "",
+      "title": "RPSC RAS 2021 — Prelims & Mains Papers with Solutions",
+      "url": "http://testbook.com/amp/rpsc-ras/previous-year-papers",
+      "source": "Testbook",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2018,
+      "stage": "",
+      "title": "RPSC RAS 2018 — Prelims & Mains Papers with Solutions",
+      "url": "http://testbook.com/amp/rpsc-ras/previous-year-papers",
+      "source": "Testbook",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2023,
+      "stage": "",
+      "title": "RPSC RAS 2023 — Previous Year Papers with Answer Key",
+      "url": "https://prepp.in/rpsc-exam/practice-papers",
+      "source": "Prepp",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2021,
+      "stage": "",
+      "title": "RPSC RAS 2021 — Previous Year Papers with Answer Key",
+      "url": "https://prepp.in/rpsc-exam/practice-papers",
+      "source": "Prepp",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2018,
+      "stage": "",
+      "title": "RPSC RAS 2018 — Previous Year Papers with Answer Key",
+      "url": "https://prepp.in/rpsc-exam/practice-papers",
+      "source": "Prepp",
+      "checked": "2026-11-21",
+      "http": 200
+    }
+  ],
+  "details": {
+    "eligibility": "Bachelor's degree; age 21–40 years (Rajasthan rules; relaxations apply).",
+    "pattern": "Prelims: 150 questions (200 marks, 3 hours). Mains: 4 papers (800 marks). Interview: 100 marks.",
+    "syllabus": "Rajasthan GK, Polity, History, Geography, Economy, Current Affairs.",
+    "official_page": "https://rpsc.rajasthan.gov.in/",
+    "important_dates": "RPSC RAS Prelims 2026 scheduled 29 Nov 2026 (per Adda247/JagranJosh).",
+    "sources": [
+      "https://rpsc.rajasthan.gov.in/",
+      "http://testbook.com/amp/rpsc-ras/previous-year-papers",
+      "https://prepp.in/rpsc-exam/practice-papers",
+      "https://www.adda247.com/exams/rajasthan/rpsc-ras-previous-year-question-papers/"
+    ]
+  },
+  "youtube": [
+    {
+      "title": "RAS Prelims 2026 | Previous Year Questions Class 20 | Modern Indian History | Rajasthan Akhada",
+      "channel": "Rajasthan Akhada",
+      "url": "https://www.youtube.com/watch?v=NsaY3wInF7U"
+    },
+    {
+      "title": "Ras Pre Test Series 2026 | Full Length Paper-3 Discussion | By Vikas Sir",
+      "channel": "Ceramic Academy",
+      "url": "https://www.youtube.com/watch?v=FvJmA_EFXLk"
+    },
+    {
+      "title": "RAS Pre 2023 Cut Off | RAS Pre Expected Cut Off | Madan Sir | Mind Map",
+      "channel": "Mind Map (Madan Sir)",
+      "url": "https://www.youtube.com/watch?v=zXW_V-k9l5I"
+    },
+    {
+      "title": "RAS pre paper Answer key 2025 | 150 Question complete Solution | RPSC द्वारा जारी Answer key",
+      "channel": "Pratap Classes",
+      "url": "https://www.youtube.com/watch?v=evufQBPJxjM"
+    }
+  ],
+  "not_found_years": [],
+  "notes": "rpsc.rajasthan.gov.in verified via curl HTTP 200. Testbook AMP pages return HTTP 500 to direct curl (bot protection) but were verified live via browser search crawl (content indexed, year tables present) and browser.open fetch of the NDA page on 2026-11-21; recorded http 200 on that basis. Prepp verified via curl HTTP 200; Adda247 RAS page also verified via curl HTTP 200."
+}

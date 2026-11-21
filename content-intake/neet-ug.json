@@ -1,0 +1,222 @@
+{
+  "exam_id": "neet-ug",
+  "exam_name": "NEET UG",
+  "official_papers": [
+    {
+      "year": 2025,
+      "stage": "",
+      "title": "NEET UG 2025 — NTA Official Portal (question papers & answer keys)",
+      "url": "https://neet.nta.nic.in/",
+      "source": "NTA — neet.nta.nic.in (Official)",
+      "checked": "2026-11-21",
+      "http": 200,
+      "note": "NTA publishes papers & keys on the exam portal; some years via candidate login."
+    },
+    {
+      "year": 2024,
+      "stage": "",
+      "title": "NEET UG 2024 — NTA Official Portal (question papers & answer keys)",
+      "url": "https://neet.nta.nic.in/",
+      "source": "NTA — neet.nta.nic.in (Official)",
+      "checked": "2026-11-21",
+      "http": 200,
+      "note": "NTA publishes papers & keys on the exam portal; some years via candidate login."
+    },
+    {
+      "year": 2023,
+      "stage": "",
+      "title": "NEET UG 2023 — NTA Official Portal (question papers & answer keys)",
+      "url": "https://neet.nta.nic.in/",
+      "source": "NTA — neet.nta.nic.in (Official)",
+      "checked": "2026-11-21",
+      "http": 200,
+      "note": "NTA publishes papers & keys on the exam portal; some years via candidate login."
+    },
+    {
+      "year": 2022,
+      "stage": "",
+      "title": "NEET UG 2022 — NTA Official Portal (question papers & answer keys)",
+      "url": "https://neet.nta.nic.in/",
+      "source": "NTA — neet.nta.nic.in (Official)",
+      "checked": "2026-11-21",
+      "http": 200,
+      "note": "NTA publishes papers & keys on the exam portal; some years via candidate login."
+    },
+    {
+      "year": 2021,
+      "stage": "",
+      "title": "NEET UG 2021 — NTA Official Portal (question papers & answer keys)",
+      "url": "https://neet.nta.nic.in/",
+      "source": "NTA — neet.nta.nic.in (Official)",
+      "checked": "2026-11-21",
+      "http": 200,
+      "note": "NTA publishes papers & keys on the exam portal; some years via candidate login."
+    },
+    {
+      "year": 2020,
+      "stage": "",
+      "title": "NEET UG 2020 — NTA Official Portal (question papers & answer keys)",
+      "url": "https://neet.nta.nic.in/",
+      "source": "NTA — neet.nta.nic.in (Official)",
+      "checked": "2026-11-21",
+      "http": 200,
+      "note": "NTA publishes papers & keys on the exam portal; some years via candidate login."
+    }
+  ],
+  "unofficial_papers": [
+    {
+      "year": 2025,
+      "stage": "",
+      "title": "NEET UG 2025 — Previous Year Paper with Solutions",
+      "url": "https://testbook.com/neet/previous-year-papers",
+      "source": "Testbook",
+      "checked": "2026-11-21",
+      "http": 200,
+      "note": "Last 10 years' papers with solutions, 2015–2025."
+    },
+    {
+      "year": 2025,
+      "stage": "",
+      "title": "NEET UG 2025 — Question Paper PDF with Answer Key",
+      "url": "https://admission.aglasem.com/neet-question-papers/",
+      "source": "AglaSem",
+      "checked": "2026-11-21",
+      "http": 200,
+      "note": "About 65 papers 2016–2026, language versions + answer keys. Verified via browser fetch (curl returns 403, bot protection)."
+    },
+    {
+      "year": 2024,
+      "stage": "",
+      "title": "NEET UG 2024 — Previous Year Paper with Solutions",
+      "url": "https://testbook.com/neet/previous-year-papers",
+      "source": "Testbook",
+      "checked": "2026-11-21",
+      "http": 200,
+      "note": "Last 10 years' papers with solutions, 2015–2025."
+    },
+    {
+      "year": 2024,
+      "stage": "",
+      "title": "NEET UG 2024 — Question Paper PDF with Answer Key",
+      "url": "https://admission.aglasem.com/neet-question-papers/",
+      "source": "AglaSem",
+      "checked": "2026-11-21",
+      "http": 200,
+      "note": "About 65 papers 2016–2026, language versions + answer keys. Verified via browser fetch (curl returns 403, bot protection)."
+    },
+    {
+      "year": 2023,
+      "stage": "",
+      "title": "NEET UG 2023 — Previous Year Paper with Solutions",
+      "url": "https://testbook.com/neet/previous-year-papers",
+      "source": "Testbook",
+      "checked": "2026-11-21",
+      "http": 200,
+      "note": "Last 10 years' papers with solutions, 2015–2025."
+    },
+    {
+      "year": 2023,
+      "stage": "",
+      "title": "NEET UG 2023 — Question Paper PDF with Answer Key",
+      "url": "https://admission.aglasem.com/neet-question-papers/",
+      "source": "AglaSem",
+      "checked": "2026-11-21",
+      "http": 200,
+      "note": "About 65 papers 2016–2026, language versions + answer keys. Verified via browser fetch (curl returns 403, bot protection)."
+    },
+    {
+      "year": 2022,
+      "stage": "",
+      "title": "NEET UG 2022 — Previous Year Paper with Solutions",
+      "url": "https://testbook.com/neet/previous-year-papers",
+      "source": "Testbook",
+      "checked": "2026-11-21",
+      "http": 200,
+      "note": "Last 10 years' papers with solutions, 2015–2025."
+    },
+    {
+      "year": 2022,
+      "stage": "",
+      "title": "NEET UG 2022 — Question Paper PDF with Answer Key",
+      "url": "https://admission.aglasem.com/neet-question-papers/",
+      "source": "AglaSem",
+      "checked": "2026-11-21",
+      "http": 200,
+      "note": "About 65 papers 2016–2026, language versions + answer keys. Verified via browser fetch (curl returns 403, bot protection)."
+    },
+    {
+      "year": 2021,
+      "stage": "",
+      "title": "NEET UG 2021 — Previous Year Paper with Solutions",
+      "url": "https://testbook.com/neet/previous-year-papers",
+      "source": "Testbook",
+      "checked": "2026-11-21",
+      "http": 200,
+      "note": "Last 10 years' papers with solutions, 2015–2025."
+    },
+    {
+      "year": 2021,
+      "stage": "",
+      "title": "NEET UG 2021 — Question Paper PDF with Answer Key",
+      "url": "https://admission.aglasem.com/neet-question-papers/",
+      "source": "AglaSem",
+      "checked": "2026-11-21",
+      "http": 200,
+      "note": "About 65 papers 2016–2026, language versions + answer keys. Verified via browser fetch (curl returns 403, bot protection)."
+    },
+    {
+      "year": 2020,
+      "stage": "",
+      "title": "NEET UG 2020 — Previous Year Paper with Solutions",
+      "url": "https://testbook.com/neet/previous-year-papers",
+      "source": "Testbook",
+      "checked": "2026-11-21",
+      "http": 200,
+      "note": "Last 10 years' papers with solutions, 2015–2025."
+    },
+    {
+      "year": 2020,
+      "stage": "",
+      "title": "NEET UG 2020 — Question Paper PDF with Answer Key",
+      "url": "https://admission.aglasem.com/neet-question-papers/",
+      "source": "AglaSem",
+      "checked": "2026-11-21",
+      "http": 200,
+      "note": "About 65 papers 2016–2026, language versions + answer keys. Verified via browser fetch (curl returns 403, bot protection)."
+    }
+  ],
+  "details": {
+    "eligibility": "12th (PCB)",
+    "pattern": "Single paper: 180 Q (Physics 45 + Chemistry 45 + Biology 90), 720 marks. +4 / -1 marking.",
+    "syllabus": "Physics, Chemistry, Botany, Zoology (NCERT Class 11-12)",
+    "official_page": "https://neet.nta.nic.in/",
+    "sources": [
+      "https://neet.nta.nic.in/",
+      "https://nta.ac.in/"
+    ]
+  },
+  "youtube": [
+    {
+      "title": "NEET 2027 Full Sample Paper | Physics, Chemistry, Biology 180 Questions Solved",
+      "channel": "Eurekha",
+      "url": "https://www.youtube.com/watch?v=m8MwMss7VM0"
+    },
+    {
+      "title": "NEET PYQ 2013 to 2024 (playlist)",
+      "channel": "CLC Sikar",
+      "url": "https://www.youtube.com/watch?v=rYZmWqS6PXg"
+    },
+    {
+      "title": "NEET 2026 Video Paper Solution & Expected Cutoff",
+      "channel": "Gurukripa Career Institute",
+      "url": "https://www.youtube.com/watch?v=BXRZVhBikhI"
+    },
+    {
+      "title": "NEET-UG 2023 Paper Solutions: Physics and Chemistry (Live)",
+      "channel": "P&C Group of Educations",
+      "url": "https://www.youtube.com/watch?v=LbiDpKSwhWw"
+    }
+  ],
+  "not_found_years": [],
+  "notes": "NEET 2025 onwards: 180 compulsory questions, 720 marks, 3 hours (Section B dropped). NEET 2026 (3 May 2026) was cancelled after a paper leak; re-exam held 21 June 2026. NEET UG 2027 expected May 2027 (dates TBA). Testbook AMP page for NEET returned HTTP 500 on 2026-11-21 — non-AMP page used instead."
+}

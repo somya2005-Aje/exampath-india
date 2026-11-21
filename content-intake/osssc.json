@@ -1,0 +1,57 @@
+{
+  "exam_id": "osssc",
+  "exam_name": "OSSSC RI / ARI / PEO",
+  "official_papers": [],
+  "unofficial_papers": [
+    {
+      "year": 2024,
+      "stage": "Written",
+      "title": "OSSSC LI / Forester / Forest Guard — Official Paper, 24 Apr 2024 Shift 3",
+      "url": "https://www.freshersnow.com/wp-content/uploads/2025/03/OSSSC-LSI-Forester-Forest-Guard-Official-Paper-Held-On-24-Apr-2024-Shift-3-English.pdf",
+      "source": "FreshersNow",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2024,
+      "stage": "Written",
+      "title": "OSSSC LI / Forester / Forest Guard — Official Paper, 24 Apr 2024 Shift 3",
+      "url": "http://result91.com/uploads/media/1/2026/09/osssc-lsi-forester-forest-guard-official-paper-hel.pdf",
+      "source": "Result91",
+      "checked": "2026-11-21",
+      "http": 200
+    }
+  ],
+  "details": {
+    "eligibility": "RI/ARI: Graduation; PEO: 12th pass (post-wise; verify notification). Odia language and computer knowledge as per rules.",
+    "pattern": "Written exam: 100 questions (post-wise syllabus). Skill/computer test for some posts.",
+    "syllabus": "Odia, English, Maths, Reasoning, GK (Odisha + India), Computer.",
+    "official_page": "https://www.osssc.gov.in/",
+    "sources": [
+      "https://www.osssc.gov.in/",
+      "https://www.freshersnow.com/wp-content/uploads/2025/03/OSSSC-LSI-Forester-Forest-Guard-Official-Paper-Held-On-24-Apr-2024-Shift-3-English.pdf"
+    ]
+  },
+  "youtube": [
+    {
+      "title": "OSSSC RI, ARI Exam पूर्व वर्ष प्रश्न | RI Amin 2021 Previous Year Gk Question Paper | Odisha Gk 2026",
+      "channel": "Gobinda Nayak (@GobindaNayak_1)",
+      "url": "https://www.youtube.com/watch?v=sPFiR6qbbq8"
+    },
+    {
+      "title": "Ratio & Proportion / RI / osssc forester / forest guard / excise constable / district constable / Rajashree Sir",
+      "channel": "Prep Odisha",
+      "url": "https://www.youtube.com/watch?v=eAoz_eDqs4w"
+    },
+    {
+      "title": "English class for RI, ARI, AMIN, SFS, Livestock Inspector || OSSC CGL 2022 Mains English Paper",
+      "channel": "Odisha Vidyarthee",
+      "url": "https://www.youtube.com/watch?v=yPoqh2Oa3tI"
+    }
+  ],
+  "not_found_years": [
+    2023,
+    2022
+  ],
+  "notes": "FAILED VERIFICATION: official site osssc.gov.in unreachable on 2026-11-21 (curl connection failed for both www and non-www; browser.open fetch also failed) — so NO official papers are listed. The two 2024 unofficial PDFs are for LI/Forester/Forest Guard posts, NOT RI/ARI/PEO; no verified RI/ARI/PEO paper found for 2023 or 2022. Both PDF links verified via curl HTTP 200."
+}

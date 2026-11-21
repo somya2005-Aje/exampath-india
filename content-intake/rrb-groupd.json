@@ -1,0 +1,94 @@
+{
+  "exam_id": "rrb-groupd",
+  "exam_name": "RRB Group D (Level 1)",
+  "official_papers": [],
+  "unofficial_papers": [
+    {
+      "year": 2022,
+      "stage": "",
+      "title": "RRB Group D 2022 - Previous Year Question Papers, shift-wise PDFs with solutions (CEN 02/2018 cycle, exam Aug-Oct 2022)",
+      "url": "https://testbook.com/rrb-group-d/previous-year-papers",
+      "source": "Testbook",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2022,
+      "stage": "",
+      "title": "RRB Group D Previous Year Question Paper, Download PDF (2022 shift-wise papers, English & Hindi)",
+      "url": "https://www.adda247.com/jobs/rrb-group-d-previous-year-papers/",
+      "source": "Adda247",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2022,
+      "stage": "",
+      "title": "RRB Group D Previous Year Question Paper PDF with Solutions (2022 shift-wise papers)",
+      "url": "https://www.jagranjosh.com/articles/rrb-group-d-previous-year-question-paper-pdf-download-with-solutions-link-here-1800004976-1",
+      "source": "JagranJosh",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2018,
+      "stage": "",
+      "title": "RRB Group D 2018 cycle - Previous Year Question Papers (CEN 02/2018; papers from 2013 onwards listed on the page)",
+      "url": "https://testbook.com/rrb-group-d/previous-year-papers",
+      "source": "Testbook",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2018,
+      "stage": "",
+      "title": "RRB Group D 2018 cycle - Previous Year Question Papers (2013/2014 papers listed)",
+      "url": "https://www.jagranjosh.com/articles/rrb-group-d-previous-year-question-paper-pdf-download-with-solutions-link-here-1800004976-1",
+      "source": "JagranJosh",
+      "checked": "2026-11-21",
+      "http": 200
+    }
+  ],
+  "details": {
+    "eligibility": "10th pass (Matriculation) from a recognised board. Age limit as per CEN notification - verify on rrbapply.gov.in.",
+    "pattern": "Single-stage CBT: 100 questions, 100 marks, 90 minutes. Negative marking 1/3. Then Physical Efficiency Test (PET), Document Verification and Medical Examination.",
+    "syllabus": "Mathematics (25 Q), General Intelligence & Reasoning (30 Q), General Science (25 Q), General Awareness & Current Affairs (20 Q).",
+    "official_page": "https://rrbapply.gov.in/",
+    "important_dates": "CEN 08/2024 exam held Nov 2025-Feb 2026. CEN 09/2025 (22,197 vacancies) exam held 3-25 Aug 2026.",
+    "sources": [
+      "https://testbook.com/rrb-group-d/previous-year-papers",
+      "https://www.adda247.com/jobs/rrb-group-d-previous-year-papers/",
+      "https://www.jagranjosh.com/articles/rrb-group-d-previous-year-question-paper-pdf-download-with-solutions-link-here-1800004976-1",
+      "https://rrbapply.gov.in/"
+    ]
+  },
+  "youtube": [
+    {
+      "title": "RRB GROUP D 2026 Maths | 03/08/2026 Shift-2 Paper Solution | All 48 Shifts by Sudhir Sir",
+      "channel": "Exam Crack By Sudhir Sir",
+      "url": "https://www.youtube.com/watch?v=8GDF_13rsDI"
+    },
+    {
+      "title": "RRB Group D 2026 Science | 2025 PYQ Paper #19 Solution | Railway Exam | Dabra Sir",
+      "channel": "DABRA CLASSES JAIPUR",
+      "url": "https://www.youtube.com/watch?v=KB6BTn0LSQM"
+    },
+    {
+      "title": "rrb group d previous year question paper | group d previous year paper | rrb group d 14 dec 2025 paper",
+      "channel": "BSA Tricky Classes",
+      "url": "https://www.youtube.com/watch?v=y1XRz99oDOg"
+    },
+    {
+      "title": "RRB Group D 2026 Science | 19 Aug 2026 Shift-1 Paper Solution | Previous Year Question | Group d PYQ",
+      "channel": "Target Hub",
+      "url": "https://www.youtube.com/watch?v=4cmxX3IV80o"
+    },
+    {
+      "title": "RRB Group D 2026 Maths Previous Year Questions By Shubham Sir",
+      "channel": "SSC Wallah",
+      "url": "https://www.youtube.com/watch?v=XYfPszO_Yfw"
+    }
+  ],
+  "not_found_years": [],
+  "notes": "RRB does not publish complete official question papers. It releases answer keys and response sheets per CEN on rrbapply.gov.in and regional RRB portals. No official paper PDF could be verified from this VM on 2026-11-21: curl to rrbapply.gov.in and rrbcdg.gov.in returned 000 (unreachable) and the fetch attempt errored, so no official link is claimed here. Use the official portal for answer keys/notifications. Year note: data.js lists 2022 and 2018. The 2022 exam was the CEN 02/2018 cycle (held Aug-Oct 2022). A verified 2026-cycle paper PDF exists (RRB Group D Official Paper, 4 Aug 2026 Shift 3, cdn.testbook.com, HTTP 200) but data.js has no 2026 year for Group D, so it is noted here, not listed as a year entry."
+}

@@ -1,0 +1,120 @@
+{
+  "exam_id": "tnpsc",
+  "exam_name": "TNPSC Group 2 / 2A",
+  "official_papers": [
+    {
+      "year": 2024,
+      "stage": "",
+      "title": "TNPSC Group 2 2024 — Official Website (question papers & answer keys)",
+      "url": "https://www.tnpsc.gov.in/",
+      "source": "TNPSC — tnpsc.gov.in (Official)",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2023,
+      "stage": "",
+      "title": "TNPSC Group 2 2023 — Official Website (question papers & answer keys)",
+      "url": "https://www.tnpsc.gov.in/",
+      "source": "TNPSC — tnpsc.gov.in (Official)",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2022,
+      "stage": "",
+      "title": "TNPSC Group 2 2022 — Official Website (question papers & answer keys)",
+      "url": "https://www.tnpsc.gov.in/",
+      "source": "TNPSC — tnpsc.gov.in (Official)",
+      "checked": "2026-11-21",
+      "http": 200
+    }
+  ],
+  "unofficial_papers": [
+    {
+      "year": 2024,
+      "stage": "",
+      "title": "TNPSC Group 2 2024 — Prelims & Mains Papers with Answer Keys",
+      "url": "https://prepp.in/tnpsc-group-ii-exam/practice-papers",
+      "source": "Prepp",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2023,
+      "stage": "",
+      "title": "TNPSC Group 2 2023 — Prelims & Mains Papers with Answer Keys",
+      "url": "https://prepp.in/tnpsc-group-ii-exam/practice-papers",
+      "source": "Prepp",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2022,
+      "stage": "",
+      "title": "TNPSC Group 2 2022 — Prelims & Mains Papers with Answer Keys",
+      "url": "https://prepp.in/tnpsc-group-ii-exam/practice-papers",
+      "source": "Prepp",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2024,
+      "stage": "",
+      "title": "TNPSC Group 2 2024 — Previous Year Papers (Prelims & Mains)",
+      "url": "https://www.adda247.com/exams/tn/tnpsc-group-2-previous-year-papers/",
+      "source": "Adda247",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2023,
+      "stage": "",
+      "title": "TNPSC Group 2 2023 — Previous Year Papers (Prelims & Mains)",
+      "url": "https://www.adda247.com/exams/tn/tnpsc-group-2-previous-year-papers/",
+      "source": "Adda247",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2022,
+      "stage": "",
+      "title": "TNPSC Group 2 2022 — Previous Year Papers (Prelims & Mains)",
+      "url": "https://www.adda247.com/exams/tn/tnpsc-group-2-previous-year-papers/",
+      "source": "Adda247",
+      "checked": "2026-11-21",
+      "http": 200
+    }
+  ],
+  "details": {
+    "eligibility": "Bachelor's degree; age 18–32 years (TN rules; relaxations apply). Tamil language eligibility test in Mains.",
+    "pattern": "Prelims: 200 questions (GS + Aptitude & Mental Ability, 300 marks, 3 hours). Mains: Paper I Tamil Eligibility Test + Paper II General Studies (descriptive). Interview for Group 2 (not 2A).",
+    "syllabus": "Tamil Nadu GK, Polity, History, Geography, Economy, Science, Aptitude.",
+    "official_page": "https://www.tnpsc.gov.in/",
+    "important_dates": "TNPSC Group 2/2A Prelims 2026 held 1 Nov 2026 (per Prepp/Adda247 pages).",
+    "sources": [
+      "https://www.tnpsc.gov.in/",
+      "https://prepp.in/tnpsc-group-ii-exam/practice-papers",
+      "https://www.adda247.com/exams/tn/tnpsc-group-2-previous-year-papers/"
+    ]
+  },
+  "youtube": [
+    {
+      "title": "TNPSC GROUP 2 QUESTION PAPER 2026 | Solutions & Explanations | Can You Score High? | ASSISI MATHS",
+      "channel": "ASSISI MATHS",
+      "url": "https://www.youtube.com/watch?v=JyRf2aMNmSo"
+    },
+    {
+      "title": "TNPSC Group 2 2026 Maths PYQ Part 2 | Easy Tricks & Detailed Solutions | Kanitham Aptitude",
+      "channel": "Kanitham Aptitude",
+      "url": "https://www.youtube.com/watch?v=uHix4v9PneI"
+    },
+    {
+      "title": "TNPSC Group 2/2A Answer Key Discussion 2026 | We Shine Academy",
+      "channel": "We Shine Academy",
+      "url": "https://www.youtube.com/watch?v=F_-9CyEMR04"
+    }
+  ],
+  "not_found_years": [],
+  "notes": "tnpsc.gov.in verified via curl HTTP 200. Prepp and Adda247 verified via curl HTTP 200. Note: no TNPSC Group 2 Prelims was held in 2023 (2022 cycle mains ran into 2023); the 2023 entry points to the Mains papers collection."
+}

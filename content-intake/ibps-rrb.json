@@ -1,0 +1,178 @@
+{
+  "exam_id": "ibps-rrb",
+  "exam_name": "IBPS RRB (Office Assistant & Officer)",
+  "official_papers": [
+    {
+      "year": 2024,
+      "stage": "Prelims/Mains",
+      "title": "Official portal — notifications, answer keys & results (no public full question-paper archive published)",
+      "url": "https://www.ibps.in/",
+      "source": "IBPS — ibps.in (Official)",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2023,
+      "stage": "Prelims/Mains",
+      "title": "Official portal — notifications, answer keys & results (no public full question-paper archive published)",
+      "url": "https://www.ibps.in/",
+      "source": "IBPS — ibps.in (Official)",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2022,
+      "stage": "Prelims/Mains",
+      "title": "Official portal — notifications, answer keys & results (no public full question-paper archive published)",
+      "url": "https://www.ibps.in/",
+      "source": "IBPS — ibps.in (Official)",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2021,
+      "stage": "Prelims/Mains",
+      "title": "Official portal — notifications, answer keys & results (no public full question-paper archive published)",
+      "url": "https://www.ibps.in/",
+      "source": "IBPS — ibps.in (Official)",
+      "checked": "2026-11-21",
+      "http": 200
+    }
+  ],
+  "unofficial_papers": [
+    {
+      "year": 2024,
+      "stage": "Prelims",
+      "title": "IBPS RRB PO Prelims 2024 — Memory-Based Paper, 4 Aug 2024 (PDF)",
+      "url": "https://download.oliveboard.in/pdf/IBPS-RRB-PO-2024-4th-Aug-PYP.pdf",
+      "source": "Oliveboard",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2024,
+      "stage": "Prelims",
+      "title": "IBPS RRB Clerk Prelims 2024 — Memory-Based Papers (10 & 17 Aug 2024 shifts)",
+      "url": "https://www.oliveboard.in/blog/ibps-rrb-clerk-previous-year-question-papers/",
+      "source": "Oliveboard",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2024,
+      "stage": "Prelims/Mains",
+      "title": "IBPS RRB Previous Year Question Papers — PO & Clerk memory-based papers (2017–2025 collection)",
+      "url": "https://ctet.info/ibps-rrb-previous-year-question-papers-pdf-download/",
+      "source": "CTET Info",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2024,
+      "stage": "Prelims",
+      "title": "RRB PO Previous Year Paper with Solution (memory-based)",
+      "url": "https://www.practicemock.com/blog/rrb-po-previous-year-paper-pdf-with-solution/amp/?p=76003",
+      "source": "PracticeMock",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2023,
+      "stage": "Prelims/Mains",
+      "title": "IBPS RRB 2023 Question Paper with Answer Key — PO Prelims & Mains memory-based PDFs",
+      "url": "https://prepp.in/ibps-rrb-exam/question-paper-2023",
+      "source": "Prepp",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2023,
+      "stage": "Prelims",
+      "title": "IBPS RRB Clerk Prelims 2023 — Memory-Based Papers (5 Aug 2023 shifts, online practice)",
+      "url": "https://www.oliveboard.in/ibps-rrb-clerk-previous-year-papers/",
+      "source": "Oliveboard",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2023,
+      "stage": "Prelims/Mains",
+      "title": "IBPS RRB Previous Year Question Papers — PO & Clerk memory-based papers (2017–2025 collection)",
+      "url": "https://ctet.info/ibps-rrb-previous-year-question-papers-pdf-download/",
+      "source": "CTET Info",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2022,
+      "stage": "Prelims",
+      "title": "IBPS RRB PO Prelims Previous Year Paper 2022 — with Solutions (PDF)",
+      "url": "https://adda247-wp-multisite-assets.s3.ap-south-1.amazonaws.com/wp-content/uploads/multisite/2023/05/01114722/IBPS-RRB-PO-Prelims-Previous-Year-Paper-2022-Solution-PDF.pdf",
+      "source": "Adda247",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2022,
+      "stage": "Prelims/Mains",
+      "title": "IBPS RRB Previous Year Question Papers — PO & Clerk memory-based papers (2017–2025 collection)",
+      "url": "https://ctet.info/ibps-rrb-previous-year-question-papers-pdf-download/",
+      "source": "CTET Info",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2021,
+      "stage": "Prelims",
+      "title": "IBPS RRB Officer Assistant 2021 Prelims Previous Year Paper (PDF)",
+      "url": "https://static.ixambee.com/miscellaneous-pdf/1655292874IBPS-RRB-Officer-Assistant-2021-Prelims-PYP.pdf",
+      "source": "ixamBee",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2021,
+      "stage": "Mains",
+      "title": "IBPS RRB Officer Assistant 2021 Mains Previous Year Paper (PDF)",
+      "url": "https://static.ixambee.com/miscellaneous-pdf/1658733532IBPS-RRB-Officer-Assistant-2021-Mains-Previous-Year-Paper-PDF.pdf",
+      "source": "ixamBee",
+      "checked": "2026-11-21",
+      "http": 200
+    }
+  ],
+  "details": {
+    "eligibility": "Graduation in any discipline from a recognised university (as per the IBPS RRB notification on ibps.in).",
+    "pattern": "Office Assistant: Prelims (Reasoning 40 + Numerical Ability 40, 45 min) + Mains (200 marks). Officer Scale I: Prelims + Mains + Interview. Officer Scale II/III: single written exam + Interview.",
+    "syllabus": "Quantitative Aptitude, Reasoning Ability, English/Hindi Language, Financial Awareness, Computer Knowledge, General Awareness.",
+    "official_page": "https://www.ibps.in/",
+    "sources": [
+      "https://www.ibps.in/",
+      "https://www.oliveboard.in/blog/ibps-rrb-clerk-previous-year-question-papers/",
+      "https://ctet.info/ibps-rrb-previous-year-question-papers-pdf-download/"
+    ]
+  },
+  "youtube": [
+    {
+      "title": "IBPS RRB PO Previous year MAINS QUANT Paper Solution!",
+      "channel": "The Banking Brains",
+      "url": "https://www.youtube.com/watch?v=2z6HCPCqQUM"
+    },
+    {
+      "title": "RRB PO 2026 Memory Based Paper | Quant Solutions & Good Attempts | Vijay Mishra",
+      "channel": "The Constant Guide",
+      "url": "https://www.youtube.com/watch?v=Mo2KtLBCMzA"
+    },
+    {
+      "title": "RRB PO Prelims 2026 | Last 3 Years PYQ Memory Based Papers | Shankar Sir",
+      "channel": "Alpha Coaching",
+      "url": "https://www.youtube.com/watch?v=JLPV7QVeI9o"
+    },
+    {
+      "title": "IBPS RRB Clerk Pre - 26 | 6 Dec Shift 1 | Maths Discussion | Memory Based Paper Analysis | PYP - 25",
+      "channel": "Maths by Anjan",
+      "url": "https://www.youtube.com/watch?v=3PTOQuCCXLQ"
+    }
+  ],
+  "not_found_years": [],
+  "notes": "IBPS does not publish a public full question-paper archive; official entries point to ibps.in. All unofficial papers are memory-based. Prepp.in IBPS RRB 2023 page returns HTTP 403 to curl but was verified via browser search result content on 2026-11-21 (lists PO Prelims/Mains memory-based PDFs for 5–6 Aug and 10 Sep 2023)."
+}

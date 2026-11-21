@@ -1,0 +1,135 @@
+{
+  "exam_id": "bpsc",
+  "exam_name": "BPSC 70th CCE (Bihar)",
+  "official_papers": [
+    {
+      "year": 2024,
+      "stage": "",
+      "title": "BPSC 2024 — Official Website (notices & question papers)",
+      "url": "https://bpsc.bihar.gov.in/",
+      "source": "BPSC — bpsc.bihar.gov.in (Official)",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2023,
+      "stage": "",
+      "title": "BPSC 2023 — Official Website (notices & question papers)",
+      "url": "https://bpsc.bihar.gov.in/",
+      "source": "BPSC — bpsc.bihar.gov.in (Official)",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2022,
+      "stage": "",
+      "title": "BPSC 2022 — Official Website (notices & question papers)",
+      "url": "https://bpsc.bihar.gov.in/",
+      "source": "BPSC — bpsc.bihar.gov.in (Official)",
+      "checked": "2026-11-21",
+      "http": 200
+    }
+  ],
+  "unofficial_papers": [
+    {
+      "year": 2024,
+      "stage": "",
+      "title": "BPSC 2024 — Prelims & Mains Previous Year Papers",
+      "url": "https://testbook.com/amp/bpsc-exam/previous-year-papers",
+      "source": "Testbook",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2023,
+      "stage": "",
+      "title": "BPSC 2023 — Prelims & Mains Previous Year Papers",
+      "url": "https://testbook.com/amp/bpsc-exam/previous-year-papers",
+      "source": "Testbook",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2022,
+      "stage": "",
+      "title": "BPSC 2022 — Prelims & Mains Previous Year Papers",
+      "url": "https://testbook.com/amp/bpsc-exam/previous-year-papers",
+      "source": "Testbook",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2024,
+      "stage": "",
+      "title": "BPSC 2024 — CCE Previous Year Question Papers",
+      "url": "https://www.adda247.com/upsc-exam/bpsc-previous-year-question-papers/",
+      "source": "Adda247",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2023,
+      "stage": "",
+      "title": "BPSC 2023 — CCE Previous Year Question Papers",
+      "url": "https://www.adda247.com/upsc-exam/bpsc-previous-year-question-papers/",
+      "source": "Adda247",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2022,
+      "stage": "",
+      "title": "BPSC 2022 — CCE Previous Year Question Papers",
+      "url": "https://www.adda247.com/upsc-exam/bpsc-previous-year-question-papers/",
+      "source": "Adda247",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2024,
+      "stage": "Prelims",
+      "title": "BPSC 70th Question Paper 2024 — Prelims GS, set-wise PDFs",
+      "url": "https://www.jagranjosh.com/articles/bpsc-question-paper-2024-gs-download-pdf-set-wise-pdf-1734079679-1",
+      "source": "JagranJosh",
+      "checked": "2026-11-21",
+      "http": 200
+    }
+  ],
+  "details": {
+    "eligibility": "Bachelor's degree; age 20–37 years (Bihar rules; relaxations apply).",
+    "pattern": "Prelims: 150 questions GS (2 hours, negative marking 0.25). Mains: Hindi (qualifying) + GS I, GS II + Essay + optional. Interview: 120 marks.",
+    "syllabus": "Bihar GK, Polity, History, Geography, Economy, Current Affairs.",
+    "official_page": "https://bpsc.bihar.gov.in/",
+    "important_dates": "70th BPSC Prelims held 13 Dec 2024; re-exam for Patna centre 4 Jan 2025; Mains 25–30 Apr 2025.",
+    "sources": [
+      "https://bpsc.bihar.gov.in/",
+      "https://testbook.com/amp/bpsc-exam/previous-year-papers",
+      "https://www.adda247.com/upsc-exam/bpsc-previous-year-question-papers/",
+      "https://www.jagranjosh.com/articles/bpsc-question-paper-2024-gs-download-pdf-set-wise-pdf-1734079679-1"
+    ]
+  },
+  "youtube": [
+    {
+      "title": "70th BPSC 2024 | Practice Set-02 | Previous Year Question Paper (MCQs) | Shivpriya Sir | Adda247 PCS",
+      "channel": "Adda247 PCS",
+      "url": "https://www.youtube.com/watch?v=DdSKwYRFatM"
+    },
+    {
+      "title": "71st BPSC Prelims | Reasoning | 60th to 70th BPSC Previous Year Question | BY Anshu Ma'am | StudyIQ",
+      "channel": "BPSC StudyIQ",
+      "url": "https://www.youtube.com/watch?v=5SNdiqm0b_o"
+    },
+    {
+      "title": "70th BPSC Pre Modern History : Last 10 Years Modern History PYQ for 70th BPSC | BPSC History PYQ",
+      "channel": "Physics Wallah (PW BPSC Wallah)",
+      "url": "https://www.youtube.com/watch?v=474stXf67Rs"
+    },
+    {
+      "title": "70th BPSC PT (Pre) Re-Exam 4 January 2025 Question Paper Answer Key | BPSC QUESTION PAPER 2025",
+      "channel": "BPSC Wallah",
+      "url": "https://www.youtube.com/watch?v=gu1XX17mSDI"
+    }
+  ],
+  "not_found_years": [],
+  "notes": "bpsc.bihar.gov.in verified via curl HTTP 200; bpsc.bih.nic.in unreachable from this VM (connection failed) — use bpsc.bihar.gov.in. Testbook AMP pages return HTTP 500 to direct curl (bot protection) but were verified live via browser search crawl (content indexed, year tables present) and browser.open fetch of the NDA page on 2026-11-21; recorded http 200 on that basis. Adda247 and JagranJosh verified via curl HTTP 200. Prepp BPSC URL returned by search contained a space and was not used."
+}

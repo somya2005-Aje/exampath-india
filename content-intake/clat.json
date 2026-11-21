@@ -1,0 +1,126 @@
+{
+  "exam_id": "clat",
+  "exam_name": "CLAT",
+  "official_papers": [
+    {
+      "year": 2025,
+      "stage": "",
+      "title": "CLAT 2025 — Consortium of NLUs Official Website",
+      "url": "https://consortiumofnlus.ac.in/",
+      "source": "Consortium of NLUs (Official)",
+      "checked": "2026-11-21",
+      "http": 200,
+      "note": "Official previous-year papers are PAID (Rs 500) via candidate login/registration on the Consortium site — not free."
+    },
+    {
+      "year": 2024,
+      "stage": "",
+      "title": "CLAT 2024 — Consortium of NLUs Official Website",
+      "url": "https://consortiumofnlus.ac.in/",
+      "source": "Consortium of NLUs (Official)",
+      "checked": "2026-11-21",
+      "http": 200,
+      "note": "Official previous-year papers are PAID (Rs 500) via candidate login/registration on the Consortium site — not free."
+    },
+    {
+      "year": 2023,
+      "stage": "",
+      "title": "CLAT 2023 — Consortium of NLUs Official Website",
+      "url": "https://consortiumofnlus.ac.in/",
+      "source": "Consortium of NLUs (Official)",
+      "checked": "2026-11-21",
+      "http": 200,
+      "note": "Official previous-year papers are PAID (Rs 500) via candidate login/registration on the Consortium site — not free."
+    }
+  ],
+  "unofficial_papers": [
+    {
+      "year": 2025,
+      "stage": "",
+      "title": "CLAT 2025 — Previous Year Question Papers with Answer Key",
+      "url": "https://admission.aglasem.com/clat-previous-year-question-papers-answers/",
+      "source": "AglaSem",
+      "checked": "2026-11-21",
+      "http": 0,
+      "note": "UG + PG papers 2015–2026 with Consortium answer keys (2022–2026). curl connection failed (http 0); page confirmed via browser search result 2026-11-21."
+    },
+    {
+      "year": 2025,
+      "stage": "",
+      "title": "CLAT UG 2025 — Previous Year Question Paper PDF",
+      "url": "https://www.jagranjosh.com/articles/clat-ug-exam-previous-year-question-papers-pdf-download-1800003345-1",
+      "source": "JagranJosh",
+      "checked": "2026-11-21",
+      "http": 200,
+      "note": "UG papers 2013–2025 with answer keys."
+    },
+    {
+      "year": 2024,
+      "stage": "",
+      "title": "CLAT 2024 — Previous Year Question Papers with Answer Key",
+      "url": "https://admission.aglasem.com/clat-previous-year-question-papers-answers/",
+      "source": "AglaSem",
+      "checked": "2026-11-21",
+      "http": 0,
+      "note": "UG + PG papers 2015–2026 with Consortium answer keys (2022–2026). curl connection failed (http 0); page confirmed via browser search result 2026-11-21."
+    },
+    {
+      "year": 2024,
+      "stage": "",
+      "title": "CLAT UG 2024 — Previous Year Question Paper PDF",
+      "url": "https://www.jagranjosh.com/articles/clat-ug-exam-previous-year-question-papers-pdf-download-1800003345-1",
+      "source": "JagranJosh",
+      "checked": "2026-11-21",
+      "http": 200,
+      "note": "UG papers 2013–2025 with answer keys."
+    },
+    {
+      "year": 2023,
+      "stage": "",
+      "title": "CLAT 2023 — Previous Year Question Papers with Answer Key",
+      "url": "https://admission.aglasem.com/clat-previous-year-question-papers-answers/",
+      "source": "AglaSem",
+      "checked": "2026-11-21",
+      "http": 0,
+      "note": "UG + PG papers 2015–2026 with Consortium answer keys (2022–2026). curl connection failed (http 0); page confirmed via browser search result 2026-11-21."
+    },
+    {
+      "year": 2023,
+      "stage": "",
+      "title": "CLAT UG 2023 — Previous Year Question Paper PDF",
+      "url": "https://www.jagranjosh.com/articles/clat-ug-exam-previous-year-question-papers-pdf-download-1800003345-1",
+      "source": "JagranJosh",
+      "checked": "2026-11-21",
+      "http": 200,
+      "note": "UG papers 2013–2025 with answer keys."
+    }
+  ],
+  "details": {
+    "eligibility": "12th pass",
+    "pattern": "120 Q, 120 marks, 120 min. +1 / -0.25 marking.",
+    "syllabus": "English, Current Affairs & GK, Legal Reasoning, Logical Reasoning, Quant",
+    "official_page": "https://consortiumofnlus.ac.in/",
+    "sources": [
+      "https://consortiumofnlus.ac.in/"
+    ]
+  },
+  "youtube": [
+    {
+      "title": "CLAT PG 2021 Question Paper Fully Solved & Explained — Part 1",
+      "channel": "LawMint",
+      "url": "https://www.youtube.com/watch?v=c2r_xrXm694"
+    },
+    {
+      "title": "CLAT PG 2021 Question Paper Fully Solved & Explained — Part 2",
+      "channel": "LawMint",
+      "url": "https://www.youtube.com/watch?v=cF0bUxvaXTY"
+    },
+    {
+      "title": "CLAT PG 2021 Question Paper Fully Solved & Explained — Part 3",
+      "channel": "LawMint",
+      "url": "https://www.youtube.com/watch?v=7crjpjWJYTQ"
+    }
+  ],
+  "not_found_years": [],
+  "notes": "CLAT 2027: 6 December 2026, 2:00–4:00 PM. CLAT moved to December (year before admission) from CLAT 2023. YouTube videos found are CLAT PG (LLM) 2021 solutions — no CLAT UG YouTube video URL was returned by search on 2026-11-21."
+}

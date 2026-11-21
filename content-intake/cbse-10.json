@@ -1,0 +1,132 @@
+{
+  "exam_id": "cbse-10",
+  "exam_name": "CBSE Class 10",
+  "official_papers": [
+    {
+      "year": 2025,
+      "stage": "",
+      "title": "CBSE Class 10 2025 — Official Previous Years' Question Papers",
+      "url": "https://www.cbse.gov.in/cbsenew/question-paper.html",
+      "source": "CBSE — cbse.gov.in (Official)",
+      "checked": "2026-11-21",
+      "http": 200,
+      "note": "Official subject-wise board question papers, Class X (incl. compartment/second exams)."
+    },
+    {
+      "year": 2024,
+      "stage": "",
+      "title": "CBSE Class 10 2024 — Official Previous Years' Question Papers",
+      "url": "https://www.cbse.gov.in/cbsenew/question-paper.html",
+      "source": "CBSE — cbse.gov.in (Official)",
+      "checked": "2026-11-21",
+      "http": 200,
+      "note": "Official subject-wise board question papers, Class X (incl. compartment/second exams)."
+    },
+    {
+      "year": 2023,
+      "stage": "",
+      "title": "CBSE Class 10 2023 — Official Previous Years' Question Papers",
+      "url": "https://www.cbse.gov.in/cbsenew/question-paper.html",
+      "source": "CBSE — cbse.gov.in (Official)",
+      "checked": "2026-11-21",
+      "http": 200,
+      "note": "Official subject-wise board question papers, Class X (incl. compartment/second exams)."
+    }
+  ],
+  "unofficial_papers": [
+    {
+      "year": 2025,
+      "stage": "",
+      "title": "CBSE Class 10 2025 — Previous Year Question Papers with Solutions",
+      "url": "https://school.careers360.com/boards/cbse/cbse-previous-year-question-papers",
+      "source": "Careers360 (School)",
+      "checked": "2026-11-21",
+      "http": 200,
+      "note": "Class 10 & 12 papers with solutions."
+    },
+    {
+      "year": 2025,
+      "stage": "",
+      "title": "CBSE Class 10 2025 — Previous Year Question Paper",
+      "url": "https://www.selfstudys.com/books/cbse-prev-paper",
+      "source": "SelfStudys",
+      "checked": "2026-11-21",
+      "http": 200,
+      "note": "Subject-wise CBSE PYQs 2014–2026 with solutions."
+    },
+    {
+      "year": 2024,
+      "stage": "",
+      "title": "CBSE Class 10 2024 — Previous Year Question Papers with Solutions",
+      "url": "https://school.careers360.com/boards/cbse/cbse-previous-year-question-papers",
+      "source": "Careers360 (School)",
+      "checked": "2026-11-21",
+      "http": 200,
+      "note": "Class 10 & 12 papers with solutions."
+    },
+    {
+      "year": 2024,
+      "stage": "",
+      "title": "CBSE Class 10 2024 — Previous Year Question Paper",
+      "url": "https://www.selfstudys.com/books/cbse-prev-paper",
+      "source": "SelfStudys",
+      "checked": "2026-11-21",
+      "http": 200,
+      "note": "Subject-wise CBSE PYQs 2014–2026 with solutions."
+    },
+    {
+      "year": 2023,
+      "stage": "",
+      "title": "CBSE Class 10 2023 — Previous Year Question Papers with Solutions",
+      "url": "https://school.careers360.com/boards/cbse/cbse-previous-year-question-papers",
+      "source": "Careers360 (School)",
+      "checked": "2026-11-21",
+      "http": 200,
+      "note": "Class 10 & 12 papers with solutions."
+    },
+    {
+      "year": 2023,
+      "stage": "",
+      "title": "CBSE Class 10 2023 — Previous Year Question Paper",
+      "url": "https://www.selfstudys.com/books/cbse-prev-paper",
+      "source": "SelfStudys",
+      "checked": "2026-11-21",
+      "http": 200,
+      "note": "Subject-wise CBSE PYQs 2014–2026 with solutions."
+    }
+  ],
+  "details": {
+    "eligibility": "Class 10",
+    "pattern": "5 subjects: Maths, Science, Social Science, English, Hindi/Regional. 100 marks each (80 theory + 20 internal).",
+    "syllabus": "NCERT Class 10 — Maths, Science, SST, English, Hindi",
+    "official_page": "https://www.cbse.gov.in/",
+    "sources": [
+      "https://www.cbse.gov.in/",
+      "https://cbseacademic.nic.in/"
+    ]
+  },
+  "youtube": [
+    {
+      "title": "Sum of first 8 multiples of 3 | CBSE Class 10 Maths 2018 Solution",
+      "channel": "Maxtute",
+      "url": "https://www.youtube.com/watch?v=f3ywSbHl-PA"
+    },
+    {
+      "title": "Prove (5 + 3√2) is irrational | CBSE Class 10 Maths 2018",
+      "channel": "Maxtute",
+      "url": "https://www.youtube.com/watch?v=EqZKig8akqE"
+    },
+    {
+      "title": "Science Class 10 question paper 2026 Solutions",
+      "channel": "Delhi Classes (Shakti Sir)",
+      "url": "https://www.youtube.com/watch?v=hP4sdXE50Zc"
+    },
+    {
+      "title": "Class 10 Maths Paper Solution 2026",
+      "channel": "ALLEN",
+      "url": "https://www.youtube.com/watch?v=PUwD4vTsl-Q"
+    }
+  ],
+  "not_found_years": [],
+  "notes": "CBSE also publishes sample question papers on cbseacademic.nic.in (verified 200). The old cbseacademic.nic.in/question_papers.html path returned 404 — do not use."
+}

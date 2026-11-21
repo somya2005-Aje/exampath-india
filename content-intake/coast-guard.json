@@ -1,0 +1,91 @@
+{
+  "exam_id": "coast-guard",
+  "exam_name": "Indian Coast Guard (Navik / DB)",
+  "official_papers": [],
+  "unofficial_papers": [
+    {
+      "year": 2025,
+      "stage": "",
+      "title": "Indian Coast Guard (Navik) 2025 — Previous Year Papers",
+      "url": "https://testbook.com/indian-coast-guard/previous-year-papers",
+      "source": "Testbook",
+      "checked": "2026-11-21",
+      "http": 200,
+      "note": "Navik GD/DB memory-based papers with solutions."
+    },
+    {
+      "year": 2025,
+      "stage": "",
+      "title": "Indian Coast Guard 2025 — Previous Year Question Papers",
+      "url": "http://prepp.in/indian-coast-guard-exam/practice-papers",
+      "source": "Prepp",
+      "checked": "2026-11-21",
+      "http": 200,
+      "note": "Year-wise papers & answer keys (2021–2024 listed; 2025 papers via Testbook)."
+    },
+    {
+      "year": 2024,
+      "stage": "",
+      "title": "Indian Coast Guard (Navik) 2024 — Previous Year Papers",
+      "url": "https://testbook.com/indian-coast-guard/previous-year-papers",
+      "source": "Testbook",
+      "checked": "2026-11-21",
+      "http": 200,
+      "note": "Navik GD/DB memory-based papers with solutions."
+    },
+    {
+      "year": 2024,
+      "stage": "",
+      "title": "Indian Coast Guard 2024 — Previous Year Question Papers",
+      "url": "http://prepp.in/indian-coast-guard-exam/practice-papers",
+      "source": "Prepp",
+      "checked": "2026-11-21",
+      "http": 200,
+      "note": "Year-wise papers & answer keys (2021–2024 listed; 2025 papers via Testbook)."
+    },
+    {
+      "year": 2023,
+      "stage": "",
+      "title": "Indian Coast Guard (Navik) 2023 — Previous Year Papers",
+      "url": "https://testbook.com/indian-coast-guard/previous-year-papers",
+      "source": "Testbook",
+      "checked": "2026-11-21",
+      "http": 200,
+      "note": "Navik GD/DB memory-based papers with solutions."
+    },
+    {
+      "year": 2023,
+      "stage": "",
+      "title": "Indian Coast Guard 2023 — Previous Year Question Papers",
+      "url": "http://prepp.in/indian-coast-guard-exam/practice-papers",
+      "source": "Prepp",
+      "checked": "2026-11-21",
+      "http": 200,
+      "note": "Year-wise papers & answer keys (2021–2024 listed; 2025 papers via Testbook)."
+    }
+  ],
+  "details": {
+    "eligibility": "10th / 12th pass",
+    "pattern": "Stage I: written + PFT. Stage II: documents + medical.",
+    "syllabus": "Maths, Science, English, Reasoning, GK",
+    "official_page": "https://joinindiancoastguard.cdac.in/",
+    "sources": [
+      "https://joinindiancoastguard.cdac.in/",
+      "https://indiancoastguard.gov.in/"
+    ]
+  },
+  "youtube": [
+    {
+      "title": "ICG Navik GD/DB Previous Year Question Paper | Model Paper 2026",
+      "channel": "Channel name not shown in search result",
+      "url": "https://www.youtube.com/watch?v=-Cyk3RkvNQI"
+    },
+    {
+      "title": "indian Coast Guard Navik GD/DB Previous Year Paper 2026",
+      "channel": "Channel name not shown in search result",
+      "url": "https://www.youtube.com/watch?v=A6CexiezfCU"
+    }
+  ],
+  "not_found_years": [],
+  "notes": "NO official Coast Guard papers: ICG does not publish official Navik papers publicly; all papers are memory-based. Official portals verified via browser fetch on 2026-11-21: https://indiancoastguard.gov.in/ and https://joinindiancoastguard.cdac.in/ (curl cannot reach them from this VM). Adda247 Coast Guard page returned 404 — not used. Only 2 YouTube videos found with verifiable watch URLs; channel names were not shown in the search results."
+}

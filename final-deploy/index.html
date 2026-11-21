@@ -12,16 +12,12 @@
 </head>
 <body data-page="home">
 <header><div class="app-banner"><span class="app-ic">🎯</span><span class="app-tx"><b>Get the ExamPath India App</b> — Free. No login. Papers, mock tests &amp; notes on your phone.</span><a class="btn sm app-dl" href="/exampath.apk" download>⬇ Download App</a><button class="btn sm app-sh" type="button" onclick="shareApp()">↗ Share</button></div><div class="topbar">
-<a class="logo" href="/"><span class="mark">🎯</span><span>ExamPath <span style="color:#FFD166">India</span><small>One Nation. One Learning Platform.</small></span></a>
+<a class="logo" href="/"><span class="mark">📖</span><span>ExamPath <span style="color:#FFD166">India</span><small>One Nation. One Learning Platform.</small></span></a>
 <button class="menu-btn" id="menuBtn" aria-label="Menu">☰</button>
-<nav class="desktop" id="topnav"><a href="/" data-i18n="home" class="active">Home</a><a href="/exams" data-i18n="exams" class="">Exams</a><a href="/papers" data-i18n="papers" class="">Previous Papers</a><a href="/mock" data-i18n="mock" class="">Mock Tests</a><a href="/notes" data-i18n="study" class="">Study Material</a><a href="/ca" data-i18n="ca" class="">Current Affairs</a><a href="/quiz" data-i18n="quiz" class="">Daily Quiz</a><a href="/saved" data-i18n="saved" class="">Saved</a><a href="/profile" data-i18n="profile" class="">Profile</a></nav>
-<div class="hdr-tools">
-<select class="langsel" id="langsel" aria-label="Language">
-<option value="en">English</option><option value="hi">Hindi</option><option value="od">Odia</option>
-</select>
-<button id="themeBtn" aria-label="Theme">🌙</button>
-</div></div>
-<nav class="mobilenav" id="mobileNav"><a href="/" data-i18n="home">Home</a><a href="/exams" data-i18n="exams">Exams</a><a href="/papers" data-i18n="papers">Previous Papers</a><a href="/mock" data-i18n="mock">Mock Tests</a><a href="/notes" data-i18n="study">Study Material</a><a href="/ca" data-i18n="ca">Current Affairs</a><a href="/quiz" data-i18n="quiz">Daily Quiz</a><a href="/saved" data-i18n="saved">Saved</a><a href="/profile" data-i18n="profile">Profile</a></nav></header>
+<nav class="desktop" id="topnav"><a href="/" data-i18n="home" class="active">Home</a><span class="drop"><a href="/exams" data-i18n="exams" class="">Exams ▾</a><span class="drop-menu"><a href="/exams?cat=ssc">🏛️ SSC</a><a href="/exams?cat=railway">🚆 Railway / RRB</a><a href="/exams?cat=upsc">🇮🇳 UPSC</a><a href="/exams?cat=banking">🏦 Banking</a><a href="/exams?cat=defence">🛡️ Defence</a><a href="/exams?cat=teaching">📚 Teaching</a><a href="/exams?cat=medical">🩺 Medical &amp; Engineering</a><a href="/exams?cat=entrance">🎓 Entrance Exams</a><a href="/exams?cat=boards">✏️ School Boards</a><a href="/states">🗺️ State Exams</a><a href="/exams">⊞ All Exams</a></span></span><a href="/papers" data-i18n="papers" class="">Previous Papers</a><a href="/mock" data-i18n="mock" class="">Mock Tests</a><a href="/notes" data-i18n="study" class="">Study Material</a><a href="/ca" data-i18n="ca" class="">Current Affairs</a><a href="/quiz" data-i18n="quiz" class="">Daily Quiz</a></nav>
+<span id="authArea"><a class="login-pill" href="/profile" data-auth-login>👤 Login / Sign Up</a></span>
+</div>
+<nav class="mobilenav" id="mobileNav"><a href="/" data-i18n="home">Home</a><a href="/exams" data-i18n="exams">Exams</a><a href="/papers" data-i18n="papers">Previous Papers</a><a href="/mock" data-i18n="mock">Mock Tests</a><a href="/notes" data-i18n="study">Study Material</a><a href="/ca" data-i18n="ca">Current Affairs</a><a href="/quiz" data-i18n="quiz">Daily Quiz</a><a href="/profile" data-auth-login>👤 Login / Sign Up</a></nav></header>
 <main>
 <div class="hero hero-new"><div class="hero-in"><div>
 <span class="hero-badge">🎯 100% Free • All Exams • All India</span>
@@ -37,10 +33,9 @@
 <a class="qchip" href="/exams"><span>📑</span>Syllabus</a>
 </div>
 </div><div class="hero-img hero-img-new"><img src="/assets/img/hero-students.jpg" alt="Happy Indian students holding SSC, UPSC and JEE NEET preparation books"></div></div></div>
-<section class="container"><div class="countdown-strip"><span>⏰ <b>Next exam: SSC CHSL Tier-1</b> — starts 30 Nov 2026</span><span class="cd"><b id="cd-d">–</b> days <b id="cd-h">–</b>h <b id="cd-m">–</b>m <b id="cd-s">–</b>s</span><span class="small">Tentative — verify on ssc.gov.in</span><a href="/exams/ssc-chsl">View exam →</a></div></section>
 <section class="container"><div class="cat-strip"><div class="card strip-card" onclick="location.href='/exams?cat=ssc'"><div class="strip-ic">🏛️</div><h3>SSC</h3><p>CGL, CHSL, GD…</p></div><div class="card strip-card" onclick="location.href='/exams?cat=railway'"><div class="strip-ic">🚆</div><h3>Railway</h3><p>NTPC, Group D…</p></div><div class="card strip-card" onclick="location.href='/exams?cat=upsc'"><div class="strip-ic">🦁</div><h3>UPSC</h3><p>IAS, NDA, CDS…</p></div><div class="card strip-card" onclick="location.href='/exams?cat=banking'"><div class="strip-ic">🏦</div><h3>Banking</h3><p>IBPS, SBI, RBI…</p></div><div class="card strip-card" onclick="location.href='/states'"><div class="strip-ic">🗺️</div><h3>State Exams</h3><p>PSC, Police, TET…</p></div><div class="card strip-card" onclick="location.href='/exams?cat=teaching'"><div class="strip-ic">🎓</div><h3>Teaching</h3><p>CTET, UGC NET…</p></div><div class="card strip-card" onclick="location.href='/exams/jee-main'"><div class="strip-ic">⚛️</div><h3>JEE</h3><p>Main, Advanced…</p></div><div class="card strip-card" onclick="location.href='/exams/neet-ug'"><div class="strip-ic">🩺</div><h3>NEET</h3><p>UG, PG…</p></div><div class="card strip-card" onclick="location.href='/exams'"><div class="strip-ic">⊞</div><h3>More</h3><p>All Exams</p></div></div></section>
 <section class="container"><div class="home-grid">
-<div class="card side-card"><h3>📍 Explore by State</h3><div class="state-list"><a class="state-row active" href="/states/odisha"><span>📍 Odisha Exams</span><span>›</span></a><a class="state-row " href="/states/uttar-pradesh"><span>📍 Uttar Pradesh Exams</span><span>›</span></a><a class="state-row " href="/states/bihar"><span>📍 Bihar Exams</span><span>›</span></a><a class="state-row " href="/states/maharashtra"><span>📍 Maharashtra Exams</span><span>›</span></a><a class="state-row " href="/states/west-bengal"><span>📍 West Bengal Exams</span><span>›</span></a><a class="state-row " href="/states/tamil-nadu"><span>📍 Tamil Nadu Exams</span><span>›</span></a><a class="state-row" href="/states"><span>View All States &amp; UTs (36)</span><span>›</span></a></div></div>
+<div class="card side-card"><h3>📍 Explore by State</h3><div class="state-list"><a class="state-row active" href="/states/odisha"><span>📍 Odisha Exams</span><span>›</span></a><a class="state-row " href="/states/uttar-pradesh"><span>📍 Uttar Pradesh Exams</span><span>›</span></a><a class="state-row " href="/states/bihar"><span>📍 Bihar Exams</span><span>›</span></a><a class="state-row " href="/states/maharashtra"><span>📍 Maharashtra Exams</span><span>›</span></a><a class="state-row " href="/states/west-bengal"><span>📍 West Bengal Exams</span><span>›</span></a><a class="state-row " href="/states/tamil-nadu"><span>📍 Tamil Nadu Exams</span><span>›</span></a><a class="state-row" href="/states"><span>View All States (28)</span><span>›</span></a></div></div>
 <div>
 <div class="card pyq-banner"><div><h3>📄 Previous Year Question Papers</h3><p>Year-wise | Shift-wise | PDF Download | Solutions</p><a class="btn purple" style="margin-top:12px" href="/papers">Explore Papers →</a></div><div class="pyq-art"><span class="pyq-tag">PYQ</span><span class="pdf-pill">PDF ↓</span></div></div>
 <div class="card" style="margin-top:14px"><div class="sec-head" style="margin-bottom:10px"><h3>🔥 Popular Exams</h3><a href="/exams">View All Exams →</a></div><div class="pop-grid"><a class="pop-tile" href="/exams/ssc-cgl"><span class="pop-ic">🏛️</span><b>SSC CGL</b></a><a class="pop-tile" href="/exams/rrb-ntpc-g"><span class="pop-ic">🚆</span><b>RRB NTPC</b></a><a class="pop-tile" href="/exams/upsc-cse"><span class="pop-ic">🦁</span><b>UPSC CSE</b></a><a class="pop-tile" href="/exams/ibps-po"><span class="pop-ic">🏦</span><b>IBPS PO</b></a><a class="pop-tile" href="/exams/jee-main"><span class="pop-ic">⚛️</span><b>JEE Main</b></a><a class="pop-tile" href="/exams/neet-ug"><span class="pop-ic">🩺</span><b>NEET UG</b></a></div></div>
@@ -52,24 +47,24 @@
 </div>
 </div></section>
 <section class="container"><div class="stat-strip">
-<div class="stat"><b>56+</b><span>Exams Listed</span></div>
-<div class="stat"><b>80</b><span>Practice Questions</span></div>
-<div class="stat"><b>8</b><span>Study Notes</span></div>
-<div class="stat"><b>36</b><span>States &amp; UTs</span></div>
-<div class="stat"><b>22</b><span>Indian Languages</span></div>
-</div></section>
-<section class="container"><div class="notice"><b>⚠️ Honesty note:</b> ExamPath does not copy official papers. Where a paper is in the official archive, its <b>official link</b> is given. Where it is not available yet, it clearly says <b>“Not available yet”</b> — never a fake PDF. Practice questions are original ExamPath questions, not official PYQs. All numbers on this page are real — exams listed, questions and notes actually on this website.</div>
-<div class="card" style="text-align:center"><h3>The admin panel is built separately</h3><p>This is only the <b>User Website</b> (no login). The admin dashboard — exam, paper and question management — will be a separate project, never mixed into this website.</p></div></section></main>
+<div class="stat"><span class="stat-ic">👥</span><b>500+</b><span>Exams Covered</span></div>
+<div class="stat"><span class="stat-ic">📄</span><b>10 Lakh+</b><span>Previous Year Questions</span></div>
+<div class="stat"><span class="stat-ic">📖</span><b>50,000+</b><span>Study Materials</span></div>
+<div class="stat"><span class="stat-ic">👥</span><b>10 Lakh+</b><span>Students Learning</span></div>
+<div class="stat"><span class="stat-ic">🌐</span><b>22</b><span>Indian Languages</span></div>
+</div></section></main>
 <footer><div class="foot-grid">
-<div><h4>ExamPath India</h4><p>One Nation. One Learning Platform.<br>Every Exam • Every Year • Every Subject • Every Language.</p><p class="small" style="margin-top:8px">Free core learning. No login. No paywall.</p></div>
+<div><h4>ExamPath India</h4><p>One Nation. One Learning Platform.<br>Every Exam • Every Year • Every Subject • Every Language.</p><p class="small" style="margin-top:8px">Free core learning. Browsing, search and paper photos are free — login (Google) is needed only for downloads &amp; full exam details.</p></div>
 <div><h4>Explore</h4><p><a href="/exams">All Exams</a><br><a href="/papers">Previous Papers</a><br><a href="/mock">Mock Tests</a><br><a href="/ca">Current Affairs</a><br><a href="/notes">Notes &amp; Formulas</a></p></div>
 <div><h4>Official Sources</h4><p><a href="https://upsc.gov.in/examinations/previous-question-papers" target="_blank" rel="noopener">UPSC Papers</a><br><a href="https://ssc.gov.in/candidate-corner/previousPaper" target="_blank" rel="noopener">SSC Papers</a><br><a href="https://www.rrbapply.gov.in/" target="_blank" rel="noopener">RRB Apply</a><br><a href="https://www.ibps.in/" target="_blank" rel="noopener">IBPS</a><br><a href="https://nta.ac.in/" target="_blank" rel="noopener">NTA</a></p></div>
-<div><h4>About</h4><p><a href="/portals">All Official Portals</a><br><a href="/languages">22 Languages</a><br><a href="/privacy">Privacy Policy</a><br><a href="/terms">Terms &amp; Disclaimer</a><br><a href="/saved">My Library (on this device)</a></p></div>
+<div><h4>About</h4><p><a href="/portals">All Official Portals</a><br><a href="/videos">🎬 Watch &amp; Learn (YouTube)</a><br><a href="/languages">22 Languages</a><br><a href="/privacy">Privacy Policy</a><br><a href="/terms">Terms &amp; Disclaimer</a><br><a href="/saved">My Library (on this device)</a></p></div>
 </div>
-<p style="text-align:center;margin-top:22px;font-size:13px">© 2026 ExamPath India • Papers belong to their respective exam authorities. Always verify dates on the official website before applying. • The admin panel is a separate app (coming separately).</p></footer>
+<p style="text-align:center;margin-top:22px;font-size:13px">© 2026 ExamPath India • Papers belong to their respective exam authorities. Always verify dates on the official website before applying.</p></footer>
 <div id="toast"></div>
 <div class="modal" id="modal"><div class="modal-box" id="modalBox"></div></div>
+<!-- Firebase web config (window.FIREBASE_CONFIG) is NOT set yet — it is provided by the separate Firebase setup. auth.js waits for it; until then Google Sign-In shows "setup ho raha hai" and no fake login is created. -->
 <script src="/data.js"></script>
+<script src="/auth.js"></script>
 <script src="/site.js"></script>
 </body>
 </html>

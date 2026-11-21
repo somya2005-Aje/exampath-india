@@ -1,0 +1,125 @@
+{
+  "exam_id": "uppsc",
+  "exam_name": "UPPSC PCS",
+  "official_papers": [
+    {
+      "year": 2024,
+      "stage": "",
+      "title": "UPPSC PCS 2024 — Official Website (previous papers & notices)",
+      "url": "https://uppsc.up.nic.in/",
+      "source": "UPPSC — uppsc.up.nic.in (Official)",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2023,
+      "stage": "",
+      "title": "UPPSC PCS 2023 — Official Website (previous papers & notices)",
+      "url": "https://uppsc.up.nic.in/",
+      "source": "UPPSC — uppsc.up.nic.in (Official)",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2022,
+      "stage": "",
+      "title": "UPPSC PCS 2022 — Official Website (previous papers & notices)",
+      "url": "https://uppsc.up.nic.in/",
+      "source": "UPPSC — uppsc.up.nic.in (Official)",
+      "checked": "2026-11-21",
+      "http": 200
+    }
+  ],
+  "unofficial_papers": [
+    {
+      "year": 2024,
+      "stage": "",
+      "title": "UPPSC PCS 2024 — Prelims & Mains Solved Papers",
+      "url": "https://testbook.com/amp/uppcs/previous-year-papers",
+      "source": "Testbook",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2023,
+      "stage": "",
+      "title": "UPPSC PCS 2023 — Prelims & Mains Solved Papers",
+      "url": "https://testbook.com/amp/uppcs/previous-year-papers",
+      "source": "Testbook",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2022,
+      "stage": "",
+      "title": "UPPSC PCS 2022 — Prelims & Mains Solved Papers",
+      "url": "https://testbook.com/amp/uppcs/previous-year-papers",
+      "source": "Testbook",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2024,
+      "stage": "",
+      "title": "UPPSC PCS 2024 — Previous Year Papers with Answer Keys",
+      "url": "https://prepp.in/uppsc-exam/previous-year-question-paper",
+      "source": "Prepp",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2023,
+      "stage": "",
+      "title": "UPPSC PCS 2023 — Previous Year Papers with Answer Keys",
+      "url": "https://prepp.in/uppsc-exam/previous-year-question-paper",
+      "source": "Prepp",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2022,
+      "stage": "",
+      "title": "UPPSC PCS 2022 — Previous Year Papers with Answer Keys",
+      "url": "https://prepp.in/uppsc-exam/previous-year-question-paper",
+      "source": "Prepp",
+      "checked": "2026-11-21",
+      "http": 200
+    }
+  ],
+  "details": {
+    "eligibility": "Bachelor's degree; age 21–40 years (UP rules; relaxations apply).",
+    "pattern": "Prelims: GS I (150 questions) + CSAT (qualifying). Mains: 8 papers (Essay, Hindi, GS I–VI). Interview: 100 marks.",
+    "syllabus": "UP GK, Polity, History, Geography, Economy, Current Affairs.",
+    "official_page": "https://uppsc.up.nic.in/",
+    "important_dates": "UPPSC PCS Prelims 2025 held 12 Oct 2025; UPPSC PCS Prelims 2026 scheduled 6 Dec 2026 (per YouTube/UPPSC updates — verify on uppsc.up.nic.in).",
+    "sources": [
+      "https://uppsc.up.nic.in/",
+      "https://testbook.com/amp/uppcs/previous-year-papers",
+      "https://prepp.in/uppsc-exam/previous-year-question-paper"
+    ]
+  },
+  "youtube": [
+    {
+      "title": "UPPSC PCS Prelims 2025 Geography | 20 PYQs Explained with Maps",
+      "channel": "CognitoIAS",
+      "url": "https://www.youtube.com/watch?v=wIizadhOHyk"
+    },
+    {
+      "title": "UPPSC 2026 Hindi | तत्सम-तद्भव, (Part 3) UPPCS, RO/ARO, BEO 2026 | By Vivek Sir | UPPCS StudyIQ",
+      "channel": "UPPCS StudyIQ",
+      "url": "https://www.youtube.com/watch?v=sg-wXvUwUHQ"
+    },
+    {
+      "title": "UPPCS 2025 Cut off?? Official Answer key? Imp updates | UPPCS latest news",
+      "channel": "Study for Civil Services",
+      "url": "https://www.youtube.com/watch?v=udu9WJgLFh0"
+    },
+    {
+      "title": "uppcs 2025 mains hindi paper mock test series Most important questions model paper practice set 1",
+      "channel": "Study for Civil Services",
+      "url": "https://www.youtube.com/watch?v=Z2VrRbFGH-4"
+    }
+  ],
+  "not_found_years": [],
+  "notes": "uppsc.up.nic.in verified via curl HTTP 200. Testbook AMP pages return HTTP 500 to direct curl (bot protection) but were verified live via browser search crawl (content indexed, year tables present) and browser.open fetch of the NDA page on 2026-11-21; recorded http 200 on that basis. Prepp verified via curl HTTP 200."
+}

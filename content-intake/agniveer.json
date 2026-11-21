@@ -1,0 +1,100 @@
+{
+  "exam_id": "agniveer",
+  "exam_name": "Agniveer (Army / Navy / Air Force)",
+  "official_papers": [],
+  "unofficial_papers": [
+    {
+      "year": 2025,
+      "stage": "",
+      "title": "Agniveer (Army) 2025 — Previous Year Papers",
+      "url": "https://www.adda247.com/defence-jobs/indian-army-agniveer-previous-year-papers/",
+      "source": "Adda247",
+      "checked": "2026-11-21",
+      "http": 200,
+      "note": "Memory-based GD papers: 30 Jun 2025 S1, 22 Apr 2024 S1, 17 Apr 2023 S1."
+    },
+    {
+      "year": 2025,
+      "stage": "",
+      "title": "Agniveer (Army) 2025 — Previous Year Question Papers",
+      "url": "https://www.careerpower.in/blog/indian-army-agniveer-previous-year-question-papers",
+      "source": "CareerPower",
+      "checked": "2026-11-21",
+      "http": 200,
+      "note": "Memory-based papers 2023–2025 with download links."
+    },
+    {
+      "year": 2024,
+      "stage": "",
+      "title": "Agniveer (Army) 2024 — Previous Year Papers",
+      "url": "https://www.adda247.com/defence-jobs/indian-army-agniveer-previous-year-papers/",
+      "source": "Adda247",
+      "checked": "2026-11-21",
+      "http": 200,
+      "note": "Memory-based GD papers: 30 Jun 2025 S1, 22 Apr 2024 S1, 17 Apr 2023 S1."
+    },
+    {
+      "year": 2024,
+      "stage": "",
+      "title": "Agniveer (Army) 2024 — Previous Year Question Papers",
+      "url": "https://www.careerpower.in/blog/indian-army-agniveer-previous-year-question-papers",
+      "source": "CareerPower",
+      "checked": "2026-11-21",
+      "http": 200,
+      "note": "Memory-based papers 2023–2025 with download links."
+    },
+    {
+      "year": 2023,
+      "stage": "",
+      "title": "Agniveer (Army) 2023 — Previous Year Papers",
+      "url": "https://www.adda247.com/defence-jobs/indian-army-agniveer-previous-year-papers/",
+      "source": "Adda247",
+      "checked": "2026-11-21",
+      "http": 200,
+      "note": "Memory-based GD papers: 30 Jun 2025 S1, 22 Apr 2024 S1, 17 Apr 2023 S1."
+    },
+    {
+      "year": 2023,
+      "stage": "",
+      "title": "Agniveer (Army) 2023 — Previous Year Question Papers",
+      "url": "https://www.careerpower.in/blog/indian-army-agniveer-previous-year-question-papers",
+      "source": "CareerPower",
+      "checked": "2026-11-21",
+      "http": 200,
+      "note": "Memory-based papers 2023–2025 with download links."
+    }
+  ],
+  "details": {
+    "eligibility": "10th / 12th pass",
+    "pattern": "Online CEE: 50 Q, 100 marks. Then physical + medical tests.",
+    "syllabus": "GK, Maths, Reasoning, Science (as per trade)",
+    "official_page": "https://joinindianarmy.nic.in/",
+    "sources": [
+      "https://joinindianarmy.nic.in/"
+    ]
+  },
+  "youtube": [
+    {
+      "title": "Army Agniveer GD Question Paper 2026 | Solved Sample Paper & Answers",
+      "channel": "Defence Guru Arvind",
+      "url": "https://www.youtube.com/watch?v=2d_JHYh7OUw"
+    },
+    {
+      "title": "Agniveer Previous Year Question Paper 2026 | Army GD/TDN Full Paper",
+      "channel": "YSP Live Class",
+      "url": "https://www.youtube.com/watch?v=ZSLdFcDoXHY"
+    },
+    {
+      "title": "Army Agniveer Previous Year Paper Solution 2026 | Full 50 Questions Solved",
+      "channel": "YSP Live Class",
+      "url": "https://www.youtube.com/watch?v=rw6IIWqx6Gk"
+    },
+    {
+      "title": "Army Agniveer 2026 Original Paper solution | Agniveer GD Full Paper 2026",
+      "channel": "YSP Live Class",
+      "url": "https://www.youtube.com/watch?v=3TtuiSyZhzk"
+    }
+  ],
+  "not_found_years": [],
+  "notes": "NO official Agniveer papers: the Army does not publish official CEE papers; all papers are memory-based. Official portal https://joinindianarmy.nic.in/ verified via browser fetch (captcha-gated) on 2026-11-21. FAILED VERIFICATION: https://joinindiannavy.gov.in/ — curl connection failed and browser fetch failed on 2026-11-21; NOT included as a verified source. Testbook Agniveer AMP page returned HTTP 500 via curl — not used."
+}

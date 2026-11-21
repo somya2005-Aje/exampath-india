@@ -1,0 +1,177 @@
+{
+  "exam_id": "ssc-mts",
+  "exam_name": "SSC MTS",
+  "official_papers": [
+    {
+      "year": 2024,
+      "stage": "Session 1",
+      "title": "SSC MTS 2024 — Official Previous Papers & Answer Keys",
+      "url": "https://ssc.gov.in/candidate-corner/previousPaper",
+      "source": "SSC — ssc.gov.in (Official)",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2023,
+      "stage": "Session 1",
+      "title": "SSC MTS 2023 — Official Previous Papers & Answer Keys",
+      "url": "https://ssc.gov.in/candidate-corner/previousPaper",
+      "source": "SSC — ssc.gov.in (Official)",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2022,
+      "stage": "Session 1",
+      "title": "SSC MTS 2022 — Official Previous Papers & Answer Keys",
+      "url": "https://ssc.gov.in/candidate-corner/previousPaper",
+      "source": "SSC — ssc.gov.in (Official)",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2021,
+      "stage": "Session 1",
+      "title": "SSC MTS 2021 — Official Previous Papers & Answer Keys",
+      "url": "https://ssc.gov.in/candidate-corner/previousPaper",
+      "source": "SSC — ssc.gov.in (Official)",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2019,
+      "stage": "Session 1",
+      "title": "SSC MTS 2019 — Official Previous Papers & Answer Keys",
+      "url": "https://ssc.gov.in/candidate-corner/previousPaper",
+      "source": "SSC — ssc.gov.in (Official)",
+      "checked": "2026-11-21",
+      "http": 200
+    }
+  ],
+  "unofficial_papers": [
+    {
+      "year": 2024,
+      "stage": "Session 1",
+      "title": "SSC MTS 2024 Question Paper and Answer Key PDF (shift-wise, English & Hindi)",
+      "url": "https://prepp.in/ssc-mts-exam/practice_papers",
+      "source": "Prepp",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2024,
+      "stage": "Session 1",
+      "title": "SSC MTS 2024 — Previous Year Papers (shift-wise, with solutions)",
+      "url": "https://testbook.com/ssc-mts/previous-year-papers",
+      "source": "Testbook",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2023,
+      "stage": "Session 1",
+      "title": "SSC MTS 2023 Question Paper and Answer Key PDF (shift-wise, English & Hindi)",
+      "url": "https://prepp.in/ssc-mts-exam/practice_papers",
+      "source": "Prepp",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2023,
+      "stage": "Session 1",
+      "title": "SSC MTS 2023 — Previous Year Papers (shift-wise, with solutions)",
+      "url": "https://testbook.com/ssc-mts/previous-year-papers",
+      "source": "Testbook",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2022,
+      "stage": "Session 1",
+      "title": "SSC MTS 2022 Question Paper and Answer Key PDF (shift-wise, English & Hindi)",
+      "url": "https://prepp.in/ssc-mts-exam/practice_papers",
+      "source": "Prepp",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2022,
+      "stage": "Session 1",
+      "title": "SSC MTS 2022 — Previous Year Papers (shift-wise, with solutions)",
+      "url": "https://testbook.com/ssc-mts/previous-year-papers",
+      "source": "Testbook",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2021,
+      "stage": "Session 1",
+      "title": "SSC MTS 2021 Question Paper and Answer Key PDF (shift-wise, English & Hindi)",
+      "url": "https://prepp.in/ssc-mts-exam/practice_papers",
+      "source": "Prepp",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2021,
+      "stage": "Session 1",
+      "title": "SSC MTS 2021 — Previous Year Papers (shift-wise, with solutions)",
+      "url": "https://testbook.com/ssc-mts/previous-year-papers",
+      "source": "Testbook",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2019,
+      "stage": "Session 1",
+      "title": "SSC MTS 2019 Question Paper and Answer Key PDF (shift-wise, English & Hindi)",
+      "url": "https://prepp.in/ssc-mts-exam/practice_papers",
+      "source": "Prepp",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2019,
+      "stage": "Session 1",
+      "title": "SSC MTS 2019 — Previous Year Papers (shift-wise, with solutions)",
+      "url": "https://testbook.com/ssc-mts/previous-year-papers",
+      "source": "Testbook",
+      "checked": "2026-11-21",
+      "http": 200
+    }
+  ],
+  "details": {
+    "eligibility": "10th pass",
+    "pattern": "Session 1: Numerical & Mathematical Ability + Reasoning (no negative marking). Session 2: GK + English.",
+    "syllabus": "Numerical Ability, Reasoning, General Awareness, English Language",
+    "official_page": "https://ssc.gov.in/",
+    "sources": [
+      "https://ssc.gov.in/",
+      "https://ssc.gov.in/candidate-corner/previousPaper"
+    ]
+  },
+  "youtube": [
+    {
+      "title": "SSC MTS PREVIOUS YEAR PAPER | SSC MTS 1 September 2023 / 3rd Shift / DETAIL SOLUTION | MTS GK PYQ 2023",
+      "channel": "Study Point 11",
+      "url": "https://www.youtube.com/watch?v=b82WG4BQ99g"
+    },
+    {
+      "title": "SSC MTS/SSC GD 2026 | GK GS Practice Set for SSC MTS/SSC GD Exams | MTS, GD GK GS By Ashutosh Sir",
+      "channel": "SSC Adda247",
+      "url": "https://www.youtube.com/watch?v=-exrWi2OTgQ"
+    },
+    {
+      "title": "SSC MTS Havaldar GK GS 2026 | GK GS MCQs | SSC MTS Havaldar 2026 GK GS | By Ashutosh Sir",
+      "channel": "SSC Adda247",
+      "url": "https://www.youtube.com/watch?v=CF1lOt664t0"
+    },
+    {
+      "title": "SSC MTS/GD 2026 | Reasoning Practice Set for SSC MTS/SSC GD Exams | Reasoning By Atul Awasthi Sir",
+      "channel": "SSC Adda247",
+      "url": "https://www.youtube.com/watch?v=DJgSJA43gDM"
+    }
+  ],
+  "not_found_years": [],
+  "notes": "Prepp year table verified in search results: 2024, 2023, 2022, 2021, 2020, 2019, 2017 with shift-wise PDFs. Testbook non-AMP URL used (/amp/ returned HTTP 500 via curl). Adda247 MTS PYQ page also live (HTTP 200): https://www.adda247.com/jobs/ssc-mts-previous-year-question-paper/ — not listed per year because its year coverage was not individually confirmed. Official: papers via candidate login; archive listing linked per year (HTTP 200)."
+}

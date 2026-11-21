@@ -1,0 +1,127 @@
+{
+  "exam_id": "cbse-12",
+  "exam_name": "CBSE Class 12",
+  "official_papers": [
+    {
+      "year": 2025,
+      "stage": "",
+      "title": "CBSE Class 12 2025 — Official Previous Years' Question Papers",
+      "url": "https://www.cbse.gov.in/cbsenew/question-paper.html",
+      "source": "CBSE — cbse.gov.in (Official)",
+      "checked": "2026-11-21",
+      "http": 200,
+      "note": "Official subject-wise board question papers, Class XII (incl. compartment exams)."
+    },
+    {
+      "year": 2024,
+      "stage": "",
+      "title": "CBSE Class 12 2024 — Official Previous Years' Question Papers",
+      "url": "https://www.cbse.gov.in/cbsenew/question-paper.html",
+      "source": "CBSE — cbse.gov.in (Official)",
+      "checked": "2026-11-21",
+      "http": 200,
+      "note": "Official subject-wise board question papers, Class XII (incl. compartment exams)."
+    },
+    {
+      "year": 2023,
+      "stage": "",
+      "title": "CBSE Class 12 2023 — Official Previous Years' Question Papers",
+      "url": "https://www.cbse.gov.in/cbsenew/question-paper.html",
+      "source": "CBSE — cbse.gov.in (Official)",
+      "checked": "2026-11-21",
+      "http": 200,
+      "note": "Official subject-wise board question papers, Class XII (incl. compartment exams)."
+    }
+  ],
+  "unofficial_papers": [
+    {
+      "year": 2025,
+      "stage": "",
+      "title": "CBSE Class 12 2025 — Previous Year Question Papers with Solutions",
+      "url": "https://school.careers360.com/boards/cbse/cbse-previous-year-question-papers",
+      "source": "Careers360 (School)",
+      "checked": "2026-11-21",
+      "http": 200,
+      "note": "Class 10 & 12 papers with solutions."
+    },
+    {
+      "year": 2025,
+      "stage": "",
+      "title": "CBSE Class 12 2025 — Previous Year Question Paper with Solutions (Chemistry)",
+      "url": "https://www.adda247.com/school/cbse-class-12-chemistry-previous-year-papers/",
+      "source": "Adda247",
+      "checked": "2026-11-21",
+      "http": 200,
+      "note": "Class 12 Chemistry PYQs with solutions (2021, 2020, 2019)."
+    },
+    {
+      "year": 2024,
+      "stage": "",
+      "title": "CBSE Class 12 2024 — Previous Year Question Papers with Solutions",
+      "url": "https://school.careers360.com/boards/cbse/cbse-previous-year-question-papers",
+      "source": "Careers360 (School)",
+      "checked": "2026-11-21",
+      "http": 200,
+      "note": "Class 10 & 12 papers with solutions."
+    },
+    {
+      "year": 2024,
+      "stage": "",
+      "title": "CBSE Class 12 2024 — Previous Year Question Paper with Solutions (Chemistry)",
+      "url": "https://www.adda247.com/school/cbse-class-12-chemistry-previous-year-papers/",
+      "source": "Adda247",
+      "checked": "2026-11-21",
+      "http": 200,
+      "note": "Class 12 Chemistry PYQs with solutions (2021, 2020, 2019)."
+    },
+    {
+      "year": 2023,
+      "stage": "",
+      "title": "CBSE Class 12 2023 — Previous Year Question Papers with Solutions",
+      "url": "https://school.careers360.com/boards/cbse/cbse-previous-year-question-papers",
+      "source": "Careers360 (School)",
+      "checked": "2026-11-21",
+      "http": 200,
+      "note": "Class 10 & 12 papers with solutions."
+    },
+    {
+      "year": 2023,
+      "stage": "",
+      "title": "CBSE Class 12 2023 — Previous Year Question Paper with Solutions (Chemistry)",
+      "url": "https://www.adda247.com/school/cbse-class-12-chemistry-previous-year-papers/",
+      "source": "Adda247",
+      "checked": "2026-11-21",
+      "http": 200,
+      "note": "Class 12 Chemistry PYQs with solutions (2021, 2020, 2019)."
+    }
+  ],
+  "details": {
+    "eligibility": "Class 12",
+    "pattern": "Stream-wise: Science / Commerce / Arts. Theory + practical as per subject.",
+    "syllabus": "NCERT Class 12 — Physics, Chemistry, Maths/Bio, Accountancy, Economics, English",
+    "official_page": "https://www.cbse.gov.in/",
+    "sources": [
+      "https://www.cbse.gov.in/",
+      "https://cbseacademic.nic.in/"
+    ]
+  },
+  "youtube": [
+    {
+      "title": "Accounts 2025 Previous Year Paper Solved | Class 12 CBSE PYQ Solutions",
+      "channel": "Manan Malik",
+      "url": "https://www.youtube.com/watch?v=5kyeYitfu9I"
+    },
+    {
+      "title": "CBSE Class 12 Maths (2026–27) Sample Paper – Section A (MCQs) Solved",
+      "channel": "GANIT SHIKSHA (Anirban Sir)",
+      "url": "https://www.youtube.com/watch?v=FNBfa38aXfs"
+    },
+    {
+      "title": "CH.10 CBSE Class 12 Physics – Previous Year Questions (PYQs) | Board Exam 2026–27",
+      "channel": "EDUPHYSICS",
+      "url": "https://www.youtube.com/watch?v=rTYoNY5s_dQ"
+    }
+  ],
+  "not_found_years": [],
+  "notes": "Only 3 YouTube videos with a clearly identified channel were found on 2026-11-21; other results did not name the channel, so they were left out."
+}

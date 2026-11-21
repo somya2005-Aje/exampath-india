@@ -1,0 +1,188 @@
+{
+  "exam_id": "sbi-clerk",
+  "exam_name": "SBI Clerk (Junior Associate)",
+  "official_papers": [
+    {
+      "year": 2024,
+      "stage": "Prelims/Mains",
+      "title": "Official portal — notifications, answer keys & results (no public full question-paper archive published)",
+      "url": "https://sbi.bank.in/web/careers",
+      "source": "SBI — sbi.bank.in/web/careers (Official)",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2023,
+      "stage": "Prelims/Mains",
+      "title": "Official portal — notifications, answer keys & results (no public full question-paper archive published)",
+      "url": "https://sbi.bank.in/web/careers",
+      "source": "SBI — sbi.bank.in/web/careers (Official)",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2022,
+      "stage": "Prelims/Mains",
+      "title": "Official portal — notifications, answer keys & results (no public full question-paper archive published)",
+      "url": "https://sbi.bank.in/web/careers",
+      "source": "SBI — sbi.bank.in/web/careers (Official)",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2021,
+      "stage": "Prelims/Mains",
+      "title": "Official portal — notifications, answer keys & results (no public full question-paper archive published)",
+      "url": "https://sbi.bank.in/web/careers",
+      "source": "SBI — sbi.bank.in/web/careers (Official)",
+      "checked": "2026-11-21",
+      "http": 200
+    }
+  ],
+  "unofficial_papers": [
+    {
+      "year": 2024,
+      "stage": "Prelims/Mains",
+      "title": "SBI Clerk 2024 — Prelims & Mains memory-based papers (2020–2025 collection)",
+      "url": "https://www.oliveboard.in/blog/sbi-clerk-pyps/",
+      "source": "Oliveboard",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2024,
+      "stage": "Prelims/Mains",
+      "title": "SBI Clerk 2024 — Prelims & Mains memory-based papers with solutions",
+      "url": "https://www.adda247.com/jobs/sbi-clerk-previous-year-question-paper/",
+      "source": "Adda247",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2024,
+      "stage": "Prelims/Mains",
+      "title": "SBI Clerk 2024 — Memory-based papers with answer keys",
+      "url": "https://prepp.in/sbi-clerk-exam/practice_papers",
+      "source": "Prepp",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2023,
+      "stage": "Prelims/Mains",
+      "title": "SBI Clerk 2023 — Prelims & Mains memory-based papers (2020–2025 collection)",
+      "url": "https://www.oliveboard.in/blog/sbi-clerk-pyps/",
+      "source": "Oliveboard",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2023,
+      "stage": "Prelims/Mains",
+      "title": "SBI Clerk 2023 — Prelims & Mains memory-based papers with solutions",
+      "url": "https://www.adda247.com/jobs/sbi-clerk-previous-year-question-paper/",
+      "source": "Adda247",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2023,
+      "stage": "Prelims/Mains",
+      "title": "SBI Clerk 2023 — Memory-based papers with answer keys",
+      "url": "https://prepp.in/sbi-clerk-exam/practice_papers",
+      "source": "Prepp",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2022,
+      "stage": "Prelims/Mains",
+      "title": "SBI Clerk 2022 — Prelims & Mains memory-based papers (2020–2025 collection)",
+      "url": "https://www.oliveboard.in/blog/sbi-clerk-pyps/",
+      "source": "Oliveboard",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2022,
+      "stage": "Prelims/Mains",
+      "title": "SBI Clerk 2022 — Prelims & Mains memory-based papers with solutions",
+      "url": "https://www.adda247.com/jobs/sbi-clerk-previous-year-question-paper/",
+      "source": "Adda247",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2022,
+      "stage": "Prelims/Mains",
+      "title": "SBI Clerk 2022 — Memory-based papers with answer keys",
+      "url": "https://prepp.in/sbi-clerk-exam/practice_papers",
+      "source": "Prepp",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2021,
+      "stage": "Prelims/Mains",
+      "title": "SBI Clerk 2021 — Prelims & Mains memory-based papers (2020–2025 collection)",
+      "url": "https://www.oliveboard.in/blog/sbi-clerk-pyps/",
+      "source": "Oliveboard",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2021,
+      "stage": "Prelims/Mains",
+      "title": "SBI Clerk 2021 — Prelims & Mains memory-based papers with solutions",
+      "url": "https://www.adda247.com/jobs/sbi-clerk-previous-year-question-paper/",
+      "source": "Adda247",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2021,
+      "stage": "Prelims/Mains",
+      "title": "SBI Clerk 2021 — Memory-based papers with answer keys",
+      "url": "https://prepp.in/sbi-clerk-exam/practice_papers",
+      "source": "Prepp",
+      "checked": "2026-11-21",
+      "http": 200
+    }
+  ],
+  "details": {
+    "eligibility": "Graduation in any discipline from a recognised university (as per the SBI Clerk / Junior Associate notification on sbi.bank.in/web/careers).",
+    "pattern": "Prelims: 100 questions, 60 minutes (English 30, Numerical Ability 35, Reasoning 35). Mains: 190 questions, 200 marks (General English 40, Quant 50, Reasoning & Computer Aptitude 50, General/Financial Awareness 50). Then Local Language Test. No interview.",
+    "syllabus": "Quantitative Aptitude, Reasoning Ability, English Language, General/Financial Awareness, Computer Aptitude.",
+    "official_page": "https://sbi.bank.in/web/careers",
+    "sources": [
+      "https://sbi.bank.in/web/careers",
+      "https://www.oliveboard.in/blog/sbi-clerk-pyps/",
+      "https://www.adda247.com/jobs/sbi-clerk-previous-year-question-paper/",
+      "https://prepp.in/sbi-clerk-exam/practice_papers"
+    ]
+  },
+  "youtube": [
+    {
+      "title": "4th Shift 22 Feb 2025 Paper Live Solution SBI CLERK (JA) | SBI Clerk | By:- Jeetendra sir",
+      "channel": "Mr Quant",
+      "url": "https://www.youtube.com/watch?v=wBYZTTdJEzQ"
+    },
+    {
+      "title": "SBI Clerk Mains 2026 Arithmetic Marathon | 2023–2025 PYQs | 100% Exam-Oriented Questions",
+      "channel": "The Coaching concept",
+      "url": "https://www.youtube.com/watch?v=cVPM8rclRLI"
+    },
+    {
+      "title": "SBI Clerk Mains Previous Year Paper 2019 | Quantitative Aptitude Paper",
+      "channel": "Guidely - Bank & Insurance",
+      "url": "https://www.youtube.com/watch?v=SOOjT5ufP24"
+    },
+    {
+      "title": "LIVE SBI Clerk Paper Discussion | Reasoning Sets",
+      "channel": "Current Affairs Funda (Aptitude & LR)",
+      "url": "https://www.youtube.com/watch?v=DA8T_C87iuU"
+    }
+  ],
+  "not_found_years": [],
+  "notes": "SBI does not release official question papers; official entries point to the SBI careers portal. All unofficial papers are memory-based. Prepp.in returns HTTP 403 to curl; its SBI Clerk page was verified via browser search result content on 2026-11-21 (lists Prelims/Mains memory-based papers for 2021–2025). Testbook SBI Clerk AMP page returned HTTP 500 to curl and was NOT included — failed verification, excluded."
+}

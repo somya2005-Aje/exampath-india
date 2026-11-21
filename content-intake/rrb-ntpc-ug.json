@@ -1,0 +1,78 @@
+{
+  "exam_id": "rrb-ntpc-ug",
+  "exam_name": "RRB NTPC Undergraduate",
+  "official_papers": [],
+  "unofficial_papers": [
+    {
+      "year": 2026,
+      "stage": "",
+      "title": "RRB NTPC Undergraduate 2026 - CBT 1 & CBT 2 Papers (shift-wise, English & Hindi)",
+      "url": "https://testbook.com/rrb-ntpc/previous-year-papers",
+      "source": "Testbook",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2024,
+      "stage": "",
+      "title": "RRB NTPC Undergraduate 2024 - CBT 1 & CBT 2 Papers (shift-wise, English & Hindi)",
+      "url": "https://testbook.com/rrb-ntpc/previous-year-papers",
+      "source": "Testbook",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2022,
+      "stage": "",
+      "title": "RRB NTPC Undergraduate 2022 - CBT 1 & CBT 2 Papers (shift-wise, English & Hindi)",
+      "url": "https://testbook.com/rrb-ntpc/previous-year-papers",
+      "source": "Testbook",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2019,
+      "stage": "",
+      "title": "RRB NTPC Undergraduate 2019 - CBT 1 & CBT 2 Papers (shift-wise, English & Hindi)",
+      "url": "https://testbook.com/rrb-ntpc/previous-year-papers",
+      "source": "Testbook",
+      "checked": "2026-11-21",
+      "http": 200
+    }
+  ],
+  "details": {
+    "eligibility": "12th pass (Intermediate) from a recognised board. Age limit as per CEN notification - verify on rrbapply.gov.in.",
+    "pattern": "CBT 1: 100 questions, 100 marks, 90 minutes. CBT 2: 120 questions. Negative marking 1/3 per wrong answer. Then Typing Skill Test for applicable posts, Document Verification and Medical Examination.",
+    "syllabus": "Mathematics, General Intelligence & Reasoning, General Awareness.",
+    "official_page": "https://rrbapply.gov.in/",
+    "important_dates": "CEN 05/2024: Undergraduate CBT 1 held Aug-Sep 2025; CBT 2 held in 2025. (Per Testbook page.)",
+    "sources": [
+      "https://testbook.com/rrb-ntpc/previous-year-papers",
+      "https://rrbapply.gov.in/"
+    ]
+  },
+  "youtube": [
+    {
+      "title": "RRB NTPC UG CBT-2 Reasoning Paper Solution 2025 | All Questions with Explanation | By SUBHANKAR SIR",
+      "channel": "Reasoning Xpert",
+      "url": "https://www.youtube.com/watch?v=2I5vB6yp-cU"
+    },
+    {
+      "title": "RRB NTPC CBT 2 Reasoning Previous Year Paper | 13 Oct 2025 All Shifts One Shot",
+      "channel": "Reasoning By Rakesh Yadav Sir",
+      "url": "https://www.youtube.com/watch?v=GwlLrXTQDwg"
+    },
+    {
+      "title": "RRB NTPC Previous Year Question Paper 2026 | Railway NTPC CBT-1 Paper 2024-25 | GK/GS Part #1",
+      "channel": "BSA Tricky Classes",
+      "url": "https://www.youtube.com/watch?v=6QRCvaCaHPk"
+    },
+    {
+      "title": "RRB NTPC Reasoning Marathon 2026 | Analogy PYQ One Shot + Expected Questions | Veerendra Sir",
+      "channel": "Adda247 Railway Exams",
+      "url": "https://www.youtube.com/watch?v=23T2j8C_GV0"
+    }
+  ],
+  "not_found_years": [],
+  "notes": "RRB does not publish complete official question papers. It releases answer keys and response sheets per CEN on rrbapply.gov.in and regional RRB portals. No official paper PDF could be verified from this VM on 2026-11-21: curl to rrbapply.gov.in and rrbcdg.gov.in returned 000 (unreachable) and the fetch attempt errored, so no official link is claimed here. Use the official portal for answer keys/notifications. The Testbook NTPC page covers both Graduate and Undergraduate papers; the Undergraduate CBT 1 for CEN 05/2024 was held Aug-Sep 2025 and a further UG CBT 1 was held May-Jun 2026."
+}

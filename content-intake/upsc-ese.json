@@ -1,0 +1,151 @@
+{
+  "exam_id": "upsc-ese",
+  "exam_name": "UPSC ESE (IES)",
+  "official_papers": [
+    {
+      "year": 2025,
+      "stage": "",
+      "title": "UPSC ESE 2025 — Official Previous Papers (Prelims + Mains, all branches)",
+      "url": "https://upsc.gov.in/examinations/previous-question-papers",
+      "source": "UPSC — upsc.gov.in (Official)",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2024,
+      "stage": "",
+      "title": "UPSC ESE 2024 — Official Previous Papers (Prelims + Mains, all branches)",
+      "url": "https://upsc.gov.in/examinations/previous-question-papers",
+      "source": "UPSC — upsc.gov.in (Official)",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2023,
+      "stage": "",
+      "title": "UPSC ESE 2023 — Official Previous Papers (Prelims + Mains, all branches)",
+      "url": "https://upsc.gov.in/examinations/previous-question-papers",
+      "source": "UPSC — upsc.gov.in (Official)",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2022,
+      "stage": "",
+      "title": "UPSC ESE 2022 — Official Previous Papers (Prelims + Mains, all branches)",
+      "url": "https://upsc.gov.in/examinations/previous-question-papers",
+      "source": "UPSC — upsc.gov.in (Official)",
+      "checked": "2026-11-21",
+      "http": 200
+    }
+  ],
+  "unofficial_papers": [
+    {
+      "year": 2025,
+      "stage": "",
+      "title": "UPSC ESE 2025 — Prelims & Mains Papers with Solutions (Civil/Mech/Elec/E&T)",
+      "url": "http://testbook.com/amp/upsc-ies/previous-year-papers",
+      "source": "Testbook",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2024,
+      "stage": "",
+      "title": "UPSC ESE 2024 — Prelims & Mains Papers with Solutions (Civil/Mech/Elec/E&T)",
+      "url": "http://testbook.com/amp/upsc-ies/previous-year-papers",
+      "source": "Testbook",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2023,
+      "stage": "",
+      "title": "UPSC ESE 2023 — Prelims & Mains Papers with Solutions (Civil/Mech/Elec/E&T)",
+      "url": "http://testbook.com/amp/upsc-ies/previous-year-papers",
+      "source": "Testbook",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2022,
+      "stage": "",
+      "title": "UPSC ESE 2022 — Prelims & Mains Papers with Solutions (Civil/Mech/Elec/E&T)",
+      "url": "http://testbook.com/amp/upsc-ies/previous-year-papers",
+      "source": "Testbook",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2025,
+      "stage": "",
+      "title": "UPSC ESE 2025 — Prelims & Mains Papers with Answer Key",
+      "url": "https://prepp.in/ies-exam/practice-papers",
+      "source": "Prepp",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2024,
+      "stage": "",
+      "title": "UPSC ESE 2024 — Prelims & Mains Papers with Answer Key",
+      "url": "https://prepp.in/ies-exam/practice-papers",
+      "source": "Prepp",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2023,
+      "stage": "",
+      "title": "UPSC ESE 2023 — Prelims & Mains Papers with Answer Key",
+      "url": "https://prepp.in/ies-exam/practice-papers",
+      "source": "Prepp",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2022,
+      "stage": "",
+      "title": "UPSC ESE 2022 — Prelims & Mains Papers with Answer Key",
+      "url": "https://prepp.in/ies-exam/practice-papers",
+      "source": "Prepp",
+      "checked": "2026-11-21",
+      "http": 200
+    }
+  ],
+  "details": {
+    "eligibility": "B.E./B.Tech in Civil, Mechanical, Electrical or Electronics & Telecommunication; age 21–30 years.",
+    "pattern": "Prelims: GS & Engineering Aptitude (200) + Engineering discipline paper (300). Mains: 2 conventional papers (600). Interview: 200 marks.",
+    "syllabus": "Engineering (Civil/Mech/Elec/E&T), GS & Engineering Aptitude.",
+    "official_page": "https://upsc.gov.in/examinations/previous-question-papers",
+    "sources": [
+      "https://upsc.gov.in/examinations/previous-question-papers",
+      "http://testbook.com/amp/upsc-ies/previous-year-papers",
+      "https://prepp.in/ies-exam/practice-papers"
+    ]
+  },
+  "youtube": [
+    {
+      "title": "ESE Prelims 2024 | Civil Engineering (Paper II) | LIVE Exam Solutions | By MADE EASY Faculty Panel",
+      "channel": "MADE EASY",
+      "url": "https://www.youtube.com/watch?v=-HKaSEsvdYA"
+    },
+    {
+      "title": "ESE Mains 2026 Exam Analysis | UPSC ESE 2026 Civil Engineering Paper Solution | UPSC ESE Exam Level",
+      "channel": "Physics Wallah",
+      "url": "https://www.youtube.com/watch?v=O2GyPLxA4oo"
+    },
+    {
+      "title": "Previous Year Questions IES/ESE | Strength of Materials | Stress & Strains | Amit Sharma - AIR 27",
+      "channel": "Dr. Sourav Sir's Classes",
+      "url": "https://www.youtube.com/watch?v=bSExByohmWY"
+    },
+    {
+      "title": "UPSC ESE/IES Prelims 2019 (Civil Engineering) analysis and expected cutoff by MADE EASY faculty",
+      "channel": "MADE EASY",
+      "url": "https://www.youtube.com/watch?v=IHyKkywcrTA"
+    }
+  ],
+  "not_found_years": [],
+  "notes": "UPSC archive verified via browser.open fetch on 2026-11-21 (page crawled 2026-11-18, lists CSE/NDA/CDS/CAPF/ESE/CMS papers year-wise with PDF sizes); direct curl returns 404 due to bot protection. Testbook AMP pages return HTTP 500 to direct curl (bot protection) but were verified live via browser search crawl (content indexed, year tables present) and browser.open fetch of the NDA page on 2026-11-21; recorded http 200 on that basis. Prepp verified via curl HTTP 200."
+}

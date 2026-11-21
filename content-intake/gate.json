@@ -1,0 +1,132 @@
+{
+  "exam_id": "gate",
+  "exam_name": "GATE",
+  "official_papers": [
+    {
+      "year": 2025,
+      "stage": "",
+      "title": "GATE 2025 — Official GATE Portal (papers on GATE 2025 / IIT Roorkee site)",
+      "url": "https://gate.iisc.ac.in/",
+      "source": "GATE — gate.iisc.ac.in (Official)",
+      "checked": "2026-11-21",
+      "http": 200,
+      "note": "GATE 2025 papers & keys released by IIT Roorkee on the GATE 2025 site, linked from the official portal."
+    },
+    {
+      "year": 2024,
+      "stage": "",
+      "title": "GATE 2024 — Official GATE Portal (papers on GATE 2024 / IISc site)",
+      "url": "https://gate.iisc.ac.in/",
+      "source": "GATE — gate.iisc.ac.in (Official)",
+      "checked": "2026-11-21",
+      "http": 200,
+      "note": "GATE 2024 papers & keys released by IISc on the GATE 2024 site."
+    },
+    {
+      "year": 2023,
+      "stage": "",
+      "title": "GATE 2023 — Official Year-wise Question Paper Archive (2007–2023)",
+      "url": "https://gate2024.iisc.ac.in/download/",
+      "source": "GATE 2024 / IISc (Official)",
+      "checked": "2026-11-21",
+      "http": 200,
+      "note": "Official year-wise download of question papers 2007–2023, hosted on gate2024.iisc.ac.in."
+    }
+  ],
+  "unofficial_papers": [
+    {
+      "year": 2025,
+      "stage": "",
+      "title": "GATE 2025 — Previous Year Papers",
+      "url": "https://testbook.com/gate/previous-year-papers",
+      "source": "Testbook",
+      "checked": "2026-11-21",
+      "http": 200,
+      "note": "Year-wise papers with solutions, all paper codes."
+    },
+    {
+      "year": 2025,
+      "stage": "",
+      "title": "GATE 2025 — Previous Year Question Papers with Solutions",
+      "url": "https://www.geeksforgeeks.org/gate/gate-previous-year-question-paper/",
+      "source": "GeeksforGeeks",
+      "checked": "2026-11-21",
+      "http": 200,
+      "note": "Year-wise papers with solutions by subject."
+    },
+    {
+      "year": 2024,
+      "stage": "",
+      "title": "GATE 2024 — Previous Year Papers",
+      "url": "https://testbook.com/gate/previous-year-papers",
+      "source": "Testbook",
+      "checked": "2026-11-21",
+      "http": 200,
+      "note": "Year-wise papers with solutions, all paper codes."
+    },
+    {
+      "year": 2024,
+      "stage": "",
+      "title": "GATE 2024 — Previous Year Question Papers with Solutions",
+      "url": "https://www.geeksforgeeks.org/gate/gate-previous-year-question-paper/",
+      "source": "GeeksforGeeks",
+      "checked": "2026-11-21",
+      "http": 200,
+      "note": "Year-wise papers with solutions by subject."
+    },
+    {
+      "year": 2023,
+      "stage": "",
+      "title": "GATE 2023 — Previous Year Papers",
+      "url": "https://testbook.com/gate/previous-year-papers",
+      "source": "Testbook",
+      "checked": "2026-11-21",
+      "http": 200,
+      "note": "Year-wise papers with solutions, all paper codes."
+    },
+    {
+      "year": 2023,
+      "stage": "",
+      "title": "GATE 2023 — Previous Year Question Papers with Solutions",
+      "url": "https://www.geeksforgeeks.org/gate/gate-previous-year-question-paper/",
+      "source": "GeeksforGeeks",
+      "checked": "2026-11-21",
+      "http": 200,
+      "note": "Year-wise papers with solutions by subject."
+    }
+  ],
+  "details": {
+    "eligibility": "B.E. / B.Tech / M.Sc",
+    "pattern": "Single paper: 65 Q, 100 marks, 3 hours. GA (15) + Subject (85).",
+    "syllabus": "Engineering / Science subject + General Aptitude",
+    "official_page": "https://gate.iisc.ac.in/",
+    "sources": [
+      "https://gate.iisc.ac.in/",
+      "https://gate2024.iisc.ac.in/download/"
+    ]
+  },
+  "youtube": [
+    {
+      "title": "GATE 2026 General Aptitude Solved | All 10 Questions with Tricks",
+      "channel": "Food Technologist Corner",
+      "url": "https://www.youtube.com/watch?v=qcPL94pcBXs"
+    },
+    {
+      "title": "GATE Metallurgy 2017 PYQs – Part 2 | Mechanical Metallurgy & Thermodynamics",
+      "channel": "GATE Metallurgy (Pranav Priyamvad)",
+      "url": "https://www.youtube.com/watch?v=x7cxZPpX--s"
+    },
+    {
+      "title": "GATE DA 2026 Complete Paper Solution & Detailed Review | Data Science AI",
+      "channel": "Dr. Sourav Sir's Classes",
+      "url": "https://www.youtube.com/watch?v=5OgjnWhKRek"
+    },
+    {
+      "title": "GATE 2023 Chemical Engineering Paper Detailed Solution — By Ajay Sir",
+      "channel": "Chemgate Academy",
+      "url": "https://www.youtube.com/watch?v=qAwRZbRFZc8"
+    }
+  ],
+  "not_found_years": [],
+  "notes": "GATE 2027: 6–7 February 2027. Careers360 GATE question-papers URL (/exams/gate/question-papers) returned 404 — not used."
+}

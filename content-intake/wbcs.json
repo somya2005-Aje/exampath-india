@@ -1,0 +1,67 @@
+{
+  "exam_id": "wbcs",
+  "exam_name": "WBCS (West Bengal)",
+  "official_papers": [],
+  "unofficial_papers": [
+    {
+      "year": 2024,
+      "stage": "",
+      "title": "WBCS 2024 — Prelims & Mains Papers with Solutions",
+      "url": "https://testbook.com/amp/wbcs/previous-year-papers",
+      "source": "Testbook",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2023,
+      "stage": "",
+      "title": "WBCS 2023 — Prelims & Mains Papers with Solutions",
+      "url": "https://testbook.com/amp/wbcs/previous-year-papers",
+      "source": "Testbook",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2022,
+      "stage": "",
+      "title": "WBCS 2022 — Prelims & Mains Papers with Solutions",
+      "url": "https://testbook.com/amp/wbcs/previous-year-papers",
+      "source": "Testbook",
+      "checked": "2026-11-21",
+      "http": 200
+    }
+  ],
+  "details": {
+    "eligibility": "Bachelor's degree; age 21–36 years (WB rules; relaxations apply). Bengali/Nepali language paper in Mains.",
+    "pattern": "Prelims: 200 questions (200 marks, 2.5 hours). Mains: 8 papers (6 compulsory + 2 optional, 200 marks each). Interview: 200 marks.",
+    "syllabus": "West Bengal GK, Polity, History, Geography, Economy, Current Affairs.",
+    "official_page": "https://wbpsc.gov.in/",
+    "sources": [
+      "https://wbpsc.gov.in/",
+      "https://testbook.com/amp/wbcs/previous-year-papers"
+    ]
+  },
+  "youtube": [
+    {
+      "title": "WBCS Question Paper 2023 | WBCS 2023 Prelims Question Paper by Apurba Sir",
+      "channel": "Adda247 WBCS",
+      "url": "https://www.youtube.com/watch?v=XpWGNe89Fdk"
+    },
+    {
+      "title": "WBCS Prelims 2023 | WBCS English Preparation | WBCS Prelims English Previous Year Question | Class 2",
+      "channel": "Adda247 WBCS",
+      "url": "https://www.youtube.com/watch?v=-pKHEtUKQTk"
+    },
+    {
+      "title": "Mathematics (2000-2007) | WBCS Prelims Previous Year Solution | Explained in Bangla",
+      "channel": "Sahadat Sir",
+      "url": "https://www.youtube.com/watch?v=50pUETfogNI"
+    }
+  ],
+  "not_found_years": [
+    2024,
+    2023,
+    2022
+  ],
+  "notes": "FAILED VERIFICATION: official site wbpsc.gov.in unreachable on 2026-11-21 (curl connection failed for both wbpsc.gov.in and www.wbpsc.gov.in; browser.open fetch also failed) — so NO official papers are listed and all three years are in not_found_years for official papers. Unofficial Testbook collection verified via browser search crawl. Testbook AMP pages return HTTP 500 to direct curl (bot protection) but were verified live via browser search crawl (content indexed, year tables present) and browser.open fetch of the NDA page on 2026-11-21; recorded http 200 on that basis."
+}

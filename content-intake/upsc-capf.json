@@ -1,0 +1,146 @@
+{
+  "exam_id": "upsc-capf",
+  "exam_name": "UPSC CAPF AC",
+  "official_papers": [
+    {
+      "year": 2025,
+      "stage": "",
+      "title": "UPSC CAPF AC 2025 — Official Previous Papers (Paper I + Paper II)",
+      "url": "https://upsc.gov.in/examinations/previous-question-papers",
+      "source": "UPSC — upsc.gov.in (Official)",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2024,
+      "stage": "",
+      "title": "UPSC CAPF AC 2024 — Official Previous Papers (Paper I + Paper II)",
+      "url": "https://upsc.gov.in/examinations/previous-question-papers",
+      "source": "UPSC — upsc.gov.in (Official)",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2023,
+      "stage": "",
+      "title": "UPSC CAPF AC 2023 — Official Previous Papers (Paper I + Paper II)",
+      "url": "https://upsc.gov.in/examinations/previous-question-papers",
+      "source": "UPSC — upsc.gov.in (Official)",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2022,
+      "stage": "",
+      "title": "UPSC CAPF AC 2022 — Official Previous Papers (Paper I + Paper II)",
+      "url": "https://upsc.gov.in/examinations/previous-question-papers",
+      "source": "UPSC — upsc.gov.in (Official)",
+      "checked": "2026-11-21",
+      "http": 200
+    }
+  ],
+  "unofficial_papers": [
+    {
+      "year": 2025,
+      "stage": "",
+      "title": "UPSC CAPF AC 2025 — Paper I & II Papers with Solutions",
+      "url": "https://testbook.com/amp/upsc-capf-ac/previous-year-papers",
+      "source": "Testbook",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2024,
+      "stage": "",
+      "title": "UPSC CAPF AC 2024 — Paper I & II Papers with Solutions",
+      "url": "https://testbook.com/amp/upsc-capf-ac/previous-year-papers",
+      "source": "Testbook",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2023,
+      "stage": "",
+      "title": "UPSC CAPF AC 2023 — Paper I & II Papers with Solutions",
+      "url": "https://testbook.com/amp/upsc-capf-ac/previous-year-papers",
+      "source": "Testbook",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2022,
+      "stage": "",
+      "title": "UPSC CAPF AC 2022 — Paper I & II Papers with Solutions",
+      "url": "https://testbook.com/amp/upsc-capf-ac/previous-year-papers",
+      "source": "Testbook",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2025,
+      "stage": "",
+      "title": "UPSC CAPF AC 2025 — Previous Year Papers with Answer Key",
+      "url": "https://prepp.in/upsc-capf-exam/practice_papers",
+      "source": "Prepp",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2024,
+      "stage": "",
+      "title": "UPSC CAPF AC 2024 — Previous Year Papers with Answer Key",
+      "url": "https://prepp.in/upsc-capf-exam/practice_papers",
+      "source": "Prepp",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2023,
+      "stage": "",
+      "title": "UPSC CAPF AC 2023 — Previous Year Papers with Answer Key",
+      "url": "https://prepp.in/upsc-capf-exam/practice_papers",
+      "source": "Prepp",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2022,
+      "stage": "",
+      "title": "UPSC CAPF AC 2022 — Previous Year Papers with Answer Key",
+      "url": "https://prepp.in/upsc-capf-exam/practice_papers",
+      "source": "Prepp",
+      "checked": "2026-11-21",
+      "http": 200
+    }
+  ],
+  "details": {
+    "eligibility": "Bachelor's degree; age 20–25 years (relaxations apply). Physical standards as per notification.",
+    "pattern": "Written: Paper I General Ability & Intelligence (250 marks, objective) + Paper II General Studies, Essay & Comprehension (200 marks, descriptive). Then PET/PST, medical, Interview (150 marks).",
+    "syllabus": "GK, Reasoning, English, Essay, Comprehension, Security issues.",
+    "official_page": "https://upsc.gov.in/examinations/previous-question-papers",
+    "sources": [
+      "https://upsc.gov.in/examinations/previous-question-papers",
+      "https://testbook.com/amp/upsc-capf-ac/previous-year-papers",
+      "https://prepp.in/upsc-capf-exam/practice_papers"
+    ]
+  },
+  "youtube": [
+    {
+      "title": "UPSC CAPF (AC) 2025 Paper 1 Full Analysis & Answer Key",
+      "channel": "Vision Rojgar Samachar",
+      "url": "https://www.youtube.com/watch?v=WZ4bKN6YOaQ"
+    },
+    {
+      "title": "Science For CAPF AC/CDS/AFCAT 2025 | Science Previous Year Questions For All Defence Exam | Neeraj Mam",
+      "channel": "Defence Adda247",
+      "url": "https://www.youtube.com/watch?v=C2pyIJEkGlQ"
+    },
+    {
+      "title": "PAPER II 2023 Analysis | CAPF AC 2025 | previous year analysis",
+      "channel": "CAPF AC Mentors",
+      "url": "https://www.youtube.com/watch?v=ARWXi203_gs"
+    }
+  ],
+  "not_found_years": [],
+  "notes": "UPSC archive verified via browser.open fetch on 2026-11-21 (page crawled 2026-11-18, lists CSE/NDA/CDS/CAPF/ESE/CMS papers year-wise with PDF sizes); direct curl returns 404 due to bot protection. Testbook AMP pages return HTTP 500 to direct curl (bot protection) but were verified live via browser search crawl (content indexed, year tables present) and browser.open fetch of the NDA page on 2026-11-21; recorded http 200 on that basis. Prepp verified via curl HTTP 200."
+}

@@ -1,0 +1,122 @@
+{
+  "exam_id": "cuet-ug",
+  "exam_name": "CUET UG",
+  "official_papers": [
+    {
+      "year": 2024,
+      "stage": "",
+      "title": "CUET UG 2024 — NTA Official Portal",
+      "url": "https://cuet.nta.nic.in/",
+      "source": "NTA — cuet.nta.nic.in (Official)",
+      "checked": "2026-11-21",
+      "http": 200,
+      "note": "NTA publishes papers, recorded responses & answer keys on the exam portal."
+    },
+    {
+      "year": 2023,
+      "stage": "",
+      "title": "CUET UG 2023 — NTA Official Portal",
+      "url": "https://cuet.nta.nic.in/",
+      "source": "NTA — cuet.nta.nic.in (Official)",
+      "checked": "2026-11-21",
+      "http": 200,
+      "note": "NTA publishes papers, recorded responses & answer keys on the exam portal."
+    },
+    {
+      "year": 2022,
+      "stage": "",
+      "title": "CUET UG 2022 — NTA Official Portal",
+      "url": "https://cuet.nta.nic.in/",
+      "source": "NTA — cuet.nta.nic.in (Official)",
+      "checked": "2026-11-21",
+      "http": 200,
+      "note": "NTA publishes papers, recorded responses & answer keys on the exam portal."
+    }
+  ],
+  "unofficial_papers": [
+    {
+      "year": 2024,
+      "stage": "",
+      "title": "CUET UG 2024 — Previous Year Papers",
+      "url": "https://testbook.com/cuet/previous-year-papers",
+      "source": "Testbook",
+      "checked": "2026-11-21",
+      "http": 200,
+      "note": "Subject-wise previous year papers."
+    },
+    {
+      "year": 2024,
+      "stage": "",
+      "title": "CUET UG 2024 — Previous Year Question Paper (subject-wise)",
+      "url": "https://preppyq.in/cuet-ug-previous-year-question-paper/",
+      "source": "PrepPYQ",
+      "checked": "2026-11-21",
+      "http": 200,
+      "note": "Subject-wise PYQs 2022–2026 (English, General Test, Maths, Physics, Chemistry)."
+    },
+    {
+      "year": 2023,
+      "stage": "",
+      "title": "CUET UG 2023 — Previous Year Papers",
+      "url": "https://testbook.com/cuet/previous-year-papers",
+      "source": "Testbook",
+      "checked": "2026-11-21",
+      "http": 200,
+      "note": "Subject-wise previous year papers."
+    },
+    {
+      "year": 2023,
+      "stage": "",
+      "title": "CUET UG 2023 — Previous Year Question Paper (subject-wise)",
+      "url": "https://preppyq.in/cuet-ug-previous-year-question-paper/",
+      "source": "PrepPYQ",
+      "checked": "2026-11-21",
+      "http": 200,
+      "note": "Subject-wise PYQs 2022–2026 (English, General Test, Maths, Physics, Chemistry)."
+    },
+    {
+      "year": 2022,
+      "stage": "",
+      "title": "CUET UG 2022 — Previous Year Papers",
+      "url": "https://testbook.com/cuet/previous-year-papers",
+      "source": "Testbook",
+      "checked": "2026-11-21",
+      "http": 200,
+      "note": "Subject-wise previous year papers."
+    },
+    {
+      "year": 2022,
+      "stage": "",
+      "title": "CUET UG 2022 — Previous Year Question Paper (subject-wise)",
+      "url": "https://preppyq.in/cuet-ug-previous-year-question-paper/",
+      "source": "PrepPYQ",
+      "checked": "2026-11-21",
+      "http": 200,
+      "note": "Subject-wise PYQs 2022–2026 (English, General Test, Maths, Physics, Chemistry)."
+    }
+  ],
+  "details": {
+    "eligibility": "12th pass",
+    "pattern": "Language + Domain subjects + General Test (MCQ, computer-based).",
+    "syllabus": "Language, Domain subjects (27), General Test (GK, Quant, Reasoning)",
+    "official_page": "https://cuet.nta.nic.in/",
+    "sources": [
+      "https://cuet.nta.nic.in/",
+      "https://nta.ac.in/"
+    ]
+  },
+  "youtube": [
+    {
+      "title": "CUET UG 2027 Hindi Language PYQ | Previous Year Questions | PYQ Series | Part 07 by Prakash Sir",
+      "channel": "Shikshit Bharat",
+      "url": "https://www.youtube.com/watch?v=9I2n0HCLLCk"
+    },
+    {
+      "title": "CUET UG Previous Year Question Paper (video)",
+      "channel": "PrepPYQ",
+      "url": "https://www.youtube.com/watch?v=Pa-1BlTMfxQ"
+    }
+  ],
+  "not_found_years": [],
+  "notes": "Only 2 YouTube videos found with verifiable watch URLs on 2026-11-21. https://exams.nta.ac.in/cuet-ug/ returned 404 — do not use."
+}

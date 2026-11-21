@@ -1,0 +1,126 @@
+{
+  "exam_id": "rbi-asst",
+  "exam_name": "RBI Assistant",
+  "official_papers": [
+    {
+      "year": 2024,
+      "stage": "Prelims/Mains",
+      "title": "Official portal — notifications, answer keys & results (no public full question-paper archive published)",
+      "url": "https://www.rbi.org.in/commonman/English/Scripts/Opportunities.aspx",
+      "source": "RBI — rbi.org.in (Official)",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2023,
+      "stage": "Prelims/Mains",
+      "title": "Official portal — notifications, answer keys & results (no public full question-paper archive published)",
+      "url": "https://www.rbi.org.in/commonman/English/Scripts/Opportunities.aspx",
+      "source": "RBI — rbi.org.in (Official)",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2022,
+      "stage": "Prelims/Mains",
+      "title": "Official portal — notifications, answer keys & results (no public full question-paper archive published)",
+      "url": "https://www.rbi.org.in/commonman/English/Scripts/Opportunities.aspx",
+      "source": "RBI — rbi.org.in (Official)",
+      "checked": "2026-11-21",
+      "http": 200
+    }
+  ],
+  "unofficial_papers": [
+    {
+      "year": 2023,
+      "stage": "Prelims/Mains",
+      "title": "RBI Assistant 2023 — Prelims & Mains memory-based papers",
+      "url": "https://www.oliveboard.in/blog/rbi-assistant-previous-year-question-papers/",
+      "source": "Oliveboard",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2023,
+      "stage": "Prelims/Mains",
+      "title": "RBI Assistant 2023 — Memory-based papers with solutions",
+      "url": "https://www.adda247.com/jobs/rbi-assistant-previous-year-question-paper/",
+      "source": "Adda247",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2023,
+      "stage": "Prelims/Mains",
+      "title": "RBI Assistant 2023 — Previous year papers with solutions",
+      "url": "https://prepp.in/rbi-assistant-recruitment-exam/practice-papers",
+      "source": "Prepp",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2022,
+      "stage": "Prelims/Mains",
+      "title": "RBI Assistant 2022 — Prelims & Mains memory-based papers",
+      "url": "https://www.oliveboard.in/blog/rbi-assistant-previous-year-question-papers/",
+      "source": "Oliveboard",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2022,
+      "stage": "Prelims/Mains",
+      "title": "RBI Assistant 2022 — Memory-based papers with solutions",
+      "url": "https://www.adda247.com/jobs/rbi-assistant-previous-year-question-paper/",
+      "source": "Adda247",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2022,
+      "stage": "Prelims/Mains",
+      "title": "RBI Assistant 2022 — Previous year papers with solutions",
+      "url": "https://prepp.in/rbi-assistant-recruitment-exam/practice-papers",
+      "source": "Prepp",
+      "checked": "2026-11-21",
+      "http": 200
+    }
+  ],
+  "details": {
+    "eligibility": "Graduation in any discipline from a recognised university (as per the RBI Assistant notification on rbi.org.in).",
+    "pattern": "Prelims: 100 questions, 100 marks, 60 minutes (English 30, Numerical Ability 35, Reasoning 35). Mains: 200 questions, 200 marks (English 40, Quant 40, Reasoning 40, General Awareness 40, Computer Knowledge 40). Then Language Proficiency Test (LPT). No interview.",
+    "syllabus": "Quantitative Aptitude, Reasoning Ability, English Language, General Awareness, Computer Knowledge.",
+    "official_page": "https://www.rbi.org.in/commonman/English/Scripts/Opportunities.aspx",
+    "sources": [
+      "https://www.rbi.org.in/commonman/English/Scripts/Opportunities.aspx",
+      "https://www.oliveboard.in/blog/rbi-assistant-previous-year-question-papers/",
+      "https://www.adda247.com/jobs/rbi-assistant-previous-year-question-paper/"
+    ]
+  },
+  "youtube": [
+    {
+      "title": "RBI Assistant 2026 | COMPLETE ENGLISH CRASH COURSE | Memory Based Paper 2023",
+      "channel": "English by Aditya Ashtikar",
+      "url": "https://www.youtube.com/watch?v=BZPyhjQj9qA"
+    },
+    {
+      "title": "RBI Assistant Prelims 2026 | Safe Score & Previous Year Paper | Maths by Arun Sir",
+      "channel": "Exam Tune",
+      "url": "https://www.youtube.com/watch?v=9g47Sf09azg"
+    },
+    {
+      "title": "RBI Assistant Study Plan | How to prepare for RBI Assistant",
+      "channel": "ixamBee",
+      "url": "https://www.youtube.com/watch?v=KmyMCFelwfM"
+    },
+    {
+      "title": "RBI Assistant 2026 | RBI Assistant Quant Previous Year Question Paper | Banking Quants By Nancy Maam",
+      "channel": "Banking Testbook",
+      "url": "https://www.youtube.com/watch?v=oa0XjWrWJsQ"
+    }
+  ],
+  "not_found_years": [
+    2024
+  ],
+  "notes": "RBI does not release official question papers; official entries point to the RBI opportunities portal. All unofficial papers are memory-based. 2024: no RBI Assistant recruitment cycle was held in 2024 — the 2023 cycle exams ran Nov–Dec 2023 and the next cycle was 2026 (Prelims 11 Apr 2026, Mains 7 Jun 2026 per Oliveboard/Adda247), so 2024 is recorded as not found rather than fabricated. Prepp.in returns HTTP 403 to curl; its RBI Assistant page was verified via browser search result content on 2026-11-21."
+}

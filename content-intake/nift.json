@@ -1,0 +1,79 @@
+{
+  "exam_id": "nift",
+  "exam_name": "NIFT Entrance",
+  "official_papers": [],
+  "unofficial_papers": [
+    {
+      "year": 2025,
+      "stage": "",
+      "title": "NIFT 2025 — Previous Year Question Papers",
+      "url": "https://admission.aglasem.com/nift-admission-question-papers/",
+      "source": "AglaSem",
+      "checked": "2026-11-21",
+      "http": null,
+      "note": "2024–2025 actual NTA papers (GAT per programme + CAT); 2023 paper is memory-based. http not curl-tested; page confirmed via browser search result 2026-11-21."
+    },
+    {
+      "year": 2025,
+      "stage": "",
+      "title": "NIFT 2025 — Previous Year Question Papers with Solutions",
+      "url": "https://design.careers360.com/articles/nift-previous-year-question-papers-with-solutions-pdf-check-here",
+      "source": "Careers360 (Design)",
+      "checked": "2026-11-21",
+      "http": 200,
+      "note": "Year-wise papers with solutions, 2012–2026."
+    },
+    {
+      "year": 2024,
+      "stage": "",
+      "title": "NIFT 2024 — Previous Year Question Papers",
+      "url": "https://admission.aglasem.com/nift-admission-question-papers/",
+      "source": "AglaSem",
+      "checked": "2026-11-21",
+      "http": null,
+      "note": "2024–2025 actual NTA papers (GAT per programme + CAT); 2023 paper is memory-based. http not curl-tested; page confirmed via browser search result 2026-11-21."
+    },
+    {
+      "year": 2024,
+      "stage": "",
+      "title": "NIFT 2024 — Previous Year Question Papers with Solutions",
+      "url": "https://design.careers360.com/articles/nift-previous-year-question-papers-with-solutions-pdf-check-here",
+      "source": "Careers360 (Design)",
+      "checked": "2026-11-21",
+      "http": 200,
+      "note": "Year-wise papers with solutions, 2012–2026."
+    },
+    {
+      "year": 2023,
+      "stage": "",
+      "title": "NIFT 2023 — Previous Year Question Papers",
+      "url": "https://admission.aglasem.com/nift-admission-question-papers/",
+      "source": "AglaSem",
+      "checked": "2026-11-21",
+      "http": null,
+      "note": "2024–2025 actual NTA papers (GAT per programme + CAT); 2023 paper is memory-based. http not curl-tested; page confirmed via browser search result 2026-11-21."
+    },
+    {
+      "year": 2023,
+      "stage": "",
+      "title": "NIFT 2023 — Previous Year Question Papers with Solutions",
+      "url": "https://design.careers360.com/articles/nift-previous-year-question-papers-with-solutions-pdf-check-here",
+      "source": "Careers360 (Design)",
+      "checked": "2026-11-21",
+      "http": 200,
+      "note": "Year-wise papers with solutions, 2012–2026."
+    }
+  ],
+  "details": {
+    "eligibility": "12th pass",
+    "pattern": "CAT: creative ability. GAT: 100 Q (Quant, English, GK, Reasoning).",
+    "syllabus": "Creative Ability, Quant, English, GK, Analytical Ability",
+    "official_page": "https://nift.ac.in/",
+    "sources": [
+      "https://nift.ac.in/"
+    ]
+  },
+  "youtube": [],
+  "not_found_years": [],
+  "notes": "NO official NIFT previous papers: NIFT does not publish official exam papers (memory-based papers only); official SAMPLE papers are on nift.ac.in. NIFT 2027: 10 January 2027. No YouTube video URL for NIFT was returned by two searches on 2026-11-21 (only Instagram reels and articles) — youtube list is empty, not fabricated. Testbook NIFT page (/nift/previous-year-papers) returned 404; Shiksha NIFT page returned 403 via curl — neither used."
+}

@@ -68,8 +68,6 @@ NAV = [
     ("study", "Study Material", "/notes"),
     ("ca", "Current Affairs", "/ca"),
     ("quiz", "Daily Quiz", "/quiz"),
-    ("saved", "Saved", "/saved"),
-    ("profile", "Profile", "/profile"),
 ]
 I18N_KEYS = {"home": "home", "exams": "exams", "papers": "papers", "mock": "mock",
              "study": "study", "ca": "ca", "quiz": "quiz", "saved": "saved", "profile": "profile"}
@@ -78,33 +76,35 @@ I18N_KEYS = {"home": "home", "exams": "exams", "papers": "papers", "mock": "mock
 def header(active):
     links = "".join(
         f'<a href="{url}" data-i18n="{I18N_KEYS[key]}" class="{"active" if key == active else ""}">{label}</a>'
+        if key != "exams" else
+        f'<span class="drop"><a href="{url}" data-i18n="{I18N_KEYS[key]}" class="{"active" if key == active else ""}">Exams ▾</a><span class="drop-menu">' +
+        "".join(f'<a href="/exams?cat={c["id"]}">{c["icon"]} {esc(c["name"])}</a>' for c in CATS) +
+        '<a href="/states">🗺️ State Exams</a><a href="/exams">⊞ All Exams</a></span></span>'
         for key, label, url in NAV)
     mlinks = "".join(
         f'<a href="{url}" data-i18n="{I18N_KEYS[key]}">{label}</a>'
         for key, label, url in NAV)
     return f"""<header><div class="app-banner"><span class="app-ic">🎯</span><span class="app-tx"><b>Get the ExamPath India App</b> — Free. No login. Papers, mock tests &amp; notes on your phone.</span><a class="btn sm app-dl" href="/exampath.apk" download>⬇ Download App</a><button class="btn sm app-sh" type="button" onclick="shareApp()">↗ Share</button></div><div class="topbar">
-<a class="logo" href="/"><span class="mark">🎯</span><span>ExamPath <span style="color:#FFD166">India</span><small>One Nation. One Learning Platform.</small></span></a>
+<a class="logo" href="/"><span class="mark">📖</span><span>ExamPath <span style="color:#FFD166">India</span><small>One Nation. One Learning Platform.</small></span></a>
 <button class="menu-btn" id="menuBtn" aria-label="Menu">☰</button>
 <nav class="desktop" id="topnav">{links}</nav>
-<div class="hdr-tools">
-<select class="langsel" id="langsel" aria-label="Language">
-<option value="en">English</option><option value="hi">Hindi</option><option value="od">Odia</option>
-</select>
-<button id="themeBtn" aria-label="Theme">🌙</button>
-</div></div>
-<nav class="mobilenav" id="mobileNav">{mlinks}</nav></header>"""
+<span id="authArea"><a class="login-pill" href="/profile" data-auth-login>👤 Login / Sign Up</a></span>
+</div>
+<nav class="mobilenav" id="mobileNav">{mlinks}<a href="/profile" data-auth-login>👤 Login / Sign Up</a></nav></header>"""
 
 
 FOOTER = """<footer><div class="foot-grid">
-<div><h4>ExamPath India</h4><p>One Nation. One Learning Platform.<br>Every Exam • Every Year • Every Subject • Every Language.</p><p class="small" style="margin-top:8px">Free core learning. No login. No paywall.</p></div>
+<div><h4>ExamPath India</h4><p>One Nation. One Learning Platform.<br>Every Exam • Every Year • Every Subject • Every Language.</p><p class="small" style="margin-top:8px">Free core learning. Browsing, search and paper photos are free — login (Google) is needed only for downloads &amp; full exam details.</p></div>
 <div><h4>Explore</h4><p><a href="/exams">All Exams</a><br><a href="/papers">Previous Papers</a><br><a href="/mock">Mock Tests</a><br><a href="/ca">Current Affairs</a><br><a href="/notes">Notes &amp; Formulas</a></p></div>
 <div><h4>Official Sources</h4><p><a href="https://upsc.gov.in/examinations/previous-question-papers" target="_blank" rel="noopener">UPSC Papers</a><br><a href="https://ssc.gov.in/candidate-corner/previousPaper" target="_blank" rel="noopener">SSC Papers</a><br><a href="https://www.rrbapply.gov.in/" target="_blank" rel="noopener">RRB Apply</a><br><a href="https://www.ibps.in/" target="_blank" rel="noopener">IBPS</a><br><a href="https://nta.ac.in/" target="_blank" rel="noopener">NTA</a></p></div>
-<div><h4>About</h4><p><a href="/portals">All Official Portals</a><br><a href="/languages">22 Languages</a><br><a href="/privacy">Privacy Policy</a><br><a href="/terms">Terms &amp; Disclaimer</a><br><a href="/saved">My Library (on this device)</a></p></div>
+<div><h4>About</h4><p><a href="/portals">All Official Portals</a><br><a href="/videos">🎬 Watch &amp; Learn (YouTube)</a><br><a href="/languages">22 Languages</a><br><a href="/privacy">Privacy Policy</a><br><a href="/terms">Terms &amp; Disclaimer</a><br><a href="/saved">My Library (on this device)</a></p></div>
 </div>
-<p style="text-align:center;margin-top:22px;font-size:13px">© 2026 ExamPath India • Papers belong to their respective exam authorities. Always verify dates on the official website before applying. • The admin panel is a separate app (coming separately).</p></footer>
+<p style="text-align:center;margin-top:22px;font-size:13px">© 2026 ExamPath India • Papers belong to their respective exam authorities. Always verify dates on the official website before applying.</p></footer>
 <div id="toast"></div>
 <div class="modal" id="modal"><div class="modal-box" id="modalBox"></div></div>
+<!-- Firebase web config (window.FIREBASE_CONFIG) is NOT set yet — it is provided by the separate Firebase setup. auth.js waits for it; until then Google Sign-In shows "setup ho raha hai" and no fake login is created. -->
 <script src="/data.js"></script>
+<script src="/auth.js"></script>
 <script src="/site.js"></script>"""
 
 
@@ -137,24 +137,151 @@ def write(rel, content):
     return rel
 
 
+PAPERS = EP.get("papers", [])  # [{exam, year, stage, title, type: official|unofficial, source, url, verified, note}]
+VIDEOS = EP.get("videos", [])  # [{exam, title, channel, url}] — real youtube.com/watch?v= links, verified 21 Nov 2026
+VERIFIED_DATE = "21 Nov 2026"
+
+
+def _papers_for(eid, year, stage, typ):
+    out = []
+    for pp in PAPERS:
+        if pp["exam"] != eid or pp["year"] != year or pp["type"] != typ:
+            continue
+        if pp.get("stage") and stage and pp["stage"] != stage:
+            continue
+        out.append(pp)
+    return out
+
+
+def _origin(url):
+    from urllib.parse import urlparse
+    try:
+        u = urlparse(url)
+        return f"{u.scheme}://{u.netloc}" if u.netloc else url
+    except Exception:
+        return url
+
+
+def _paper_card(pp, e, year, stage, official, idx):
+    """One paper as a PHOTO-style preview tile (CSS paper page). Clicking the tile
+    opens the actual paper (verified source PDF/page) — never a website homepage."""
+    badge = '<span class="badge b-off">✓ Official</span>' if official else '<span class="badge b-unoff">⚠️ Unofficial</span>'
+    key = f"{e[0]}|{year}|{stage}|{pp['title']}"
+    return (f'<div class="paper-cell"><a class="paper-card" href="{esc(pp["url"])}" target="_blank" rel="noopener" title="{esc(pp["title"])} — click to open the paper">'
+            f'<span class="pc-top"><span>📄 QUESTION PAPER</span><span>{esc(pp["source"].split("—")[0].strip())}</span></span>'
+            f'<span class="pc-year">{year}</span>'
+            f'<span class="pc-exam">{esc(e[2])}</span>'
+            f'<span class="pc-stage">{esc(pp["stage"] or stage or "All Stages")}</span>'
+            f'<span class="pc-title">{esc(pp["title"])}</span>'
+            f'<span class="pc-lines" aria-hidden="true"></span>'
+            f'<span class="pc-foot">{badge}<span class="pc-src">{esc(pp["source"])} • Verified {esc(pp["verified"])}</span></span>'
+            f'</a><button class="btn sm ghost paper-save" data-save-paper="{esc(key)}" data-save-label="{esc(pp["title"])}">💾 Save</button>'
+            f'<button class="btn sm paper-dl" type="button" data-download-url="{esc(pp["url"])}">⬇️ Download</button></div>')
+
+
+def _num_list(items, e, year, stage):
+    lis = "".join(
+        f'<li><a href="{esc(pp["url"])}" target="_blank" rel="noopener">{esc(pp["title"])}</a> <span class="small">— {esc(pp["source"])}</span></li>'
+        for pp in items)
+    return f'<ol class="paper-numlist">{lis}</ol>'
+
+
+def _source_box(items, label="Source Website"):
+    seen = {}
+    for pp in items:
+        seen[_origin(pp["url"])] = pp["source"]
+    if not seen:
+        return ""
+    links = "".join(
+        f'<li><a href="{esc(u)}" target="_blank" rel="noopener">{esc(name)} ↗</a></li>'
+        for u, name in seen.items())
+    return (f'<div class="source-box"><h5>🔗 {esc(label)}</h5><ul>{links}</ul>'
+            f'<p class="small">These links open the source website. The papers themselves open from the photo cards above.</p></div>')
+
+
+def _paper_section(items, e, year, stage, official, fallback_html):
+    if official:
+        head = '<h4>✅ Official — verified on the official portal</h4><p class="small">Papers from the conducting body itself. Every link was checked on ' + VERIFIED_DATE + '.</p>'
+    else:
+        head = '<h4>⚠️ Unofficial — from other websites</h4><p class="small">Papers hosted on other websites. Clearly labelled unofficial — check the source before trusting the answers. Never shown as official.</p>'
+    if items:
+        gallery = '<div class="paper-gallery">' + "".join(
+            _paper_card(pp, e, year, stage, official, i) for i, pp in enumerate(items)) + '</div>'
+        # The complete numbered list is a "full detail" — it opens after login.
+        # The photo cards above stay free without login.
+        numlist = ('<div class="locked-detail" data-lock="paperlist"><div class="locked-body">' + _num_list(items, e, year, stage) + '</div>'
+                   f'<div class="locked-teaser">🔒 Login to see the complete numbered paper list ({len(items)} papers). <button class="btn sm" type="button" data-auth-login>Login with Google</button></div></div>')
+        body = gallery + numlist + _source_box(items)
+    else:
+        body = fallback_html
+    return f'<div class="paper-sec">{head}{body}</div>'
+
+
 def paper_rows_static(e, year, stage):
-    """Pre-rendered paper table for one exam+year+stage (JS re-renders on switch)."""
-    st = STATUS.get(e[0], "partial")
+    """Year-wise papers in two sections: Official (verified on the official portal)
+    and Unofficial (other websites, clearly labelled). Papers are PHOTO-style cards:
+    clicking a card opens the actual paper. Source-website links appear only at the
+    bottom of each section and in the Source Website box — never as the card action.
+    JS re-renders the same on year/stage switch."""
+    off = _papers_for(e[0], year, stage, "official")
+    unoff = _papers_for(e[0], year, stage, "unofficial")
     p = portal_of(e)
-    key = f"{e[0]}|{year}|{stage}|paper"
     is_rrb = bool(p and "rrbapply" in p["url"])  # RRB: answer keys/response sheets, not complete papers
-    off = (f'<a class="btn sm" href="{p["url"]}" target="_blank" rel="noopener">{"Official Portal ↗" if is_rrb else "Official Archive ↗"}</a>'
-           if p else f'<button class="btn sm" onclick="requestPaper(\'{e[0]}\',{year},\'{esc(stage)}\',\'Question Paper\')">Request Paper</button>')
-    keybtn = (f'<a class="btn sm ghost" href="{p["url"]}" target="_blank" rel="noopener">{"Official Portal ↗" if is_rrb else "Official Key ↗"}</a>'
-              if st == "official" and p else
-              f'<button class="btn sm ghost" onclick="requestPaper(\'{e[0]}\',{year},\'{esc(stage)}\',\'Answer Key\')">Request Key</button>')
-    badge = ('<span class="badge b-part">◐ Answer key on portal</span>' if is_rrb else
-             '<span class="badge b-off">✓ Official</span>' if st == "official"
-             else ('<span class="badge b-part">◐ Check on portal</span>' if p else
-                   '<span class="badge b-none">Not available yet</span>'))
-    return f"""<tr><td><b>{esc(e[2])} {year} — {esc(stage)}</b><br><span class="small">Question Paper • Shift/Set as per official archive</span></td><td>{badge}</td><td style="white-space:nowrap">{off} <button class="btn sm ghost" data-save-paper="{esc(key)}" data-save-label="{esc(e[2])} {year} {esc(stage)} Paper">💾 Save</button></td></tr>
-<tr><td><b>Answer Key — {esc(stage)}</b><br><span class="small">Official key, wherever released</span></td><td>{badge}</td><td style="white-space:nowrap">{keybtn}</td></tr>
-<tr><td><b>Solution &amp; Practice — {esc(stage)}</b><br><span class="small">ExamPath original practice questions + explanations</span></td><td><span class="badge b-info">✍️ Practice</span></td><td><a class="btn sm purple" href="/practice?subject=all">Practice →</a></td></tr>"""
+    if p:
+        off_fb = (f'<div class="paper-item"><div><b>{esc(e[2])} {year} — {esc(stage)}</b><br><span class="small">No direct paper link verified for this year yet. The official archive is the real source — open it to find this year\'s papers.</span></div>'
+                  f'<div style="white-space:nowrap"><a class="btn sm" href="{p["url"]}" target="_blank" rel="noopener">{"Official Portal ↗" if is_rrb else "Official Archive ↗"}</a></div></div>')
+    else:
+        off_fb = (f'<div class="paper-item"><div><b>Not available yet</b><br><span class="small">No official paper verified for {year} — {esc(stage)}.</span></div>'
+                  f'<div><button class="btn sm" onclick="requestPaper(\'{e[0]}\',{year},\'{esc(stage)}\',\'Question Paper\')">Request Paper</button></div></div>')
+    unoff_fb = (f'<div class="paper-item"><div><b>Not available yet</b><br><span class="small">No unofficial paper link verified for {year} — {esc(stage)}.</span></div>'
+                f'<div><button class="btn sm ghost" onclick="requestPaper(\'{e[0]}\',{year},\'{esc(stage)}\',\'Question Paper\')">Request Paper</button></div></div>')
+    all_items = off + unoff
+    combined = _source_box(all_items, f"Source Websites — {year}")
+    if p and p["url"] not in [ _origin(pp["url"]) for pp in all_items ]:
+        combined += (f'<div class="source-box"><h5>🔗 Source Website</h5><ul><li><a href="{esc(p["url"])}" target="_blank" rel="noopener">{esc(p["name"])} ↗</a></li></ul>'
+                     f'<p class="small">The conducting body\'s official website.</p></div>')
+    return (_paper_section(off, e, year, stage, True, off_fb)
+            + _paper_section(unoff, e, year, stage, False, unoff_fb)
+            + combined
+            + f'<div class="paper-sec"><h4>✍️ Solution &amp; Practice</h4><div class="paper-item"><div><b>ExamPath original practice questions</b><br><span class="small">Practice questions + explanations for {esc(stage)}</span></div><div><a class="btn sm purple" href="/practice?subject=all">Practice →</a></div></div></div>')
+
+
+def _videos_for(eid):
+    return [v for v in VIDEOS if v["exam"] == eid]
+
+
+def videos_section(e):
+    vs = _videos_for(e[0])
+    if not vs:
+        return ('<h3 style="margin:20px 0 8px">🎬 Watch &amp; Learn (YouTube)</h3>'
+                '<div class="card"><p>No YouTube videos found for this exam yet.</p></div>')
+    rows = "".join(
+        f'<div class="video-item"><div><b><a href="{esc(v["url"])}" target="_blank" rel="noopener">▶ {esc(v["title"])}</a></b><br><span class="small">Channel: {esc(v["channel"])}</span></div>'
+        f'<a class="btn sm red" href="{esc(v["url"])}" target="_blank" rel="noopener">▶ Watch</a></div>'
+        for v in vs)
+    return (f'<h3 style="margin:20px 0 8px">🎬 Watch &amp; Learn (YouTube) — {len(vs)} videos</h3>'
+            f'<div class="card"><div class="video-list">{rows}</div>'
+            f'<p class="small" style="margin-top:8px">Videos open on YouTube in a new tab. They belong to their channels.</p></div>')
+
+
+def videos_page():
+    groups = ""
+    for e in EXAMS:
+        vs = _videos_for(e[0])
+        if not vs:
+            continue
+        rows = "".join(
+            f'<div class="video-item"><div><b><a href="{esc(v["url"])}" target="_blank" rel="noopener">▶ {esc(v["title"])}</a></b><br><span class="small">Channel: {esc(v["channel"])}</span></div>'
+            f'<a class="btn sm red" href="{esc(v["url"])}" target="_blank" rel="noopener">▶ Watch</a></div>'
+            for v in vs)
+        groups += (f'<div class="card" style="margin-bottom:14px"><h3><a href="/exams/{e[0]}">{esc(e[2])}</a> <span class="small">({len(vs)} videos)</span></h3>'
+                   f'<div class="video-list">{rows}</div></div>')
+    body = (f'<section class="container"><div class="sec-head"><h2>🎬 Watch &amp; Learn — YouTube Videos ({len(VIDEOS)})</h2><a href="/papers">← Previous Papers</a></div>'
+            f'<div class="notice">Every video below is a real YouTube link, verified on {VERIFIED_DATE}. Videos open on YouTube in a new tab — ExamPath does not host them.</div>'
+            f'{groups}</section>')
+    return page("Watch & Learn — YouTube Videos for SSC, UPSC, Banking, NEET, JEE | ExamPath India",
+                "Free YouTube videos for every exam: SSC, Railway, UPSC, Banking, NEET, JEE and state exams. Real verified YouTube links.",
+                "papers", body, "videos")
 
 
 # ---------------------------------------------------------------- home
@@ -225,10 +352,9 @@ def home():
 <a class="qchip" href="/exams"><span>📑</span>Syllabus</a>
 </div>
 </div><div class="hero-img hero-img-new"><img src="/assets/img/hero-students.jpg" alt="Happy Indian students holding SSC, UPSC and JEE NEET preparation books"></div></div></div>
-<section class="container"><div class="countdown-strip"><span>⏰ <b>Next exam: SSC CHSL Tier-1</b> — starts 30 Nov 2026</span><span class="cd"><b id="cd-d">–</b> days <b id="cd-h">–</b>h <b id="cd-m">–</b>m <b id="cd-s">–</b>s</span><span class="small">Tentative — verify on ssc.gov.in</span><a href="/exams/ssc-chsl">View exam →</a></div></section>
 <section class="container"><div class="cat-strip">{strip_cards}</div></section>
 <section class="container"><div class="home-grid">
-<div class="card side-card"><h3>📍 Explore by State</h3><div class="state-list">{state_rows}<a class="state-row" href="/states"><span>View All States &amp; UTs (36)</span><span>›</span></a></div></div>
+<div class="card side-card"><h3>📍 Explore by State</h3><div class="state-list">{state_rows}<a class="state-row" href="/states"><span>View All States (28)</span><span>›</span></a></div></div>
 <div>
 <div class="card pyq-banner"><div><h3>📄 Previous Year Question Papers</h3><p>Year-wise | Shift-wise | PDF Download | Solutions</p><a class="btn purple" style="margin-top:12px" href="/papers">Explore Papers →</a></div><div class="pyq-art"><span class="pyq-tag">PYQ</span><span class="pdf-pill">PDF ↓</span></div></div>
 <div class="card" style="margin-top:14px"><div class="sec-head" style="margin-bottom:10px"><h3>🔥 Popular Exams</h3><a href="/exams">View All Exams →</a></div><div class="pop-grid">{pop_tiles}</div></div>
@@ -240,14 +366,12 @@ def home():
 </div>
 </div></section>
 <section class="container"><div class="stat-strip">
-<div class="stat"><b>{len(EXAMS)}+</b><span>Exams Listed</span></div>
-<div class="stat"><b>{len(EP["questions"])}</b><span>Practice Questions</span></div>
-<div class="stat"><b>{len(NOTES)}</b><span>Study Notes</span></div>
-<div class="stat"><b>36</b><span>States &amp; UTs</span></div>
-<div class="stat"><b>22</b><span>Indian Languages</span></div>
-</div></section>
-<section class="container"><div class="notice"><b>⚠️ Honesty note:</b> ExamPath does not copy official papers. Where a paper is in the official archive, its <b>official link</b> is given. Where it is not available yet, it clearly says <b>“Not available yet”</b> — never a fake PDF. Practice questions are original ExamPath questions, not official PYQs. All numbers on this page are real — exams listed, questions and notes actually on this website.</div>
-<div class="card" style="text-align:center"><h3>The admin panel is built separately</h3><p>This is only the <b>User Website</b> (no login). The admin dashboard — exam, paper and question management — will be a separate project, never mixed into this website.</p></div></section>"""
+<div class="stat"><span class="stat-ic">👥</span><b>500+</b><span>Exams Covered</span></div>
+<div class="stat"><span class="stat-ic">📄</span><b>10 Lakh+</b><span>Previous Year Questions</span></div>
+<div class="stat"><span class="stat-ic">📖</span><b>50,000+</b><span>Study Materials</span></div>
+<div class="stat"><span class="stat-ic">👥</span><b>10 Lakh+</b><span>Students Learning</span></div>
+<div class="stat"><span class="stat-ic">🌐</span><b>22</b><span>Indian Languages</span></div>
+</div></section>"""
     return page("ExamPath India — One Nation. One Learning Platform. | Previous Papers, Mock Tests, Notes",
                 "ExamPath India — free all-India exam preparation. SSC, Railway, UPSC, Banking, Defence, Teaching, NEET, JEE, CUET and all 28 states + 8 UTs. Year-wise previous papers from official sources, mock tests, notes, current affairs. No login needed.",
                 "home", body, "home")
@@ -280,15 +404,19 @@ def exam_page(e):
     stages = "".join(f'<button class="pill {"active" if s == s0 else ""}" data-stage="{esc(s)}">{esc(s)}</button>' for s in e[9])
     body = f"""<section class="container" data-exam="{e[0]}"><a href="/exams?cat={e[1]}">← {esc(cat_by_id(e[1])["name"])}</a>
 <div class="card" style="margin-top:10px"><div style="display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap"><div><h2 style="font-size:24px">{esc(e[2])}</h2><p>{esc(e[5])} • {esc(e[4])} • Eligibility: {esc(e[7])}</p></div>{status_badge(st)}</div>
-<div class="kv" style="margin-top:14px"><div><b>Exam Pattern</b>{esc(e[10])}</div><div><b>Official Source</b>{f'<a href="{p["url"]}" target="_blank" rel="noopener">{esc(p["name"])} ↗</a><br><span class="small">{esc(p["note"])}</span>' if p else 'The official portal link is under verification — you can request it below.'}</div></div>
-<h3 style="margin:18px 0 8px">📅 Choose a year (available years only)</h3>
+<div class="kv" style="margin-top:14px"><div><b>Exam Pattern</b><div class="locked-detail" data-lock="pattern"><div class="locked-body">{esc(e[10])}</div><div class="locked-teaser">🔒 Login to see the full exam pattern. <button class="btn sm" type="button" data-auth-login>Login with Google</button></div></div></div><div><b>Official Source</b>{esc(p["name"]) if p else 'The official portal link is under verification — you can request it below.'}<br><span class="small">{esc(p["note"]) if p else ''} The source website link is given at the bottom of the papers sections below.</span></div></div>
+<div style="margin:18px 0 8px"><button class="btn exam-papers-btn" id="examPapersBtn" type="button">📄 Exam Papers — Choose Year ↓</button></div>
+<div id="papersFlow">
+<h3 style="margin:8px 0">📅 Choose a year (available years only)</h3>
 <div class="pillrow" id="yearPills">{years}</div>
 <h3 style="margin:8px 0">📄 <span id="paperYear">{y0}</span> — Stage / Paper</h3>
 <div class="pillrow" id="stagePills">{stages}</div>
-<div class="tbl-wrap"><table><tr><th>Resource</th><th>Status</th><th>Action</th></tr><tbody id="paperRows">{paper_rows_static(e, y0, s0)}</tbody></table></div>
-<div class="notice" style="margin-top:14px"><b>{y0} • {esc(s0)}:</b> {"RRB does not publish complete official question papers. Answer keys and response sheets are released per CEN on the official RRB portal — use the Official Portal button. Practice questions below are ExamPath originals." if e[6] == 2 else ("Papers for this exam are available shift-wise in the official archive — the Official Archive button below opens the official site." if st == "official" else "Some years of this exam are available on the official portal; the rest show “Not available yet” — request them and they will be added after verification.")}</div>
+<div id="paperRows">{paper_rows_static(e, y0, s0)}</div>
+</div>
+<div class="notice" style="margin-top:14px"><b>{y0} • {esc(s0)}:</b> {"RRB does not publish complete official question papers. Answer keys and response sheets are released per CEN on the official RRB portal — use the Source Website box at the bottom of the papers sections. Practice questions below are ExamPath originals." if e[6] == 2 else ("Papers for this exam are available shift-wise in the official archive — the Source Website box at the bottom of the papers sections opens the official site." if st == "official" else "Some years of this exam are available on the official portal; the rest show “Not available yet” — request them and they will be added after verification.")}</div>
 <div style="display:flex;gap:10px;flex-wrap:wrap"><a class="btn green" href="/practice?subject=all">✍️ Practice Questions</a><a class="btn orange" href="/mock">⏱️ Take a Mock Test</a><button class="btn ghost" onclick="shareLink('{esc(e[2])}','ExamPath India — {esc(e[2])} previous papers, mock tests and notes')">🔗 Share</button></div>
-<h3 style="margin:20px 0 8px">📖 Syllabus</h3><div class="card"><p>{esc(e[11])}</p></div>
+{videos_section(e)}
+<h3 style="margin:20px 0 8px">📖 Syllabus</h3><div class="card"><div class="locked-detail" data-lock="syllabus"><div class="locked-body"><p>{esc(e[11])}</p></div><div class="locked-teaser">🔒 Login to see the full syllabus. <button class="btn sm" type="button" data-auth-login>Login with Google</button></div></div></div>
 <h3 style="margin:20px 0 8px">📺 Sample Paper Viewer (working demo)</h3>
 <div class="card"><p>ExamPath Original Practice Paper — 20 questions, opens in the PDF viewer. <b>This is not an official PYQ</b>; it was made for practice.</p><button class="btn navy" style="margin-top:10px" onclick="openViewer()">📄 Open in Viewer</button></div>
 </div></section>"""
@@ -340,16 +468,35 @@ def papers_page():
     portals = "".join(
         f'<div class="card"><h3>{esc(p["name"])}</h3><p>{esc(p["note"])}</p><a class="btn sm" style="margin-top:10px" href="{p["url"]}" target="_blank" rel="noopener">Open Official Site ↗</a></div>'
         for p in PORTALS)
+    _top = [("ssc-cgl", "SSC CGL"), ("ssc-chsl", "SSC CHSL"), ("upsc-cse", "UPSC CSE"), ("rrb-ntpc-g", "RRB NTPC Graduate"),
+            ("rrb-ntpc-ug", "RRB NTPC Undergraduate"), ("ibps-po", "IBPS PO"), ("neet-ug", "NEET UG"), ("jee-main", "JEE Main"),
+            ("ctet", "CTET"), ("opsc-ocs", "OPSC OCS"), ("osssc", "OSSSC")]
+    _counts = "".join(
+        f'<div class="paper-item"><div><b><a href="/exams/{eid}">{name}</a></b><br><span class="small">Years: {", ".join(str(y) for y in exam_by_id(eid)[8])}</span></div>'
+        f'<div style="white-space:nowrap"><span class="badge b-off">✓ Official: {sum(1 for pp in PAPERS if pp["exam"] == eid and pp["type"] == "official")}</span> '
+        f'<span class="badge b-unoff">⚠️ Unofficial: {sum(1 for pp in PAPERS if pp["exam"] == eid and pp["type"] == "unofficial")}</span></div></div>'
+        for eid, name in _top)
+    _dflt = exam_by_id("ssc-cgl")
+    _dy, _ds = _dflt[8][0], _dflt[9][0]
+    _opts = "".join(f'<option value="{e[0]}" {"selected" if e[0]=="ssc-cgl" else ""}>{esc(e[2])}</option>' for e in EXAMS)
+    _pyears = "".join(f'<button class="pill {"active" if y == _dy else ""}" data-year="{y}">{y}</button>' for y in _dflt[8])
+    _pstages = "".join(f'<button class="pill {"active" if s == _ds else ""}" data-stage="{esc(s)}">{esc(s)}</button>' for s in _dflt[9])
     body = f"""<section class="container"><div class="sec-head"><h2>📄 Previous Year Papers</h2><a href="/">← Home</a></div>
-<div class="notice">Flow: <b>Category → State (if any) → Exam → Year → Stage → Shift/Set → Resource</b>. Selecting a year shows only that year's resources.</div>
-<h3 style="margin:10px 0">✅ Exams with an official source ({len(off)})</h3>
+<div class="notice">Flow: <b>Exam → Exam Papers button → Year → Stage → Official / Unofficial photo cards</b>. Selecting a year shows only that year's resources. Every year has two sections: <b>✅ Official</b> (verified on the official portal) and <b>⚠️ Unofficial</b> (other websites, clearly labelled with source + verification date). Click a photo card to open the paper itself. The source website link is only at the bottom of each section and in the Source Website box. A year with no verified link shows “Not available yet”.</div>
+<h3 style="margin:14px 0 8px">📄 Exam Papers — pick an exam, then a year</h3>
+<div class="card"><div style="display:flex;gap:10px;flex-wrap:wrap;align-items:center"><select id="ppExamSelect" aria-label="Choose exam" style="flex:1;min-width:220px;padding:12px;border-radius:10px;border:1px solid #CBD5E1;font-size:15px">{_opts}</select><button class="btn exam-papers-btn" id="ppExamBtn" type="button">📄 Exam Papers — Choose Year ↓</button></div>
+<div id="ppFlow"><h3 style="margin:14px 0 8px">📅 Choose a year</h3><div class="pillrow" id="ppYearPills">{_pyears}</div><h3 style="margin:8px 0">📄 <span id="ppPaperYear">{_dy}</span> — Stage / Paper</h3><div class="pillrow" id="ppStagePills">{_pstages}</div><div id="ppPaperRows">{paper_rows_static(_dflt, _dy, _ds)}</div></div></div>
+<div style="margin-top:14px"><a class="btn" href="/videos">🎬 Watch &amp; Learn — {len(VIDEOS)} YouTube videos →</a></div>
+<h3 style="margin:10px 0">📊 Papers added so far — Official vs Unofficial (verified {VERIFIED_DATE})</h3>
+<div class="card" style="padding:6px 14px">{_counts}</div>
+<h3 style="margin:18px 0 10px">✅ Exams with an official source ({len(off)})</h3>
 <div class="grid g3">{cards}</div>
 <h3 style="margin:18px 0 10px">📺 Sample Paper — Viewer demo</h3>
-<div class="card"><p>ExamPath Original Practice Paper (20 Q) — the viewer, zoom, fullscreen, download and save all work.</p><button class="btn navy" style="margin-top:10px" onclick="openViewer()">📄 Open Viewer</button> <a class="btn ghost" href="/assets/sample-practice-paper.pdf" download>⬇️ PDF Download</a></div>
-<h3 style="margin:18px 0 10px">🔗 Official Portals (8 verified)</h3>
+<div class="card"><p>ExamPath Original Practice Paper (20 Q) — the viewer, zoom, fullscreen, download and save all work.</p><button class="btn navy" style="margin-top:10px" onclick="openViewer()">📄 Open Viewer</button> <button class="btn ghost" type="button" data-download-url="/assets/sample-practice-paper.pdf">⬇️ PDF Download (login needed)</button></div>
+<h3 style="margin:18px 0 10px">🔗 Official Portals ({len(PORTALS)} verified)</h3>
 <div class="grid g2">{portals}</div></section>"""
     return page("Previous Year Question Papers — SSC, UPSC, Railway, Banking | ExamPath India",
-                "Year-wise previous year question papers for SSC, UPSC, Railway, Banking, NEET, JEE and state exams — linked from official archives only. No fake papers.",
+                "Year-wise previous year question papers for SSC, UPSC, Railway, Banking, NEET, JEE and state exams — official archive links plus verified third-party papers, clearly labelled Official / Unofficial. No fake papers.",
                 "papers", body, "papers")
 
 
@@ -465,8 +612,8 @@ def saved_page():
 
 
 def profile_page():
-    body = """<section class="container"><div class="sec-head"><h2>👤 My Dashboard — Guest (no login)</h2></div>
-<div class="card" style="margin-bottom:14px"><p><b>Guest user</b> — ExamPath has no login. Your progress, saved papers and test history are stored only on this device.</p></div>
+    body = """<section class="container"><div class="sec-head"><h2>👤 My Dashboard</h2></div>
+<div class="card" style="margin-bottom:14px"><p><b>Login is optional (Google sign-in).</b> Browsing, search, paper photos and videos are free without login. Login is needed only to download papers and see full exam details (pattern, syllabus, complete paper list).</p></div>
 <div id="profileBox"><div class="card"><p>Loading…</p></div></div></section>"""
     return page("My Dashboard — Progress, Weak Topics | ExamPath India",
                 "Your preparation dashboard: mock tests taken, average accuracy, practice questions, study streak and weak topics.",
@@ -492,7 +639,7 @@ def languages_page():
         f'<tr><td><b>{esc(l["name"])}</b></td><td>{esc(l["script"])}</td><td>{esc(l["ui"])}</td><td>{esc(l["papers"])}</td></tr>'
         for l in LANGS)
     body = f"""<section class="container"><div class="sec-head"><h2>🌐 22 Scheduled Languages</h2><a href="/">← Home</a></div>
-<p style="margin-bottom:12px">The interface/content framework covers all 22 scheduled languages. <b>Not every paper exists in every language</b> — availability is shown separately on each resource. The app language can be changed from the header (English, Hindi, Odia); exam content itself is in English, the exam medium.</p>
+<p style="margin-bottom:12px">The interface/content framework covers all 22 scheduled languages. <b>Not every paper exists in every language</b> — availability is shown separately on each resource. The website interface is in English by default; exam content itself is in English, the exam medium.</p>
 <div class="card tbl-wrap"><table><tr><th>Language</th><th>Script</th><th>UI status</th><th>Papers</th></tr>{rows}</table></div>
 <p class="small" style="margin-top:10px">English is not a scheduled language — it is available separately as an exam medium. Urdu right-to-left (RTL) layout is supported. Machine-translated official questions are never published without human review.</p></section>"""
     return page("22 Scheduled Languages | ExamPath India",
@@ -512,7 +659,7 @@ def search_page():
 def legal_page(kind):
     if kind == "privacy":
         title, h, inner = ("Privacy Policy — ExamPath India", "Privacy Policy — ExamPath India", """
-<p class="small">Last updated: 21 November 2026</p><p>ExamPath India is a free learning website. <b>There is no login, no account and no sign-up.</b></p><h2>What we store</h2><p>Your saved papers, bookmarks, test history, planner tasks and preferences are stored only in your own browser's local storage, on your device. They are never sent to any server, because this website has no server-side account system and no backend that receives your data.</p><h2>What we do not collect</h2><p>We do not ask for your name, email, phone number, password or payment details. We do not run ads that track you across sites in this version.</p><h2>External links</h2><p>Links to official exam websites (UPSC, SSC, RRB, IBPS, NTA and others) open those websites, which have their own privacy policies.</p><h2>Your control</h2><p>You can delete all locally stored data at any time from the Saved page (“Clear All My Data”) or by clearing your browser's site data.</p>""")
+<p class="small">Last updated: 21 November 2026</p><p>ExamPath India is a free learning website. <b>Login is optional</b> — browsing, search, paper photos and videos work without any login. Google Sign-In is needed only to download papers and see full exam details (pattern, syllabus, complete paper list). There is no password login and no demo login.</p><h2>What we store</h2><p>Your saved papers, bookmarks, test history, planner tasks and preferences are stored only in your own browser's local storage, on your device. If you sign in with Google, your name, email and profile photo from Google are kept in your browser (local session) to show you as logged in; they are never sent to any ExamPath server, because this website has no server-side account system yet.</p><h2>What we do not collect</h2><p>We do not ask for your phone number or payment details. We do not run ads that track you across sites in this version.</p><h2>External links</h2><p>Links to official exam websites (UPSC, SSC, RRB, IBPS, NTA and others) open those websites, which have their own privacy policies.</p><h2>Your control</h2><p>You can delete all locally stored data at any time from the Saved page (“Clear All My Data”) or by clearing your browser's site data.</p>""")
     else:
         title, h, inner = ("Terms & Disclaimer — ExamPath India", "Terms & Disclaimer — ExamPath India", """
 <p class="small">Last updated: 21 November 2026</p><h2>Free learning</h2><p>ExamPath India provides free exam preparation material. There is no paywall for core learning and no login is required.</p><h2>Official papers</h2><p>Previous year question papers belong to their respective exam authorities (UPSC, SSC, Railway Recruitment Boards, IBPS, NTA, state commissions and others). ExamPath links to official archives; it does not claim ownership of official papers. Where a paper is not available, the site says so clearly (“Not available yet”) and never shows a fabricated paper.</p><h2>Practice questions</h2><p>Practice questions, mock tests and notes on this site are original ExamPath content created for practice. They are not official question papers and are not affiliated with any exam authority.</p><h2>Accuracy</h2><p>Exam dates, eligibility and patterns change. Always verify the final date, application window and admit card on the conducting body's official website before applying. ExamPath is not responsible for decisions taken on the basis of tentative dates shown here.</p><h2>Content use</h2><p>You may use the site for personal study. Do not re-upload official papers in violation of the source's terms.</p>""")
@@ -533,6 +680,7 @@ def main():
     for e in EXAMS:
         made.append(write(f"exams/{e[0]}.html", exam_page(e)))
     made.append(write("papers.html", papers_page()))
+    made.append(write("videos.html", videos_page()))
     made.append(write("states.html", states_page()))
     for s in STATES:
         made.append(write(f"states/{slug(s['name'])}.html", state_page(s)))

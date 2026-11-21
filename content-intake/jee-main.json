@@ -1,0 +1,162 @@
+{
+  "exam_id": "jee-main",
+  "exam_name": "JEE Main",
+  "official_papers": [
+    {
+      "year": 2025,
+      "stage": "",
+      "title": "JEE Main 2025 — NTA Official Portal (papers & final answer keys)",
+      "url": "https://jeemain.nta.nic.in/",
+      "source": "NTA — jeemain.nta.nic.in (Official)",
+      "checked": "2026-11-21",
+      "http": 200,
+      "note": "NTA publishes shift-wise papers & final answer keys on the exam portal."
+    },
+    {
+      "year": 2024,
+      "stage": "",
+      "title": "JEE Main 2024 — NTA Official Portal (papers & final answer keys)",
+      "url": "https://jeemain.nta.nic.in/",
+      "source": "NTA — jeemain.nta.nic.in (Official)",
+      "checked": "2026-11-21",
+      "http": 200,
+      "note": "NTA publishes shift-wise papers & final answer keys on the exam portal."
+    },
+    {
+      "year": 2023,
+      "stage": "",
+      "title": "JEE Main 2023 — NTA Official Portal (papers & final answer keys)",
+      "url": "https://jeemain.nta.nic.in/",
+      "source": "NTA — jeemain.nta.nic.in (Official)",
+      "checked": "2026-11-21",
+      "http": 200,
+      "note": "NTA publishes shift-wise papers & final answer keys on the exam portal."
+    },
+    {
+      "year": 2022,
+      "stage": "",
+      "title": "JEE Main 2022 — NTA Official Portal (papers & final answer keys)",
+      "url": "https://jeemain.nta.nic.in/",
+      "source": "NTA — jeemain.nta.nic.in (Official)",
+      "checked": "2026-11-21",
+      "http": 200,
+      "note": "NTA publishes shift-wise papers & final answer keys on the exam portal."
+    }
+  ],
+  "unofficial_papers": [
+    {
+      "year": 2025,
+      "stage": "",
+      "title": "JEE Main 2025 — Shift-wise Papers with Answer Key",
+      "url": "https://admission.aglasem.com/jee-main-previous-year-question-papers/",
+      "source": "AglaSem",
+      "checked": "2026-11-21",
+      "http": 403,
+      "note": "2015–2026, about 430 shift-wise papers with NTA answer keys. curl returns 403 (bot protection); page confirmed via search result and data.js verification 21 Nov 2026."
+    },
+    {
+      "year": 2025,
+      "stage": "",
+      "title": "JEE Main 2025 — Previous Year Papers",
+      "url": "https://www.adda247.com/school/jee-main-previous-year-question-paper/",
+      "source": "Adda247",
+      "checked": "2026-11-21",
+      "http": 200,
+      "note": "Year-wise papers with solutions."
+    },
+    {
+      "year": 2024,
+      "stage": "",
+      "title": "JEE Main 2024 — Shift-wise Papers with Answer Key",
+      "url": "https://admission.aglasem.com/jee-main-previous-year-question-papers/",
+      "source": "AglaSem",
+      "checked": "2026-11-21",
+      "http": 403,
+      "note": "2015–2026, about 430 shift-wise papers with NTA answer keys. curl returns 403 (bot protection); page confirmed via search result and data.js verification 21 Nov 2026."
+    },
+    {
+      "year": 2024,
+      "stage": "",
+      "title": "JEE Main 2024 — Previous Year Papers",
+      "url": "https://www.adda247.com/school/jee-main-previous-year-question-paper/",
+      "source": "Adda247",
+      "checked": "2026-11-21",
+      "http": 200,
+      "note": "Year-wise papers with solutions."
+    },
+    {
+      "year": 2023,
+      "stage": "",
+      "title": "JEE Main 2023 — Shift-wise Papers with Answer Key",
+      "url": "https://admission.aglasem.com/jee-main-previous-year-question-papers/",
+      "source": "AglaSem",
+      "checked": "2026-11-21",
+      "http": 403,
+      "note": "2015–2026, about 430 shift-wise papers with NTA answer keys. curl returns 403 (bot protection); page confirmed via search result and data.js verification 21 Nov 2026."
+    },
+    {
+      "year": 2023,
+      "stage": "",
+      "title": "JEE Main 2023 — Previous Year Papers",
+      "url": "https://www.adda247.com/school/jee-main-previous-year-question-paper/",
+      "source": "Adda247",
+      "checked": "2026-11-21",
+      "http": 200,
+      "note": "Year-wise papers with solutions."
+    },
+    {
+      "year": 2022,
+      "stage": "",
+      "title": "JEE Main 2022 — Shift-wise Papers with Answer Key",
+      "url": "https://admission.aglasem.com/jee-main-previous-year-question-papers/",
+      "source": "AglaSem",
+      "checked": "2026-11-21",
+      "http": 403,
+      "note": "2015–2026, about 430 shift-wise papers with NTA answer keys. curl returns 403 (bot protection); page confirmed via search result and data.js verification 21 Nov 2026."
+    },
+    {
+      "year": 2022,
+      "stage": "",
+      "title": "JEE Main 2022 — Previous Year Papers",
+      "url": "https://www.adda247.com/school/jee-main-previous-year-question-paper/",
+      "source": "Adda247",
+      "checked": "2026-11-21",
+      "http": 200,
+      "note": "Year-wise papers with solutions."
+    }
+  ],
+  "details": {
+    "eligibility": "12th (PCM)",
+    "pattern": "Paper 1 (B.E./B.Tech): 90 Q (75 to attempt), 300 marks. Negative marking applies.",
+    "syllabus": "Physics, Chemistry, Mathematics (NCERT + advanced)",
+    "official_page": "https://jeemain.nta.nic.in/",
+    "sources": [
+      "https://jeemain.nta.nic.in/",
+      "https://nta.ac.in/"
+    ]
+  },
+  "youtube": [
+    {
+      "title": "JEE Main Maths 2026 | 28 January Shift 2 | Differential Equations PYQ",
+      "channel": "Pratham Science Academy Classes",
+      "url": "https://www.youtube.com/watch?v=KtTxFiP12Mc"
+    },
+    {
+      "title": "JEE Main 2026 Physics | YDSE Fringe Shift by Thin Sheet | April Shift 2",
+      "channel": "JEE Physics PYQS",
+      "url": "https://www.youtube.com/watch?v=T13VoAABYVk"
+    },
+    {
+      "title": "JEE Main 2026 Physics | YDSE Intensity & Path Difference | April Shift 2",
+      "channel": "JEE Physics PYQS",
+      "url": "https://www.youtube.com/watch?v=DFoaA6nHoGw"
+    },
+    {
+      "title": "JEE Main 2023 January 25 Shift 1 Question Paper with Solutions",
+      "channel": "Aakash",
+      "url": "https://www.youtube.com/watch?v=1MzgqJ6rawM"
+    }
+  ],
+  "not_found_years": [],
+  "notes": "JEE Main is held in two sessions (Jan + Apr) each year; papers are shift-wise."
+}

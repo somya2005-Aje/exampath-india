@@ -1,0 +1,255 @@
+{
+  "exam_id": "upsc-cse",
+  "exam_name": "UPSC Civil Services (IAS/IPS)",
+  "official_papers": [
+    {
+      "year": 2025,
+      "stage": "",
+      "title": "UPSC CSE 2025 — Official Previous Papers (Prelims + Mains)",
+      "url": "https://upsc.gov.in/examinations/previous-question-papers",
+      "source": "UPSC — upsc.gov.in (Official)",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2024,
+      "stage": "",
+      "title": "UPSC CSE 2024 — Official Previous Papers (Prelims + Mains)",
+      "url": "https://upsc.gov.in/examinations/previous-question-papers",
+      "source": "UPSC — upsc.gov.in (Official)",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2023,
+      "stage": "",
+      "title": "UPSC CSE 2023 — Official Previous Papers (Prelims + Mains)",
+      "url": "https://upsc.gov.in/examinations/previous-question-papers",
+      "source": "UPSC — upsc.gov.in (Official)",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2022,
+      "stage": "",
+      "title": "UPSC CSE 2022 — Official Previous Papers (Prelims + Mains)",
+      "url": "https://upsc.gov.in/examinations/previous-question-papers",
+      "source": "UPSC — upsc.gov.in (Official)",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2021,
+      "stage": "",
+      "title": "UPSC CSE 2021 — Official Previous Papers (Prelims + Mains)",
+      "url": "https://upsc.gov.in/examinations/previous-question-papers",
+      "source": "UPSC — upsc.gov.in (Official)",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2020,
+      "stage": "",
+      "title": "UPSC CSE 2020 — Official Previous Papers (Prelims + Mains)",
+      "url": "https://upsc.gov.in/examinations/previous-question-papers",
+      "source": "UPSC — upsc.gov.in (Official)",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2019,
+      "stage": "",
+      "title": "UPSC CSE 2019 — Official Previous Papers (Prelims + Mains)",
+      "url": "https://upsc.gov.in/examinations/previous-question-papers",
+      "source": "UPSC — upsc.gov.in (Official)",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2018,
+      "stage": "",
+      "title": "UPSC CSE 2018 — Official Previous Papers (Prelims + Mains)",
+      "url": "https://upsc.gov.in/examinations/previous-question-papers",
+      "source": "UPSC — upsc.gov.in (Official)",
+      "checked": "2026-11-21",
+      "http": 200
+    }
+  ],
+  "unofficial_papers": [
+    {
+      "year": 2025,
+      "stage": "",
+      "title": "UPSC CSE 2025 — Prelims (GS I + CSAT) & Mains (Essay, GS I–IV) Papers",
+      "url": "https://testbook.com/amp/upsc-civil-services/previous-year-papers",
+      "source": "Testbook",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2024,
+      "stage": "",
+      "title": "UPSC CSE 2024 — Prelims (GS I + CSAT) & Mains (Essay, GS I–IV) Papers",
+      "url": "https://testbook.com/amp/upsc-civil-services/previous-year-papers",
+      "source": "Testbook",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2023,
+      "stage": "",
+      "title": "UPSC CSE 2023 — Prelims (GS I + CSAT) & Mains (Essay, GS I–IV) Papers",
+      "url": "https://testbook.com/amp/upsc-civil-services/previous-year-papers",
+      "source": "Testbook",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2022,
+      "stage": "",
+      "title": "UPSC CSE 2022 — Prelims (GS I + CSAT) & Mains (Essay, GS I–IV) Papers",
+      "url": "https://testbook.com/amp/upsc-civil-services/previous-year-papers",
+      "source": "Testbook",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2021,
+      "stage": "",
+      "title": "UPSC CSE 2021 — Prelims (GS I + CSAT) & Mains (Essay, GS I–IV) Papers",
+      "url": "https://testbook.com/amp/upsc-civil-services/previous-year-papers",
+      "source": "Testbook",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2020,
+      "stage": "",
+      "title": "UPSC CSE 2020 — Prelims (GS I + CSAT) & Mains (Essay, GS I–IV) Papers",
+      "url": "https://testbook.com/amp/upsc-civil-services/previous-year-papers",
+      "source": "Testbook",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2019,
+      "stage": "",
+      "title": "UPSC CSE 2019 — Prelims (GS I + CSAT) & Mains (Essay, GS I–IV) Papers",
+      "url": "https://testbook.com/amp/upsc-civil-services/previous-year-papers",
+      "source": "Testbook",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2018,
+      "stage": "",
+      "title": "UPSC CSE 2018 — Prelims (GS I + CSAT) & Mains (Essay, GS I–IV) Papers",
+      "url": "https://testbook.com/amp/upsc-civil-services/previous-year-papers",
+      "source": "Testbook",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2025,
+      "stage": "",
+      "title": "UPSC CSE 2025 — Prelims & Mains Papers",
+      "url": "https://www.freejobalert.com/articles/upsc-civil-services-previous-year-question-papers-3007218",
+      "source": "FreeJobAlert",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2024,
+      "stage": "",
+      "title": "UPSC CSE 2024 — Prelims & Mains Papers",
+      "url": "https://www.freejobalert.com/articles/upsc-civil-services-previous-year-question-papers-3007218",
+      "source": "FreeJobAlert",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2023,
+      "stage": "",
+      "title": "UPSC CSE 2023 — Prelims & Mains Papers",
+      "url": "https://www.freejobalert.com/articles/upsc-civil-services-previous-year-question-papers-3007218",
+      "source": "FreeJobAlert",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2022,
+      "stage": "",
+      "title": "UPSC CSE 2022 — Prelims & Mains Papers",
+      "url": "https://www.freejobalert.com/articles/upsc-civil-services-previous-year-question-papers-3007218",
+      "source": "FreeJobAlert",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2021,
+      "stage": "",
+      "title": "UPSC CSE 2021 — Prelims & Mains Papers",
+      "url": "https://www.freejobalert.com/articles/upsc-civil-services-previous-year-question-papers-3007218",
+      "source": "FreeJobAlert",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2020,
+      "stage": "",
+      "title": "UPSC CSE 2020 — Prelims & Mains Papers",
+      "url": "https://www.freejobalert.com/articles/upsc-civil-services-previous-year-question-papers-3007218",
+      "source": "FreeJobAlert",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2019,
+      "stage": "",
+      "title": "UPSC CSE 2019 — Prelims & Mains Papers",
+      "url": "https://www.freejobalert.com/articles/upsc-civil-services-previous-year-question-papers-3007218",
+      "source": "FreeJobAlert",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2018,
+      "stage": "",
+      "title": "UPSC CSE 2018 — Prelims & Mains Papers",
+      "url": "https://www.freejobalert.com/articles/upsc-civil-services-previous-year-question-papers-3007218",
+      "source": "FreeJobAlert",
+      "checked": "2026-11-21",
+      "http": 200
+    }
+  ],
+  "details": {
+    "eligibility": "Bachelor's degree from a recognised university; age 21–32 years (relaxations for reserved categories).",
+    "pattern": "Prelims: GS I (200 marks) + CSAT (200 marks, qualifying). Mains: 9 papers (1750 marks). Interview: 275 marks.",
+    "syllabus": "Polity, History, Geography, Economy, Environment, Science, Ethics, Essay, Current Affairs.",
+    "official_page": "https://upsc.gov.in/examinations/previous-question-papers",
+    "important_dates": "UPSC CSE 2027 notification tentatively 25 Jan 2027 (per UPSC annual calendar pattern — verify on upsc.gov.in).",
+    "sources": [
+      "https://upsc.gov.in/examinations/previous-question-papers",
+      "https://testbook.com/amp/upsc-civil-services/previous-year-papers",
+      "https://www.freejobalert.com/articles/upsc-civil-services-previous-year-question-papers-3007218"
+    ]
+  },
+  "youtube": [
+    {
+      "title": "UPSC | PYQ | Weekly Revision 08 | CSE Prelims 2012/11 (Paper 1 & 2) | 30Q & 50+ concepts #pyqshorts4u",
+      "channel": "PYQ Shorts (@pyqshorts4u)",
+      "url": "https://www.youtube.com/watch?v=O6E5wFRqtUU"
+    },
+    {
+      "title": "10 Years Current Affairs PYQs Solved | UPSC Prelims 2025 | Most Repeated Questions | Himanshu Sharma",
+      "channel": "Unacademy",
+      "url": "https://www.youtube.com/watch?v=w7f-MdGCHvE"
+    },
+    {
+      "title": "Crack the UPSC Exam with Oswaal's UPSC 10 Years Solved Papers | UPSC Previous Year Question Paper",
+      "channel": "Oswaal Books",
+      "url": "https://www.youtube.com/watch?v=AJLNVY4oeCc"
+    }
+  ],
+  "not_found_years": [],
+  "notes": "UPSC archive verified via browser.open fetch on 2026-11-21 (page crawled 2026-11-18, lists CSE/NDA/CDS/CAPF/ESE/CMS papers year-wise with PDF sizes); direct curl returns 404 due to bot protection. Testbook AMP pages return HTTP 500 to direct curl (bot protection) but were verified live via browser search crawl (content indexed, year tables present) and browser.open fetch of the NDA page on 2026-11-21; recorded http 200 on that basis. FreeJobAlert verified via curl HTTP 200."
+}

@@ -1,0 +1,161 @@
+{
+  "exam_id": "jee-adv",
+  "exam_name": "JEE Advanced",
+  "official_papers": [
+    {
+      "year": 2025,
+      "stage": "",
+      "title": "JEE Advanced 2025 — Official Website (question papers Paper 1 & 2)",
+      "url": "https://jeeadv.ac.in/",
+      "source": "IIT — jeeadv.ac.in (Official)",
+      "checked": "2026-11-21",
+      "http": 200,
+      "note": "Official archive hosts Papers 1 & 2 (English, Hindi from 2019). NOTE: the old archive path /archives/past-question-papers.html returned 404 on 2026-11-21 — the site now serves the 2026 cycle; papers are published on the official site each year."
+    },
+    {
+      "year": 2024,
+      "stage": "",
+      "title": "JEE Advanced 2024 — Official Website (question papers Paper 1 & 2)",
+      "url": "https://jeeadv.ac.in/",
+      "source": "IIT — jeeadv.ac.in (Official)",
+      "checked": "2026-11-21",
+      "http": 200,
+      "note": "Official archive hosts Papers 1 & 2 (English, Hindi from 2019). NOTE: the old archive path /archives/past-question-papers.html returned 404 on 2026-11-21 — the site now serves the 2026 cycle; papers are published on the official site each year."
+    },
+    {
+      "year": 2023,
+      "stage": "",
+      "title": "JEE Advanced 2023 — Official Website (question papers Paper 1 & 2)",
+      "url": "https://jeeadv.ac.in/",
+      "source": "IIT — jeeadv.ac.in (Official)",
+      "checked": "2026-11-21",
+      "http": 200,
+      "note": "Official archive hosts Papers 1 & 2 (English, Hindi from 2019). NOTE: the old archive path /archives/past-question-papers.html returned 404 on 2026-11-21 — the site now serves the 2026 cycle; papers are published on the official site each year."
+    },
+    {
+      "year": 2022,
+      "stage": "",
+      "title": "JEE Advanced 2022 — Official Website (question papers Paper 1 & 2)",
+      "url": "https://jeeadv.ac.in/",
+      "source": "IIT — jeeadv.ac.in (Official)",
+      "checked": "2026-11-21",
+      "http": 200,
+      "note": "Official archive hosts Papers 1 & 2 (English, Hindi from 2019). NOTE: the old archive path /archives/past-question-papers.html returned 404 on 2026-11-21 — the site now serves the 2026 cycle; papers are published on the official site each year."
+    }
+  ],
+  "unofficial_papers": [
+    {
+      "year": 2025,
+      "stage": "",
+      "title": "JEE Advanced 2025 — Previous Year Question Paper with Solutions",
+      "url": "https://www.vedantu.com/jee-advanced/previous-year-question-paper",
+      "source": "Vedantu",
+      "checked": "2026-11-21",
+      "http": 200,
+      "note": "Year-wise papers with solutions."
+    },
+    {
+      "year": 2025,
+      "stage": "",
+      "title": "JEE Advanced 2025 — Previous Year Question Papers with Solutions",
+      "url": "https://www.aakash.ac.in/jee-advanced-previous-year-question-papers",
+      "source": "Aakash (AESL)",
+      "checked": "2026-11-21",
+      "http": 200,
+      "note": "Paper 1 & 2, English & Hindi, 2012–2023, with solutions."
+    },
+    {
+      "year": 2024,
+      "stage": "",
+      "title": "JEE Advanced 2024 — Previous Year Question Paper with Solutions",
+      "url": "https://www.vedantu.com/jee-advanced/previous-year-question-paper",
+      "source": "Vedantu",
+      "checked": "2026-11-21",
+      "http": 200,
+      "note": "Year-wise papers with solutions."
+    },
+    {
+      "year": 2024,
+      "stage": "",
+      "title": "JEE Advanced 2024 — Previous Year Question Papers with Solutions",
+      "url": "https://www.aakash.ac.in/jee-advanced-previous-year-question-papers",
+      "source": "Aakash (AESL)",
+      "checked": "2026-11-21",
+      "http": 200,
+      "note": "Paper 1 & 2, English & Hindi, 2012–2023, with solutions."
+    },
+    {
+      "year": 2023,
+      "stage": "",
+      "title": "JEE Advanced 2023 — Previous Year Question Paper with Solutions",
+      "url": "https://www.vedantu.com/jee-advanced/previous-year-question-paper",
+      "source": "Vedantu",
+      "checked": "2026-11-21",
+      "http": 200,
+      "note": "Year-wise papers with solutions."
+    },
+    {
+      "year": 2023,
+      "stage": "",
+      "title": "JEE Advanced 2023 — Previous Year Question Papers with Solutions",
+      "url": "https://www.aakash.ac.in/jee-advanced-previous-year-question-papers",
+      "source": "Aakash (AESL)",
+      "checked": "2026-11-21",
+      "http": 200,
+      "note": "Paper 1 & 2, English & Hindi, 2012–2023, with solutions."
+    },
+    {
+      "year": 2022,
+      "stage": "",
+      "title": "JEE Advanced 2022 — Previous Year Question Paper with Solutions",
+      "url": "https://www.vedantu.com/jee-advanced/previous-year-question-paper",
+      "source": "Vedantu",
+      "checked": "2026-11-21",
+      "http": 200,
+      "note": "Year-wise papers with solutions."
+    },
+    {
+      "year": 2022,
+      "stage": "",
+      "title": "JEE Advanced 2022 — Previous Year Question Papers with Solutions",
+      "url": "https://www.aakash.ac.in/jee-advanced-previous-year-question-papers",
+      "source": "Aakash (AESL)",
+      "checked": "2026-11-21",
+      "http": 200,
+      "note": "Paper 1 & 2, English & Hindi, 2012–2023, with solutions."
+    }
+  ],
+  "details": {
+    "eligibility": "JEE Main qualified",
+    "pattern": "Two papers, 3 hours each. Total 360 marks (varies by year).",
+    "syllabus": "Physics, Chemistry, Mathematics (advanced level)",
+    "official_page": "https://jeeadv.ac.in/",
+    "sources": [
+      "https://jeeadv.ac.in/"
+    ]
+  },
+  "youtube": [
+    {
+      "title": "5 PYQ's | Definite Integrals | JEE Advanced (2018-2019)",
+      "channel": "Rejaul Sir Maths",
+      "url": "https://www.youtube.com/watch?v=SSl2HyaBvLk"
+    },
+    {
+      "title": "JEE Advanced 2024 Video Solutions and Expert Analysis",
+      "channel": "CollegeDunia",
+      "url": "https://www.youtube.com/watch?v=xxZijAjZyrE"
+    },
+    {
+      "title": "Two-step compression: least work?! | JEE Advanced 2026 Chemistry PYQ #shorts",
+      "channel": "Genius Labs (Anuj Mishra)",
+      "url": "https://www.youtube.com/watch?v=VlTXCytFKCw"
+    },
+    {
+      "title": "JEE Advanced PYQ 2020–2024 (playlist)",
+      "channel": "CLC Sikar",
+      "url": "https://www.youtube.com/watch?v=IWce0lvDo1E"
+    }
+  ],
+  "not_found_years": [],
+  "notes": "JEE Advanced 2026 was held 17 May 2026. AglaSem JEE Advanced page exists but curl returned 403 (bot protection) — not used; Vedantu + Aakash used instead."
+}

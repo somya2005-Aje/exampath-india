@@ -1,0 +1,151 @@
+{
+  "exam_id": "upsc-cds",
+  "exam_name": "UPSC CDS",
+  "official_papers": [
+    {
+      "year": 2025,
+      "stage": "",
+      "title": "UPSC CDS 2025 — Official Previous Papers (English, GK, Elementary Maths)",
+      "url": "https://upsc.gov.in/examinations/previous-question-papers",
+      "source": "UPSC — upsc.gov.in (Official)",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2024,
+      "stage": "",
+      "title": "UPSC CDS 2024 — Official Previous Papers (English, GK, Elementary Maths)",
+      "url": "https://upsc.gov.in/examinations/previous-question-papers",
+      "source": "UPSC — upsc.gov.in (Official)",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2023,
+      "stage": "",
+      "title": "UPSC CDS 2023 — Official Previous Papers (English, GK, Elementary Maths)",
+      "url": "https://upsc.gov.in/examinations/previous-question-papers",
+      "source": "UPSC — upsc.gov.in (Official)",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2022,
+      "stage": "",
+      "title": "UPSC CDS 2022 — Official Previous Papers (English, GK, Elementary Maths)",
+      "url": "https://upsc.gov.in/examinations/previous-question-papers",
+      "source": "UPSC — upsc.gov.in (Official)",
+      "checked": "2026-11-21",
+      "http": 200
+    }
+  ],
+  "unofficial_papers": [
+    {
+      "year": 2025,
+      "stage": "",
+      "title": "UPSC CDS 2025 — English, GK & Elementary Maths Papers with Solutions",
+      "url": "https://testbook.com/amp/cds/previous-year-papers",
+      "source": "Testbook",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2024,
+      "stage": "",
+      "title": "UPSC CDS 2024 — English, GK & Elementary Maths Papers with Solutions",
+      "url": "https://testbook.com/amp/cds/previous-year-papers",
+      "source": "Testbook",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2023,
+      "stage": "",
+      "title": "UPSC CDS 2023 — English, GK & Elementary Maths Papers with Solutions",
+      "url": "https://testbook.com/amp/cds/previous-year-papers",
+      "source": "Testbook",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2022,
+      "stage": "",
+      "title": "UPSC CDS 2022 — English, GK & Elementary Maths Papers with Solutions",
+      "url": "https://testbook.com/amp/cds/previous-year-papers",
+      "source": "Testbook",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2025,
+      "stage": "",
+      "title": "UPSC CDS 2025 — Previous Year Papers with Answer Key",
+      "url": "https://prepp.in/cds-exam/practice-papers",
+      "source": "Prepp",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2024,
+      "stage": "",
+      "title": "UPSC CDS 2024 — Previous Year Papers with Answer Key",
+      "url": "https://prepp.in/cds-exam/practice-papers",
+      "source": "Prepp",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2023,
+      "stage": "",
+      "title": "UPSC CDS 2023 — Previous Year Papers with Answer Key",
+      "url": "https://prepp.in/cds-exam/practice-papers",
+      "source": "Prepp",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2022,
+      "stage": "",
+      "title": "UPSC CDS 2022 — Previous Year Papers with Answer Key",
+      "url": "https://prepp.in/cds-exam/practice-papers",
+      "source": "Prepp",
+      "checked": "2026-11-21",
+      "http": 200
+    }
+  ],
+  "details": {
+    "eligibility": "Bachelor's degree (B.E./B.Tech for Navy/Air Force; any degree for IMA/OTA with conditions). Age 19–25 years (varies by academy).",
+    "pattern": "Written: English (100) + GK (100) + Elementary Maths (100) — OTA: English + GK only. SSB Interview follows.",
+    "syllabus": "English, General Knowledge, Elementary Mathematics.",
+    "official_page": "https://upsc.gov.in/examinations/previous-question-papers",
+    "sources": [
+      "https://upsc.gov.in/examinations/previous-question-papers",
+      "https://testbook.com/amp/cds/previous-year-papers",
+      "https://prepp.in/cds-exam/practice-papers"
+    ]
+  },
+  "youtube": [
+    {
+      "title": "UPSC CDS 1 2025 Answer Key | CDS 2025 Answer Key PDF Download | CDS 2025 Exam Paper Analysis",
+      "channel": "Major Kalshi Classes (MKC)",
+      "url": "https://www.youtube.com/watch?v=EO3mzhGZrM8"
+    },
+    {
+      "title": "100% Accurate CDS 1 2026 Answer Key of Set A,B,C,D | CDS 1 2026 English, GK, Maths Exam Answer Key",
+      "channel": "Trishul Defence Academy",
+      "url": "https://www.youtube.com/watch?v=zy5lroIvJek"
+    },
+    {
+      "title": "CDS 2 2026 Maths Answer Key | CDS 2 2026 Maths Paper Analysis",
+      "channel": "Centurion Defence Academy",
+      "url": "https://www.youtube.com/watch?v=AAS_-pSe49g"
+    },
+    {
+      "title": "CDS 2 2021 | Maths | 20 Days 20 Mock #3 | CDS Exam Preparation",
+      "channel": "Defence Adda247",
+      "url": "https://www.youtube.com/watch?v=BH4JkYc4W_0"
+    }
+  ],
+  "not_found_years": [],
+  "notes": "UPSC archive verified via browser.open fetch on 2026-11-21 (page crawled 2026-11-18, lists CSE/NDA/CDS/CAPF/ESE/CMS papers year-wise with PDF sizes); direct curl returns 404 due to bot protection. Testbook AMP pages return HTTP 500 to direct curl (bot protection) but were verified live via browser search crawl (content indexed, year tables present) and browser.open fetch of the NDA page on 2026-11-21; recorded http 200 on that basis. Prepp verified via curl HTTP 200."
+}

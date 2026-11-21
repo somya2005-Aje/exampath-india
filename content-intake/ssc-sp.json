@@ -1,0 +1,146 @@
+{
+  "exam_id": "ssc-sp",
+  "exam_name": "SSC Selection Post",
+  "official_papers": [
+    {
+      "year": 2024,
+      "stage": "CBT",
+      "title": "SSC Selection Post 2024 — Official Previous Papers & Answer Keys",
+      "url": "https://ssc.gov.in/candidate-corner/previousPaper",
+      "source": "SSC — ssc.gov.in (Official)",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2023,
+      "stage": "CBT",
+      "title": "SSC Selection Post 2023 — Official Previous Papers & Answer Keys",
+      "url": "https://ssc.gov.in/candidate-corner/previousPaper",
+      "source": "SSC — ssc.gov.in (Official)",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2022,
+      "stage": "CBT",
+      "title": "SSC Selection Post 2022 — Official Previous Papers & Answer Keys",
+      "url": "https://ssc.gov.in/candidate-corner/previousPaper",
+      "source": "SSC — ssc.gov.in (Official)",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2021,
+      "stage": "CBT",
+      "title": "SSC Selection Post 2021 — Official Previous Papers & Answer Keys",
+      "url": "https://ssc.gov.in/candidate-corner/previousPaper",
+      "source": "SSC — ssc.gov.in (Official)",
+      "checked": "2026-11-21",
+      "http": 200
+    }
+  ],
+  "unofficial_papers": [
+    {
+      "year": 2024,
+      "stage": "CBT",
+      "title": "SSC Selection Post 2024 Question Paper with Answer Key PDF (Matriculation / Higher Secondary / Graduation levels)",
+      "url": "https://prepp.in/ssc-selection-post-exam/question-paper",
+      "source": "Prepp",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2024,
+      "stage": "CBT",
+      "title": "SSC Selection Post 2024 Question Paper PDF (level-wise, English & Hindi)",
+      "url": "https://www.adda247.com/jobs/ssc-selection-post-previous-year-question-paper/",
+      "source": "Adda247",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2023,
+      "stage": "CBT",
+      "title": "SSC Selection Post 2023 Question Paper with Answer Key PDF (Matriculation / Higher Secondary / Graduation levels)",
+      "url": "https://prepp.in/ssc-selection-post-exam/question-paper",
+      "source": "Prepp",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2023,
+      "stage": "CBT",
+      "title": "SSC Selection Post 2023 Question Paper PDF (level-wise, English & Hindi)",
+      "url": "https://www.adda247.com/jobs/ssc-selection-post-previous-year-question-paper/",
+      "source": "Adda247",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2022,
+      "stage": "CBT",
+      "title": "SSC Selection Post 2022 Question Paper with Answer Key PDF (level-wise)",
+      "url": "https://prepp.in/ssc-selection-post-exam/question-paper",
+      "source": "Prepp",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2022,
+      "stage": "CBT",
+      "title": "SSC Selection Post Phase 9 (2022) Previous Year Question Papers (shift-wise PDFs)",
+      "url": "https://www.oliveboard.in/blog/ssc-selection-post-pyps/",
+      "source": "Oliveboard",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2021,
+      "stage": "CBT",
+      "title": "SSC Selection Post 2021 Question Paper with Answer Key PDF (level-wise)",
+      "url": "https://prepp.in/ssc-selection-post-exam/question-paper",
+      "source": "Prepp",
+      "checked": "2026-11-21",
+      "http": 200
+    }
+  ],
+  "details": {
+    "eligibility": "10th / 12th / Graduation",
+    "pattern": "CBT: 100 Q, 200 marks, 60 min (level-wise syllabus).",
+    "syllabus": "GK, Reasoning, Quant, English (level-wise)",
+    "official_page": "https://ssc.gov.in/",
+    "sources": [
+      "https://ssc.gov.in/",
+      "https://ssc.gov.in/candidate-corner/previousPaper"
+    ]
+  },
+  "youtube": [
+    {
+      "title": "SSC Selection Post Phase 14 Complete Maths Solution | 25 Sept Shift 1 | Best Approach SSC CGL 2026",
+      "channel": "SSC JIVI",
+      "url": "https://www.youtube.com/watch?v=WebhyhcOovA"
+    },
+    {
+      "title": "SSC Phase 14 Reasoning Classes | SSC Selection Post Reasoning Practice Set #1 | Reasoning By DK Sir",
+      "channel": "SSC Adda247",
+      "url": "https://www.youtube.com/watch?v=FoS32WOJOyU"
+    },
+    {
+      "title": "SSC Phase 14 Maths Classes 2026 | SSC Selection Post Maths PYQ | Number System #2 | By Ashish Sir",
+      "channel": "SSC Adda247",
+      "url": "https://www.youtube.com/watch?v=rmlerChogWU"
+    },
+    {
+      "title": "SSC Phase 14 GK GS Classes | SSC Selection Post GK GS PYQ | Science & Technology | By Somya Mam",
+      "channel": "SSC Adda247",
+      "url": "https://www.youtube.com/watch?v=00bvKnvezhU"
+    },
+    {
+      "title": "SSC Phase 14 GK GS Classes | SSC Selection Post GK GS PYQ | International & National | By Somya Mam",
+      "channel": "SSC Adda247",
+      "url": "https://www.youtube.com/watch?v=N1CLcgPJUro"
+    }
+  ],
+  "not_found_years": [],
+  "notes": "Prepp year list verified: 2025, 2024, 2023, 2022, 2021, 2020, 2019, 2018 (level-wise). 2021: only Prepp confirms 2021; Adda247/Oliveboard lists cover 2022–2025. Testbook Selection Post collection page also live (HTTP 200): https://testbook.com/ssc-selection-post/previous-year-papers — year coverage not individually confirmed. Prepp's /practice-papers slug for this exam returned 404; the working slug is /question-paper (verified 200). Official: papers via candidate login; archive listing linked per year (HTTP 200)."
+}

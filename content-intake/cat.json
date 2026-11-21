@@ -1,0 +1,131 @@
+{
+  "exam_id": "cat",
+  "exam_name": "CAT",
+  "official_papers": [
+    {
+      "year": 2024,
+      "stage": "",
+      "title": "CAT 2024 — Official CAT Website (Past Question Papers section)",
+      "url": "https://iimcat.ac.in/",
+      "source": "IIM — iimcat.ac.in (Official)",
+      "checked": "2026-11-21",
+      "http": 200,
+      "note": "Official CAT papers from 2017 onwards with answer keys, under 'Past Question Papers' on iimcat.ac.in."
+    },
+    {
+      "year": 2023,
+      "stage": "",
+      "title": "CAT 2023 — Official CAT Website (Past Question Papers section)",
+      "url": "https://iimcat.ac.in/",
+      "source": "IIM — iimcat.ac.in (Official)",
+      "checked": "2026-11-21",
+      "http": 200,
+      "note": "Official CAT papers from 2017 onwards with answer keys, under 'Past Question Papers' on iimcat.ac.in."
+    },
+    {
+      "year": 2022,
+      "stage": "",
+      "title": "CAT 2022 — Official CAT Website (Past Question Papers section)",
+      "url": "https://iimcat.ac.in/",
+      "source": "IIM — iimcat.ac.in (Official)",
+      "checked": "2026-11-21",
+      "http": 200,
+      "note": "Official CAT papers from 2017 onwards with answer keys, under 'Past Question Papers' on iimcat.ac.in."
+    }
+  ],
+  "unofficial_papers": [
+    {
+      "year": 2024,
+      "stage": "",
+      "title": "CAT 2024 — Previous Year Question Papers (slot-wise, with solutions)",
+      "url": "https://www.careers360.com/mba/articles/cat-question-papers",
+      "source": "Careers360",
+      "checked": "2026-11-21",
+      "http": 200,
+      "note": "Slot-wise papers 1991–2025 with answer keys and solutions."
+    },
+    {
+      "year": 2024,
+      "stage": "",
+      "title": "CAT 2024 — Previous Year Question Papers with Answer Key",
+      "url": "https://admission.aglasem.com/cat-exam-previous-year-question-papers-answers/",
+      "source": "AglaSem",
+      "checked": "2026-11-21",
+      "http": 403,
+      "note": "22 slot-wise PDFs 2017–2025 with answer keys. curl returns 403 (bot protection); page confirmed via browser search result 2026-11-21."
+    },
+    {
+      "year": 2023,
+      "stage": "",
+      "title": "CAT 2023 — Previous Year Question Papers (slot-wise, with solutions)",
+      "url": "https://www.careers360.com/mba/articles/cat-question-papers",
+      "source": "Careers360",
+      "checked": "2026-11-21",
+      "http": 200,
+      "note": "Slot-wise papers 1991–2025 with answer keys and solutions."
+    },
+    {
+      "year": 2023,
+      "stage": "",
+      "title": "CAT 2023 — Previous Year Question Papers with Answer Key",
+      "url": "https://admission.aglasem.com/cat-exam-previous-year-question-papers-answers/",
+      "source": "AglaSem",
+      "checked": "2026-11-21",
+      "http": 403,
+      "note": "22 slot-wise PDFs 2017–2025 with answer keys. curl returns 403 (bot protection); page confirmed via browser search result 2026-11-21."
+    },
+    {
+      "year": 2022,
+      "stage": "",
+      "title": "CAT 2022 — Previous Year Question Papers (slot-wise, with solutions)",
+      "url": "https://www.careers360.com/mba/articles/cat-question-papers",
+      "source": "Careers360",
+      "checked": "2026-11-21",
+      "http": 200,
+      "note": "Slot-wise papers 1991–2025 with answer keys and solutions."
+    },
+    {
+      "year": 2022,
+      "stage": "",
+      "title": "CAT 2022 — Previous Year Question Papers with Answer Key",
+      "url": "https://admission.aglasem.com/cat-exam-previous-year-question-papers-answers/",
+      "source": "AglaSem",
+      "checked": "2026-11-21",
+      "http": 403,
+      "note": "22 slot-wise PDFs 2017–2025 with answer keys. curl returns 403 (bot protection); page confirmed via browser search result 2026-11-21."
+    }
+  ],
+  "details": {
+    "eligibility": "Graduation",
+    "pattern": "120 min: VARC (24 Q) + DILR (22 Q) + QA (22 Q). +3 / -1 marking.",
+    "syllabus": "Verbal Ability, Reading Comprehension, Data Interpretation, Logical Reasoning, Quant",
+    "official_page": "https://iimcat.ac.in/",
+    "sources": [
+      "https://iimcat.ac.in/"
+    ]
+  },
+  "youtube": [
+    {
+      "title": "CAT 2018 Question Paper — Geometry",
+      "channel": "2IIM",
+      "url": "https://www.youtube.com/watch?v=r2kbDhfxBGM"
+    },
+    {
+      "title": "CAT 2021 Question Paper — Quant",
+      "channel": "2IIM",
+      "url": "https://www.youtube.com/watch?v=3VbQL0h1Ou4"
+    },
+    {
+      "title": "CAT 2024 Question Paper — Quant",
+      "channel": "2IIM",
+      "url": "https://www.youtube.com/watch?v=VoXHhJ6FBeA"
+    },
+    {
+      "title": "CAT 2020 Slot 1 DILR Question Paper",
+      "channel": "2IIM",
+      "url": "https://www.youtube.com/watch?v=g8wdZ1kcfrM"
+    }
+  ],
+  "not_found_years": [],
+  "notes": "CAT 2026: 29 November 2026 (IIM Indore, convener). CAT 2024/2025: 68 questions. Testbook CAT papers page (/cat/previous-year-papers) returned 404 — not used."
+}

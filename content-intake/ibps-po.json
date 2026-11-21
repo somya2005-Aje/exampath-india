@@ -1,0 +1,199 @@
+{
+  "exam_id": "ibps-po",
+  "exam_name": "IBPS PO",
+  "official_papers": [
+    {
+      "year": 2025,
+      "stage": "Prelims/Mains",
+      "title": "Official portal — notifications, answer keys & results (no public full question-paper archive published)",
+      "url": "https://www.ibps.in/",
+      "source": "IBPS — ibps.in (Official)",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2024,
+      "stage": "Prelims/Mains",
+      "title": "Official portal — notifications, answer keys & results (no public full question-paper archive published)",
+      "url": "https://www.ibps.in/",
+      "source": "IBPS — ibps.in (Official)",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2023,
+      "stage": "Prelims/Mains",
+      "title": "Official portal — notifications, answer keys & results (no public full question-paper archive published)",
+      "url": "https://www.ibps.in/",
+      "source": "IBPS — ibps.in (Official)",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2022,
+      "stage": "Prelims/Mains",
+      "title": "Official portal — notifications, answer keys & results (no public full question-paper archive published)",
+      "url": "https://www.ibps.in/",
+      "source": "IBPS — ibps.in (Official)",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2021,
+      "stage": "Prelims/Mains",
+      "title": "Official portal — notifications, answer keys & results (no public full question-paper archive published)",
+      "url": "https://www.ibps.in/",
+      "source": "IBPS — ibps.in (Official)",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2020,
+      "stage": "Prelims/Mains",
+      "title": "Official portal — notifications, answer keys & results (no public full question-paper archive published)",
+      "url": "https://www.ibps.in/",
+      "source": "IBPS — ibps.in (Official)",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2019,
+      "stage": "Prelims/Mains",
+      "title": "Official portal — notifications, answer keys & results (no public full question-paper archive published)",
+      "url": "https://www.ibps.in/",
+      "source": "IBPS — ibps.in (Official)",
+      "checked": "2026-11-21",
+      "http": 200
+    }
+  ],
+  "unofficial_papers": [
+    {
+      "year": 2025,
+      "stage": "Prelims",
+      "title": "IBPS PO 2025 Prelims — Memory-Based Paper, Shift 1 (PDF)",
+      "url": "https://download.oliveboard.in/pdf/IBPS-PO-2025-Shift-1-Prelims-PYP.pdf",
+      "source": "Oliveboard",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2025,
+      "stage": "Prelims/Mains",
+      "title": "IBPS PO Previous Year Papers — Prelims & Mains memory-based collection (2020–2026)",
+      "url": "https://www.oliveboard.in/blog/ibps-po-prelims-pyps/",
+      "source": "Oliveboard",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2024,
+      "stage": "Prelims/Mains",
+      "title": "IBPS PO Previous Year Papers — Prelims & Mains memory-based collection (2020–2026)",
+      "url": "https://www.oliveboard.in/blog/ibps-po-prelims-pyps/",
+      "source": "Oliveboard",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2023,
+      "stage": "Prelims",
+      "title": "IBPS PO 2023 Prelims — Memory-Based Paper (PDF)",
+      "url": "https://download.oliveboard.in/pdf/IBPS-PO-2023-Prelims-PYP.pdf",
+      "source": "Oliveboard",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2023,
+      "stage": "Prelims/Mains",
+      "title": "IBPS PO Previous Year Papers — Prelims & Mains memory-based collection (2020–2026)",
+      "url": "https://www.oliveboard.in/blog/ibps-po-prelims-pyps/",
+      "source": "Oliveboard",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2022,
+      "stage": "Prelims/Mains",
+      "title": "IBPS PO Previous Year Papers — Prelims & Mains memory-based collection (2020–2026)",
+      "url": "https://www.oliveboard.in/blog/ibps-po-prelims-pyps/",
+      "source": "Oliveboard",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2021,
+      "stage": "Prelims",
+      "title": "IBPS PO 2021 Prelims — Memory-Based Paper (PDF)",
+      "url": "https://download.oliveboard.in/pdf/IBPS-PO-2021-Prelims-PYP.pdf",
+      "source": "Oliveboard",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2021,
+      "stage": "Prelims/Mains",
+      "title": "IBPS PO Previous Year Papers — Prelims & Mains memory-based collection (2020–2026)",
+      "url": "https://www.oliveboard.in/blog/ibps-po-prelims-pyps/",
+      "source": "Oliveboard",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2020,
+      "stage": "Prelims",
+      "title": "IBPS PO 2020 Prelims — Memory-Based Paper (PDF)",
+      "url": "https://download.oliveboard.in/pdf/IBPS-PO-2020-Prelims-PYP.pdf",
+      "source": "Oliveboard",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2020,
+      "stage": "Prelims/Mains",
+      "title": "IBPS PO Previous Year Papers — Prelims & Mains memory-based collection (2020–2026)",
+      "url": "https://www.oliveboard.in/blog/ibps-po-prelims-pyps/",
+      "source": "Oliveboard",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2019,
+      "stage": "Prelims/Mains",
+      "title": "IBPS PO Previous Year Question Papers with Solutions (2019–2021, section-wise)",
+      "url": "https://www.geeksforgeeks.org/ssc-banking/ibps-po-previous-year-question-paper/",
+      "source": "GeeksforGeeks",
+      "checked": "2026-11-21",
+      "http": 200
+    }
+  ],
+  "details": {
+    "eligibility": "Graduation in any discipline from a recognised university (as per the IBPS PO notification on ibps.in).",
+    "pattern": "Prelims: 100 questions, 100 marks, 60 minutes (English 30, Quant 35, Reasoning 35). Mains: 155 objective questions + descriptive English, 225 marks. Then Interview.",
+    "syllabus": "Quantitative Aptitude, Reasoning Ability, English Language, General/Banking Awareness, Computer Knowledge, Data Analysis & Interpretation, Descriptive English (letter & essay).",
+    "official_page": "https://www.ibps.in/",
+    "sources": [
+      "https://www.ibps.in/",
+      "https://www.oliveboard.in/blog/ibps-po-prelims-pyps/"
+    ]
+  },
+  "youtube": [
+    {
+      "title": "IBPS PO Previous Year Paper 2025 | Complete Solution and Exam Analysis 2026",
+      "channel": "Bankersadda",
+      "url": "https://www.youtube.com/watch?v=Zc0u9waokCQ"
+    },
+    {
+      "title": "IBPS PO Prelims 2020 Memory-Based Paper — question paper with solutions",
+      "channel": "VERANDA RACE - BANK",
+      "url": "https://www.youtube.com/watch?v=M_DcF7izRiQ"
+    },
+    {
+      "title": "IBPS PO 2022 | English section | Previous year Paper (2020) | By Satakshi Naithani",
+      "channel": "ixamBee - Banking and Insurance Job Preparation",
+      "url": "https://www.youtube.com/watch?v=VO8WHPJ1Ve0"
+    }
+  ],
+  "not_found_years": [],
+  "notes": "IBPS does not publish a public full question-paper archive; official entries point to ibps.in (notifications, answer keys, results). All unofficial papers are memory-based reconstructions, clearly labelled. data.js listed Oliveboard PDF slugs IBPS-PO-2023/2021/2020-Shift-1-Prelims-PYP.pdf — all three returned HTTP 404 on 2026-11-21 and were replaced with the corrected slugs IBPS-PO-2023/2021/2020-Prelims-PYP.pdf (verified HTTP 200). IBPS PO 2027 notification tentatively expected 1 Dec 2026 per the site calendar — verify on ibps.in."
+}

@@ -1,0 +1,188 @@
+{
+  "exam_id": "ssc-gd",
+  "exam_name": "SSC GD Constable",
+  "official_papers": [
+    {
+      "year": 2024,
+      "stage": "CBT",
+      "title": "SSC GD Constable 2024 — Official Previous Papers & Answer Keys",
+      "url": "https://ssc.gov.in/candidate-corner/previousPaper",
+      "source": "SSC — ssc.gov.in (Official)",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2023,
+      "stage": "CBT",
+      "title": "SSC GD Constable 2023 — Official Previous Papers & Answer Keys",
+      "url": "https://ssc.gov.in/candidate-corner/previousPaper",
+      "source": "SSC — ssc.gov.in (Official)",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2022,
+      "stage": "CBT",
+      "title": "SSC GD Constable 2022 — Official Previous Papers & Answer Keys",
+      "url": "https://ssc.gov.in/candidate-corner/previousPaper",
+      "source": "SSC — ssc.gov.in (Official)",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2021,
+      "stage": "CBT",
+      "title": "SSC GD Constable 2021 — Official Previous Papers & Answer Keys",
+      "url": "https://ssc.gov.in/candidate-corner/previousPaper",
+      "source": "SSC — ssc.gov.in (Official)",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2019,
+      "stage": "CBT",
+      "title": "SSC GD Constable 2019 — Official Previous Papers & Answer Keys",
+      "url": "https://ssc.gov.in/candidate-corner/previousPaper",
+      "source": "SSC — ssc.gov.in (Official)",
+      "checked": "2026-11-21",
+      "http": 200
+    }
+  ],
+  "unofficial_papers": [
+    {
+      "year": 2024,
+      "stage": "CBT",
+      "title": "SSC GD Constable 2024 — CBT Papers (shift-wise, with solutions)",
+      "url": "https://testbook.com/ssc-gd-constable/previous-year-papers",
+      "source": "Testbook",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2024,
+      "stage": "CBT",
+      "title": "SSC GD 2024 Question Paper PDF (shift-wise, English & Hindi)",
+      "url": "https://www.adda247.com/jobs/ssc-gd-previous-year-question-papers/",
+      "source": "Adda247",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2024,
+      "stage": "CBT",
+      "title": "SSC GD 2024 CBT Previous Year Papers (shift-wise PDFs)",
+      "url": "https://www.oliveboard.in/blog/ssc-gd-pyps/",
+      "source": "Oliveboard",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2023,
+      "stage": "CBT",
+      "title": "SSC GD Constable 2023 — CBT Papers (shift-wise, with solutions)",
+      "url": "https://testbook.com/ssc-gd-constable/previous-year-papers",
+      "source": "Testbook",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2023,
+      "stage": "CBT",
+      "title": "SSC GD 2023 Question Paper PDF (shift-wise, English & Hindi)",
+      "url": "https://www.adda247.com/jobs/ssc-gd-previous-year-question-papers/",
+      "source": "Adda247",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2023,
+      "stage": "CBT",
+      "title": "SSC GD 2023 CBT Previous Year Papers (shift-wise PDFs)",
+      "url": "https://www.oliveboard.in/blog/ssc-gd-pyps/",
+      "source": "Oliveboard",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2021,
+      "stage": "CBT",
+      "title": "SSC GD Constable 2021 — CBT Papers (shift-wise, with solutions)",
+      "url": "https://testbook.com/ssc-gd-constable/previous-year-papers",
+      "source": "Testbook",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2021,
+      "stage": "CBT",
+      "title": "SSC GD 2021 Question Paper PDF (shift-wise, English & Hindi)",
+      "url": "https://www.adda247.com/jobs/ssc-gd-previous-year-question-papers/",
+      "source": "Adda247",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2021,
+      "stage": "CBT",
+      "title": "SSC GD 2021 CBT Previous Year Papers (shift-wise PDFs)",
+      "url": "https://www.oliveboard.in/blog/ssc-gd-pyps/",
+      "source": "Oliveboard",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2022,
+      "stage": "CBT",
+      "title": "SSC GD Constable 2022 — CBT Papers (shift-wise, with solutions)",
+      "url": "https://testbook.com/ssc-gd-constable/previous-year-papers",
+      "source": "Testbook",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2022,
+      "stage": "CBT",
+      "title": "SSC GD Constable Previous Year Papers 2021–2025 (with solutions)",
+      "url": "https://www.sscadda.com/ssc-gd-constable-previous-year-paper/",
+      "source": "SSC Adda",
+      "checked": "2026-11-21",
+      "http": 200
+    }
+  ],
+  "details": {
+    "eligibility": "10th pass",
+    "pattern": "CBT: 80 Q, 160 marks, 60 min. Then PET/PST, medical.",
+    "syllabus": "General Intelligence & Reasoning, GK & Awareness, Elementary Maths, English/Hindi",
+    "official_page": "https://ssc.gov.in/",
+    "sources": [
+      "https://ssc.gov.in/",
+      "https://ssc.gov.in/candidate-corner/previousPaper"
+    ]
+  },
+  "youtube": [
+    {
+      "title": "SSC GD 2025 Math solution 4th Feb Shift-3 Solved! 100% Real Questions in Bengali",
+      "channel": "Curious Math by SS",
+      "url": "https://www.youtube.com/watch?v=eVGh0lwfVxI"
+    },
+    {
+      "title": "SSC GD 2026: Maths 20/20 Target | SSC GD Previous Year Paper Solution | PYQ Set-1 | Ashok Sir",
+      "channel": "A4 Academy",
+      "url": "https://www.youtube.com/watch?v=4tUJY1zRik8"
+    },
+    {
+      "title": "SSC GD 2026 | SSC GD Maths PYQ | SSC Previous Year Paper Solution | By Aditya Patel Sir",
+      "channel": "WiNNERS Institute",
+      "url": "https://www.youtube.com/watch?v=XpLNpNZHt54"
+    },
+    {
+      "title": "SSC GD 2027 | Maths PYQ Set-10 | SSC GD Maths Previous Year Question Paper Solved by Vivek Sir",
+      "channel": "Vidhya Manch",
+      "url": "https://www.youtube.com/watch?v=K2d2TL6JzUY"
+    }
+  ],
+  "not_found_years": [
+    2019
+  ],
+  "notes": "2019: no source found confirming a 2019 paper on 2026-11-21 (Adda247/Oliveboard list 2025, 2024, 2023, 2021; SSC Adda lists 2021–2025). Testbook's GD collection page is live (HTTP 200) but its per-year coverage for 2019 was not individually confirmed, so 2019 is recorded as not found rather than assumed. Official: papers via candidate login; archive listing linked per year (HTTP 200)."
+}

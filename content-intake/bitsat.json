@@ -1,0 +1,101 @@
+{
+  "exam_id": "bitsat",
+  "exam_name": "BITSAT",
+  "official_papers": [],
+  "unofficial_papers": [
+    {
+      "year": 2025,
+      "stage": "",
+      "title": "BITSAT 2025 — Previous Year Papers",
+      "url": "https://testbook.com/bitsat/previous-year-papers",
+      "source": "Testbook",
+      "checked": "2026-11-21",
+      "http": 200,
+      "note": "Memory-based papers with solutions (BITSAT is online; no official papers)."
+    },
+    {
+      "year": 2025,
+      "stage": "",
+      "title": "BITSAT 2025 — Previous Year Question Paper with Solution",
+      "url": "https://collegedunia.com/exams/bitsat/question-paper",
+      "source": "CollegeDunia",
+      "checked": "2026-11-21",
+      "http": 200,
+      "note": "Shift-wise memory-based papers 2014–2026 with solutions."
+    },
+    {
+      "year": 2024,
+      "stage": "",
+      "title": "BITSAT 2024 — Previous Year Papers",
+      "url": "https://testbook.com/bitsat/previous-year-papers",
+      "source": "Testbook",
+      "checked": "2026-11-21",
+      "http": 200,
+      "note": "Memory-based papers with solutions (BITSAT is online; no official papers)."
+    },
+    {
+      "year": 2024,
+      "stage": "",
+      "title": "BITSAT 2024 — Previous Year Question Paper with Solution",
+      "url": "https://collegedunia.com/exams/bitsat/question-paper",
+      "source": "CollegeDunia",
+      "checked": "2026-11-21",
+      "http": 200,
+      "note": "Shift-wise memory-based papers 2014–2026 with solutions."
+    },
+    {
+      "year": 2023,
+      "stage": "",
+      "title": "BITSAT 2023 — Previous Year Papers",
+      "url": "https://testbook.com/bitsat/previous-year-papers",
+      "source": "Testbook",
+      "checked": "2026-11-21",
+      "http": 200,
+      "note": "Memory-based papers with solutions (BITSAT is online; no official papers)."
+    },
+    {
+      "year": 2023,
+      "stage": "",
+      "title": "BITSAT 2023 — Previous Year Question Paper with Solution",
+      "url": "https://collegedunia.com/exams/bitsat/question-paper",
+      "source": "CollegeDunia",
+      "checked": "2026-11-21",
+      "http": 200,
+      "note": "Shift-wise memory-based papers 2014–2026 with solutions."
+    }
+  ],
+  "details": {
+    "eligibility": "12th (PCM, 75%+)",
+    "pattern": "Online: 130 Q, 390 marks, 180 min. +12 bonus questions if finished early.",
+    "syllabus": "Physics, Chemistry, Maths/Biology, English, Logical Reasoning",
+    "official_page": "https://www.bitsadmission.com/",
+    "sources": [
+      "https://www.bitsadmission.com/",
+      "https://admissions.bits-pilani.ac.in/"
+    ]
+  },
+  "youtube": [
+    {
+      "title": "BITSAT 2025 Paper Analysis",
+      "channel": "CollegeDunia",
+      "url": "https://www.youtube.com/watch?v=bALAif7vbtQ"
+    },
+    {
+      "title": "BITSAT 2022 Question Paper Analysis",
+      "channel": "Zollege",
+      "url": "https://www.youtube.com/watch?v=m_n23HkfzW4"
+    },
+    {
+      "title": "BITSAT 2026 May 26 Shift 1 Question Paper with Solutions",
+      "channel": "CollegeDunia",
+      "url": "https://www.youtube.com/watch?v=zh4I4X76mYs"
+    },
+    {
+      "title": "BITSAT Topper Strategy: How to Score Good in BITSAT",
+      "channel": "CollegeDunia",
+      "url": "https://www.youtube.com/watch?v=LLecPokQtpY"
+    }
+  ],
+  "not_found_years": [],
+  "notes": "NO official BITSAT papers: BITS Pilani states it does not provide model question papers (online CBT exam). All papers are memory-based third-party reconstructions — labelled unofficial. Official admissions site is now https://admissions.bits-pilani.ac.in/ (bitsadmission.com verified via browser fetch 2026-11-21)."
+}

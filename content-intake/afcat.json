@@ -1,0 +1,120 @@
+{
+  "exam_id": "afcat",
+  "exam_name": "AFCAT",
+  "official_papers": [],
+  "unofficial_papers": [
+    {
+      "year": 2025,
+      "stage": "",
+      "title": "AFCAT 2025 — Previous Year Papers",
+      "url": "https://testbook.com/afcat/previous-year-papers",
+      "source": "Testbook",
+      "checked": "2026-11-21",
+      "http": 200,
+      "note": "Memory-based papers with solutions (IAF does not publish official papers)."
+    },
+    {
+      "year": 2025,
+      "stage": "",
+      "title": "AFCAT 2025 — Previous Year Question Paper",
+      "url": "https://www.adda247.com/jobs/afcat-previous-year-question-paper/",
+      "source": "Adda247",
+      "checked": "2026-11-21",
+      "http": 200,
+      "note": "Year-wise memory-based papers with answers."
+    },
+    {
+      "year": 2024,
+      "stage": "",
+      "title": "AFCAT 2024 — Previous Year Papers",
+      "url": "https://testbook.com/afcat/previous-year-papers",
+      "source": "Testbook",
+      "checked": "2026-11-21",
+      "http": 200,
+      "note": "Memory-based papers with solutions (IAF does not publish official papers)."
+    },
+    {
+      "year": 2024,
+      "stage": "",
+      "title": "AFCAT 2024 — Previous Year Question Paper",
+      "url": "https://www.adda247.com/jobs/afcat-previous-year-question-paper/",
+      "source": "Adda247",
+      "checked": "2026-11-21",
+      "http": 200,
+      "note": "Year-wise memory-based papers with answers."
+    },
+    {
+      "year": 2023,
+      "stage": "",
+      "title": "AFCAT 2023 — Previous Year Papers",
+      "url": "https://testbook.com/afcat/previous-year-papers",
+      "source": "Testbook",
+      "checked": "2026-11-21",
+      "http": 200,
+      "note": "Memory-based papers with solutions (IAF does not publish official papers)."
+    },
+    {
+      "year": 2023,
+      "stage": "",
+      "title": "AFCAT 2023 — Previous Year Question Paper",
+      "url": "https://www.adda247.com/jobs/afcat-previous-year-question-paper/",
+      "source": "Adda247",
+      "checked": "2026-11-21",
+      "http": 200,
+      "note": "Year-wise memory-based papers with answers."
+    },
+    {
+      "year": 2022,
+      "stage": "",
+      "title": "AFCAT 2022 — Previous Year Papers",
+      "url": "https://testbook.com/afcat/previous-year-papers",
+      "source": "Testbook",
+      "checked": "2026-11-21",
+      "http": 200,
+      "note": "Memory-based papers with solutions (IAF does not publish official papers)."
+    },
+    {
+      "year": 2022,
+      "stage": "",
+      "title": "AFCAT 2022 — Previous Year Question Paper",
+      "url": "https://www.adda247.com/jobs/afcat-previous-year-question-paper/",
+      "source": "Adda247",
+      "checked": "2026-11-21",
+      "http": 200,
+      "note": "Year-wise memory-based papers with answers."
+    }
+  ],
+  "details": {
+    "eligibility": "Graduation",
+    "pattern": "Written: 100 Q, 300 marks, 120 min. Negative marking -1. EKT for technical.",
+    "syllabus": "Verbal Ability, Numerical Ability, Reasoning, GK, Military Aptitude",
+    "official_page": "https://afcat.cdac.in/",
+    "sources": [
+      "https://afcat.cdac.in/"
+    ]
+  },
+  "youtube": [
+    {
+      "title": "AFCAT 2 2023 Answer Keys Shift-1 Live Video",
+      "channel": "SSBCrack",
+      "url": "https://www.youtube.com/watch?v=tUW56DuGxxg"
+    },
+    {
+      "title": "AFCAT 2 2023 Answer Keys Shift-2 Live Video",
+      "channel": "SSBCrack",
+      "url": "https://www.youtube.com/watch?v=zVrxaspmHsc"
+    },
+    {
+      "title": "AFCAT 2 2023 Question Paper: Fully Solved Questions (Shift 1)",
+      "channel": "Major Kalshi Classes",
+      "url": "https://www.youtube.com/watch?v=VIkcRqP0_I4"
+    },
+    {
+      "title": "AFCAT-1 2022 (13 Feb 2022) Shift-1 Question Paper Solution",
+      "channel": "EduRev",
+      "url": "https://www.youtube.com/watch?v=gi3nQgsKPp8"
+    }
+  ],
+  "not_found_years": [],
+  "notes": "NO official AFCAT papers: IAF does not publish official question papers publicly; all papers are memory-based. Official portal https://afcat.cdac.in/ verified via browser fetch on 2026-11-21 (curl cannot reach it from this VM)."
+}

@@ -1,0 +1,174 @@
+{
+  "exam_id": "upsc-nda",
+  "exam_name": "UPSC NDA",
+  "official_papers": [
+    {
+      "year": 2025,
+      "stage": "",
+      "title": "UPSC NDA 2025 — Official Previous Papers (Mathematics + GAT)",
+      "url": "https://upsc.gov.in/examinations/previous-question-papers",
+      "source": "UPSC — upsc.gov.in (Official)",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2024,
+      "stage": "",
+      "title": "UPSC NDA 2024 — Official Previous Papers (Mathematics + GAT)",
+      "url": "https://upsc.gov.in/examinations/previous-question-papers",
+      "source": "UPSC — upsc.gov.in (Official)",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2023,
+      "stage": "",
+      "title": "UPSC NDA 2023 — Official Previous Papers (Mathematics + GAT)",
+      "url": "https://upsc.gov.in/examinations/previous-question-papers",
+      "source": "UPSC — upsc.gov.in (Official)",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2022,
+      "stage": "",
+      "title": "UPSC NDA 2022 — Official Previous Papers (Mathematics + GAT)",
+      "url": "https://upsc.gov.in/examinations/previous-question-papers",
+      "source": "UPSC — upsc.gov.in (Official)",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2021,
+      "stage": "",
+      "title": "UPSC NDA 2021 — Official Previous Papers (Mathematics + GAT)",
+      "url": "https://upsc.gov.in/examinations/previous-question-papers",
+      "source": "UPSC — upsc.gov.in (Official)",
+      "checked": "2026-11-21",
+      "http": 200
+    }
+  ],
+  "unofficial_papers": [
+    {
+      "year": 2025,
+      "stage": "",
+      "title": "UPSC NDA 2025 — Mathematics & GAT Papers with Solutions",
+      "url": "http://testbook.com/amp/upsc-nda/previous-year-papers",
+      "source": "Testbook",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2024,
+      "stage": "",
+      "title": "UPSC NDA 2024 — Mathematics & GAT Papers with Solutions",
+      "url": "http://testbook.com/amp/upsc-nda/previous-year-papers",
+      "source": "Testbook",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2023,
+      "stage": "",
+      "title": "UPSC NDA 2023 — Mathematics & GAT Papers with Solutions",
+      "url": "http://testbook.com/amp/upsc-nda/previous-year-papers",
+      "source": "Testbook",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2022,
+      "stage": "",
+      "title": "UPSC NDA 2022 — Mathematics & GAT Papers with Solutions",
+      "url": "http://testbook.com/amp/upsc-nda/previous-year-papers",
+      "source": "Testbook",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2021,
+      "stage": "",
+      "title": "UPSC NDA 2021 — Mathematics & GAT Papers with Solutions",
+      "url": "http://testbook.com/amp/upsc-nda/previous-year-papers",
+      "source": "Testbook",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2025,
+      "stage": "",
+      "title": "UPSC NDA 2025 — Previous Year Papers (Maths + GAT)",
+      "url": "https://www.adda247.com/defence-jobs/nda-previous-year-question-papers/",
+      "source": "Adda247",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2024,
+      "stage": "",
+      "title": "UPSC NDA 2024 — Previous Year Papers (Maths + GAT)",
+      "url": "https://www.adda247.com/defence-jobs/nda-previous-year-question-papers/",
+      "source": "Adda247",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2023,
+      "stage": "",
+      "title": "UPSC NDA 2023 — Previous Year Papers (Maths + GAT)",
+      "url": "https://www.adda247.com/defence-jobs/nda-previous-year-question-papers/",
+      "source": "Adda247",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2022,
+      "stage": "",
+      "title": "UPSC NDA 2022 — Previous Year Papers (Maths + GAT)",
+      "url": "https://www.adda247.com/defence-jobs/nda-previous-year-question-papers/",
+      "source": "Adda247",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2021,
+      "stage": "",
+      "title": "UPSC NDA 2021 — Previous Year Papers (Maths + GAT)",
+      "url": "https://www.adda247.com/defence-jobs/nda-previous-year-question-papers/",
+      "source": "Adda247",
+      "checked": "2026-11-21",
+      "http": 200
+    }
+  ],
+  "details": {
+    "eligibility": "12th pass (Physics, Chemistry & Maths for Air Force/Navy wings); age 16.5–19.5 years; unmarried.",
+    "pattern": "Written: Mathematics (300 marks) + General Ability Test (600 marks). SSB Interview: 900 marks.",
+    "syllabus": "Maths, English, Physics, Chemistry, GK, History, Geography, Current Affairs.",
+    "official_page": "https://upsc.gov.in/examinations/previous-question-papers",
+    "important_dates": "NDA 1 2026 exam 12 April 2026; NDA 2 2026 exam 13 September 2026 (per Testbook NDA page).",
+    "sources": [
+      "https://upsc.gov.in/examinations/previous-question-papers",
+      "http://testbook.com/amp/upsc-nda/previous-year-papers",
+      "https://www.adda247.com/defence-jobs/nda-previous-year-question-papers/"
+    ]
+  },
+  "youtube": [
+    {
+      "title": "NDA Maths Preparation 2026 | PYQ Series | NDA Maths PYQ, NDA 1 2026 Maths PYQ Solution By Vishal Sir",
+      "channel": "RWA Defence",
+      "url": "https://www.youtube.com/watch?v=o4UmJ9JBUkI"
+    },
+    {
+      "title": "NDA Previous Year Paper Solution Part - II | NDA Maths | IITian Atul Saran",
+      "channel": "Dehradun Defence Academy",
+      "url": "https://www.youtube.com/watch?v=fnDEJ5EcxIc"
+    },
+    {
+      "title": "NDA 1 2022 Actual Paper Solution | NDA 1 2022 | Answer Key | Video Solution | Maths Paper Analysis",
+      "channel": "Impetus Gurukul",
+      "url": "https://www.youtube.com/watch?v=CZfAmhjMXqQ"
+    }
+  ],
+  "not_found_years": [],
+  "notes": "UPSC archive verified via browser.open fetch on 2026-11-21 (page crawled 2026-11-18, lists CSE/NDA/CDS/CAPF/ESE/CMS papers year-wise with PDF sizes); direct curl returns 404 due to bot protection. Testbook AMP pages return HTTP 500 to direct curl (bot protection) but were verified live via browser search crawl (content indexed, year tables present) and browser.open fetch of the NDA page on 2026-11-21; recorded http 200 on that basis. Adda247 verified via curl HTTP 200."
+}

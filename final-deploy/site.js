@@ -66,23 +66,59 @@ function searchAll(q){q=q.toLowerCase();const ex=EP.exams.filter(e=>(e[2]+" "+e[
  pills.forEach(p=>p.addEventListener("click",()=>apply(p.getAttribute("data-region-filter"))))})();
 
 /* ---------- exam page: year/stage pills + paper rows ---------- */
-function paperRows(e,y,sg){const st=examStatus(e[0]);const p=portalOf(e);const key=t=>`${e[0]}|${y}|${sg}|${t}`;const isSaved=k=>savedPapers().some(x=>x.key===k);
- const isRRB=p&&p.url.indexOf("rrbapply")>=0; /* RRB publishes answer keys/response sheets, not complete papers */
- const offBtn=p?`<a class="btn sm" href="${p.url}" target="_blank" rel="noopener">${isRRB?"Official Portal ↗":"Official Archive ↗"}</a>`:`<button class="btn sm" onclick="requestPaper('${e[0]}',${y},'${esc(sg)}','Question Paper')">Request Paper</button>`;
- const keyBtn=st==="official"&&p?`<a class="btn sm ghost" href="${p.url}" target="_blank" rel="noopener">${isRRB?"Official Portal ↗":"Official Key ↗"}</a>`:`<button class="btn sm ghost" onclick="requestPaper('${e[0]}',${y},'${esc(sg)}','Answer Key')">Request Key</button>`;
- const badge=isRRB?'<span class="badge b-part">◐ Answer key on portal</span>':st==="official"?'<span class="badge b-off">✓ Official</span>':p?'<span class="badge b-part">◐ Check on portal</span>':'<span class="badge b-none">Not available yet</span>';
- return `<tr><td><b>${esc(e[2])} ${y} — ${esc(sg)}</b><br><span class="small">Question Paper • Shift/Set as per official archive</span></td><td>${badge}</td><td style="white-space:nowrap">${offBtn} <button class="btn sm ${isSaved(key("paper"))?"green":"ghost"}" data-save-paper="${esc(key("paper"))}" data-save-label="${esc(e[2])} ${y} ${esc(sg)} Paper">${isSaved(key("paper"))?"✓ Saved":"💾 Save"}</button></td></tr>
- <tr><td><b>Answer Key — ${esc(sg)}</b><br><span class="small">Official key, wherever released</span></td><td>${badge}</td><td style="white-space:nowrap">${keyBtn}</td></tr>
- <tr><td><b>Solution &amp; Practice — ${esc(sg)}</b><br><span class="small">ExamPath original practice questions + explanations</span></td><td><span class="badge b-info">✍️ Practice</span></td><td><a class="btn sm purple" href="/practice?subject=all">Practice →</a></td></tr>`}
+function originOf(u){ try { return new URL(u).origin; } catch (e) { return u; } }
+function paperCard(pp,e,y,sg,official){
+  const key=`${e[0]}|${y}|${sg}|${pp.title}`;const saved=savedPapers().some(x=>x.key===key);
+  const badge=official?"✓ Official":"⚠️ Unofficial";
+  return `<div class="paper-cell"><a class="paper-card" href="${esc(pp.url)}" target="_blank" rel="noopener" title="${esc(pp.title)} — click to open the paper"><span class="pc-top"><span>📄 QUESTION PAPER</span><span>${esc(pp.source.split("—")[0].trim())}</span></span><span class="pc-year">${y}</span><span class="pc-exam">${esc(e[2])}</span><span class="pc-stage">${esc(pp.stage||sg||"All Stages")}</span><span class="pc-title">${esc(pp.title)}</span><span class="pc-lines" aria-hidden="true"></span><span class="pc-foot"><span class="badge ${official?"b-off":"b-unoff"}">${badge}</span><span class="pc-src">${esc(pp.source)} • Verified ${esc(pp.verified)}</span></span></a><button class="btn sm ${saved?"green":"ghost"}" data-save-paper="${esc(key)}" data-save-label="${esc(pp.title)}">${saved?"✓ Saved":"💾 Save"}</button><button class="btn sm paper-dl" type="button" data-download-url="${esc(pp.url)}">⬇️ Download</button></div>`;
+}
+function sourceBox(items,label){
+  const seen={};
+  items.forEach(pp=>{ seen[originOf(pp.url)]=pp.source; });
+  const keys=Object.keys(seen);
+  if(!keys.length) return "";
+  return `<div class="source-box"><h5>🔗 ${esc(label)}</h5><ul>${keys.map(u=>`<li><a href="${esc(u)}" target="_blank" rel="noopener">${esc(seen[u])} ↗</a></li>`).join("")}</ul><p class="small">These links open the source website. The papers themselves open from the photo cards above.</p></div>`;
+}
+function paperSection(items,e,y,sg,official,fallback){
+  const head=official?`<h4>✅ Official — verified on the official portal</h4><p class="small">Papers from the conducting body itself. Every link was checked on 21 Nov 2026.</p>`:`<h4>⚠️ Unofficial — from other websites</h4><p class="small">Papers hosted on other websites. Clearly labelled unofficial — check the source before trusting the answers. Never shown as official.</p>`;
+  if(!items.length) return `<div class="paper-sec">${head}${fallback}</div>`;
+  const gallery=`<div class="paper-gallery">${items.map(pp=>paperCard(pp,e,y,sg,official)).join("")}</div>`;
+  const numlist=`<div class="locked-detail" data-lock="paperlist"><div class="locked-body"><ol class="paper-numlist">${items.map(pp=>`<li><a href="${esc(pp.url)}" target="_blank" rel="noopener">${esc(pp.title)}</a> <span class="small">— ${esc(pp.source)}</span></li>`).join("")}</ol></div><div class="locked-teaser">🔒 Login to see the complete numbered paper list (${items.length} papers). <button class="btn sm" type="button" data-auth-login>Login with Google</button></div></div>`;
+  return `<div class="paper-sec">${head}${gallery}${numlist}${sourceBox(items)}</div>`;
+}
+function paperRows(e,y,sg){const p=portalOf(e);const isRRB=p&&p.url.indexOf("rrbapply")>=0;
+ const all=(EP.papers||[]).filter(pp=>pp.exam===e[0]&&pp.year===y&&(!pp.stage||pp.stage===sg));
+ const off=all.filter(pp=>pp.type==="official"),unoff=all.filter(pp=>pp.type==="unofficial");
+ const offFb=p?`<div class="paper-item"><div><b>${esc(e[2])} ${y} — ${esc(sg)}</b><br><span class="small">No direct paper link verified for this year yet. The official archive is the real source — open it to find this year's papers.</span></div><div style="white-space:nowrap"><a class="btn sm" href="${p.url}" target="_blank" rel="noopener">${isRRB?"Official Portal ↗":"Official Archive ↗"}</a></div></div>`:`<div class="paper-item"><div><b>Not available yet</b><br><span class="small">No official paper verified for ${y} — ${esc(sg)}.</span></div><div><button class="btn sm" onclick="requestPaper('${e[0]}',${y},'${esc(sg)}','Question Paper')">Request Paper</button></div></div>`;
+ const unoffFb=`<div class="paper-item"><div><b>Not available yet</b><br><span class="small">No unofficial paper link verified for ${y} — ${esc(sg)}.</span></div><div><button class="btn sm ghost" onclick="requestPaper('${e[0]}',${y},'${esc(sg)}','Question Paper')">Request Paper</button></div></div>`;
+ let combined=sourceBox(off.concat(unoff),`Source Websites — ${y}`);
+ if(p && !off.concat(unoff).some(pp=>originOf(pp.url)===originOf(p.url))) combined+=`<div class="source-box"><h5>🔗 Source Website</h5><ul><li><a href="${esc(p.url)}" target="_blank" rel="noopener">${esc(p.name)} ↗</a></li></ul><p class="small">The conducting body's official website.</p></div>`;
+ return paperSection(off,e,y,sg,true,offFb)+paperSection(unoff,e,y,sg,false,unoffFb)+combined+`<div class="paper-sec"><h4>✍️ Solution &amp; Practice</h4><div class="paper-item"><div><b>ExamPath original practice questions</b><br><span class="small">Practice questions + explanations for ${esc(sg)}</span></div><div><a class="btn sm purple" href="/practice?subject=all">Practice →</a></div></div></div>`;}
 (function(){const sec=$("[data-exam]");if(!sec)return;const e=examById(sec.getAttribute("data-exam"));if(!e)return;let y=e[8][0], sg=e[9][0];
- const renderRows=()=>{const tb=$("#paperRows");if(tb)tb.innerHTML=paperRows(e,y,sg);const py=$("#paperYear");if(py)py.textContent=y};
+ const renderRows=()=>{const tb=$("#paperRows");if(tb)tb.innerHTML=paperRows(e,y,sg);const py=$("#paperYear");if(py)py.textContent=y;if(window.ExamPathAuth)ExamPathAuth.updateLocks()};
+ const flow=$("#papersFlow"), btn=$("#examPapersBtn");
+ const setFlow=open=>{ if(!flow||!btn)return; flow.classList.toggle("flow-hidden",!open); btn.textContent=open?"📄 Exam Papers — Hide ▲":"📄 Exam Papers — Choose Year ↓"; };
+ if(btn&&flow){ setFlow(location.hash==="#papers"); btn.addEventListener("click",()=>{ const willOpen=flow.classList.contains("flow-hidden"); setFlow(willOpen); if(willOpen) flow.scrollIntoView({behavior:"smooth"}); }); }
  $$("#yearPills [data-year]").forEach(b=>b.addEventListener("click",()=>{y=parseInt(b.getAttribute("data-year"));$$("#yearPills [data-year]").forEach(x=>x.classList.toggle("active",x===b));renderRows()}));
  $$("#stagePills [data-stage]").forEach(b=>b.addEventListener("click",()=>{sg=b.getAttribute("data-stage");$$("#stagePills [data-stage]").forEach(x=>x.classList.toggle("active",x===b));renderRows()}))})();
+
+/* ---------- papers page: same Exam Papers flow (exam select → button → year → cards) ---------- */
+(function(){const sel=$("#ppExamSelect");if(!sel)return;const btn=$("#ppExamBtn"), flow=$("#ppFlow");
+ let cur=examById(sel.value), y=cur[8][0], sg=cur[9][0];
+ const rebuildPills=()=>{ const yp=$("#ppYearPills"), sp=$("#ppStagePills");
+  if(yp) yp.innerHTML=cur[8].map(v=>`<button class="pill ${v===y?"active":""}" data-year="${v}">${v}</button>`).join("");
+  if(sp) sp.innerHTML=cur[9].map(v=>`<button class="pill ${v===sg?"active":""}" data-stage="${esc(v)}">${esc(v)}</button>`).join("");
+  $$("#ppYearPills [data-year]").forEach(b=>b.addEventListener("click",()=>{y=parseInt(b.getAttribute("data-year"));$$("#ppYearPills [data-year]").forEach(x=>x.classList.toggle("active",x===b));render()}));
+  $$("#ppStagePills [data-stage]").forEach(b=>b.addEventListener("click",()=>{sg=b.getAttribute("data-stage");$$("#ppStagePills [data-stage]").forEach(x=>x.classList.toggle("active",x===b));render()})); };
+ const render=()=>{ const r=$("#ppPaperRows"); if(r) r.innerHTML=paperRows(cur,y,sg); const py=$("#ppPaperYear"); if(py) py.textContent=y; if(window.ExamPathAuth)ExamPathAuth.updateLocks(); };
+ sel.addEventListener("change",()=>{ cur=examById(sel.value); y=cur[8][0]; sg=cur[9][0]; rebuildPills(); render(); });
+ if(btn&&flow){ flow.classList.add("flow-hidden"); btn.addEventListener("click",()=>{ const willOpen=flow.classList.contains("flow-hidden"); flow.classList.toggle("flow-hidden",!willOpen); btn.textContent=willOpen?"📄 Exam Papers — Hide ▲":"📄 Exam Papers — Choose Year ↓"; if(willOpen) flow.scrollIntoView({behavior:"smooth"}); }); }
+ rebuildPills(); render(); })();
 document.addEventListener("click",e=>{const btn=e.target.closest("[data-save-paper]");if(!btn)return;const key=btn.getAttribute("data-save-paper"),label=btn.getAttribute("data-save-label");toggleSavePaper(key,label);const saved=savedPapers().some(x=>x.key===key);btn.textContent=saved?"✓ Saved":"💾 Save";btn.classList.toggle("green",saved);btn.classList.toggle("ghost",!saved)});
 
 /* ---------- PDF viewer ---------- */
 function openViewer(){openModal(`<h3>📄 ExamPath Original Practice Paper</h3><p class="small">20 original practice questions • <b>NOT an official PYQ</b> • Source: ExamPath India (original)</p>
- <div class="toolbar"><button class="btn sm" onclick="zoomViewer(1)">🔍+ Zoom In</button><button class="btn sm" onclick="zoomViewer(-1)">🔍− Zoom Out</button><button class="btn sm" onclick="fsViewer()">⛶ Full Screen</button><a class="btn sm green" href="/assets/sample-practice-paper.pdf" download>⬇️ Download PDF</a><button class="btn sm ghost" onclick="toggleSavePaper('sample|practice|paper','ExamPath Sample Practice Paper');closeModal()">💾 Save to Library</button></div>
+ <div class="toolbar"><button class="btn sm" onclick="zoomViewer(1)">🔍+ Zoom In</button><button class="btn sm" onclick="zoomViewer(-1)">🔍− Zoom Out</button><button class="btn sm" onclick="fsViewer()">⛶ Full Screen</button><button class="btn sm green" type="button" data-download-url="/assets/sample-practice-paper.pdf">⬇️ Download PDF</button><button class="btn sm ghost" onclick="toggleSavePaper('sample|practice|paper','ExamPath Sample Practice Paper');closeModal()">💾 Save to Library</button></div>
  <div class="viewer" id="viewerBox"><iframe src="/assets/sample-practice-paper.pdf" title="Sample practice paper PDF"></iframe></div>
  <p class="small" style="margin-top:10px">For official papers, the <b>Official Archive</b> button on the exam page opens the conducting body's own site — that is the real source.</p>
  <button class="btn block" style="margin-top:12px" onclick="closeModal()">Close</button>`,true)}
@@ -206,12 +242,14 @@ renderSaved();
 /* ---------- profile page ---------- */
 (function(){const box=$("#profileBox");if(!box)return;const h=history();const pr=store("ep_practice")||{attempted:0,correct:0};const st=store("ep_streak")||{count:0};const acc=h.length?Math.round(h.reduce((s,x)=>s+x.acc,0)/h.length):(pr.attempted?Math.round(pr.correct/pr.attempted*100):0);
  const weak={};wrongIds().forEach(id=>{const q=EP.questions.find(x=>x.id===id);if(q)weak[q.s]=(weak[q.s]||0)+1});const weakList=Object.entries(weak).sort((a,b)=>b[1]-a[1]);
- box.innerHTML=`<div class="grid g4"><div class="stat"><b>${h.length}</b><span>Mock tests</span></div><div class="stat"><b>${acc}%</b><span>Avg accuracy</span></div><div class="stat"><b>${pr.attempted}</b><span>Practice Qs</span></div><div class="stat"><b>🔥 ${st.count}</b><span>Day streak</span></div></div>
+ const _auth=(typeof ExamPathAuth!=="undefined"&&ExamPathAuth)?ExamPathAuth:null;
+ const _u=_auth&&_auth.isLoggedIn()?_auth.getUser():null;
+ const authLine=_u?`<div class="card" style="margin-bottom:14px;display:flex;gap:12px;align-items:center;flex-wrap:wrap">${_u.photo?`<img src="${esc(_u.photo)}" alt="" style="width:48px;height:48px;border-radius:50%" onerror="this.style.display='none'">`:""}<div><b>Logged in as ${esc(_u.name||_u.email||"User")}</b><br><span class="small">${esc(_u.email||"")}</span></div><button class="btn ghost" style="margin-left:auto" type="button" data-auth-logout>Logout</button></div>`:`<div class="card" style="margin-bottom:14px"><b>Guest user</b> — browsing, paper photos and videos are free. Downloads and full exam details need login. <button class="btn sm" type="button" data-auth-login>Login with Google</button></div>`;
+ box.innerHTML=authLine+`<div class="grid g4"><div class="stat"><b>${h.length}</b><span>Mock tests</span></div><div class="stat"><b>${acc}%</b><span>Avg accuracy</span></div><div class="stat"><b>${pr.attempted}</b><span>Practice Qs</span></div><div class="stat"><b>🔥 ${st.count}</b><span>Day streak</span></div></div>
  <div class="grid g2" style="margin-top:14px">
  <div class="card"><h3>🎯 Weak Topics</h3>${weakList.length?weakList.map(([s,n])=>`<p style="padding:6px 0;border-bottom:1px solid var(--border)">${esc(s.toUpperCase())} — ${n} wrong <a href="/practice?subject=${s}">Practice →</a></p>`).join(""):`<p class="small">No weak topics yet — take a mock and the analysis will appear here.</p>`}</div>
  <div class="card"><h3>📊 Test History</h3>${h.length?h.slice().reverse().slice(0,5).map(x=>`<p style="padding:6px 0;border-bottom:1px solid var(--border)">${esc(x.mock)} — <b>${x.score}/${x.total}</b> (${x.acc}%) • ${esc(x.date)}</p>`).join(""):`<p class="small">No test taken yet.</p>`}<a class="btn" style="margin-top:10px" href="/mock">Take a Mock →</a></div></div>
  <div class="card" style="margin-top:14px"><h3>💾 My Data</h3><p class="small">Saved papers: ${savedPapers().length} • Bookmarks: ${bookmarks().length} • Wrong answers: ${wrongIds().length}</p><div style="display:flex;gap:8px;margin-top:10px;flex-wrap:wrap"><button class="btn ghost" onclick="exportData()">⬇️ Export My Data (JSON)</button><a class="btn ghost" href="/saved">My Library →</a></div></div>`})();
 function exportData(){const data={saved:savedPapers(),bookmarks:bookmarks(),wrong:wrongIds(),history:history(),practice:store("ep_practice"),plan:store("ep_plan")};const blob=new Blob([JSON.stringify(data,null,2)],{type:"application/json"});const a=document.createElement("a");a.href=URL.createObjectURL(blob);a.download="exampath-my-data.json";a.click();toast("Data downloaded ✓")}
 
-function shareApp(){const url="https://exampath-india.pages.dev/";const title="ExamPath India";const text="ExamPath India — free exam papers, mock tests, notes and current affairs. Get the app here:";if(navigator.share){navigator.share({title:title,text:text,url:url}).catch(function(){})}else if(navigator.clipboard){navigator.clipboard.writeText(url).then(function(){toast("Website link copied ✓ — share it, anyone opening it can download the app")})}else{toast(url)}}
-if(window.Capacitor){document.querySelectorAll(".app-banner").forEach(function(b){b.style.display="none"})}
+function shareApp(){const url="https://exampath-india.pages.dev/";const title="ExamPath India";const text="ExamPath India — free exam papers, mock tests, notes and current affairs:";if(navigator.share){navigator.share({title:title,text:text,url:url}).catch(function(){})}else if(navigator.clipboard){navigator.clipboard.writeText(url).then(function(){toast("Website link copied ✓")})}else{toast(url)}}

@@ -1,0 +1,192 @@
+{
+  "exam_id": "ibps-clerk",
+  "exam_name": "IBPS Clerk",
+  "official_papers": [
+    {
+      "year": 2024,
+      "stage": "Prelims/Mains",
+      "title": "Official portal — notifications, answer keys & results (no public full question-paper archive published)",
+      "url": "https://www.ibps.in/",
+      "source": "IBPS — ibps.in (Official)",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2023,
+      "stage": "Prelims/Mains",
+      "title": "Official portal — notifications, answer keys & results (no public full question-paper archive published)",
+      "url": "https://www.ibps.in/",
+      "source": "IBPS — ibps.in (Official)",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2022,
+      "stage": "Prelims/Mains",
+      "title": "Official portal — notifications, answer keys & results (no public full question-paper archive published)",
+      "url": "https://www.ibps.in/",
+      "source": "IBPS — ibps.in (Official)",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2021,
+      "stage": "Prelims/Mains",
+      "title": "Official portal — notifications, answer keys & results (no public full question-paper archive published)",
+      "url": "https://www.ibps.in/",
+      "source": "IBPS — ibps.in (Official)",
+      "checked": "2026-11-21",
+      "http": 200
+    }
+  ],
+  "unofficial_papers": [
+    {
+      "year": 2024,
+      "stage": "Prelims/Mains",
+      "title": "IBPS Clerk 2024 — Prelims & Mains memory-based papers (2021–2025 collection)",
+      "url": "https://www.oliveboard.in/blog/ibps-clerk-prelims-pyps/",
+      "source": "Oliveboard",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2024,
+      "stage": "Prelims/Mains",
+      "title": "IBPS Clerk 2024 — Prelims & Mains previous year papers with solutions (2018–2025 collection)",
+      "url": "https://testbook.com/amp/ibps-clerk/previous-year-papers",
+      "source": "Testbook",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2024,
+      "stage": "Prelims/Mains",
+      "title": "IBPS Clerk 2024 — Memory-based papers with answer keys (2016–2025 collection)",
+      "url": "https://prepp.in/ibps-clerk-exam/practice-papers",
+      "source": "Prepp",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2023,
+      "stage": "Prelims/Mains",
+      "title": "IBPS Clerk 2023 — Prelims & Mains memory-based papers (2021–2025 collection)",
+      "url": "https://www.oliveboard.in/blog/ibps-clerk-prelims-pyps/",
+      "source": "Oliveboard",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2023,
+      "stage": "Prelims/Mains",
+      "title": "IBPS Clerk 2023 — Prelims & Mains previous year papers with solutions (2018–2025 collection)",
+      "url": "https://testbook.com/amp/ibps-clerk/previous-year-papers",
+      "source": "Testbook",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2023,
+      "stage": "Prelims/Mains",
+      "title": "IBPS Clerk 2023 — Memory-based papers with answer keys (2016–2025 collection)",
+      "url": "https://prepp.in/ibps-clerk-exam/practice-papers",
+      "source": "Prepp",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2022,
+      "stage": "Prelims/Mains",
+      "title": "IBPS Clerk 2022 — Prelims & Mains memory-based papers (2021–2025 collection)",
+      "url": "https://www.oliveboard.in/blog/ibps-clerk-prelims-pyps/",
+      "source": "Oliveboard",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2022,
+      "stage": "Prelims/Mains",
+      "title": "IBPS Clerk 2022 — Prelims & Mains previous year papers with solutions (2018–2025 collection)",
+      "url": "https://testbook.com/amp/ibps-clerk/previous-year-papers",
+      "source": "Testbook",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2022,
+      "stage": "Prelims/Mains",
+      "title": "IBPS Clerk 2022 — Memory-based papers with answer keys (2016–2025 collection)",
+      "url": "https://prepp.in/ibps-clerk-exam/practice-papers",
+      "source": "Prepp",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2021,
+      "stage": "Prelims/Mains",
+      "title": "IBPS Clerk 2021 — Prelims & Mains memory-based papers (2021–2025 collection)",
+      "url": "https://www.oliveboard.in/blog/ibps-clerk-prelims-pyps/",
+      "source": "Oliveboard",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2021,
+      "stage": "Prelims/Mains",
+      "title": "IBPS Clerk 2021 — Prelims & Mains previous year papers with solutions (2018–2025 collection)",
+      "url": "https://testbook.com/amp/ibps-clerk/previous-year-papers",
+      "source": "Testbook",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2021,
+      "stage": "Prelims/Mains",
+      "title": "IBPS Clerk 2021 — Memory-based papers with answer keys (2016–2025 collection)",
+      "url": "https://prepp.in/ibps-clerk-exam/practice-papers",
+      "source": "Prepp",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2022,
+      "stage": "Prelims",
+      "title": "IBPS Clerk Previous Year Question Paper — 2022 (PDF)",
+      "url": "https://download.oliveboard.in/pdf/2022-IBPS-Clerk-PYP.pdf",
+      "source": "Oliveboard",
+      "checked": "2026-11-21",
+      "http": 200
+    }
+  ],
+  "details": {
+    "eligibility": "Graduation in any discipline from a recognised university (as per the IBPS Clerk / CRP-CSA notification on ibps.in).",
+    "pattern": "Prelims: 100 questions, 100 marks, 60 minutes (English 30, Quant 35, Reasoning 35). Mains: 190 questions, 200 marks (General/Financial Awareness 50, General English 40, Reasoning & Computer Aptitude 50, Quant 50). No interview.",
+    "syllabus": "Quantitative Aptitude, Reasoning Ability, English Language, General/Financial Awareness, Computer Aptitude.",
+    "official_page": "https://www.ibps.in/",
+    "sources": [
+      "https://www.ibps.in/",
+      "https://www.oliveboard.in/blog/ibps-clerk-prelims-pyps/",
+      "https://testbook.com/amp/ibps-clerk/previous-year-papers",
+      "https://prepp.in/ibps-clerk-exam/practice-papers"
+    ]
+  },
+  "youtube": [
+    {
+      "title": "IBPS Clerk Prelims Exam Analysis 2025, Shift 1 4th Oct: Difficulty Level, Good Attempts",
+      "channel": "Banking Wallah",
+      "url": "https://www.youtube.com/watch?v=l9iBQmUie_Y"
+    },
+    {
+      "title": "IBPS Clerk Prelims Exam Analysis 2025, Shift 3 5th Oct, Difficulty Level and Attempts",
+      "channel": "Banking Wallah",
+      "url": "https://www.youtube.com/watch?v=Zw9qYPxZwRo"
+    },
+    {
+      "title": "IBPS Clerk Prelims Exam Analysis 2025, 4th Oct, Shift 4 Exam Review",
+      "channel": "Banking Wallah",
+      "url": "https://www.youtube.com/watch?v=9c18HZnyZCU"
+    }
+  ],
+  "not_found_years": [],
+  "notes": "IBPS does not publish a public full question-paper archive; official entries point to ibps.in. All unofficial papers are memory-based. Testbook AMP page returns HTTP 500 to curl but loaded with HTTP 200 via browser fetch on 2026-11-21 (verified, covers 2018–2025 incl. all listed years). Prepp.in returns HTTP 403 to curl but loaded with HTTP 200 via browser fetch on 2026-11-21 (verified, covers 2016–2025 incl. Prelims 2024/2023/2022/2021 and Mains)."
+}

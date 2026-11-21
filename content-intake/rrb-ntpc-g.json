@@ -1,0 +1,146 @@
+{
+  "exam_id": "rrb-ntpc-g",
+  "exam_name": "RRB NTPC Graduate",
+  "official_papers": [],
+  "unofficial_papers": [
+    {
+      "year": 2026,
+      "stage": "",
+      "title": "RRB NTPC Graduate 2026 - CBT 1 & CBT 2 Papers (shift-wise, English & Hindi)",
+      "url": "https://testbook.com/rrb-ntpc/previous-year-papers",
+      "source": "Testbook",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2024,
+      "stage": "",
+      "title": "RRB NTPC Graduate 2024 - CBT 1 & CBT 2 Papers (shift-wise, English & Hindi)",
+      "url": "https://testbook.com/rrb-ntpc/previous-year-papers",
+      "source": "Testbook",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2022,
+      "stage": "",
+      "title": "RRB NTPC Graduate 2022 - CBT 1 & CBT 2 Papers (shift-wise, English & Hindi)",
+      "url": "https://testbook.com/rrb-ntpc/previous-year-papers",
+      "source": "Testbook",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2019,
+      "stage": "",
+      "title": "RRB NTPC Graduate 2019 - CBT 1 & CBT 2 Papers (shift-wise, English & Hindi)",
+      "url": "https://testbook.com/rrb-ntpc/previous-year-papers",
+      "source": "Testbook",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2016,
+      "stage": "",
+      "title": "RRB NTPC Graduate 2016 - CBT 1 & CBT 2 Papers (shift-wise, English & Hindi)",
+      "url": "https://testbook.com/rrb-ntpc/previous-year-papers",
+      "source": "Testbook",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2024,
+      "stage": "CBT 1",
+      "title": "RRB NTPC Graduate CBT-I - 10 Jun 2025 Shift 1 (paper compiled from official answer key, CEN 06/2024)",
+      "url": "https://cdn.testbook.com/pdfs/2025/July/2/RRB%20NTPC%20Graduate%20Level%20CBT-I%20Official%20Paper%20%28Held%20On%2010%20Jun,%202025%20Shift%201%29_English_1751456863.pdf",
+      "source": "Testbook (cdn.testbook.com)",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2024,
+      "stage": "CBT 1",
+      "title": "RRB NTPC Graduate CBT-I - 09 Jun 2025 Shift 2 (paper compiled from official answer key, CEN 06/2024)",
+      "url": "https://cdn.testbook.com/pdfs/2025/July/2/RRB%20NTPC%20Graduate%20Level%20CBT-I%20Official%20Paper%20%28Held%20On%2009%20Jun,%202025%20Shift%202%29_English_1751456801.pdf",
+      "source": "Testbook (cdn.testbook.com)",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2024,
+      "stage": "CBT 1",
+      "title": "RRB NTPC Graduate CBT-I - 11 Jun 2025 Shift 1 (paper compiled from official answer key, CEN 06/2024)",
+      "url": "https://cdn.testbook.com/pdfs/2025/July/2/RRB%20NTPC%20Graduate%20Level%20CBT-I%20Official%20Paper%20%28Held%20On%2011%20Jun,%202025%20Shift%201%29_English_1751456945.pdf",
+      "source": "Testbook (cdn.testbook.com)",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2024,
+      "stage": "CBT 1",
+      "title": "RRB NTPC Graduate CBT-I - 18 Jun 2025 Shift 2 (paper compiled from official answer key, CEN 06/2024)",
+      "url": "https://cdn.testbook.com/pdfs/2025/July/2/RRB%20NTPC%20Graduate%20Level%20CBT-I%20Official%20Paper%20%28Held%20On%2018%20Jun,%202025%20Shift%202%29_English_1751457443.pdf",
+      "source": "Testbook (cdn.testbook.com)",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2024,
+      "stage": "CBT 1",
+      "title": "RRB NTPC Graduate CBT-I - 20 Jun 2025 Shift 3 (paper compiled from official answer key, CEN 06/2024)",
+      "url": "https://cdn.testbook.com/pdfs/2025/July/2/RRB%20NTPC%20Graduate%20Level%20CBT-I%20Official%20Paper%20%28Held%20On%2020%20Jun,%202025%20Shift%203%29_English_1751457708.pdf",
+      "source": "Testbook (cdn.testbook.com)",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2024,
+      "stage": "CBT 1",
+      "title": "RRB NTPC Graduate CBT-I - 23 Jun 2025 Shift 3 (paper compiled from official answer key, CEN 06/2024)",
+      "url": "https://cdn.testbook.com/pdfs/2025/July/2/RRB%20NTPC%20Graduate%20Level%20CBT-I%20Official%20Paper%20%28Held%20On%2023%20Jun,%202025%20Shift%203%29_English_1751457906.pdf",
+      "source": "Testbook (cdn.testbook.com)",
+      "checked": "2026-11-21",
+      "http": 200
+    }
+  ],
+  "details": {
+    "eligibility": "Graduation (Bachelor's degree) from a recognised university. Age limit as per CEN notification - verify on rrbapply.gov.in.",
+    "pattern": "CBT 1: 100 questions, 100 marks, 90 minutes. CBT 2: 120 questions. Negative marking 1/3 per wrong answer. Then Typing Skill Test / CBAT for applicable posts, Document Verification and Medical Examination.",
+    "syllabus": "Mathematics, General Intelligence & Reasoning, General Awareness (CBT 1 and CBT 2).",
+    "official_page": "https://rrbapply.gov.in/",
+    "important_dates": "CEN 06/2024: CBT 1 held 5-24 Jun 2025; CBT 2 held 13 Oct 2025.",
+    "sources": [
+      "https://testbook.com/rrb-ntpc/previous-year-papers",
+      "https://rrbapply.gov.in/"
+    ]
+  },
+  "youtube": [
+    {
+      "title": "RRB NTPC CBT 2 Reasoning Previous Year Paper | 13 Oct 2025 All Shifts One Shot",
+      "channel": "Reasoning By Rakesh Yadav Sir",
+      "url": "https://www.youtube.com/watch?v=GwlLrXTQDwg"
+    },
+    {
+      "title": "RRB NTPC Previous Year Question Paper 2026 | Railway NTPC CBT-1 Paper 2024-25 | GK/GS Part #1",
+      "channel": "BSA Tricky Classes",
+      "url": "https://www.youtube.com/watch?v=6QRCvaCaHPk"
+    },
+    {
+      "title": "RRB NTPC Previous Year Question Paper | RRB NTPC Model Paper 2026 | GK/GS Science & Static GK",
+      "channel": "BSA Tricky Classes",
+      "url": "https://www.youtube.com/watch?v=r5Fd5XnczdQ"
+    },
+    {
+      "title": "RRB NTPC Reasoning Marathon 2026 | Analogy PYQ One Shot + Expected Questions | Veerendra Sir",
+      "channel": "Adda247 Railway Exams",
+      "url": "https://www.youtube.com/watch?v=23T2j8C_GV0"
+    },
+    {
+      "title": "RRB NTPC 2026 Maths Previous Year Paper Solution | 18 March Shift 3 | RRB NTPC 2026 Maths Practice Set",
+      "channel": "Mock Analyser",
+      "url": "https://www.youtube.com/watch?v=qREDmZwwPJg"
+    }
+  ],
+  "not_found_years": [],
+  "notes": "RRB does not publish complete official question papers. It releases answer keys and response sheets per CEN on rrbapply.gov.in and regional RRB portals. No official paper PDF could be verified from this VM on 2026-11-21: curl to rrbapply.gov.in and rrbcdg.gov.in returned 000 (unreachable) and the fetch attempt errored, so no official link is claimed here. Use the official portal for answer keys/notifications. The six cdn.testbook.com PDFs are unofficial compilations from the official answer key, NOT RRB-published papers. Testbook amp page returned HTTP 500 via curl (bot protection); the non-amp page returned 200 and is used here."
+}

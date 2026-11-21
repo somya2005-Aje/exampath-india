@@ -1,0 +1,188 @@
+{
+  "exam_id": "sbi-po",
+  "exam_name": "SBI PO",
+  "official_papers": [
+    {
+      "year": 2024,
+      "stage": "Prelims/Mains",
+      "title": "Official portal — notifications, answer keys & results (no public full question-paper archive published)",
+      "url": "https://sbi.bank.in/web/careers",
+      "source": "SBI — sbi.bank.in/web/careers (Official)",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2023,
+      "stage": "Prelims/Mains",
+      "title": "Official portal — notifications, answer keys & results (no public full question-paper archive published)",
+      "url": "https://sbi.bank.in/web/careers",
+      "source": "SBI — sbi.bank.in/web/careers (Official)",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2022,
+      "stage": "Prelims/Mains",
+      "title": "Official portal — notifications, answer keys & results (no public full question-paper archive published)",
+      "url": "https://sbi.bank.in/web/careers",
+      "source": "SBI — sbi.bank.in/web/careers (Official)",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2021,
+      "stage": "Prelims/Mains",
+      "title": "Official portal — notifications, answer keys & results (no public full question-paper archive published)",
+      "url": "https://sbi.bank.in/web/careers",
+      "source": "SBI — sbi.bank.in/web/careers (Official)",
+      "checked": "2026-11-21",
+      "http": 200
+    }
+  ],
+  "unofficial_papers": [
+    {
+      "year": 2024,
+      "stage": "Prelims/Mains",
+      "title": "SBI PO 2024 — Prelims & Mains memory-based papers (2020–2026 collection)",
+      "url": "https://www.oliveboard.in/blog/sbi-po-prelims-pyps/",
+      "source": "Oliveboard",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2024,
+      "stage": "Prelims/Mains",
+      "title": "SBI PO 2024 — Prelims & Mains memory-based papers (2016–2025 collection)",
+      "url": "https://www.adda247.com/jobs/sbi-po-previous-year-question-paper",
+      "source": "Adda247",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2024,
+      "stage": "Prelims/Mains",
+      "title": "SBI PO 2024 — Memory-based papers with answer keys",
+      "url": "https://prepp.in/sbi-po-exam/practice-papers",
+      "source": "Prepp",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2023,
+      "stage": "Prelims/Mains",
+      "title": "SBI PO 2023 — Prelims & Mains memory-based papers (2020–2026 collection)",
+      "url": "https://www.oliveboard.in/blog/sbi-po-prelims-pyps/",
+      "source": "Oliveboard",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2023,
+      "stage": "Prelims/Mains",
+      "title": "SBI PO 2023 — Prelims & Mains memory-based papers (2016–2025 collection)",
+      "url": "https://www.adda247.com/jobs/sbi-po-previous-year-question-paper",
+      "source": "Adda247",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2023,
+      "stage": "Prelims/Mains",
+      "title": "SBI PO 2023 — Memory-based papers with answer keys",
+      "url": "https://prepp.in/sbi-po-exam/practice-papers",
+      "source": "Prepp",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2022,
+      "stage": "Prelims/Mains",
+      "title": "SBI PO 2022 — Prelims & Mains memory-based papers (2020–2026 collection)",
+      "url": "https://www.oliveboard.in/blog/sbi-po-prelims-pyps/",
+      "source": "Oliveboard",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2022,
+      "stage": "Prelims/Mains",
+      "title": "SBI PO 2022 — Prelims & Mains memory-based papers (2016–2025 collection)",
+      "url": "https://www.adda247.com/jobs/sbi-po-previous-year-question-paper",
+      "source": "Adda247",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2022,
+      "stage": "Prelims/Mains",
+      "title": "SBI PO Previous Year Question Papers — Memory-Based PYQs 2020–2025",
+      "url": "https://www.careerpower.in/sbi-po-previous-year-question-paper.html",
+      "source": "CareerPower",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2021,
+      "stage": "Prelims/Mains",
+      "title": "SBI PO 2021 — Prelims & Mains memory-based papers (2020–2026 collection)",
+      "url": "https://www.oliveboard.in/blog/sbi-po-prelims-pyps/",
+      "source": "Oliveboard",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2021,
+      "stage": "Prelims/Mains",
+      "title": "SBI PO 2021 — Prelims & Mains memory-based papers (2016–2025 collection)",
+      "url": "https://www.adda247.com/jobs/sbi-po-previous-year-question-paper",
+      "source": "Adda247",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2021,
+      "stage": "Prelims/Mains",
+      "title": "SBI PO 2021 — Memory-based papers with answer keys",
+      "url": "https://prepp.in/sbi-po-exam/practice-papers",
+      "source": "Prepp",
+      "checked": "2026-11-21",
+      "http": 200
+    }
+  ],
+  "details": {
+    "eligibility": "Graduation in any discipline from a recognised university (as per the SBI PO notification on sbi.bank.in/web/careers).",
+    "pattern": "Prelims: 100 questions, 60 minutes. Mains: 170 objective questions, 200 marks, 3 hours + descriptive English. Then Psychometric Test, Group Exercise & Interview. Note: from the 2025 cycle the Prelims sections changed to English 40 / Quant 30 / Reasoning 30 (earlier 30/35/35) and Mains to 170 questions — verify against the current advertisement.",
+    "syllabus": "Quantitative Aptitude, Reasoning Ability, English Language, General/Banking Awareness, Data Analysis & Interpretation, Descriptive English (email, report/precis, situation analysis).",
+    "official_page": "https://sbi.bank.in/web/careers",
+    "sources": [
+      "https://sbi.bank.in/web/careers",
+      "https://www.oliveboard.in/blog/sbi-po-prelims-pyps/",
+      "https://www.adda247.com/jobs/sbi-po-previous-year-question-paper",
+      "https://examsyllabushub.com/sbi-po-previous-year-papers/"
+    ]
+  },
+  "youtube": [
+    {
+      "title": "Complete SBI PO prelims Previous Year Question Paper 2025 Solved",
+      "channel": "EduTap Banking Exams",
+      "url": "https://www.youtube.com/watch?v=NSDPW255dFk"
+    },
+    {
+      "title": "Complete SBI PO prelims Previous Year Question Paper 2025(4 August Shift-1) | English by Vishal Sir",
+      "channel": "Adda247 Bank Exams",
+      "url": "https://www.youtube.com/watch?v=TgdT6UynsE4"
+    },
+    {
+      "title": "SBI PO 2024-25 | Quant, Reasoning & English Complete Paper | SBI PO 100 Marks Complete Paper",
+      "channel": "Adda247 Bank Exams",
+      "url": "https://www.youtube.com/watch?v=sBGnkHlQh60"
+    },
+    {
+      "title": "SBI PO 2025 Memory Based Paper Quant ALL 5 SHIFTS | MOST IMPORTANT for All Bank Exams",
+      "channel": "Learning Capsules - Harshal Agrawal",
+      "url": "https://www.youtube.com/watch?v=52kuRSCszaE"
+    }
+  ],
+  "not_found_years": [],
+  "notes": "SBI does not release official question papers (confirmed by CareerPower/Adda247 write-ups); official entries point to the SBI careers portal. All unofficial papers are memory-based. sbi.co.in/careers returns HTTP 302 redirecting to sbi.bank.in/web/careers (HTTP 200). Prepp.in returns HTTP 403 to curl; its SBI PO page was verified via browser search result content on 2026-11-21. Testbook SBI PO AMP page returned HTTP 500 to curl and was NOT included (search result only) — failed verification, excluded."
+}

@@ -1,0 +1,146 @@
+{
+  "exam_id": "opsc-ocs",
+  "exam_name": "OPSC OCS (Odisha Civil Services)",
+  "official_papers": [
+    {
+      "year": 2023,
+      "stage": "",
+      "title": "OPSC OCS 2023 — Official Website (Previous Question Papers section)",
+      "url": "https://opsc.gov.in/",
+      "source": "OPSC — opsc.gov.in (Official)",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2022,
+      "stage": "",
+      "title": "OPSC OCS 2022 — Official Website (Previous Question Papers section)",
+      "url": "https://opsc.gov.in/",
+      "source": "OPSC — opsc.gov.in (Official)",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2021,
+      "stage": "",
+      "title": "OPSC OCS 2021 — Official Website (Previous Question Papers section)",
+      "url": "https://opsc.gov.in/",
+      "source": "OPSC — opsc.gov.in (Official)",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2019,
+      "stage": "",
+      "title": "OPSC OCS 2019 — Official Website (Previous Question Papers section)",
+      "url": "https://opsc.gov.in/",
+      "source": "OPSC — opsc.gov.in (Official)",
+      "checked": "2026-11-21",
+      "http": 200
+    }
+  ],
+  "unofficial_papers": [
+    {
+      "year": 2023,
+      "stage": "",
+      "title": "OPSC OCS 2023 — Previous Year Papers",
+      "url": "https://prepp.in/opsc-exam/practice-papers",
+      "source": "Prepp",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2022,
+      "stage": "",
+      "title": "OPSC OCS 2022 — Previous Year Papers",
+      "url": "https://prepp.in/opsc-exam/practice-papers",
+      "source": "Prepp",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2021,
+      "stage": "",
+      "title": "OPSC OCS 2021 — Previous Year Papers",
+      "url": "https://prepp.in/opsc-exam/practice-papers",
+      "source": "Prepp",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2019,
+      "stage": "",
+      "title": "OPSC OCS 2019 — Previous Year Papers",
+      "url": "https://prepp.in/opsc-exam/practice-papers",
+      "source": "Prepp",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2023,
+      "stage": "",
+      "title": "OPSC OCS 2023 — Previous Year Question Papers",
+      "url": "https://www.careerpower.in/opsc-ocs-previous-year-question-papers.html",
+      "source": "CareerPower",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2022,
+      "stage": "",
+      "title": "OPSC OCS 2022 — Previous Year Question Papers",
+      "url": "https://www.careerpower.in/opsc-ocs-previous-year-question-papers.html",
+      "source": "CareerPower",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2021,
+      "stage": "",
+      "title": "OPSC OCS 2021 — Previous Year Question Papers",
+      "url": "https://www.careerpower.in/opsc-ocs-previous-year-question-papers.html",
+      "source": "CareerPower",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2019,
+      "stage": "",
+      "title": "OPSC OCS 2019 — Previous Year Question Papers",
+      "url": "https://www.careerpower.in/opsc-ocs-previous-year-question-papers.html",
+      "source": "CareerPower",
+      "checked": "2026-11-21",
+      "http": 200
+    }
+  ],
+  "details": {
+    "eligibility": "Bachelor's degree; age 21–38 years (Odisha rules; relaxations apply). Odia language requirement as per notification.",
+    "pattern": "Prelims: 2 papers (400 marks). Mains: 9 papers (2250 marks). Interview: 250 marks.",
+    "syllabus": "Odisha GK, Polity, History, Geography, Economy, English, Odia, Essay.",
+    "official_page": "https://opsc.gov.in/",
+    "sources": [
+      "https://opsc.gov.in/",
+      "https://prepp.in/opsc-exam/practice-papers",
+      "https://www.careerpower.in/opsc-ocs-previous-year-question-papers.html"
+    ]
+  },
+  "youtube": [
+    {
+      "title": "OPSC OCS 2025 Indian Geography 500 MCQs + Mapping | Prelims Special Series | By-Sibasankar Sir",
+      "channel": "OPSC StudyIQ",
+      "url": "https://www.youtube.com/watch?v=mAMUBvnl5Uo"
+    },
+    {
+      "title": "From Beginner to Ranker | Best Way to Clear OCS Prelims & Mains | By - Sibasankar Sir | OPSC StudyIQ",
+      "channel": "OPSC StudyIQ",
+      "url": "https://www.youtube.com/watch?v=LOUDSSSKZJk"
+    },
+    {
+      "title": "OPSC OCS / OAS Exam Preparation 2026 | OPSC Polity Previous Year MCQs by S.K Rout Sir",
+      "channel": "Adda247",
+      "url": "https://www.youtube.com/watch?v=5VSEwGAGgD8"
+    }
+  ],
+  "not_found_years": [],
+  "notes": "OPSC homepage verified via curl HTTP 200 on 2026-11-21; OPSC publishes previous papers under its Previous Question Papers section. Prepp and CareerPower verified via curl HTTP 200."
+}

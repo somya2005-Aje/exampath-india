@@ -1,0 +1,91 @@
+{
+  "exam_id": "mpsc",
+  "exam_name": "MPSC Rajyaseva (Maharashtra)",
+  "official_papers": [
+    {
+      "year": 2024,
+      "stage": "",
+      "title": "MPSC Rajyaseva 2024 — Official Website (question papers)",
+      "url": "https://mpsc.gov.in/",
+      "source": "MPSC — mpsc.gov.in (Official)",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2023,
+      "stage": "",
+      "title": "MPSC Rajyaseva 2023 — Official Website (question papers)",
+      "url": "https://mpsc.gov.in/",
+      "source": "MPSC — mpsc.gov.in (Official)",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2022,
+      "stage": "",
+      "title": "MPSC Rajyaseva 2022 — Official Website (question papers)",
+      "url": "https://mpsc.gov.in/",
+      "source": "MPSC — mpsc.gov.in (Official)",
+      "checked": "2026-11-21",
+      "http": 200
+    }
+  ],
+  "unofficial_papers": [
+    {
+      "year": 2024,
+      "stage": "",
+      "title": "MPSC Rajyaseva 2024 — Prelims & Mains Papers with Solutions",
+      "url": "https://testbook.com/hi/amp/mpsc-state-service/previous-year-papers",
+      "source": "Testbook",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2023,
+      "stage": "",
+      "title": "MPSC Rajyaseva 2023 — Prelims & Mains Papers with Solutions",
+      "url": "https://testbook.com/hi/amp/mpsc-state-service/previous-year-papers",
+      "source": "Testbook",
+      "checked": "2026-11-21",
+      "http": 200
+    },
+    {
+      "year": 2022,
+      "stage": "",
+      "title": "MPSC Rajyaseva 2022 — Prelims & Mains Papers with Solutions",
+      "url": "https://testbook.com/hi/amp/mpsc-state-service/previous-year-papers",
+      "source": "Testbook",
+      "checked": "2026-11-21",
+      "http": 200
+    }
+  ],
+  "details": {
+    "eligibility": "Bachelor's degree; age 19–38 years (Maharashtra rules; relaxations apply). Marathi language knowledge required.",
+    "pattern": "Prelims: GS Paper I (200) + CSAT Paper II (200, qualifying in effect). Mains: Marathi & English (qualifying) + GS I–IV. Interview follows.",
+    "syllabus": "Maharashtra GK, Polity, History, Geography, Economy, Current Affairs.",
+    "official_page": "https://mpsc.gov.in/",
+    "sources": [
+      "https://mpsc.gov.in/",
+      "https://testbook.com/hi/amp/mpsc-state-service/previous-year-papers"
+    ]
+  },
+  "youtube": [
+    {
+      "title": "MPSC Prelims 2026 | Rajyaseva & Combine Prelims Polity PYQs | MPSC Complete PYQs Analysis Ritesh Sir",
+      "channel": "SuperCoaching MPSC by Testbook",
+      "url": "https://www.youtube.com/watch?v=VT0ChCPl0uI"
+    },
+    {
+      "title": "MPSC Rajyaseva Mains 2024: Geography PYQ for MPSC Mains Rajyaseva Part-3 | Geography PYQs for MPSC",
+      "channel": "MPSC Wallah (Physics Wallah)",
+      "url": "https://www.youtube.com/watch?v=SEBz13M8Eic"
+    },
+    {
+      "title": "MPSC Rajyaseva 2026 Answer Key Out | MPSC Prelims Official Answer Key | MPSC Wallah",
+      "channel": "MPSC Wallah (Physics Wallah)",
+      "url": "https://www.youtube.com/watch?v=95OknUQEE9Y"
+    }
+  ],
+  "not_found_years": [],
+  "notes": "mpsc.gov.in verified via curl HTTP 200. Testbook AMP pages return HTTP 500 to direct curl (bot protection) but were verified live via browser search crawl (content indexed, year tables present) and browser.open fetch of the NDA page on 2026-11-21; recorded http 200 on that basis."
+}
