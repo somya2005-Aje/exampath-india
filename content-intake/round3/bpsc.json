@@ -1,0 +1,111 @@
+{
+  "details": {
+    "official_page": "https://bpsc.bihar.gov.in/",
+    "sources": [
+      "https://cdn.testbook.com/1757759414125-71st%20BPSC%20Preliminary%20Exam%20Official%20Paper%20(Held%20On%2013%20Sept,%202025).pdf/1757759416.pdf",
+      "https://www.unlockias.in/pdfs/state-pcs/bpsc-71st-cce-2025-prelims-question-paper.pdf",
+      "https://prepp.in/paper/bpsc-71-prelims-question-paper-13-sept-2025-68c550dbdba01272026e7cb6",
+      "https://forumias.com/blog/download-bpsc-70th-mains-question-paper-pdf/",
+      "https://www.pw.live/state-psc/exams/bpsc-70th-mains-question-paper",
+      "https://theiashub.com/upsc/bpsc-mains-exam-2025/"
+    ]
+  },
+  "exam_id": "bpsc",
+  "exam_name": "BPSC 70th CCE (Bihar)",
+  "not_found_years": [],
+  "notes": "ROUND 3 — BPSC 71st CCE 2025 FOUND (Prelims held 13 Sep 2025, single shift 12–2 PM, GS 150 Q) and 70th CCE Mains deepened (held 25–30 Apr 2025: General Hindi + Essay 25 Apr, GS Paper 1 26 Apr, GS Paper 2 28 Apr, Optional 29 Apr — recorded as year 2025 by held date). Testbook CDN link is the direct official 71st Prelims paper PDF (curl 200, 10.5 MB). All 10 new entries verified HTTP 200 via curl on 2026-11-21. No NEW official deep link: BPSC publishes question booklets at bpsc.bihar.gov.in under Examination > Question Booklets (homepage curl 200; round 1 already holds the homepage entry). 71st CCE Mains (Apr 2026 dates on PW page) not yet held — not added. 70th Prelims re-exam 4 Jan 2025 is covered inside the Prepp/JagranJosh 70th collections already in round 1.",
+  "official_papers": [],
+  "unofficial_papers": [
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "Testbook",
+      "stage": "Prelims",
+      "title": "71st BPSC Preliminary Exam Official Paper — General Studies, held 13 Sep 2025 (direct official PDF, 10.5 MB)",
+      "url": "https://cdn.testbook.com/1757759414125-71st%20BPSC%20Preliminary%20Exam%20Official%20Paper%20(Held%20On%2013%20Sept,%202025).pdf/1757759416.pdf",
+      "year": 2025
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "UnlockIAS",
+      "stage": "Prelims",
+      "title": "BPSC 71st CCE (2025) Prelims Question Paper — GS, 150 questions, Booklet Series E (GA-502), held 13 Sep 2025",
+      "url": "https://www.unlockias.in/pdfs/state-pcs/bpsc-71st-cce-2025-prelims-question-paper.pdf",
+      "year": 2025
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "Prepp",
+      "stage": "Prelims",
+      "title": "BPSC 71st 2025 Prelims Question Paper (13 Sep 2025) — 150 questions, online paper with solutions",
+      "url": "https://prepp.in/paper/bpsc-71-prelims-question-paper-13-sept-2025-68c550dbdba01272026e7cb6",
+      "year": 2025
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "JagranJosh",
+      "stage": "Prelims",
+      "title": "BPSC 71st Prelims Question Paper 2025 — GS paper, set-wise PDFs (English & Hindi), held 13 Sep 2025",
+      "url": "https://www.jagranjosh.com/articles/bpsc-question-paper-2025-download-general-studies-paper-pdf-set-wise-1800003114-1",
+      "year": 2025
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "StudyIQ",
+      "stage": "Prelims",
+      "title": "BPSC 71st Question Paper 2025 — GS Prelims, held 13 Sep 2025, with analysis and answer key",
+      "url": "https://www.studyiq.com/articles/bpsc-71st-question-paper-2025/",
+      "year": 2025
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "JagranJosh",
+      "stage": "Prelims",
+      "title": "BPSC Prelims Previous Year Papers — 71st (2025) plus earlier years, question paper PDFs",
+      "url": "https://www.jagranjosh.com/articles/bpsc-prelims-previous-year-papers-download-question-paper-pdf-1800014055-1",
+      "year": 2025
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "PW",
+      "stage": "Prelims",
+      "title": "BPSC Previous Year Question Papers — Prelims & Mains year-wise papers incl. 71st CCE 2025",
+      "url": "https://www.pw.live/state-psc/exams/bpsc-previous-year-question-paper",
+      "year": 2025
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "ForumIAS",
+      "stage": "Mains",
+      "title": "BPSC 70th Mains Question Paper 2025 — General Hindi & Essay (25 Apr), GS I (26 Apr), GS II (28 Apr), Optional (29 Apr)",
+      "url": "https://forumias.com/blog/download-bpsc-70th-mains-question-paper-pdf/",
+      "year": 2025
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "PW",
+      "stage": "Mains",
+      "title": "BPSC 70th Mains Question Paper 2025 — General Hindi, Essay, GS Paper 1 & 2, Optional (25–30 Apr 2025)",
+      "url": "https://www.pw.live/state-psc/exams/bpsc-70th-mains-question-paper",
+      "year": 2025
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "TheIASHub",
+      "stage": "Mains",
+      "title": "BPSC Mains Exam 2024-25 Question Paper PDFs — 70th CCE Mains, 25–30 Apr 2025",
+      "url": "https://theiashub.com/upsc/bpsc-mains-exam-2025/",
+      "year": 2025
+    }
+  ],
+  "youtube": []
+}

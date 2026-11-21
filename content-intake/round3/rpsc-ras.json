@@ -1,0 +1,65 @@
+{
+  "details": {
+    "official_page": "https://rpsc.rajasthan.gov.in/",
+    "sources": [
+      "https://www.studyfry.com/rpsc-ras-prelims-exam-02-february-2025-answer-key",
+      "https://www.adda247.com/upsc-exam/rpsc-ras-prelims-question-paper/",
+      "https://www.careerpower.in/blog/rpsc-ras-question-paper-2025",
+      "https://prepp.in/paper/rpsc-ras-2024-prelims-question-paper-02-feb-2025-685d0bde6d7b1870cb959310",
+      "https://shikshanagari.com/rpsc-ras-prelims-exam-solved-question-paper-2024/"
+    ]
+  },
+  "exam_id": "rpsc-ras",
+  "exam_name": "RPSC RAS (Rajasthan)",
+  "not_found_years": [],
+  "notes": "ROUND 3 — RPSC RAS 2025 FOUND (RAS 2024 cycle): Prelims held 2 Feb 2025 (single paper, General Knowledge & General Science, 150 Q, 200 marks, 3 hrs; 733 vacancies). Recorded as year 2025 by held date. Official question paper + answer key released 3 Feb 2025 on rpsc.rajasthan.gov.in (per CareerPower); homepage curl 200 and round 1 already holds the homepage entry, so no new official deep link. All 5 new entries verified HTTP 200 via curl on 2026-11-21. RAS 2024-cycle Mains not covered — no verified mains paper found as of 2026-11-21.",
+  "official_papers": [],
+  "unofficial_papers": [
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "StudyFry",
+      "stage": "Prelims",
+      "title": "RPSC RAS Prelims Exam 2 Feb 2025 — GK & GS question paper with official answer key (150 Q)",
+      "url": "https://www.studyfry.com/rpsc-ras-prelims-exam-02-february-2025-answer-key",
+      "year": 2025
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "Adda247",
+      "stage": "Prelims",
+      "title": "RPSC RAS Question Paper 2025 — Prelims Sets A–D PDFs, held 2 Feb 2025",
+      "url": "https://www.adda247.com/upsc-exam/rpsc-ras-prelims-question-paper/",
+      "year": 2025
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "CareerPower",
+      "stage": "Prelims",
+      "title": "RPSC RAS Question Paper 2025 — Prelims PDF (released 3 Feb 2025 on rpsc.rajasthan.gov.in), held 2 Feb 2025",
+      "url": "https://www.careerpower.in/blog/rpsc-ras-question-paper-2025",
+      "year": 2025
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "Prepp",
+      "stage": "Prelims",
+      "title": "RPSC RAS 2024 Prelims Question Paper (2 Feb 2025) — 150 questions, online paper with solutions",
+      "url": "https://prepp.in/paper/rpsc-ras-2024-prelims-question-paper-02-feb-2025-685d0bde6d7b1870cb959310",
+      "year": 2025
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "ShikshaNagari",
+      "stage": "Prelims",
+      "title": "RPSC RAS (Prelims) Exam 2024 — Solved Question Paper (2 Feb 2025), per official answer key",
+      "url": "https://shikshanagari.com/rpsc-ras-prelims-exam-solved-question-paper-2024/",
+      "year": 2025
+    }
+  ],
+  "youtube": []
+}

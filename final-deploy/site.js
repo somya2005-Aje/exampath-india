@@ -83,13 +83,13 @@ function paperSection(items,e,y,sg,official,fallback){
   const head=official?`<h4>✅ Official — verified on the official portal</h4><p class="small">Papers from the conducting body itself. Every link was checked on 21 Nov 2026.</p>`:`<h4>⚠️ Unofficial — from other websites</h4><p class="small">Papers hosted on other websites. Clearly labelled unofficial — check the source before trusting the answers. Never shown as official.</p>`;
   if(!items.length) return `<div class="paper-sec">${head}${fallback}</div>`;
   const gallery=`<div class="paper-gallery">${items.map(pp=>paperCard(pp,e,y,sg,official)).join("")}</div>`;
-  const numlist=`<div class="locked-detail" data-lock="paperlist"><div class="locked-body"><ol class="paper-numlist">${items.map(pp=>`<li><a href="${esc(pp.url)}" target="_blank" rel="noopener">${esc(pp.title)}</a> <span class="small">— ${esc(pp.source)}</span></li>`).join("")}</ol></div><div class="locked-teaser">🔒 Login to see the complete numbered paper list (${items.length} papers). <button class="btn sm" type="button" data-auth-login>Login with Google</button></div></div>`;
+  const numlist=`<ol class="paper-numlist">${items.map(pp=>`<li><a href="${esc(pp.url)}" target="_blank" rel="noopener">${esc(pp.title)}</a> <span class="small">— ${esc(pp.source)}</span></li>`).join("")}</ol>`;
   return `<div class="paper-sec">${head}${gallery}${numlist}${sourceBox(items)}</div>`;
 }
 function paperRows(e,y,sg){const p=portalOf(e);const isRRB=p&&p.url.indexOf("rrbapply")>=0;
  const all=(EP.papers||[]).filter(pp=>pp.exam===e[0]&&pp.year===y&&(!pp.stage||pp.stage===sg));
  const off=all.filter(pp=>pp.type==="official"),unoff=all.filter(pp=>pp.type==="unofficial");
- const offFb=p?`<div class="paper-item"><div><b>${esc(e[2])} ${y} — ${esc(sg)}</b><br><span class="small">No direct paper link verified for this year yet. The official archive is the real source — open it to find this year's papers.</span></div><div style="white-space:nowrap"><a class="btn sm" href="${p.url}" target="_blank" rel="noopener">${isRRB?"Official Portal ↗":"Official Archive ↗"}</a></div></div>`:`<div class="paper-item"><div><b>Not available yet</b><br><span class="small">No official paper verified for ${y} — ${esc(sg)}.</span></div><div><button class="btn sm" onclick="requestPaper('${e[0]}',${y},'${esc(sg)}','Question Paper')">Request Paper</button></div></div>`;
+ const offFb=`<div class="paper-item"><div><b>Not available yet</b><br><span class="small">No official paper verified for ${y} — ${esc(sg)}.${p?" The official website link is in the Source Website box below.":""}</span></div><div><button class="btn sm" onclick="requestPaper('${e[0]}',${y},'${esc(sg)}','Question Paper')">Request Paper</button></div></div>`;
  const unoffFb=`<div class="paper-item"><div><b>Not available yet</b><br><span class="small">No unofficial paper link verified for ${y} — ${esc(sg)}.</span></div><div><button class="btn sm ghost" onclick="requestPaper('${e[0]}',${y},'${esc(sg)}','Question Paper')">Request Paper</button></div></div>`;
  let combined=sourceBox(off.concat(unoff),`Source Websites — ${y}`);
  if(p && !off.concat(unoff).some(pp=>originOf(pp.url)===originOf(p.url))) combined+=`<div class="source-box"><h5>🔗 Source Website</h5><ul><li><a href="${esc(p.url)}" target="_blank" rel="noopener">${esc(p.name)} ↗</a></li></ul><p class="small">The conducting body's official website.</p></div>`;
@@ -106,7 +106,7 @@ function paperRows(e,y,sg){const p=portalOf(e);const isRRB=p&&p.url.indexOf("rrb
 (function(){const sel=$("#ppExamSelect");if(!sel)return;const btn=$("#ppExamBtn"), flow=$("#ppFlow");
  let cur=examById(sel.value), y=cur[8][0], sg=cur[9][0];
  const rebuildPills=()=>{ const yp=$("#ppYearPills"), sp=$("#ppStagePills");
-  if(yp) yp.innerHTML=cur[8].map(v=>`<button class="pill ${v===y?"active":""}" data-year="${v}">${v}</button>`).join("");
+  if(yp) yp.innerHTML=cur[8].map(v=>{const n=(EP.papers||[]).filter(pp=>pp.exam===cur[0]&&pp.year===v).length;return `<button class="pill ${v===y?"active":""}" data-year="${v}">${v} — ${n} paper${n===1?"":"s"}</button>`}).join("");
   if(sp) sp.innerHTML=cur[9].map(v=>`<button class="pill ${v===sg?"active":""}" data-stage="${esc(v)}">${esc(v)}</button>`).join("");
   $$("#ppYearPills [data-year]").forEach(b=>b.addEventListener("click",()=>{y=parseInt(b.getAttribute("data-year"));$$("#ppYearPills [data-year]").forEach(x=>x.classList.toggle("active",x===b));render()}));
   $$("#ppStagePills [data-stage]").forEach(b=>b.addEventListener("click",()=>{sg=b.getAttribute("data-stage");$$("#ppStagePills [data-stage]").forEach(x=>x.classList.toggle("active",x===b));render()})); };
@@ -120,7 +120,7 @@ document.addEventListener("click",e=>{const btn=e.target.closest("[data-save-pap
 function openViewer(){openModal(`<h3>📄 ExamPath Original Practice Paper</h3><p class="small">20 original practice questions • <b>NOT an official PYQ</b> • Source: ExamPath India (original)</p>
  <div class="toolbar"><button class="btn sm" onclick="zoomViewer(1)">🔍+ Zoom In</button><button class="btn sm" onclick="zoomViewer(-1)">🔍− Zoom Out</button><button class="btn sm" onclick="fsViewer()">⛶ Full Screen</button><button class="btn sm green" type="button" data-download-url="/assets/sample-practice-paper.pdf">⬇️ Download PDF</button><button class="btn sm ghost" onclick="toggleSavePaper('sample|practice|paper','ExamPath Sample Practice Paper');closeModal()">💾 Save to Library</button></div>
  <div class="viewer" id="viewerBox"><iframe src="/assets/sample-practice-paper.pdf" title="Sample practice paper PDF"></iframe></div>
- <p class="small" style="margin-top:10px">For official papers, the <b>Official Archive</b> button on the exam page opens the conducting body's own site — that is the real source.</p>
+ <p class="small" style="margin-top:10px">For official papers, the <b>Source Website</b> box at the bottom of the exam papers section links the conducting body's own site — that is the real source.</p>
  <button class="btn block" style="margin-top:12px" onclick="closeModal()">Close</button>`,true)}
 let _zoom=1;function zoomViewer(d){_zoom=Math.min(1.8,Math.max(.6,_zoom+d*.2));const v=$("#viewerBox");if(v)v.style.zoom=_zoom}
 function fsViewer(){const v=$("#viewerBox");if(v&&v.requestFullscreen)v.requestFullscreen()}

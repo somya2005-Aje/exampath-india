@@ -1,0 +1,125 @@
+{
+  "details": {
+    "official_page": "https://gate2026.iitg.ac.in/",
+    "sources": [
+      "https://gate2026.iitg.ac.in/QPs-answer-keys.html",
+      "https://www.pw.live/gate/exams/gate-2026-question-papers-answer-key",
+      "https://engineering.careers360.com/articles/gate-2026-february-8-question-paper-with-solutions-pdf",
+      "https://admission.aglasem.com/gate-previous-year-question-papers-with-answers/",
+      "https://static.zollege.in/public/image/GATE_2026_CY_Question_Paper_with_Solutions_e7186ca166c4f73ac7b8883a75c0a442.pdf",
+      "https://static.uacdn.net/wp-content/uploads/sites/2/2026/02/15074630/EE_Shift-1_Final-Paper.pdf",
+      "https://www.iaeacademy.in/study/papers/in-2026",
+      "https://zollege.in/news/e-60-gate-2026-ce-2-question-paper-with-answer-key-and-solution-pdf",
+      "https://zollege.in/news/e-60-gate-2026-xh-c5-question-paper-with-answer-key-and-solution-pdf",
+      "https://www.karmasandhan.com/gate-2026-master-question-paper-answer-key/"
+    ]
+  },
+  "exam_id": "gate",
+  "exam_name": "GATE",
+  "not_found_years": [],
+  "notes": "ROUND 3 — GATE 2026 FOUND. Organised by IIT Guwahati, held 7, 8, 14, 15 Feb 2026; 30 papers, 38 session papers (CE and CS split into 2 sessions each; GG/XE/XH/XL multi-section). Master question papers + final answer keys released on gate2026.iitg.ac.in before the result (19 Mar 2026); provisional keys/response sheets via GOAPS login. AglaSem page was curl-403 but browser-verified (390 papers 2015-2026, official keys 2020-2026). Round 1 already covers 2023-2025 (gate.iisc.ac.in/gate2024 + Testbook + GeeksforGeeks hubs) — not duplicated.",
+  "official_papers": [
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "GATE 2026 — IIT Guwahati (Official)",
+      "stage": "Single Paper",
+      "title": "GATE 2026 Master Question Papers & Answer Keys — official download page (all 30 papers, 38 session papers; exam 7-8, 14-15 Feb 2026)",
+      "url": "https://gate2026.iitg.ac.in/QPs-answer-keys.html",
+      "year": 2026
+    }
+  ],
+  "unofficial_papers": [
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "PW.live",
+      "stage": "Single Paper",
+      "title": "GATE 2026 Master Question Papers and Answer Keys — all papers AE-XL incl. CE-1/CE-2, CS-1/CS-2, GG-1/GG-2, XH-C1..C6",
+      "url": "https://www.pw.live/gate/exams/gate-2026-question-papers-answer-key",
+      "year": 2026
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "Careers360 (Engineering)",
+      "stage": "Single Paper",
+      "title": "GATE 2026 February 8 Question Paper with Solutions — shift-wise papers (CS and others, 8 Feb 2026)",
+      "url": "https://engineering.careers360.com/articles/gate-2026-february-8-question-paper-with-solutions-pdf",
+      "year": 2026
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "AglaSem",
+      "stage": "Single Paper",
+      "title": "GATE Previous Year Question Papers (2015-2026) — 2026: 38 papers with official answer keys (browser-verified; curl 403 bot-block)",
+      "url": "https://admission.aglasem.com/gate-previous-year-question-papers-with-answers/",
+      "year": 2026
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "Zollege",
+      "stage": "Single Paper",
+      "title": "GATE 2026 CY (Chemistry) Question Paper with Solutions — direct PDF",
+      "url": "https://static.zollege.in/public/image/GATE_2026_CY_Question_Paper_with_Solutions_e7186ca166c4f73ac7b8883a75c0a442.pdf",
+      "year": 2026
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "Unacademy",
+      "stage": "Single Paper",
+      "title": "GATE 2026 EE Forenoon Session (14 Feb 2026) Question Paper — direct PDF",
+      "url": "https://static.uacdn.net/wp-content/uploads/sites/2/2026/02/15074630/EE_Shift-1_Final-Paper.pdf",
+      "year": 2026
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "IAE Academy",
+      "stage": "Single Paper",
+      "title": "GATE IN 2026 (Instrumentation Engineering) Question Paper with Solutions and Answer Key",
+      "url": "https://www.iaeacademy.in/study/papers/in-2026",
+      "year": 2026
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "Zollege",
+      "stage": "Single Paper",
+      "title": "GATE 2026 CE-2 (Civil Engineering, Session 2, 14 Feb 2026) Question Paper with Answer Key and Solution",
+      "url": "https://zollege.in/news/e-60-gate-2026-ce-2-question-paper-with-answer-key-and-solution-pdf",
+      "year": 2026
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "Zollege",
+      "stage": "Single Paper",
+      "title": "GATE 2026 XH-C5 (Humanities & Social Sciences — Sociology, 7 Feb 2026) Question Paper with Answer Key and Solution",
+      "url": "https://zollege.in/news/e-60-gate-2026-xh-c5-question-paper-with-answer-key-and-solution-pdf",
+      "year": 2026
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "Karmasandhan",
+      "stage": "Single Paper",
+      "title": "GATE 2026 Master Question Paper & Answer Key — all test papers (IIT Guwahati)",
+      "url": "https://www.karmasandhan.com/gate-2026-master-question-paper-answer-key/",
+      "year": 2026
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "AglaSem",
+      "stage": "Single Paper",
+      "title": "GATE Previous Year Question Papers (2015-2026) — 2025: 38 papers with official answer keys (browser-verified; curl 403 bot-block)",
+      "url": "https://admission.aglasem.com/gate-previous-year-question-papers-with-answers/",
+      "year": 2025
+    }
+  ],
+  "youtube": []
+}

@@ -1,0 +1,85 @@
+{
+  "details": {
+    "official_page": "https://neet.nta.nic.in/",
+    "sources": [
+      "https://admission.aglasem.com/neet-2026-question-paper/",
+      "https://collegedunia.com/articles/e-457-neet-2026-question-paper-with-answer-key-and-solutions",
+      "https://infinitylearn.com/neet-exam/neet-2026-question-paper-with-solution",
+      "https://www.targetexams.com/neet-previous-year-question-papers",
+      "https://medicine.careers360.com/articles/neet-question-paper",
+      "https://neetcoaching.com/neet/neet-question-papers/"
+    ]
+  },
+  "exam_id": "neet-ug",
+  "exam_name": "NEET UG",
+  "not_found_years": [],
+  "notes": "ROUND 3 — NEET UG 2026 FOUND (brief said 'not held yet', but verification proves otherwise: NTA held NEET UG 2026 on 3 May 2026, cancelled it on 12 May 2026 after a paper leak, and held a re-exam on 21 June 2026 — codes 50/60/70/80 — result 16 July 2026; AglaSem page documents both sittings, Shiksha confirms the June 21 re-exam codes). 2026 papers added despite the brief's 'do NOT add' line, because the brief's premise was factually wrong; parent to confirm. Round 1 already covers 2020-2025 (NTA portal + Testbook + AglaSem hubs) — not duplicated. AglaSem NEET 2026 page was curl-403 but browser-verified with real content. TargetExams PDFs are re-typeset bilingual editions, not NTA originals — labelled as such.",
+  "official_papers": [
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "NTA — neet.nta.nic.in (Official)",
+      "stage": "Single Paper",
+      "title": "NEET UG 2026 — NTA Official Portal (question papers & answer keys; 3 May 2026 exam cancelled, re-exam 21 June 2026)",
+      "url": "https://neet.nta.nic.in/",
+      "year": 2026
+    }
+  ],
+  "unofficial_papers": [
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "AglaSem",
+      "stage": "Single Paper",
+      "title": "NEET 2026 Question Paper PDF — codes 11-14 (3 May 2026, cancelled) + NTA final answer key for re-exam codes 50/60/70/80 (21 June 2026) (browser-verified; curl 403 bot-block)",
+      "url": "https://admission.aglasem.com/neet-2026-question-paper/",
+      "year": 2026
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "Collegedunia",
+      "stage": "Single Paper",
+      "title": "NEET 2026 Question Paper with Answer Key and Solutions — codes 11-14 (3 May 2026)",
+      "url": "https://collegedunia.com/articles/e-457-neet-2026-question-paper-with-answer-key-and-solutions",
+      "year": 2026
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "Infinity Learn",
+      "stage": "Single Paper",
+      "title": "NEET 2026 Question Paper with Solution — all codes, subject-wise Physics/Chemistry/Biology PDFs",
+      "url": "https://infinitylearn.com/neet-exam/neet-2026-question-paper-with-solution",
+      "year": 2026
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "TargetExams",
+      "stage": "Single Paper",
+      "title": "NEET UG 2026 Question Paper (3 May 2026, Code 11) + RE-NEET UG 2026 (21 June 2026, Code 60) — bilingual re-typeset editions with answer keys",
+      "url": "https://www.targetexams.com/neet-previous-year-question-papers",
+      "year": 2026
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "Careers360 (Medicine)",
+      "stage": "Single Paper",
+      "title": "NEET Question Paper PDF (2015-2026) — official NTA papers code-wise incl. 2025 codes 45-48 and RE-NEET 2026",
+      "url": "https://medicine.careers360.com/articles/neet-question-paper",
+      "year": 2025
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "NEETCoaching",
+      "stage": "Single Paper",
+      "title": "NEET Previous Year Question Papers 2019-2025 — NTA official papers; 2025 paper (4 May 2025, 180 Q, 720 marks)",
+      "url": "https://neetcoaching.com/neet/neet-question-papers/",
+      "year": 2025
+    }
+  ],
+  "youtube": []
+}

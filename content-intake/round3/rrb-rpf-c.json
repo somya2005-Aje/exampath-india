@@ -1,0 +1,79 @@
+{
+ "details": {
+  "eligibility": "10th pass (Matriculation) from a recognised board. Age 18-28 years (relaxation as per rules). Physical standards apply - verify on rrbapply.gov.in.",
+  "pattern": "CBT: 120 questions, 120 marks, 90 minutes. Negative marking 1/3. Then Physical Efficiency Test (PET) and Physical Measurement Test (PMT), Document Verification and Medical Examination.",
+  "syllabus": "General Awareness (50 Q), Arithmetic (35 Q), General Intelligence & Reasoning (35 Q).",
+  "official_page": "https://rrbapply.gov.in/",
+  "important_dates": "2024 cycle CBT held 2-18 Mar 2025. 2018 cycle CBT held Jan-Mar 2019.",
+  "sources": [
+   "https://testbook.com/rpf/previous-year-papers",
+   "https://prepp.in/rpf-constable-exam/practice_papers",
+   "https://www.careerpower.in/rpf-constable-previous-year-question-paper.html",
+   "https://www.jagranjosh.com/articles/rpf-constable-previous-year-question-paper-2024-pdf-download-1714461502-1",
+   "https://rrbapply.gov.in/"
+  ]
+ },
+ "exam_id": "rrb-rpf-c",
+ "exam_name": "RPF Constable",
+ "not_found_years": [],
+ "notes": "ROUND 3 — 2026-11-21. Years by HELD date: the 2024-cycle (CEN RPF 02/2024) CBT was held 2-20 Mar 2025, so it is recorded as 2025 here (round 1 labelled it 2024 by CEN year — do not duplicate). The 2018-cycle CBT was held Jan-Mar 2019 and is covered by round-1 hubs. PET/PMT are physical tests — no question papers exist for them. No official paper PDFs exist: RRB publishes only answer keys/response sheets per CEN on rrbapply.gov.in and regional portals.",
+ "official_papers": [],
+ "unofficial_papers": [
+  {
+   "checked": "2026-11-21",
+   "http": 200,
+   "source": "Oliveboard",
+   "stage": "CBT",
+   "title": "RPF Constable 2025 Question Papers — shift-wise, 2-20 Mar 2025",
+   "url": "https://www.oliveboard.in/blog/rpf-constable-previous-year-question-papers/?ref=railway-rpf-constable-mock-test",
+   "year": 2025
+  },
+  {
+   "checked": "2026-11-21",
+   "http": 200,
+   "source": "Adda247",
+   "stage": "CBT",
+   "title": "RPF Constable Previous Year Question Paper 2025 — shift-wise, 2-18 Mar 2025",
+   "url": "https://www.adda247.com/jobs/rpf-previous-year-question-paper/",
+   "year": 2025
+  },
+  {
+   "checked": "2026-11-21",
+   "http": 200,
+   "source": "Prepp",
+   "stage": "CBT",
+   "title": "RPF Constable 2024 Question Paper with Answer Key (Held Mar 2025) — shift-wise 2-18 Mar 2025, English & Hindi",
+   "url": "https://prepp.in/rpf-constable-exam/question-paper-2025",
+   "year": 2025,
+   "note": "browser-verified, curl 403 bot-block"
+  },
+  {
+   "checked": "2026-11-21",
+   "http": 200,
+   "source": "Aglasem",
+   "stage": "CBT",
+   "title": "RPF Constable 2025 Question Paper (3 Mar 2025, Shift 1, English) — full paper",
+   "url": "https://cdn.aglasem.com/aglasem-doc/beba3a4c-8b22-11f1-b342-0aa932765c8b/beba3a4c-8b22-11f1-b342-0aa932765c8b.pdf",
+   "year": 2025
+  },
+  {
+   "checked": "2026-11-21",
+   "http": 200,
+   "source": "Aglasem",
+   "stage": "CBT",
+   "title": "RPF Constable 2025 Question Paper (7 Mar 2025, Shift 1, English) — full paper",
+   "url": "https://cdn.aglasem.com/aglasem-doc/e5e8cd86-8b22-11f1-b24a-0aa932765c8b/e5e8cd86-8b22-11f1-b24a-0aa932765c8b.pdf",
+   "year": 2025
+  },
+  {
+   "checked": "2026-11-21",
+   "http": 200,
+   "source": "Oliveboard",
+   "stage": "CBT",
+   "title": "RPF Constable 2 Mar 2025 Shift 1 — question paper with answer key (PDF)",
+   "url": "https://download.oliveboard.in/pdf/RPF-Constable-Answer-Key-2-Mar-25-Shift-I-1.pdf?ref=contad-aib",
+   "year": 2025
+  }
+ ],
+ "youtube": []
+}

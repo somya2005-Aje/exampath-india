@@ -1,0 +1,65 @@
+{
+  "details": {
+    "official_page": "https://mpsc.gov.in/",
+    "sources": [
+      "https://www.unlockias.in/pdfs/state-pcs/mpsc-gazetted-civil-services-prelims-2025-question-paper.pdf",
+      "https://testbook.com/news/mpsc-rajyaseva-question-paper-2025-download-gs-paper-1-csat-pdf/",
+      "https://www.adda247.com/exams/maharashtra/mpsc-rajyaseva-prelims-answer-key-2025/",
+      "https://mpscpoint.in/mpsc-question-papers-pdf/",
+      "https://agromind.in/mpsc/previous-year-question-papers/"
+    ]
+  },
+  "exam_id": "mpsc",
+  "exam_name": "MPSC Rajyaseva (Maharashtra)",
+  "not_found_years": [],
+  "notes": "ROUND 3 — MPSC Rajyaseva 2025 FOUND: Prelims held 9 Nov 2025 (GS Paper 1 + CSAT Paper 2, two shifts); official answer key released 13 Nov 2025 on mpsc.gov.in. All 5 new entries verified HTTP 200 via curl on 2026-11-21. No NEW official deep link: mpsc.gov.in homepage curl 200 (round 1 already holds it). Note: a PW MPSC page found in search carried a user auth token in its URL, so it was deliberately NOT used. Rajyaseva 2025 Mains not covered — no verified mains paper found as of 2026-11-21.",
+  "official_papers": [],
+  "unofficial_papers": [
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "UnlockIAS",
+      "stage": "Prelims",
+      "title": "MPSC 2025 Prelims Question Paper — Gazetted Civil Services (Rajyaseva), 100 questions, held 9 Nov 2025",
+      "url": "https://www.unlockias.in/pdfs/state-pcs/mpsc-gazetted-civil-services-prelims-2025-question-paper.pdf",
+      "year": 2025
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "Testbook",
+      "stage": "Prelims",
+      "title": "MPSC Rajyaseva Prelims Question Paper 2025 — GS Paper 1 & CSAT Paper 2 PDFs (Marathi & English), held 9 Nov 2025",
+      "url": "https://testbook.com/news/mpsc-rajyaseva-question-paper-2025-download-gs-paper-1-csat-pdf/",
+      "year": 2025
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "Adda247",
+      "stage": "Prelims",
+      "title": "MPSC Rajyaseva Prelims Answer Key 2025 with question paper PDFs — Paper 1 & Paper 2, held 9 Nov 2025",
+      "url": "https://www.adda247.com/exams/maharashtra/mpsc-rajyaseva-prelims-answer-key-2025/",
+      "year": 2025
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "MPSCPoint",
+      "stage": "Prelims",
+      "title": "MPSC Rajyaseva Question Papers PDF — 2025 Prelims + Mains collection incl. 2025 papers",
+      "url": "https://mpscpoint.in/mpsc-question-papers-pdf/",
+      "year": 2025
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "AgroMind",
+      "stage": "Prelims",
+      "title": "MPSC Rajyaseva Previous Year Question Papers — year-wise PDFs incl. 2025",
+      "url": "https://agromind.in/mpsc/previous-year-question-papers/",
+      "year": 2025
+    }
+  ],
+  "youtube": []
+}

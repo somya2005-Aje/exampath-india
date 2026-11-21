@@ -1,0 +1,77 @@
+{
+ "details": {
+  "eligibility": "12th pass (Intermediate) from a recognised board. Age limit as per CEN notification - verify on rrbapply.gov.in.",
+  "pattern": "CBT 1: 100 questions, 100 marks, 90 minutes. CBT 2: 120 questions. Negative marking 1/3 per wrong answer. Then Typing Skill Test for applicable posts, Document Verification and Medical Examination.",
+  "syllabus": "Mathematics, General Intelligence & Reasoning, General Awareness.",
+  "official_page": "https://rrbapply.gov.in/",
+  "important_dates": "CEN 05/2024: Undergraduate CBT 1 held Aug-Sep 2025; CBT 2 held in 2025. (Per Testbook page.)",
+  "sources": [
+   "https://testbook.com/rrb-ntpc/previous-year-papers",
+   "https://rrbapply.gov.in/"
+  ]
+ },
+ "exam_id": "rrb-ntpc-ug",
+ "exam_name": "RRB NTPC Undergraduate",
+ "not_found_years": [],
+ "notes": "ROUND 3 — 2026-11-21. Years by HELD date (round 1 used CEN year, so its Aug-Sep 2025-held papers are labelled 2024 there — do not duplicate). Undergraduate CBT 1 (CEN 06/2024) was held 7 Aug-9 Sep 2025. New 2026 cycle: UG CBT 1 held 7-9 May and 13-20 Jun 2026. No NTPC exam was held in 2023 or 2024 (Adda247). UG CBT 2 for the 2025-held cycle is listed on the round-1 Testbook hub; its dates were not separately verified here. No official paper PDFs exist: RRB publishes only answer keys/response sheets per CEN on rrbapply.gov.in and regional portals.",
+ "official_papers": [],
+ "unofficial_papers": [
+  {
+   "checked": "2026-11-21",
+   "http": 200,
+   "source": "Oliveboard",
+   "stage": "CBT 1",
+   "title": "RRB NTPC Undergraduate CBT 1 2025 — shift-wise papers, 7 Aug-9 Sep 2025 (CEN 06/2024), English & Hindi",
+   "url": "https://www.oliveboard.in/blog/rrb-ntpc-pyps/?ref=contad-blog-pqs",
+   "year": 2025
+  },
+  {
+   "checked": "2026-11-21",
+   "http": 200,
+   "source": "CareerPower",
+   "stage": "CBT 1",
+   "title": "RRB NTPC Undergraduate CBT 1 2025 — shift-wise papers, 7 Aug-9 Sep 2025, English & Hindi",
+   "url": "https://www.careerpower.in/rrb-ntpc-previous-year-question-papers.html",
+   "year": 2025
+  },
+  {
+   "checked": "2026-11-21",
+   "http": 200,
+   "source": "Adda247",
+   "stage": "CBT 1",
+   "title": "RRB NTPC Undergraduate CBT 1 2025 — shift-wise papers, 7 Aug-9 Sep 2025, English & Hindi",
+   "url": "https://www.adda247.com/jobs/rrb-ntpc-previous-year-question-paper/",
+   "year": 2025
+  },
+  {
+   "checked": "2026-11-21",
+   "http": 200,
+   "source": "Adda247",
+   "stage": "CBT 1",
+   "title": "RRB NTPC Undergraduate CBT 1 2026 — shift-wise papers, 7-9 May and 13-20 Jun 2026",
+   "url": "https://www.adda247.com/jobs/rrb-ntpc-previous-year-question-paper/",
+   "year": 2026
+  },
+  {
+   "checked": "2026-11-21",
+   "http": 200,
+   "source": "Prepp",
+   "stage": "CBT 1",
+   "title": "RRB NTPC 2024 Under Graduate Level CBT-1 Question Paper (07-Aug-2025) (Shift 1)",
+   "url": "https://prepp.in/paper/rrb-ntpc-cbt-1-question-paper-07-aug-2025-shift-1-68d13aa303d50f9f19b69cb0",
+   "year": 2025,
+   "note": "browser-verified, curl 403 bot-block"
+  },
+  {
+   "checked": "2026-11-21",
+   "http": 200,
+   "source": "Prepp",
+   "stage": "CBT 1",
+   "title": "RRB NTPC 2024 Under Graduate Level CBT-1 Question Paper (22-Aug-2025) (Shift 1)",
+   "url": "https://prepp.in/paper/rrb-ntpc-cbt-1-question-paper-22-aug-2025-shift-1-68da38be25950a85c4ba2eeb",
+   "year": 2025,
+   "note": "browser-verified, curl 403 bot-block"
+  }
+ ],
+ "youtube": []
+}

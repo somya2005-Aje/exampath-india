@@ -1,0 +1,93 @@
+{
+ "details": {
+  "eligibility": "Graduation (Bachelor's degree) from a recognised university. Age limit as per CEN notification - verify on rrbapply.gov.in.",
+  "pattern": "CBT 1: 100 questions, 100 marks, 90 minutes. CBT 2: 120 questions. Negative marking 1/3 per wrong answer. Then Typing Skill Test / CBAT for applicable posts, Document Verification and Medical Examination.",
+  "syllabus": "Mathematics, General Intelligence & Reasoning, General Awareness (CBT 1 and CBT 2).",
+  "official_page": "https://rrbapply.gov.in/",
+  "important_dates": "CEN 06/2024: CBT 1 held 5-24 Jun 2025; CBT 2 held 13 Oct 2025.",
+  "sources": [
+   "https://testbook.com/rrb-ntpc/previous-year-papers",
+   "https://rrbapply.gov.in/"
+  ]
+ },
+ "exam_id": "rrb-ntpc-g",
+ "exam_name": "RRB NTPC Graduate",
+ "not_found_years": [],
+ "notes": "ROUND 3 — 2026-11-21. Years are recorded by HELD date (round 1 used CEN year, so its June/Oct 2025-held papers are labelled 2024 there — do not duplicate). Graduate CBT 1 (CEN 05/2024) was held 5-24 Jun 2025; CBT 2 was held 13 Oct 2025 and is covered by the round-1 Testbook hub. No NTPC exam was held in 2023 or 2024 (Adda247). New 2026 cycle: Graduate CBT 1 held 16-27 Mar 2026. CareerPower's page also lists 2026 CBT 2 shift-wise tables (seen in crawl); the CBT 2 2026 dates were not independently confirmed from the crawl excerpt, so treat that entry as hub-listed only. No official paper PDFs exist: RRB publishes only answer keys/response sheets per CEN on rrbapply.gov.in and regional portals.",
+ "official_papers": [],
+ "unofficial_papers": [
+  {
+   "checked": "2026-11-21",
+   "http": 200,
+   "source": "Oliveboard",
+   "stage": "CBT 1",
+   "title": "RRB NTPC Graduate CBT 1 2025 — shift-wise papers, 5-24 Jun 2025 (CEN 05/2024), English & Hindi",
+   "url": "https://www.oliveboard.in/blog/rrb-ntpc-pyps/?ref=contad-blog-pqs",
+   "year": 2025
+  },
+  {
+   "checked": "2026-11-21",
+   "http": 200,
+   "source": "CareerPower",
+   "stage": "CBT 1",
+   "title": "RRB NTPC Graduate CBT 1 2025 — shift-wise papers, 5-24 Jun 2025, English & Hindi",
+   "url": "https://www.careerpower.in/rrb-ntpc-previous-year-question-papers.html",
+   "year": 2025
+  },
+  {
+   "checked": "2026-11-21",
+   "http": 200,
+   "source": "CareerPower",
+   "stage": "CBT 2",
+   "title": "RRB NTPC Graduate CBT 2 2026 — shift-wise papers listed (2026 cycle)",
+   "url": "https://www.careerpower.in/rrb-ntpc-previous-year-question-papers.html",
+   "year": 2026
+  },
+  {
+   "checked": "2026-11-21",
+   "http": 200,
+   "source": "Adda247",
+   "stage": "CBT 1",
+   "title": "RRB NTPC Graduate CBT 1 2025 — shift-wise papers, 5-24 Jun 2025",
+   "url": "https://www.adda247.com/jobs/rrb-ntpc-previous-year-question-paper/",
+   "year": 2025
+  },
+  {
+   "checked": "2026-11-21",
+   "http": 200,
+   "source": "Adda247",
+   "stage": "CBT 1",
+   "title": "RRB NTPC Graduate CBT 1 2026 — shift-wise papers, 16-27 Mar 2026",
+   "url": "https://www.adda247.com/jobs/rrb-ntpc-previous-year-question-paper/",
+   "year": 2026
+  },
+  {
+   "checked": "2026-11-21",
+   "http": 200,
+   "source": "EduRev",
+   "stage": "CBT 1",
+   "title": "RRB NTPC CBT 1 Question Paper (Held On 5 Jun 2025 Shift 3) — Graduate Level, with answers",
+   "url": "https://edurev.in/studytube/RRB-NTPC-CBT-1-Question-Paper--Held-On-5-Jun-2025-Shift-3-/95d58684-3baa-43fd-938d-76424ca6e1e9_p",
+   "year": 2025
+  },
+  {
+   "checked": "2026-11-21",
+   "http": 200,
+   "source": "EduRev",
+   "stage": "CBT 1",
+   "title": "RRB NTPC CBT 1 Question Paper (Held On 9 Jun 2025 Shift 1) — Graduate Level, with answers",
+   "url": "https://edurev.in/studytube/RRB-NTPC-CBT-1-Question-Paper--Held-On-9-Jun-2025-Shift-1-/7dd8523a-209c-44a3-a8dd-689b94fc6a71_p",
+   "year": 2025
+  },
+  {
+   "checked": "2026-11-21",
+   "http": 200,
+   "source": "EduRev",
+   "stage": "CBT 1",
+   "title": "RRB NTPC CBT 1 Question Paper (Held On 14 Jun 2025 Shift 2) — Graduate Level, with answers",
+   "url": "https://edurev.in/studytube/RRB-NTPC-CBT-1-Question-Paper--Held-On-14-Jun-2025-Shift-2-/ffae9b23-8dea-48fa-93ae-e893c5361797_p",
+   "year": 2025
+  }
+ ],
+ "youtube": []
+}

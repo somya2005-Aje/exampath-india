@@ -1,0 +1,100 @@
+{
+  "details": {
+    "eligibility": "Graduation",
+    "pattern": "Written: 100 Q, 300 marks, 120 min. Negative marking -1. EKT for technical.",
+    "syllabus": "Verbal Ability, Numerical Ability, Reasoning, GK, Military Aptitude",
+    "official_page": "https://afcat.cdac.in/",
+    "sources": [
+      "https://afcat.cdac.in/"
+    ]
+  },
+  "exam_id": "afcat",
+  "exam_name": "AFCAT",
+  "not_found_years": [],
+  "notes": "ROUND 3 — NO official AFCAT papers exist (IAF does not publish official question papers); every entry is labelled memory-based (unofficial). Thin years deepened: 2026 now has 5 distinct sources (AFCAT 1 held 31 Jan 2026, AFCAT 2 held 8 Aug 2026 in 2 shifts; incl. a direct Prepp CDN PDF of the Shift 2 paper) and 2021 now has 4 distinct sources (AFCAT 1 20–22 Feb 2021, AFCAT 2 28–30 Aug 2021, shift-wise; incl. a direct Prepp CDN PDF of the 22 Feb 2021 Shift 1 paper). All 9 URLs returned HTTP 200 via curl on 2026-11-21. Duplicates skipped: Prepp practice-papers hub (round 2) and Testbook/Adda247 hubs (round 1) already cover 2021–2026 at hub level. No YouTube videos added (round 1 already has 4).",
+  "official_papers": [],
+  "unofficial_papers": [
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "Prepp",
+      "stage": "Written",
+      "title": "AFCAT 2026 — AFCAT 1 (31 Jan 2026) & AFCAT 2 (8 Aug 2026) memory-based papers, shift-wise",
+      "url": "https://prepp.in/afcat-exam/question-paper-2026",
+      "year": 2026
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "Testbook",
+      "stage": "Written",
+      "title": "AFCAT 2 2026 — Memory-based question papers, Shift 1 & 2 (8 Aug 2026)",
+      "url": "https://testbook.com/news/afcat-2-question-paper-2026-exam-analysis/",
+      "year": 2026
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "DefenceGuru",
+      "stage": "Written",
+      "title": "AFCAT 2 2026 — Memory-based questions, cut-off & paper analysis, both shifts (8 Aug 2026)",
+      "url": "https://www.defenceguru.co.in/afcat/afcat-2-2026-exam-memory-based-questions-cut-off-paper-analysis/",
+      "year": 2026
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "ResultBharats",
+      "stage": "Written",
+      "title": "AFCAT 02 2026 — 200 memory-based questions with answers, both shifts (8 Aug 2026)",
+      "url": "https://www.resultbharats.com/afcat-02-2026-question-paper-200-questions-answers.html",
+      "year": 2026
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "Prepp",
+      "stage": "Written",
+      "title": "AFCAT 02 2026 — Direct PDF, Shift 2 (8 Aug 2026, 3–5 PM) with answer key",
+      "url": "https://cdn-images.prepp.in/public/image/afcat-2-2026-question-paper-and-answer-key-pdf-pdf-aug-08-2026-shift-2-1793078140.pdf",
+      "year": 2026
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "Prepp",
+      "stage": "Written",
+      "title": "AFCAT 2021 — AFCAT 1 (20–22 Feb 2021) & AFCAT 2 (28–30 Aug 2021) memory-based papers, shift-wise",
+      "url": "https://prepp.in/afcat-exam/question-paper-2021",
+      "year": 2021
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "Prepp",
+      "stage": "Written",
+      "title": "AFCAT 1 2021 — Direct PDF, Memory Based Paper (22 Feb 2021, Shift 1)",
+      "url": "https://cdn-images.prepp.in/public/image/AFCAT_1_2021_Memory_Based_Paper_22_Feb_2021_Shift_1__6cdc4a2813dadbdc61d37333be70fb24.pdf",
+      "year": 2021
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "SSBCrackExams",
+      "stage": "Written",
+      "title": "AFCAT 1 2021 — Memory-based questions, all sets, 20/21/22 Feb 2021 Shift 1 & 2",
+      "url": "https://ssbcrackexams.com/afcat-1-2021-question-paper-all-sets/",
+      "year": 2021
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "Careers360",
+      "stage": "Written",
+      "title": "AFCAT Question Papers — Memory-based papers incl. AFCAT 2 2021 shifts (28/29 Aug 2021) & 2026",
+      "url": "https://competition.careers360.com/articles/afcat-question-papers",
+      "year": 2021
+    }
+  ],
+  "youtube": []
+}

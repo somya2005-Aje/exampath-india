@@ -1,0 +1,35 @@
+{
+  "details": {
+    "official_page": "https://www.ibps.in/",
+    "sources": [
+      "https://www.careerpower.in/ibps-clerk-previous-year-question-paper.html",
+      "https://blog.examtune.com/ibps-clerk-ex-servicemen-previous-year-papers/"
+    ]
+  },
+  "exam_id": "ibps-clerk",
+  "exam_name": "IBPS Clerk",
+  "not_found_years": [],
+  "notes": "ROUND 3 — IBPS Clerk 2025 (CRP-CSA XV) FOUND. Prelims held 4, 5, 11 Oct 2025; Mains held 29 Nov & 2 Dec 2025. IBPS publishes no complete official papers (memory-based only), so all entries are unofficial. 2 new URLs, both curl-200 on 2026-11-21. Deduped vs round 1: Testbook amp, Prepp and Oliveboard hub URLs already in round 1 (they also now list 2025) were NOT re-added — merger should note those hubs cover 2025 too. ExamTune page is labelled ex-servicemen but states there is no separate ESM paper (same CSA exam); its 9 shift-wise 2025 Prelims PDFs are the real exam papers.",
+  "official_papers": [],
+  "unofficial_papers": [
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "CareerPower",
+      "stage": "Prelims/Mains",
+      "title": "IBPS Clerk 2025 memory-based papers — Prelims 4 Oct 2025 Shifts 1-4 (EN/HI), 5 Oct 2025; Mains 29 Nov 2025 section-wise (Reasoning/English/Quant)",
+      "url": "https://www.careerpower.in/ibps-clerk-previous-year-question-paper.html",
+      "year": 2025
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "ExamTune",
+      "stage": "Prelims",
+      "title": "IBPS Clerk Prelims 2025 shift-wise memory-based PDFs — 4 Oct 2025 Shifts 1-4 and 5 Oct 2025 Shift 1 (EN/HI editions, 9 files; same CSA paper, no separate ESM paper)",
+      "url": "https://blog.examtune.com/ibps-clerk-ex-servicemen-previous-year-papers/",
+      "year": 2025
+    }
+  ],
+  "youtube": []
+}

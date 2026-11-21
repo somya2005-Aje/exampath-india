@@ -1,0 +1,139 @@
+{
+  "details": {
+    "official_page": "https://jeemain.nta.nic.in/",
+    "sources": [
+      "https://infinitylearn.com/iit-jee-exam/jee-main-2026-question-paper-pdf-with-solutions",
+      "https://www.esaral.com/jee/jee-main-2026-question-paper/",
+      "https://www.shiksha.com/engineering/articles/jee-main-2026-question-paper-with-solutions-blogId-219686",
+      "https://prepp.in/jee-main-exam/question-paper-2025",
+      "https://www.pw.live/iit-jee/exams/jee-main-previous-year-question-papers",
+      "https://www.collegesearch.in/articles/jee-main-2025-question-papers-pdf"
+    ]
+  },
+  "exam_id": "jee-main",
+  "exam_name": "JEE Main",
+  "not_found_years": [],
+  "notes": "ROUND 3 — JEE Main 2026 FOUND, both sessions. Session 1 (Jan 2026): Paper 1 on 21, 22, 23, 24, 28 Jan = 10 shifts; Paper 2A/2B on 29 Jan. Session 2 (Apr 2026): 2, 4, 5, 6 Apr (2 shifts each) + 8 Apr (Shift 2 only) = 9 shifts. NTA official portal URL is the same as round 1's 2022-2025 entries, repeated here for the new year 2026 per the round-1 convention (one entry per year on the portal URL). Shiksha 2026 page was curl-403 but browser-verified with real shift-wise tables and analysis. Round 1 already covers 2022-2025 (NTA portal + AglaSem + Adda247 hubs) — not duplicated; new 2025 shift-wise sources (Prepp, PW.live, CollegeSearch) added.",
+  "official_papers": [
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "NTA — jeemain.nta.nic.in (Official)",
+      "stage": "Session 1",
+      "title": "JEE Main 2026 Session 1 — NTA Official Portal (question papers & final answer keys; 10 Paper-1 shifts, 21-28 Jan 2026 + Paper 2 on 29 Jan)",
+      "url": "https://jeemain.nta.nic.in/",
+      "year": 2026
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "NTA — jeemain.nta.nic.in (Official)",
+      "stage": "Session 2",
+      "title": "JEE Main 2026 Session 2 — NTA Official Portal (question papers & final answer keys; 9 shifts, 2-8 Apr 2026)",
+      "url": "https://jeemain.nta.nic.in/",
+      "year": 2026
+    }
+  ],
+  "unofficial_papers": [
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "Infinity Learn",
+      "stage": "Session 1",
+      "title": "JEE Main 2026 Session 1 Question Paper PDF with Solutions — all 10 shifts (21-28 Jan 2026), subject-wise Physics/Chemistry/Maths",
+      "url": "https://infinitylearn.com/iit-jee-exam/jee-main-2026-question-paper-pdf-with-solutions",
+      "year": 2026
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "Infinity Learn",
+      "stage": "Session 2",
+      "title": "JEE Main 2026 Session 2 Question Paper PDF with Solutions — all 9 shifts (2-8 Apr 2026)",
+      "url": "https://infinitylearn.com/iit-jee-exam/jee-main-2026-question-paper-pdf-with-solutions",
+      "year": 2026
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "eSaral",
+      "stage": "Session 1",
+      "title": "JEE Main 2026 Question Paper, Answer Key & Solutions (Session 1) — shift-wise PDFs, 21-28 Jan 2026",
+      "url": "https://www.esaral.com/jee/jee-main-2026-question-paper/",
+      "year": 2026
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "eSaral",
+      "stage": "Session 2",
+      "title": "JEE Main 2026 Question Paper, Answer Key & Solutions (Session 2) — shift-wise PDFs, 2-8 Apr 2026",
+      "url": "https://www.esaral.com/jee/jee-main-2026-question-paper/",
+      "year": 2026
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "Shiksha",
+      "stage": "Session 1",
+      "title": "JEE Main 2026 Question Paper with Solutions PDF (Session 1) — shift-wise PDFs + difficulty analysis, 21-28 Jan 2026 (browser-verified; curl 403 bot-block)",
+      "url": "https://www.shiksha.com/engineering/articles/jee-main-2026-question-paper-with-solutions-blogId-219686",
+      "year": 2026
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "Shiksha",
+      "stage": "Session 2",
+      "title": "JEE Main 2026 Question Paper with Solutions PDF (Session 2) — shift-wise PDFs + analysis, 2/4/5/6/8 Apr 2026 (browser-verified; curl 403 bot-block)",
+      "url": "https://www.shiksha.com/engineering/articles/jee-main-2026-question-paper-with-solutions-blogId-219686",
+      "year": 2026
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "Prepp",
+      "stage": "Session 1",
+      "title": "JEE Main 2025 Question Paper and Answer Key PDF (Session 1) — shift-wise, 22-29 Jan 2025 incl. B.Arch/B.Planning 30 Jan 2025",
+      "url": "https://prepp.in/jee-main-exam/question-paper-2025",
+      "year": 2025
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "Prepp",
+      "stage": "Session 2",
+      "title": "JEE Main 2025 Question Paper and Answer Key PDF (Session 2) — shift-wise, 2-8 Apr 2025",
+      "url": "https://prepp.in/jee-main-exam/question-paper-2025",
+      "year": 2025
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "PW.live",
+      "stage": "Session 1",
+      "title": "JEE Main Previous Year Question Papers (2025-2019) — 2025 Session 1 (January) shift-wise PDFs with solutions",
+      "url": "https://www.pw.live/iit-jee/exams/jee-main-previous-year-question-papers",
+      "year": 2025
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "PW.live",
+      "stage": "Session 2",
+      "title": "JEE Main Previous Year Question Papers (2025-2019) — 2025 Session 2 (April) shift-wise PDFs with solutions",
+      "url": "https://www.pw.live/iit-jee/exams/jee-main-previous-year-question-papers",
+      "year": 2025
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "CollegeSearch",
+      "stage": "",
+      "title": "JEE Main 2025 Question Papers PDF with Solutions — January + April sessions, shift-wise tables",
+      "url": "https://www.collegesearch.in/articles/jee-main-2025-question-papers-pdf",
+      "year": 2025
+    }
+  ],
+  "youtube": []
+}

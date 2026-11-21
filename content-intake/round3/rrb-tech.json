@@ -1,0 +1,54 @@
+{
+ "details": {
+  "eligibility": "10th pass + ITI in relevant trade (Grade 3); Diploma/Degree for Grade 1 Signal posts. Age limit as per CEN notification - verify on rrbapply.gov.in.",
+  "pattern": "Single CBT: 100 questions, 100 marks, 90 minutes. Negative marking 1/3. Then Document Verification and Medical Examination.",
+  "syllabus": "Mathematics, General Intelligence & Reasoning, General Science, General Awareness & Current Affairs.",
+  "official_page": "https://rrbapply.gov.in/",
+  "important_dates": "2024 cycle: Grade 1 CBT held 19-20 Dec 2024; Grade 3 CBT held 20-30 Dec 2024. 2025 cycle: Grade 3 CBT held 6 Mar 2026; Grade 1 CBT held 13 Mar 2026. 2026 cycle: Grade 3 CBT held 6-9 Oct 2026.",
+  "sources": [
+   "https://www.adda247.com/jobs/rrb-technician-previous-year-question-paper/",
+   "https://prepp.in/rrb-technician-exam/question-paper",
+   "https://www.oliveboard.in/blog/rrb-technician-previous-year-papers/",
+   "https://rrbapply.gov.in/"
+  ]
+ },
+ "exam_id": "rrb-tech",
+ "exam_name": "RRB Technician",
+ "not_found_years": [
+  "2025"
+ ],
+ "notes": "ROUND 3 — 2026-11-21. Years by HELD date. No Technician exam was held in 2025: the 2024 cycle was held Dec 2024 (Grade 1: 19-20 Dec; Grade 3: 20-30 Dec), the next cycle was held Mar 2026 (Grade 3: 6-10 Mar; Grade 1: 13 Mar) and another Grade 3 round was held 8-9 Oct 2026. The Oliveboard Technician hub was NOT re-added — the same page (without the ?ref= tracker) is already in round 1; likewise the Adda247 Technician page (round 1) now also lists the Mar 2026 papers. No official paper PDFs exist: RRB publishes only answer keys/response sheets per CEN on rrbapply.gov.in and regional portals.",
+ "official_papers": [],
+ "unofficial_papers": [
+  {
+   "checked": "2026-11-21",
+   "http": 200,
+   "source": "Testbook",
+   "stage": "CBT",
+   "title": "RRB Technician Question Paper 2026 — Grade 3 shifts 6-10 Mar 2026 and 8-9 Oct 2026",
+   "url": "https://testbook.com/amp/rrb-technician/previous-year-papers",
+   "year": 2026,
+   "note": "browser-verified, curl 500"
+  },
+  {
+   "checked": "2026-11-21",
+   "http": 200,
+   "source": "Testbook",
+   "stage": "CBT",
+   "title": "RRB Technician Grade 3 Question Paper 2024 — shift-wise, 20-29 Dec 2024, with solutions",
+   "url": "https://testbook.com/amp/rrb-technician/previous-year-papers",
+   "year": 2024,
+   "note": "browser-verified, curl 500"
+  },
+  {
+   "checked": "2026-11-21",
+   "http": 200,
+   "source": "SSCAdda",
+   "stage": "CBT",
+   "title": "RRB Technician Grade 1 & Grade 3 Question Papers 2024 — shift-wise, 19-30 Dec 2024, English & Hindi",
+   "url": "https://www.sscadda.com/rrb-technician-previous-year-papers/",
+   "year": 2024
+  }
+ ],
+ "youtube": []
+}

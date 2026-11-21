@@ -1,0 +1,85 @@
+{
+  "details": {
+    "official_page": "https://jeeadv.ac.in/",
+    "sources": [
+      "https://jeeadv.ac.in/past_qps/AAT-2025.pdf",
+      "https://www.hindustantimes.com/education/competitive-exams/jee-advanced-2026-iit-jee-paper-1-2-question-papers-released-at-jeeadv-ac-in-download-link-here-101779075661856.html",
+      "https://collegedunia.com/news/jee-advanced-2026-question-paper-released-alertid-152942",
+      "https://education.indianexpress.com/engineering-exam/jee-advanced-exam-question-papers",
+      "https://engineering.careers360.com/articles/jee-advanced-2025-question-paper",
+      "https://jeevisionary.in/previous-year-papers/jee-advanced/"
+    ]
+  },
+  "exam_id": "jee-adv",
+  "exam_name": "JEE Advanced",
+  "not_found_years": [],
+  "notes": "ROUND 3 — JEE Advanced 2026 FOUND (brief said 'not held', but verification proves otherwise: IIT Roorkee held JEE Advanced 2026 on Sunday 17 May 2026 — Paper 1 9 AM-12 PM, Paper 2 2:30-5:30 PM — and released both papers in English and Hindi the same day at jeeadv.ac.in; result 1 June 2026). 2026 papers added despite the brief's 'do NOT add' line, because the brief's premise was factually wrong; parent to confirm. Official portal URL is the same as round 1's 2022-2025 entries, repeated here for the new year 2026 per the round-1 convention. Also added: official 2025 AAT paper direct PDF, and the JeeVisionary archive hub that links direct official jeeadv.ac.in PDFs for 2007-2025 (Paper 1/2, EN/Hindi). Round 1 already covers 2022-2025 (jeeadv.ac.in + Vedantu + Aakash hubs) — not duplicated.",
+  "official_papers": [
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "IIT — jeeadv.ac.in (Official)",
+      "stage": "",
+      "title": "JEE Advanced 2026 — Official Portal (IIT Roorkee; Paper 1 & 2, English + Hindi, exam 17 May 2026, papers released same day)",
+      "url": "https://jeeadv.ac.in/",
+      "year": 2026
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "IIT — jeeadv.ac.in (Official)",
+      "stage": "",
+      "title": "JEE Advanced 2025 AAT (Architecture Aptitude Test) Question Paper — official direct PDF",
+      "url": "https://jeeadv.ac.in/past_qps/AAT-2025.pdf",
+      "year": 2025
+    }
+  ],
+  "unofficial_papers": [
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "Hindustan Times",
+      "stage": "",
+      "title": "JEE Advanced 2026 Paper 1 & 2 question papers released at jeeadv.ac.in — direct download links (IIT Roorkee, 17 May 2026)",
+      "url": "https://www.hindustantimes.com/education/competitive-exams/jee-advanced-2026-iit-jee-paper-1-2-question-papers-released-at-jeeadv-ac-in-download-link-here-101779075661856.html",
+      "year": 2026
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "Collegedunia",
+      "stage": "",
+      "title": "JEE Advanced 2026 Question Paper Released — Paper 1 & 2 (English + Hindi), 17 May 2026, answer key 25 May 2026",
+      "url": "https://collegedunia.com/news/jee-advanced-2026-question-paper-released-alertid-152942",
+      "year": 2026
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "Indian Express (Education)",
+      "stage": "",
+      "title": "JEE Advanced Question Papers 2026 (OUT) — Paper 1 & 2 PDF + AAT Question Paper, 17 May 2026",
+      "url": "https://education.indianexpress.com/engineering-exam/jee-advanced-exam-question-papers",
+      "year": 2026
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "Careers360 (Engineering)",
+      "stage": "",
+      "title": "JEE Advanced 2025 Question Paper — official Paper 1 & 2 (EN/Hindi, 18 May 2025, IIT Kanpur) + memory-based + 2024/2023 papers",
+      "url": "https://engineering.careers360.com/articles/jee-advanced-2025-question-paper",
+      "year": 2025
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "JeeVisionary",
+      "stage": "",
+      "title": "JEE Advanced Previous Year Papers (2007-2025) + AAT Papers — direct official jeeadv.ac.in PDF links, Paper 1 & 2 EN/Hindi",
+      "url": "https://jeevisionary.in/previous-year-papers/jee-advanced/",
+      "year": 2025
+    }
+  ],
+  "youtube": []
+}

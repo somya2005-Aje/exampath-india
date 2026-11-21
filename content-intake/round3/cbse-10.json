@@ -1,0 +1,35 @@
+{
+  "details": {
+    "official_page": "https://www.cbse.gov.in/cbsenew/question-paper.html",
+    "sources": [
+      "https://www.shiksha.com/boards/articles/cbse-board-previous-year-question-paper-pdf-download-blogId-245916"
+    ]
+  },
+  "exam_id": "cbse-10",
+  "exam_name": "CBSE Class 10",
+  "not_found_years": [],
+  "notes": "ROUND 3 — CBSE Class 10 2026 FOUND. Main board exams Feb-Mar 2026; 2026 was the first year of the two-board system, so the official page also hosts the Class X Second Board Examination 2026 papers (May 2026) and compartment papers. Official page URL is the same as round 1's 2023-2025 entries, repeated here for the new year 2026 per the round-1 convention. Shiksha page was curl-403 but browser-verified (2026 Maths/Science/Social Science tables). Note: the live CBSE Academic SQP pages now show 2026-27 (for the 2027 exams); the 2025-26 SQPs have been superseded on the live site, so only the actual 2026 board papers are recorded here.",
+  "official_papers": [
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "CBSE — cbse.gov.in (Official)",
+      "stage": "Board Exam",
+      "title": "CBSE Class 10 Question Papers 2026 — official archive (main board Feb-Mar 2026 + Second Board Examination 2026, subject-wise PDFs)",
+      "url": "https://www.cbse.gov.in/cbsenew/question-paper.html",
+      "year": 2026
+    }
+  ],
+  "unofficial_papers": [
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "Shiksha",
+      "stage": "Board Exam",
+      "title": "CBSE Board Previous Year Question Papers — Class 10 Question Papers 2026 (Maths, Science, Social Science) (browser-verified; curl 403 bot-block)",
+      "url": "https://www.shiksha.com/boards/articles/cbse-board-previous-year-question-paper-pdf-download-blogId-245916",
+      "year": 2026
+    }
+  ],
+  "youtube": []
+}

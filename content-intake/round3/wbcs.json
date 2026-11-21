@@ -1,0 +1,56 @@
+{
+  "details": {
+    "official_page": "https://psc.wb.gov.in/",
+    "sources": [
+      "https://joshstudies.com/wbcs-previous-years-question-papers/",
+      "https://www.pw.live/state-psc/exams/wbcs-previous-year-question-paper",
+      "https://www.rayacademyias.in/wbcs/previous-year-papers",
+      "https://www.shiksha.com/exams/wbcs-exam-question-papers?isource=News&id=65693"
+    ]
+  },
+  "exam_id": "wbcs",
+  "exam_name": "WBCS (West Bengal)",
+  "not_found_years": [],
+  "notes": "ROUND 3 — WBCS 2025 (2024 cycle) PARTIALLY FOUND: WBCS (Exe.) Prelims 2024-cycle held 7 Sep 2025 per the official WBPSC exam calendar; JoshStudies lists a 'WBCS Prelims Question Papers 2025' download and PW/RayAcademy host year-wise WBCS collections — but NO direct PDF of the 7 Sep 2025 paper itself was verified (no source exposed a direct 2025-paper link). So 2025 is covered by hub entries only, with that caveat. WBCS 2025-cycle (Advt 03/2025, notification 14 Nov 2025) Prelims is tentatively Nov 2026 — NOT yet held as of 2026-11-21, so no 2025-cycle paper exists. Official sites psc.wb.gov.in and wbpsc.gov.in both unreachable via curl (000) — still 0 official papers, as in rounds 1–2. Shiksha page browser-verified (real content, lists 2015–2021 papers); curl gives 403 bot-block. Testbook WBCS amp hub already in round 1 — not duplicated.",
+  "official_papers": [],
+  "unofficial_papers": [
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "JoshStudies",
+      "stage": "Prelims",
+      "title": "WBCS Previous Year Question Papers — year-wise Prelims downloads incl. 2025 paper (2024 cycle, held 7 Sep 2025)",
+      "url": "https://joshstudies.com/wbcs-previous-years-question-papers/",
+      "year": 2025
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "PW",
+      "stage": "Prelims",
+      "title": "WBCS Previous Year Question Paper — Prelims & Mains year-wise PDFs incl. 2025 (2024 cycle)",
+      "url": "https://www.pw.live/state-psc/exams/wbcs-previous-year-question-paper",
+      "year": 2025
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "RayAcademy IAS",
+      "stage": "Prelims",
+      "title": "WBCS Previous Year Question Papers — Prelims & Mains PDFs, exam trends & analysis (official papers via psc.wb.gov.in)",
+      "url": "https://www.rayacademyias.in/wbcs/previous-year-papers",
+      "year": 2025
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "Shiksha",
+      "stage": "Prelims",
+      "title": "WBCS Question Papers — Previous Year Question Papers listed 2015–2021 (2016–2021 Prelims PDFs)",
+      "url": "https://www.shiksha.com/exams/wbcs-exam-question-papers?isource=News&id=65693",
+      "year": 2021,
+      "note": "browser-verified, curl 403 bot-block"
+    }
+  ],
+  "youtube": []
+}

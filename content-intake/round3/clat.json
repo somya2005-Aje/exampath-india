@@ -1,0 +1,65 @@
+{
+  "details": {
+    "official_page": "https://consortiumofnlus.ac.in/",
+    "sources": [
+      "https://prepp.in/clat-exam/question-paper-2026",
+      "https://cdn.aglasem.com/aglasem-doc/978eb800-8689-11f1-b5e3-0aa932765c8b/978eb800-8689-11f1-b5e3-0aa932765c8b.pdf",
+      "https://zollege.in/news/e-47-clat-2026-question-paper-with-solutions-set-a",
+      "https://www.lawpreptutorial.com/blog/clat/previous-year-question-papers/2026-pdf/"
+    ]
+  },
+  "exam_id": "clat",
+  "exam_name": "CLAT",
+  "not_found_years": [],
+  "notes": "ROUND 3 — CLAT 2026 FOUND. Held Sunday 7 Dec 2025 (recorded as year 2026 by exam year, per brief), offline pen-and-paper, UG 120 Q / 120 marks / 120 min. Official route is paid: question paper + answer key cost Rs 500 via candidate login on consortiumofnlus.ac.in — no free official PDF exists, so the official entry is the portal itself. UG papers only here; Prepp page also hosts CLAT PG 2026 Sets A-D (different exam — not listed separately). Round 1 already covers 2023-2025 (Consortium portal + AglaSem + JagranJosh hubs); round 2 added Prepp/Careers360/FindMyCollege — none duplicated.",
+  "official_papers": [
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "Consortium of NLUs (Official)",
+      "stage": "Single Paper",
+      "title": "CLAT 2026 — Consortium of NLUs Official Portal (exam 7 Dec 2025; official paper + key via candidate login, Rs 500 — no free official PDF)",
+      "url": "https://consortiumofnlus.ac.in/",
+      "year": 2026
+    }
+  ],
+  "unofficial_papers": [
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "Prepp",
+      "stage": "Single Paper",
+      "title": "CLAT Question Paper 2026 and Answer Key — UG Sets A-D + PG Sets A-D (7 Dec 2025)",
+      "url": "https://prepp.in/clat-exam/question-paper-2026",
+      "year": 2026
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "AglaSem",
+      "stage": "Single Paper",
+      "title": "CLAT 2026 Question Paper (UG) — full paper PDF, 120 Q, 160 pages (7 Dec 2025)",
+      "url": "https://cdn.aglasem.com/aglasem-doc/978eb800-8689-11f1-b5e3-0aa932765c8b/978eb800-8689-11f1-b5e3-0aa932765c8b.pdf",
+      "year": 2026
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "Zollege",
+      "stage": "Single Paper",
+      "title": "CLAT 2026 Question Paper with Solutions — Set A (7 Dec 2025, 120 Q)",
+      "url": "https://zollege.in/news/e-47-clat-2026-question-paper-with-solutions-set-a",
+      "year": 2026
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "Law Prep Tutorial",
+      "stage": "Single Paper",
+      "title": "CLAT 2026 Question Paper (PDF) with Solutions & Analysis (7 Dec 2025)",
+      "url": "https://www.lawpreptutorial.com/blog/clat/previous-year-question-papers/2026-pdf/",
+      "year": 2026
+    }
+  ],
+  "youtube": []
+}

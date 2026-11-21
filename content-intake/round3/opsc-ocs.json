@@ -1,0 +1,93 @@
+{
+  "details": {
+    "official_page": "https://opsc.gov.in/",
+    "sources": [
+      "https://www.pw.live/state-psc/exams/opsc-ocs-question-paper-2025",
+      "https://www.studyiq.com/articles/opsc-ocs-question-paper-2025/",
+      "https://testbook.com/news/opsc-ocs-prelims-question-paper-2025-download-gs-csat-paper-pdf/",
+      "https://www.adda247.com/exams/odisha/opsc-ocs-previous-year-papers/",
+      "https://www.careerpower.in/blog/opsc-ocs-prelims-question-paper-2024",
+      "https://www.studyiq.com/articles/opsc-question-paper-2024/"
+    ]
+  },
+  "exam_id": "opsc-ocs",
+  "exam_name": "OPSC OCS (Odisha Civil Services)",
+  "not_found_years": [],
+  "notes": "ROUND 3 — OPSC OCS 2024 and 2025 FOUND (both held-date years were missing). OCS 2023-cycle Prelims held 15 Dec 2024 (GS Paper 1 + Paper 2, two shifts) — recorded as year 2024. OCS 2024-cycle Prelims (Advt 07 of 2024-25, 200 posts) held 12 Oct 2025 (GS Paper 1 + CSAT Paper 2) — recorded as year 2025. All 8 new entries verified HTTP 200 via curl on 2026-11-21. No NEW official deep link: OPSC publishes papers behind its 'Previous Question Papers' portal on opsc.gov.in (homepage curl 200, round 1 already holds the homepage entry per year); PW/StudyIQ confirm the official papers are on opsc.gov.in. OCS 2025-cycle Prelims held 7 Jun 2026 exists (Prepp) but is outside this round's 2024/2025 scope — not added. OCS Mains 2024 (31 Jan–10 Feb 2026) is covered inside the Adda247 hub entry.",
+  "official_papers": [],
+  "unofficial_papers": [
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "PW",
+      "stage": "Prelims",
+      "title": "OPSC OCS Prelims 2025 Question Paper — Paper 1 (GS) & Paper 2 (CSAT), held 12 Oct 2025",
+      "url": "https://www.pw.live/state-psc/exams/opsc-ocs-question-paper-2025",
+      "year": 2025
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "StudyIQ",
+      "stage": "Prelims",
+      "title": "OPSC OCS Question Paper 2025 — Prelims Paper 1 (GS I) & Paper 2 (CSAT), held 12 Oct 2025",
+      "url": "https://www.studyiq.com/articles/opsc-ocs-question-paper-2025/",
+      "year": 2025
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "Testbook",
+      "stage": "Prelims",
+      "title": "OPSC OCS Prelims Question Paper 2025 — GS Paper 1 & CSAT Paper 2 PDFs, held 12 Oct 2025",
+      "url": "https://testbook.com/news/opsc-ocs-prelims-question-paper-2025-download-gs-csat-paper-pdf/",
+      "year": 2025
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "Adda247",
+      "stage": "Prelims",
+      "title": "OPSC OCS Previous Year Papers — Prelims 2025, 2024, 2023 sets + OCS Mains 2024 papers (31 Jan–10 Feb 2026)",
+      "url": "https://www.adda247.com/exams/odisha/opsc-ocs-previous-year-papers/",
+      "year": 2025
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "PreppYQ",
+      "stage": "Prelims",
+      "title": "OPSC OCS Previous Year Question Papers — Prelims 2025 GS Paper 1 & Paper 2 (12 Oct 2025)",
+      "url": "https://preppyq.in/opsc-previous-year-question-papers/",
+      "year": 2025
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "CareerPower",
+      "stage": "Prelims",
+      "title": "OPSC OCS Prelims Question Paper 2024 — Paper 1 & Paper 2, held 15 Dec 2024 (OCS 2023 cycle)",
+      "url": "https://www.careerpower.in/blog/opsc-ocs-prelims-question-paper-2024",
+      "year": 2024
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "StudyIQ",
+      "stage": "Prelims",
+      "title": "OPSC OCS Question Paper 2024 — Prelims GS Paper 1 & Paper 2, held 15 Dec 2024",
+      "url": "https://www.studyiq.com/articles/opsc-question-paper-2024/",
+      "year": 2024
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "JagranJosh",
+      "stage": "Prelims",
+      "title": "OPSC OCS Previous Year Papers with solutions — 2024, 2023, 2018 papers",
+      "url": "https://us.jagranjosh.com/articles/opsc-ocs-previous-year-question-papers-download-pdf-with-solutions-1800008924-1",
+      "year": 2024
+    }
+  ],
+  "youtube": []
+}

@@ -1,0 +1,76 @@
+{
+  "details": {
+    "eligibility": "Bachelor's degree (B.E./B.Tech for Navy/Air Force; any degree for IMA/OTA with conditions). Age 19–25 years (varies by academy).",
+    "pattern": "Written: English (100) + GK (100) + Elementary Maths (100) — OTA: English + GK only. SSB Interview follows.",
+    "syllabus": "English, General Knowledge, Elementary Mathematics.",
+    "official_page": "https://upsc.gov.in/examinations/previous-question-papers",
+    "sources": [
+      "https://upsc.gov.in/examinations/previous-question-papers",
+      "https://testbook.com/amp/cds/previous-year-papers",
+      "https://prepp.in/cds-exam/practice-papers"
+    ]
+  },
+  "exam_id": "upsc-cds",
+  "exam_name": "UPSC CDS",
+  "not_found_years": [],
+  "notes": "ROUND 3 — 2026 is NEW. CDS 1 2026 held 12 Apr 2026 and CDS 2 2026 held 13 Sep 2026 (Prepp, NDAX, Testbook). The live UPSC archive (crawled 2026-11-18) lists CDS (I) 2026 (English 14.65 MB, GK 30.87 MB, Maths 30.05 MB); CDS (II) 2026 papers are confirmed as published UPSC PDFs via NDAX (verified 14 Nov 2026) and Prepp, though the archive crawl excerpt did not show the (II) 2026 heading — recorded as unofficial via NDAX/Prepp, not as official. Official per-paper PDF links could not be extracted (JS-rendered UPSC site; direct curl 404), so the official entry points at the archive hub as in round 1. All 5 unofficial URLs returned HTTP 200 via curl. No YouTube videos added (round 1 already has 4).",
+  "official_papers": [
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "UPSC",
+      "stage": "",
+      "title": "UPSC CDS 2026 — Official Previous Papers (CDS (I), 12 Apr 2026 — English, GK, Elementary Maths)",
+      "url": "https://upsc.gov.in/examinations/previous-question-papers",
+      "year": 2026
+    }
+  ],
+  "unofficial_papers": [
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "Prepp",
+      "stage": "Written",
+      "title": "CDS 2026 — CDS 1 (12 Apr) & CDS 2 (13 Sep) English, GK & Maths papers with answer keys",
+      "url": "https://prepp.in/cds-exam/question-paper-2026",
+      "year": 2026
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "DefenceGuru (Centurion Defence Academy)",
+      "stage": "Written",
+      "title": "CDS-1 2026 — Official English, GK & Maths papers, Sets A–D (12 Apr 2026)",
+      "url": "https://www.defenceguru.co.in/cds-preparation/cds-1-2026-official-question-paper-of-english-g-k-maths/",
+      "year": 2026
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "FreeJobAlert",
+      "stage": "Written",
+      "title": "UPSC CDS 1 2026 — English, GK & Elementary Mathematics question papers, set-wise (12 Apr 2026)",
+      "url": "https://www.freejobalert.com/articles/upsc-cds-1-question-paper2026-3045263",
+      "year": 2026
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "NDAX Defence",
+      "stage": "Written",
+      "title": "CDS 2026 — Official UPSC papers, CDS I & CDS II (6 PDFs: English, GK, Maths each, verified 14 Nov 2026)",
+      "url": "https://www.ndaxdefence.com/study-material/cds-question-papers-2026",
+      "year": 2026
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "EduRev",
+      "stage": "Written",
+      "title": "CDS Previous Year Papers 2026 — CDS I English, GK & Maths papers with answer keys",
+      "url": "https://edurev.in/cds-exam/combined-defence-services-mock-test-series-2026/topic/previous-year-question-papers-64023",
+      "year": 2026
+    }
+  ],
+  "youtube": []
+}

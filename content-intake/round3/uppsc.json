@@ -1,0 +1,65 @@
+{
+  "details": {
+    "official_page": "https://uppsc.up.nic.in/",
+    "sources": [
+      "https://prepp.in/uppsc-exam/question-paper-2025",
+      "https://prepp.in/paper/uppsc-prelims-gs-question-paper-12-oct-2025-68ea22572a35198467d272b3",
+      "https://www.studyiq.com/articles/uppsc-question-paper-2025/",
+      "https://forumias.com/blog/uppsc-prelims-answer-key-2025-and-paper-analysis-gs-paper-1-and-paper-2/",
+      "https://www.drishtiias.com/state-pcs/up-pcs-pre-2025-answer-key-gs"
+    ]
+  },
+  "exam_id": "uppsc",
+  "exam_name": "UPPSC PCS",
+  "not_found_years": [],
+  "notes": "ROUND 3 — UPPSC PCS 2025 FOUND: Prelims held 12 Oct 2025 (GS Paper 1 9:30–11:30 AM, 150 Q; CSAT Paper 2 2:30–4:30 PM, 100 Q; 200 vacancies, notification 20 Feb 2025). All 5 new entries verified HTTP 200 via curl on 2026-11-21. No NEW official deep link: UPPSC released both papers on uppsc.up.nic.in under 'Download Question Papers' (homepage curl 200; round 1 already holds the homepage entry). PCS 2025 Mains not covered here — no verified mains paper found as of 2026-11-21.",
+  "official_papers": [],
+  "unofficial_papers": [
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "Prepp",
+      "stage": "Prelims",
+      "title": "UPPSC Prelims Question Paper 2025 — GS Paper 1 & CSAT Paper 2 PDFs with answer keys, held 12 Oct 2025",
+      "url": "https://prepp.in/uppsc-exam/question-paper-2025",
+      "year": 2025
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "Prepp",
+      "stage": "Prelims",
+      "title": "UPPSC Prelims 2025 GS Question Paper (12 Oct 2025) — 150 questions, online paper with solutions",
+      "url": "https://prepp.in/paper/uppsc-prelims-gs-question-paper-12-oct-2025-68ea22572a35198467d272b3",
+      "year": 2025
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "StudyIQ",
+      "stage": "Prelims",
+      "title": "UPPSC Question Paper 2025 — Prelims Paper 1 (GS) & Paper 2 (CSAT) PDFs, held 12 Oct 2025",
+      "url": "https://www.studyiq.com/articles/uppsc-question-paper-2025/",
+      "year": 2025
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "ForumIAS",
+      "stage": "Prelims",
+      "title": "UPPSC Prelims 2025 Answer Key & Paper Analysis — GS Paper 1 & CSAT Paper 2 question papers, held 12 Oct 2025",
+      "url": "https://forumias.com/blog/uppsc-prelims-answer-key-2025-and-paper-analysis-gs-paper-1-and-paper-2/",
+      "year": 2025
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "Drishti IAS",
+      "stage": "Prelims",
+      "title": "UP PCS Pre Answer Key 2025 (General Studies I) with question paper — Prelims held 12 Oct 2025",
+      "url": "https://www.drishtiias.com/state-pcs/up-pcs-pre-2025-answer-key-gs",
+      "year": 2025
+    }
+  ],
+  "youtube": []
+}

@@ -1,0 +1,55 @@
+{
+  "details": {
+    "official_page": "https://sbi.bank.in/web/careers",
+    "sources": [
+      "https://testbook.com/amp/sbi-clerk/previous-year-papers",
+      "https://prepp.in/sbi-clerk-exam/question%20paper%202025",
+      "https://www.careerpower.in/sbi-clerk-previous-year-question-paper.html",
+      "https://guidely.in/previous-year-papers/sbi-clerk"
+    ]
+  },
+  "exam_id": "sbi-clerk",
+  "exam_name": "SBI Clerk (Junior Associate)",
+  "not_found_years": [],
+  "notes": "ROUND 3 — SBI Clerk 2025: TWO cycles held in 2025, both now covered. (1) 2024-cycle: Prelims held 22/27/28 Feb & 1 Mar 2025, Mains held 10 Apr 2025 — Testbook's '2025' section lists these shift-wise (22 Feb Shifts 1-3, 27 Feb Shifts 1-2, 1 Mar Shift 1); CareerPower's '2024' section lists the same Feb 2025 shifts + 10 Apr 2025 Mains. (2) 2025-cycle: Prelims held 20, 21, 27 Sep 2025, Mains held 21 Nov 2025 — Prepp 2025 page, CareerPower '2025' section and Guidely. SBI does not release official papers (memory-based only), so all entries are unofficial. 4 new URLs on 2026-11-21. Deduped vs round 1: Oliveboard blog, Adda247 page and Prepp practice_papers hub already in round 1 were NOT re-added. Testbook amp page: browser-verified, curl 500.",
+  "official_papers": [],
+  "unofficial_papers": [
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "Testbook",
+      "stage": "Prelims/Mains",
+      "title": "SBI Clerk Prelims 2025 (2024-cycle papers held 22 Feb Shifts 1-3, 27 Feb Shifts 1-2, 1 Mar 2025 Shift 1, EN/HI) — shift-wise memory-based PDFs with solutions",
+      "url": "https://testbook.com/amp/sbi-clerk/previous-year-papers",
+      "year": 2025
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "Prepp",
+      "stage": "Prelims/Mains",
+      "title": "SBI Clerk 2025 (2025-cycle) memory-based papers with answer keys — Prelims 20/21/27 Sep 2025, Mains 21 Nov 2025",
+      "url": "https://prepp.in/sbi-clerk-exam/question%20paper%202025",
+      "year": 2025
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "CareerPower",
+      "stage": "Prelims/Mains",
+      "title": "SBI Clerk 2025 (2025-cycle) memory-based papers — Prelims 20 Sep Shifts 1-2, 21 Sep, 27 Sep 2025 (EN/HI/Tamil/Bengali); plus 2024-cycle Feb 2025 shifts & 10 Apr 2025 Mains in its 2024 section",
+      "url": "https://www.careerpower.in/sbi-clerk-previous-year-question-paper.html",
+      "year": 2025
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "Guidely",
+      "stage": "Prelims/Mains",
+      "title": "SBI Clerk 2025 memory-based papers — Prelims full paper and Mains 2025 full paper, free PDF download",
+      "url": "https://guidely.in/previous-year-papers/sbi-clerk",
+      "year": 2025
+    }
+  ],
+  "youtube": []
+}

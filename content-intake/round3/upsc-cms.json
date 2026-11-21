@@ -1,0 +1,58 @@
+{
+  "details": {
+    "eligibility": "MBBS degree (final-year students may apply provisionally); age up to 32 years (relaxations apply).",
+    "pattern": "Written: Paper I (250) + Paper II (250), 2 hours each. Interview/Personality Test: 100 marks.",
+    "syllabus": "General Medicine, Paediatrics, Surgery, Gynaecology & Obstetrics, Preventive & Social Medicine.",
+    "official_page": "https://upsc.gov.in/examinations/previous-question-papers",
+    "sources": [
+      "https://upsc.gov.in/examinations/previous-question-papers",
+      "https://testbook.com/amp/upsc-cms/previous-year-papers",
+      "https://prepp.in/upsc-cms-exam/practice-papers"
+    ]
+  },
+  "exam_id": "upsc-cms",
+  "exam_name": "UPSC CMS",
+  "not_found_years": [],
+  "notes": "ROUND 3 — 2026 is NEW. CMS 2026 held 2 Aug 2026 in two CBT sessions (Paper 1 9:30–11:30 AM, Paper 2 2–4 PM); UPSC released the provisional answer key 5 Aug 2026. The live UPSC archive (crawled 2026-11-18) lists Combined Medical Services Examination, 2026 (General Medicine and Pediatrics 17.37 MB; Surgery, Gynaecology & Obstetrics, Preventive & Social Medicine 16.07 MB). Official per-paper PDF links could not be extracted (JS-rendered UPSC site; direct curl 404), so the official entry points at the archive hub as in round 1. PW.live URLs returned HTTP 200 via curl; the Prepp beta URL returned curl 503 but was verified live via browser.open fetch (page crawled 2026-11-12, full paper content) — recorded as http 200, browser-verified, curl 503. No YouTube videos added (round 1 already has 4).",
+  "official_papers": [
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "UPSC",
+      "stage": "",
+      "title": "UPSC CMS 2026 — Official Previous Papers (Paper I + Paper II, 2 Aug 2026)",
+      "url": "https://upsc.gov.in/examinations/previous-question-papers",
+      "year": 2026
+    }
+  ],
+  "unofficial_papers": [
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "Prepp",
+      "stage": "Written",
+      "title": "UPSC CMS 2026 — Paper 1 (General Medicine & Paediatrics) & Paper 2 (Surgery, Gynae & PSM) with answer keys (2 Aug 2026)",
+      "url": "https://beta.prepp.in/upsc-cms-exam/question-paper-2026",
+      "year": 2026
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "PW.live",
+      "stage": "Written",
+      "title": "UPSC CMS 2026 — Paper I & Paper II question papers (2 Aug 2026)",
+      "url": "https://www.pw.live/neet-pg/exams/upsc-cms-2026-question-paper",
+      "year": 2026
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "PW.live",
+      "stage": "Written",
+      "title": "UPSC CMS 2026 — Provisional answer key, Paper I & II (released 5 Aug 2026)",
+      "url": "https://www.pw.live/neet-pg/exams/upsc-cms-answer-key-2026",
+      "year": 2026
+    }
+  ],
+  "youtube": []
+}

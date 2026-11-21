@@ -1,0 +1,65 @@
+{
+  "details": {
+    "official_page": "https://csirnet.nta.ac.in/",
+    "sources": [
+      "https://prepp.in/csir-ugc-net-exam/practice-papers",
+      "https://www.vedprep.com/exams/csir-net/csir-net-question-papers-2025/",
+      "https://www.vedprep.com/previous-year-question/csir-net",
+      "https://www.pw.live/csir-net/exams/csir-net-2025-mathematical-science-previous-year-question-papers",
+      "https://articles.findmycollege.com/csir-ugc-net-previous-year-question-papers-syllabus-cutoff-pdf/"
+    ]
+  },
+  "exam_id": "csir-net",
+  "exam_name": "CSIR NET",
+  "not_found_years": [],
+  "notes": "ROUND 3 — CSIR NET 2025 FOUND, both sessions. June 2025 session held 28 Jul 2025 (all 5 subjects, 2 shifts); December 2025 session held 18 Dec 2025 (all 5 subjects). 5 new URLs, all curl-200 on 2026-11-21. Deduped vs round 1: NTA official hub (csirnet.nta.ac.in), Careers360 and Physics Wallah hub already in round 1 were NOT re-added. NOTE: the December 2024 session was held 28 Feb-2 Mar 2025 (Earth/Maths re-exam after a Guwahati glitch) — it belongs to the 2024 cycle and is covered by round-1 2024 hub entries, not re-added here. NTA posts the official papers with the provisional answer key under Public Notices on csirnet.nta.ac.in (no separate question-paper tab); no distinct official 2025 page URL could be verified, so no new official entry.",
+  "official_papers": [],
+  "unofficial_papers": [
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "Prepp",
+      "stage": "Single Paper",
+      "title": "CSIR NET 2025 question papers & answer keys — June 2025 (28 Jul 2025) and December 2025 (18 Dec 2025), all 5 subjects (Chemical, Earth, Life, Mathematical, Physical Sciences)",
+      "url": "https://prepp.in/csir-ugc-net-exam/practice-papers",
+      "year": 2025
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "VedPrep",
+      "stage": "Single Paper",
+      "title": "CSIR NET Question Papers 2025 — June 2025 (28 Jul 2025) and December 2025 (18 Dec 2025) subject-wise PDFs with answer keys",
+      "url": "https://www.vedprep.com/exams/csir-net/csir-net-question-papers-2025/",
+      "year": 2025
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "VedPrep",
+      "stage": "Single Paper",
+      "title": "CSIR NET previous year question papers hub — session-wise papers incl June & December 2025 (NTA papers posted with provisional answer keys)",
+      "url": "https://www.vedprep.com/previous-year-question/csir-net",
+      "year": 2025
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "Physics Wallah",
+      "stage": "Single Paper",
+      "title": "CSIR NET 2025 Mathematical Sciences previous year question papers — June 2025 and December 2025 sessions",
+      "url": "https://www.pw.live/csir-net/exams/csir-net-2025-mathematical-science-previous-year-question-papers",
+      "year": 2025
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "FindMyCollege",
+      "stage": "Single Paper",
+      "title": "CSIR UGC NET official NTA master question-paper bundles & final answer keys — June 2025 session (held 28 Jul 2025) and Dec 2024 session (held Feb-Mar 2025), all 5 subjects",
+      "url": "https://articles.findmycollege.com/csir-ugc-net-previous-year-question-papers-syllabus-cutoff-pdf/",
+      "year": 2025
+    }
+  ],
+  "youtube": []
+}

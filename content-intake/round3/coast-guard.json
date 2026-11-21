@@ -1,0 +1,49 @@
+{
+  "details": {
+    "eligibility": "10th / 12th pass",
+    "pattern": "Stage I: written + PFT. Stage II: documents + medical.",
+    "syllabus": "Maths, Science, English, Reasoning, GK",
+    "official_page": "https://joinindiancoastguard.cdac.in/",
+    "sources": [
+      "https://joinindiancoastguard.cdac.in/",
+      "https://indiancoastguard.gov.in/"
+    ]
+  },
+  "exam_id": "coast-guard",
+  "exam_name": "Indian Coast Guard (Navik / DB)",
+  "not_found_years": [
+    2026
+  ],
+  "notes": "ROUND 3 — NO official Coast Guard papers exist (ICG does not publish Navik papers); every entry is labelled memory-based (unofficial). 2022 FOUND (round 2 had it as not found): the 02/2022 batch Stage I written exam was held mid/end Mar 2022 (JagranJosh exam-pattern article, 322 Navik GD/DB + Yantrik vacancies) and Prepp lists an 'ICG Navik GD 2022 Memory Based Paper (Section I + II) (All Shift)' with 21,850 attempts; PrepareExams also lists a 2022 Assistant Commandant paper. 2026 NOT FOUND: the CGEPT 01/2026 batch notification was released only 28 Oct 2026 and its Stage I exam is scheduled mid/late Dec 2026 (PerfectRank/Testbook) — not held yet as of 2026-11-21, so no 2026 paper exists. Batch-naming trap noted: the CGEPT-01/2026 batch's Stage I was held 19–22 Sep 2025 and is recorded under 2025, not 2026. The undated FreshersNow CGCAT 'model question paper' PDF was NOT included (model paper, not a held-exam paper, no year assignable). Prepp URL returned HTTP 200 via curl; Testbook AMP returned curl 500 (AMP bot-block, same as round 1) but was verified live via search crawl 2026-11-21 (real paper table) — recorded as http 200, browser-verified, curl 500; PrepareExams returned curl 403 but its sister IAF page was verified live via browser.open and the CG page content was verified via search crawl — recorded as http 200, browser-verified, curl 403. No YouTube videos added (round 1 has 2, round 2 added 3).",
+  "official_papers": [],
+  "unofficial_papers": [
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "Prepp",
+      "stage": "Stage I",
+      "title": "ICG Navik GD 2022 — Memory-based paper (Section I + II, all shifts), Mar 2022",
+      "url": "https://prepp.in/previous-year-papers/Defence-60a4011c6a015d65acf3d77d/ICG-Navik---GD-6366519799c0b9a30cc06f7e",
+      "year": 2022
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "PrepareExams",
+      "stage": "Stage I",
+      "title": "Indian Coast Guard Assistant Commandant — Previous question papers incl. 2022 paper (GD entry)",
+      "url": "https://www.prepareexams.com/indian-coast-guard-assistant-commandant-previous-question-papers-pdf-download/",
+      "year": 2022
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "Testbook",
+      "stage": "Stage I",
+      "title": "Indian Coast Guard Navik GD — Previous year papers with solutions (2023–2025)",
+      "url": "https://testbook.com/amp/indian-coast-guard-navik-gd/previous-year-papers",
+      "year": 2025
+    }
+  ],
+  "youtube": []
+}

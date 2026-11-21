@@ -1,0 +1,35 @@
+{
+  "details": {
+    "official_page": "https://www.cbse.gov.in/cbsenew/question-paper.html",
+    "sources": [
+      "https://www.shiksha.com/boards/articles/cbse-board-previous-year-question-paper-pdf-download-blogId-245916"
+    ]
+  },
+  "exam_id": "cbse-12",
+  "exam_name": "CBSE Class 12",
+  "not_found_years": [],
+  "notes": "ROUND 3 — CBSE Class 12 2026 FOUND. Board exams Feb-Mar 2026; the official page also hosts the Class XII Compartment Examination 2026 papers (July 2026), subject-wise. Official page URL is the same as round 1's 2023-2025 entries, repeated here for the new year 2026 per the round-1 convention. Shiksha page was curl-403 but browser-verified (2026 Physics/Chemistry/Biology/Maths/Accounts/Economics/English Core/History/Business Studies tables). Note: the live CBSE Academic SQP pages now show 2026-27 (for the 2027 exams); the 2025-26 SQPs have been superseded on the live site, so only the actual 2026 board papers are recorded here.",
+  "official_papers": [
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "CBSE — cbse.gov.in (Official)",
+      "stage": "Board Exam",
+      "title": "CBSE Class 12 Question Papers 2026 — official archive (Feb-Mar 2026 + Compartment Examination 2026, subject-wise PDFs)",
+      "url": "https://www.cbse.gov.in/cbsenew/question-paper.html",
+      "year": 2026
+    }
+  ],
+  "unofficial_papers": [
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "Shiksha",
+      "stage": "Board Exam",
+      "title": "CBSE Board Previous Year Question Papers — Class 12 Question Papers 2026 (Physics, Chemistry, Biology, Maths, Accounts, Economics, English Core, History, Business Studies) (browser-verified; curl 403 bot-block)",
+      "url": "https://www.shiksha.com/boards/articles/cbse-board-previous-year-question-paper-pdf-download-blogId-245916",
+      "year": 2026
+    }
+  ],
+  "youtube": []
+}

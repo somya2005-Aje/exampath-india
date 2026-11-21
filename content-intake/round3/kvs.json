@@ -1,0 +1,39 @@
+{
+  "details": {
+    "official_page": "https://kvsangathan.nic.in/",
+    "sources": [
+      "https://www.adda247.com/teaching-jobs-exam/kvs-question-paper-2026/",
+      "https://prepp.in/kvs-recruitment-exam/question-paper-2025"
+    ]
+  },
+  "exam_id": "kvs",
+  "exam_name": "KVS (PRT / TGT / PGT)",
+  "not_found_years": [
+    2019,
+    2024,
+    2025
+  ],
+  "notes": "ROUND 3 — NEW KVS CYCLE VERIFIED: yes, a new cycle happened after 2023. CBSE issued Notification 01/2025 on 13 Nov 2025 (9,921 KVS vacancies, PRT/TGT/PGT + non-teaching); Tier-1 written exam held 10-11 Jan 2026 (offline OMR, multiple shifts), Tier-2 held 27-31 Mar 2026. 2 new URLs, both curl-200 on 2026-11-21. YEAR NOTE: papers are filed under year 2026 by held date (the exam was held Jan-Mar 2026) even though every source labels this the 'KVS 2025' recruitment cycle — merger to decide if the site files it under 2025 instead. not_found: 2019 genuine absence (no teaching cycle, carried from rounds 1-2); 2024 and 2025 no KVS exam was held (last cycle before this was 2023; notification came Nov 2025). Deduped vs round 1: KVS official hub, Prepp practice-papers hub, CareerPower page and JagranJosh 2023 article already in round 1 were NOT re-added; round-2 JagranJosh 2018 article also not re-added.",
+  "official_papers": [],
+  "unofficial_papers": [
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "Adda247",
+      "stage": "Written",
+      "title": "KVS NVS Tier-1 question papers — 2025 recruitment cycle, exam held 10-11 Jan 2026 (PRT 10 Jan morning Codes N1/N3/N4, PGT 11 Jan morning Codes L2/L4, TGT 11 Jan evening Code M1, MTS), shift-wise memory-based PDFs",
+      "url": "https://www.adda247.com/teaching-jobs-exam/kvs-question-paper-2026/",
+      "year": 2026
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "Prepp",
+      "stage": "Written",
+      "title": "KVS 2025 question papers & answer keys — Tier-1 held 10-11 Jan 2026 (PRT/PGT/TGT/MTS) and Tier-2 held 27-31 Mar 2026 (post-wise, incl PRT/TGT/PGT subject papers)",
+      "url": "https://prepp.in/kvs-recruitment-exam/question-paper-2025",
+      "year": 2026
+    }
+  ],
+  "youtube": []
+}

@@ -1,0 +1,35 @@
+{
+  "details": {
+    "official_page": "https://sbi.bank.in/web/careers",
+    "sources": [
+      "https://testbook.com/amp/sbi-po/previous-year-papers",
+      "https://guidely.in/previous-year-papers/sbi-po"
+    ]
+  },
+  "exam_id": "sbi-po",
+  "exam_name": "SBI PO",
+  "not_found_years": [],
+  "notes": "ROUND 3 — SBI PO 2025 cycle FOUND. Prelims held 4-5 Aug 2025; Mains held 13 Sep 2025. SBI does not release official question papers (memory-based only, confirmed by CareerPower/Adda247), so all entries are unofficial. 2 new URLs on 2026-11-21. Deduped vs round 1: Oliveboard blog, Adda247 page (round-1 singular URL redirects to the same page), Prepp practice-papers hub and CareerPower page already in round 1 were NOT re-added. NOTE: the 2024-cycle papers were held Mar-May 2025 (Prelims 8/16/24 Mar 2025, Mains 5 May 2025) and are covered by the round-1 2024 hub entries; this file adds only the 2025-cycle papers held Aug-Sep 2025. Testbook amp page: browser-verified, curl 500.",
+  "official_papers": [],
+  "unofficial_papers": [
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "Testbook",
+      "stage": "Prelims/Mains",
+      "title": "SBI PO Previous Year Question Papers — 2025 section (Prelims 4-5 Aug 2025, Mains 13 Sep 2025 memory-based) plus 2024 section (Mar 2025 shifts)",
+      "url": "https://testbook.com/amp/sbi-po/previous-year-papers",
+      "year": 2025
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "Guidely",
+      "stage": "Prelims/Mains",
+      "title": "SBI PO 2025 memory-based papers — Prelims full paper (EN) and Mains 2025 full paper, free PDF download",
+      "url": "https://guidely.in/previous-year-papers/sbi-po",
+      "year": 2025
+    }
+  ],
+  "youtube": []
+}

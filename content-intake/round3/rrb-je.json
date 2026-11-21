@@ -1,0 +1,69 @@
+{
+ "details": {
+  "eligibility": "Diploma or B.E./B.Tech in Civil / Mechanical / Electrical / Electronics (or relevant) engineering, or B.Sc. for DMS/CMA posts. Age limit as per CEN notification - verify on rrbapply.gov.in.",
+  "pattern": "CBT 1: 100 questions, 100 marks, 90 minutes. CBT 2: 150 questions, 150 marks, 120 minutes (Technical + non-technical). Negative marking 1/3. Then Document Verification and Medical Examination.",
+  "syllabus": "Technical subjects (Civil / Mechanical / Electrical / Electronics), Mathematics, General Intelligence & Reasoning, General Awareness, General Science.",
+  "official_page": "https://rrbapply.gov.in/",
+  "important_dates": "CEN 03/2024: CBT 1 held 16-18 Dec 2024; CBT 2 held 22 Apr 2025 and re-exam 4 Jun 2025. Next JE cycle CBT 1 held 19-20 & 25 Feb 2026; answer key released 10 Nov 2026.",
+  "sources": [
+   "https://testbook.com/rrb-je/previous-year-papers",
+   "https://prepp.in/rrb-je-exam/practice_papers",
+   "https://rrbapply.gov.in/"
+  ]
+ },
+ "exam_id": "rrb-je",
+ "exam_name": "RRB JE",
+ "not_found_years": [],
+ "notes": "ROUND 3 — 2026-11-21. YES, a 2025 cycle happened: CEN 03/2024 — CBT 1 held 16-18 Dec 2024, CBT 2 held 22 Apr 2025 (all streams) with a Civil re-exam on 4 Jun 2025. Years by HELD date, so CBT 2 is recorded as 2025. A new JE cycle followed: CBT 1 held 19-20 & 25 Feb 2026. No official paper PDFs exist: RRB publishes only answer keys/response sheets per CEN on rrbapply.gov.in and regional portals; the Testbook CBT 2 papers are explicitly memory-based.",
+ "official_papers": [],
+ "unofficial_papers": [
+  {
+   "checked": "2026-11-21",
+   "http": 200,
+   "source": "Oliveboard",
+   "stage": "CBT 2",
+   "title": "RRB JE CBT 2 2025 — shift-wise papers, 22 Apr 2025 (all streams) + Civil re-exam 4 Jun 2025, English & Hindi",
+   "url": "https://www.oliveboard.in/blog/rrb-je-cbt-1-pyps/?ref=examinfo-rrb-je-previous-year-cut-off",
+   "year": 2025
+  },
+  {
+   "checked": "2026-11-21",
+   "http": 200,
+   "source": "Oliveboard",
+   "stage": "CBT 1",
+   "title": "RRB JE CBT 1 2026 — shift-wise papers, from 19 Feb 2026 (new cycle), English & Hindi",
+   "url": "https://www.oliveboard.in/blog/rrb-je-cbt-1-pyps/?ref=examinfo-rrb-je-previous-year-cut-off",
+   "year": 2026
+  },
+  {
+   "checked": "2026-11-21",
+   "http": 200,
+   "source": "Testbook",
+   "stage": "CBT 2",
+   "title": "RRB JE CBT 2 Question Paper 2025 (Memory Based) — 22 Apr 2025 Shift 1 & 2, stream-wise (Civil/Mechanical/Electrical/Electronics)",
+   "url": "https://testbook.com/blog/rrb-je-cbt-2-question-paper-2025/",
+   "year": 2025
+  },
+  {
+   "checked": "2026-11-21",
+   "http": 200,
+   "source": "QMaths",
+   "stage": "CBT 2",
+   "title": "RRB JE 2024 CBT-2 Mechanical (CEN 03/2024) — General Abilities, all 3 shifts (22 Apr + 4 Jun 2025), English, official answer key",
+   "url": "https://cdn.qmaths.in/pdfs/rrb-je-2024-cbt2/sections/v1/RRB-JE-2024-CBT2-Mechanical-EN-General-Abilities.pdf",
+   "year": 2025,
+   "note": "browser-verified, curl 403 bot-block"
+  },
+  {
+   "checked": "2026-11-21",
+   "http": 200,
+   "source": "Prepp",
+   "stage": "CBT 2",
+   "title": "RRB JE 2024 CBT 2 CMA Question Paper (22-Apr-2025) (Shift 2)",
+   "url": "https://prepp.in/paper/rrb-je-cbt-2-cma-question-paper-22-apr-2025-shift-2-68226c9190eb9f7f4240f7ad",
+   "year": 2025,
+   "note": "browser-verified, curl 403 bot-block"
+  }
+ ],
+ "youtube": []
+}

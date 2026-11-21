@@ -1,0 +1,35 @@
+{
+  "details": {
+    "official_page": "https://www.ibps.in/",
+    "sources": [
+      "https://www.adda247.com/jobs/ibps-rrb-previous-year-question-paper/",
+      "https://www.careerpower.in/ibps-rrb-previous-year-question-paper.html"
+    ]
+  },
+  "exam_id": "ibps-rrb",
+  "exam_name": "IBPS RRB (Office Assistant & Officer)",
+  "not_found_years": [],
+  "notes": "ROUND 3 — IBPS RRB 2025 cycle FOUND. PO Prelims held 22-23 Nov 2025; PO Mains held 28 Dec 2025; Clerk (Office Assistant) Prelims held 6, 7, 13 Dec 2025; Clerk Mains held 1 Feb 2026 (2025 cycle, recorded under cycle year 2025 — see year note). IBPS publishes no complete official papers (memory-based only), so all entries are unofficial. 2 new URLs, both curl-200 on 2026-11-21. Deduped vs round 1: CTET Info hub, Oliveboard, PracticeMock, Prepp, Adda247 S3 PDF (2022) and ixamBee PDFs already in round 1 were NOT re-added. YEAR NOTE: papers are filed under the recruitment-cycle year (2025) as in rounds 1-2, even where a paper was held in early 2026 (RRB Clerk Mains 1 Feb 2026); held dates are in every title.",
+  "official_papers": [],
+  "unofficial_papers": [
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "Adda247",
+      "stage": "Prelims/Mains",
+      "title": "IBPS RRB 2025 memory-based papers — PO Prelims 22 Nov (Shift 1-2) & 23 Nov 2025 (EN/HI); PO Mains 28 Dec 2025 section-wise; Clerk Prelims 6/7/13 Dec 2025 shift-wise; Clerk Mains (1 Feb 2026, 2025 cycle)",
+      "url": "https://www.adda247.com/jobs/ibps-rrb-previous-year-question-paper/",
+      "year": 2025
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "CareerPower",
+      "stage": "Prelims/Mains",
+      "title": "IBPS RRB 2025 memory-based papers — Clerk Prelims 6 Dec Shift 1-2, 7 Dec Shift 1-2, Mains 1 Feb 2026; PO Prelims/Mains 2025 (EN/HI)",
+      "url": "https://www.careerpower.in/ibps-rrb-previous-year-question-paper.html",
+      "year": 2025
+    }
+  ],
+  "youtube": []
+}

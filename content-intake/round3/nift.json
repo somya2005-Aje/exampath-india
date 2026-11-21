@@ -1,0 +1,65 @@
+{
+  "details": {
+    "official_page": "https://exams.nta.nic.in/niftee/",
+    "sources": [
+      "https://www.toprankers.com/nift-2026-question-paper",
+      "https://collegedunia.com/articles/e-82-nift-2026-question-paper-with-solution-pdf",
+      "https://design.careers360.com/articles/nift-2026-question-paper-with-solutions",
+      "https://design.careers360.com/articles/nift-2026-gat-question-paper-with-solutions"
+    ]
+  },
+  "exam_id": "nift",
+  "exam_name": "NIFT Entrance",
+  "not_found_years": [],
+  "notes": "ROUND 3 — NIFT 2026 FOUND. NIFTEE 2026 held by NTA on 8 Feb 2026: GAT (CBT, objective) + CAT (offline creative drawing, B.Des/M.Des only). NIFT publishes NO official papers; GAT provisional answer key released 17 Feb 2026, CAT has no official key; papers + recorded responses only via candidate login on exams.nta.nic.in/niftee/. All paper entries below are memory-based reconstructions, labelled unofficial. Final results declared 3 June 2026. Round 1 already covers 2023-2025 (AglaSem + Careers360 hubs); round 2 added Shiksha/ACS/GetMyUni/PW.live — none duplicated.",
+  "official_papers": [
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "NTA — exams.nta.nic.in/niftee (Official)",
+      "stage": "",
+      "title": "NIFT 2026 — NTA NIFTEE Portal (exam 8 Feb 2026; GAT provisional key 17 Feb 2026; papers + recorded responses via candidate login only — no public official paper)",
+      "url": "https://exams.nta.nic.in/niftee/",
+      "year": 2026
+    }
+  ],
+  "unofficial_papers": [
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "TopRankers",
+      "stage": "",
+      "title": "NIFT 2026 Question Paper PDF — memory-based CAT + GAT papers + answer key (8 Feb 2026)",
+      "url": "https://www.toprankers.com/nift-2026-question-paper",
+      "year": 2026
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "Collegedunia",
+      "stage": "",
+      "title": "NIFT 2026 Question Paper with Solution PDF (8 Feb 2026)",
+      "url": "https://collegedunia.com/articles/e-82-nift-2026-question-paper-with-solution-pdf",
+      "year": 2026
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "Careers360 (Design)",
+      "stage": "",
+      "title": "NIFT 2026 Question Paper with Solutions — memory-based GAT + CAT questions (8 Feb 2026)",
+      "url": "https://design.careers360.com/articles/nift-2026-question-paper-with-solutions",
+      "year": 2026
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "Careers360 (Design)",
+      "stage": "GAT",
+      "title": "NIFT 2026 GAT Question Paper with Solutions — memory-based (8 Feb 2026)",
+      "url": "https://design.careers360.com/articles/nift-2026-gat-question-paper-with-solutions",
+      "year": 2026
+    }
+  ],
+  "youtube": []
+}

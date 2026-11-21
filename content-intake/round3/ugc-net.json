@@ -1,0 +1,55 @@
+{
+  "details": {
+    "official_page": "https://ugcnet.nta.ac.in/",
+    "sources": [
+      "https://prepp.in/cbse-ugc-net-exam/Question%20Paper%202025",
+      "https://lawsection.in/ugc-net-law-previous-question-papers/",
+      "https://edurev.in/t/456354/ugc-net-previous-year-question-paper-i-25-june-2025-shift-i",
+      "https://edurev.in/t/456400/ugc-net-previous-year-question-paper-i-27-june-2025-shift-i"
+    ]
+  },
+  "exam_id": "ugc-net",
+  "exam_name": "UGC NET",
+  "not_found_years": [],
+  "notes": "ROUND 3 — UGC NET 2025 FOUND, both cycles. June 2025 session held 25-29 Jun 2025; December 2025 session held 31 Dec 2025-7 Jan 2026 (85 subjects, 2 shifts/day). 4 new URLs, all curl-200 on 2026-11-21. Deduped vs round 1: NTA official hub (ugcnet.nta.ac.in), JagranJosh, Physics Wallah, VedPrep hub and Adda247 page already in round 1 were NOT re-added. YEAR NOTE: papers are filed under the recruitment-cycle year (2025) as in rounds 1-2, so Dec 2025-cycle papers held 1-7 Jan 2026 sit under 2025 with held dates in titles; likewise the Dec 2024 cycle held 3-16 Jan 2025 is covered by the round-1 2024 hub entries, not re-added here.",
+  "official_papers": [],
+  "unofficial_papers": [
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "Prepp",
+      "stage": "Paper I & II",
+      "title": "UGC NET 2025 question papers & answer keys — June 2025 cycle (25-29 Jun 2025) and December 2025 cycle (31 Dec 2025-7 Jan 2026), shift-wise Paper 1 and subject-wise Paper 2",
+      "url": "https://prepp.in/cbse-ugc-net-exam/Question%20Paper%202025",
+      "year": 2025
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "LawSection",
+      "stage": "Paper II",
+      "title": "UGC NET Law (Paper II) previous question papers — December 2025 and June 2025 cycles (original NTA papers, 100 questions each)",
+      "url": "https://lawsection.in/ugc-net-law-previous-question-papers/",
+      "year": 2025
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "EduRev",
+      "stage": "Paper I",
+      "title": "UGC NET Previous Year Question Paper I — 25 June 2025 Shift I (full paper with solutions)",
+      "url": "https://edurev.in/t/456354/ugc-net-previous-year-question-paper-i-25-june-2025-shift-i",
+      "year": 2025
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "EduRev",
+      "stage": "Paper I",
+      "title": "UGC NET Previous Year Question Paper I — 27 June 2025 Shift I (full paper with solutions)",
+      "url": "https://edurev.in/t/456400/ugc-net-previous-year-question-paper-i-27-june-2025-shift-i",
+      "year": 2025
+    }
+  ],
+  "youtube": []
+}

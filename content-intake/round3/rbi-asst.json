@@ -1,0 +1,37 @@
+{
+  "details": {
+    "official_page": "https://www.rbi.org.in/commonman/English/Scripts/Opportunities.aspx",
+    "sources": [
+      "https://www.freejobalert.com/articles/rbi-assistant-previous-year-question-paper-3040304",
+      "https://static.ixambee.com/miscellaneous-pdf/1770271009RBI-Assistant-2023-Mains-Previous-Year-Paper.pdf"
+    ]
+  },
+  "exam_id": "rbi-asst",
+  "exam_name": "RBI Assistant",
+  "not_found_years": [
+    2024
+  ],
+  "notes": "ROUND 3 — RBI Assistant 2022/2023 deepened with 2 new sources (both curl-200 on 2026-11-21): FreeJobAlert article (2016-2023 tables incl Prelims 2023, Prelims 2022 Shifts 1-2, Mains 2022) and a direct ixamBee PDF of the full 2023 Mains paper (held 31 Dec 2023). Deduped vs round 1: Oliveboard blog, Adda247 page and Prepp hub already in round 1 were NOT re-added. 2024: NO recruitment cycle (genuine absence, carried from rounds 1-2). 2025: official RBI notice link already added in round 2; the Panel Year 2025 cycle's Prelims (11 & 13 Apr 2026) and Mains (7 Jun 2026) were NOT added as papers per task instruction — noted here only. RBI releases no official question papers (memory-based only).",
+  "official_papers": [],
+  "unofficial_papers": [
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "FreeJobAlert",
+      "stage": "Prelims/Mains",
+      "title": "RBI Assistant previous year papers 2016-2023 — Prelims 2023 (18 Nov 2023), Prelims 2022 Shift 1 & 2, Mains 2022, all memory-based PDFs",
+      "url": "https://www.freejobalert.com/articles/rbi-assistant-previous-year-question-paper-3040304",
+      "year": 2023
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "ixamBee",
+      "stage": "Mains",
+      "title": "RBI Assistant 2023 Mains previous year paper — full paper with answers (direct PDF, exam held 31 Dec 2023)",
+      "url": "https://static.ixambee.com/miscellaneous-pdf/1770271009RBI-Assistant-2023-Mains-Previous-Year-Paper.pdf",
+      "year": 2023
+    }
+  ],
+  "youtube": []
+}

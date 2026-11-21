@@ -1,0 +1,67 @@
+{
+  "details": {
+    "eligibility": "Bachelor's degree; age 20–25 years (relaxations apply). Physical standards as per notification.",
+    "pattern": "Written: Paper I General Ability & Intelligence (250 marks, objective) + Paper II General Studies, Essay & Comprehension (200 marks, descriptive). Then PET/PST, medical, Interview (150 marks).",
+    "syllabus": "GK, Reasoning, English, Essay, Comprehension, Security issues.",
+    "official_page": "https://upsc.gov.in/examinations/previous-question-papers",
+    "sources": [
+      "https://upsc.gov.in/examinations/previous-question-papers",
+      "https://testbook.com/amp/upsc-capf-ac/previous-year-papers",
+      "https://prepp.in/upsc-capf-exam/practice_papers"
+    ]
+  },
+  "exam_id": "upsc-capf",
+  "exam_name": "UPSC CAPF AC",
+  "not_found_years": [],
+  "notes": "ROUND 3 — 2026 is NEW. CAPF (AC) 2026 held 19 Jul 2026 (Paper 1 10 AM–12 noon, Paper 2 2–5 PM). The live UPSC archive (crawled 2026-11-18) lists Central Armed Police Forces (ACs) Examination, 2026 (General Ability and Intelligence 30.89 MB; General Studies, Essay and Comprehension 2.96 MB). Official per-paper PDF links could not be extracted (JS-rendered UPSC site; direct curl 404), so the official entry points at the archive hub as in round 1. All 4 unofficial URLs returned HTTP 200 via curl. No YouTube videos added (round 1 already has 3).",
+  "official_papers": [
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "UPSC",
+      "stage": "",
+      "title": "UPSC CAPF (AC) 2026 — Official Previous Papers (Paper I + Paper II, 19 Jul 2026)",
+      "url": "https://upsc.gov.in/examinations/previous-question-papers",
+      "year": 2026
+    }
+  ],
+  "unofficial_papers": [
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "Testbook",
+      "stage": "Written",
+      "title": "CAPF AC 2026 — Paper 1 & Paper 2 question papers with answer keys, set-wise (19 Jul 2026)",
+      "url": "https://testbook.com/news/capf-question-paper-2026-out-download-paper-1-paper-2-pdf/",
+      "year": 2026
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "Prepp",
+      "stage": "Written",
+      "title": "UPSC CAPF 2026 — General Ability & Intelligence + GS, Essay & Comprehension papers (19 Jul 2026)",
+      "url": "https://prepp.in/upsc-capf-exam/question-paper-2026",
+      "year": 2026
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "StudyIQ",
+      "stage": "Written",
+      "title": "UPSC CAPF 2026 — Paper I & Paper II question papers (19 Jul 2026)",
+      "url": "https://www.studyiq.com/articles/upsc-capf-question-paper-2026/",
+      "year": 2026
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "Adda247",
+      "stage": "Written",
+      "title": "UPSC CAPF 2026 — Paper 1 & Paper 2 question papers (19 Jul 2026)",
+      "url": "https://www.adda247.com/upsc-exam/upsc-capf-question-paper-2026/",
+      "year": 2026
+    }
+  ],
+  "youtube": []
+}

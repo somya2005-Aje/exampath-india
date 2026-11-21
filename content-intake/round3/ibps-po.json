@@ -1,0 +1,95 @@
+{
+  "details": {
+    "official_page": "https://www.ibps.in/",
+    "sources": [
+      "https://prepp.in/ibps-po-exam/practice-papers",
+      "https://www.adda247.com/jobs/ibps-po-previous-year-question-paper/",
+      "https://www.careerpower.in/ibps-po-previous-year-question-paper.html",
+      "https://prepp.in/ibps-po-exam/question-paper-2025",
+      "https://edurev.in/p/488233/bank-exams-ibps-po-prelims-paper-24-aug-2025-shift-1",
+      "https://edurev.in/p/488230/IBPS-PO-Prelims-Memory-Based-Question-Paper--23-Aug-2025-Shift-2-",
+      "https://edurev.in/p/488236/ibps-po-mains-memory-based-pyq-paper-12-oct-2025-for-bank-exams",
+      "https://www.practicemock.com/pricing/marketing/files/pdf/ibps-po-previous-year-question-paper-2025-s1.pdf"
+    ]
+  },
+  "exam_id": "ibps-po",
+  "exam_name": "IBPS PO",
+  "not_found_years": [],
+  "notes": "ROUND 3 — IBPS PO 2025 (CRP-PO/MT XV) FOUND. Prelims held 17, 23, 24 Aug 2025; Mains held 12 Oct 2025. IBPS publishes no complete official papers (memory-based only, confirmed by Adda247/CareerPower), so all entries are unofficial. 8 new URLs, all curl-200 on 2026-11-21. Deduped vs round 1: Oliveboard blog + Oliveboard 2025/2023/2021/2020 PDFs + GeeksforGeeks hub already in round 1 were NOT re-added. The 2024-cycle papers were all held in 2024 and are covered by round-1 entries.",
+  "official_papers": [],
+  "unofficial_papers": [
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "Prepp",
+      "stage": "Prelims/Mains",
+      "title": "IBPS PO 2025 memory-based papers with answer keys — Prelims 17/23/24 Aug 2025, Mains 12 Oct 2025",
+      "url": "https://prepp.in/ibps-po-exam/practice-papers",
+      "year": 2025
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "Adda247",
+      "stage": "Prelims/Mains",
+      "title": "IBPS PO 2025 memory-based papers — Prelims 23 Aug Shift 1 & 2, 24 Aug Shift 1 (EN/HI); Mains 12 Oct 2025 (EN/HI)",
+      "url": "https://www.adda247.com/jobs/ibps-po-previous-year-question-paper/",
+      "year": 2025
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "CareerPower",
+      "stage": "Prelims/Mains",
+      "title": "IBPS PO 2025 memory-based papers with solutions — Prelims Shift 1 & 2, Mains 2025",
+      "url": "https://www.careerpower.in/ibps-po-previous-year-question-paper.html",
+      "year": 2025
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "Prepp",
+      "stage": "Prelims/Mains",
+      "title": "IBPS PO 2025 dedicated memory-based paper page — Prelims 17/23/24 Aug 2025, Mains 12 Oct 2025, with answer keys",
+      "url": "https://prepp.in/ibps-po-exam/question-paper-2025",
+      "year": 2025
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "EduRev",
+      "stage": "Prelims",
+      "title": "IBPS PO Prelims memory-based question paper — 24 Aug 2025 Shift 1 (full paper)",
+      "url": "https://edurev.in/p/488233/bank-exams-ibps-po-prelims-paper-24-aug-2025-shift-1",
+      "year": 2025
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "EduRev",
+      "stage": "Prelims",
+      "title": "IBPS PO Prelims memory-based question paper — 23 Aug 2025 Shift 2 (full paper)",
+      "url": "https://edurev.in/p/488230/IBPS-PO-Prelims-Memory-Based-Question-Paper--23-Aug-2025-Shift-2-",
+      "year": 2025
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "EduRev",
+      "stage": "Mains",
+      "title": "IBPS PO Mains memory-based PYQ paper — 12 Oct 2025 (full paper)",
+      "url": "https://edurev.in/p/488236/ibps-po-mains-memory-based-pyq-paper-12-oct-2025-for-bank-exams",
+      "year": 2025
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "PracticeMock",
+      "stage": "Prelims",
+      "title": "IBPS PO 2025 Shift 1 Prelims memory-based paper PDF (direct PDF)",
+      "url": "https://www.practicemock.com/pricing/marketing/files/pdf/ibps-po-previous-year-question-paper-2025-s1.pdf",
+      "year": 2025
+    }
+  ],
+  "youtube": []
+}

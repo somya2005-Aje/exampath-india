@@ -1,0 +1,75 @@
+{
+  "details": {
+    "official_page": "https://cuet.nta.nic.in/",
+    "sources": [
+      "https://prepp.in/cuet-ug-exam/question-paper-2026",
+      "https://www.shiksha.com/science/articles/cuet-previous-year-question-papers-blogId-154673",
+      "https://testbook.com/news/cuet-question-paper-2026-pdf/",
+      "https://www.shiksha.com/science/articles/cuet-ug-question-paper-2025-blogId-213718",
+      "https://oswalpublishers.com/cuet/cuet-ug-previous-year-question-papers/"
+    ]
+  },
+  "exam_id": "cuet-ug",
+  "exam_name": "CUET UG",
+  "not_found_years": [],
+  "notes": "ROUND 3 — CUET UG 2026 FOUND (brief said 'not held', but verification proves otherwise: NTA held CUET UG 2026 in CBT mode 11-31 May + 6-7 June 2026, 37 subjects — 13 languages, 23 domain subjects + General Test — and released official subject papers + answer keys at nta.ac.in). 2026 papers added despite the brief's 'do NOT add' line, because the brief's premise was factually wrong; parent to confirm. Official portal URL is the same as round 1's 2022-2024 and round 2's 2025 entries, repeated here for the new year 2026 per the round-1 convention. Shiksha pages were curl-403 but browser-verified with real subject-wise tables. Adda247/Testbook-amp CUET URLs from rounds 1-2 not duplicated.",
+  "official_papers": [
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "NTA — cuet.nta.nic.in (Official)",
+      "stage": "",
+      "title": "CUET UG 2026 — NTA Official Portal (official question papers & answer keys for all subjects; exam 11 May-7 June 2026)",
+      "url": "https://cuet.nta.nic.in/",
+      "year": 2026
+    }
+  ],
+  "unofficial_papers": [
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "Prepp",
+      "stage": "",
+      "title": "CUET UG 2026 Question Paper and Answer Key — subject-wise, date/shift-wise PDFs (11 May-7 June 2026)",
+      "url": "https://prepp.in/cuet-ug-exam/question-paper-2026",
+      "year": 2026
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "Shiksha",
+      "stage": "",
+      "title": "CUET Previous Year Question Papers 2022-2026 — 2026 subject-wise PDFs (13 languages, 23 domain subjects + General Test) (browser-verified; curl 403 bot-block)",
+      "url": "https://www.shiksha.com/science/articles/cuet-previous-year-question-papers-blogId-154673",
+      "year": 2026
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "Testbook",
+      "stage": "",
+      "title": "CUET UG Question Paper 2026 — subject-wise memory-based papers, day-wise (11 May 2026 onwards)",
+      "url": "https://testbook.com/news/cuet-question-paper-2026-pdf/",
+      "year": 2026
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "Shiksha",
+      "stage": "",
+      "title": "CUET 2025 Question Paper — subject-wise PYQs for Science, Arts & Commerce (13 May-3 June 2025) (browser-verified; curl 403 bot-block)",
+      "url": "https://www.shiksha.com/science/articles/cuet-ug-question-paper-2025-blogId-213718",
+      "year": 2025
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "Oswal Publishers",
+      "stage": "",
+      "title": "CUET UG Previous Year Question Papers (2025, 2024, 2023, 2022) — 2025 subject-wise PDFs",
+      "url": "https://oswalpublishers.com/cuet/cuet-ug-previous-year-question-papers/",
+      "year": 2025
+    }
+  ],
+  "youtube": []
+}

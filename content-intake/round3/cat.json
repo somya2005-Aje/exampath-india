@@ -1,0 +1,65 @@
+{
+  "details": {
+    "official_page": "https://iimcat.ac.in/",
+    "sources": [
+      "https://www.careers360.com/mba/articles/cat-2025-question-paper-with-solutions",
+      "https://prepp.in/cat-exam/question-paper-2025",
+      "https://www.shiksha.com/mba/articles/cat-2025-question-paper-pdf-download-slot-1-2-and-3-blogId-214800",
+      "https://collegedunia.com/exams/cat/practice-papers"
+    ]
+  },
+  "exam_id": "cat",
+  "exam_name": "CAT",
+  "not_found_years": [],
+  "notes": "ROUND 3 — CAT 2025 FOUND. Held 30 Nov 2025 by IIM Kozhikode, 3 slots (8:30-10:30, 12:30-14:30, 16:30-18:30), 68 Q (48 MCQ + 20 TITA), 204 marks. IIMs do NOT release CAT question papers publicly — papers are reconstructed from candidates' response sheets + provisional answer keys (Shiksha confirms this); the official entry is the iimcat.ac.in portal where candidates download their response sheet via login. Shiksha 2025 page was curl-403 but browser-verified with real slot-wise and section-wise (VARC/DILR/QA) content. Round 1 already covers 2022-2024 (iimcat.ac.in + Careers360 + AglaSem hubs) — not duplicated.",
+  "official_papers": [
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "IIM — iimcat.ac.in (Official)",
+      "stage": "Single Paper",
+      "title": "CAT 2025 — IIM Official Portal (IIM Kozhikode; paper via candidate-login response sheet + provisional answer key; 30 Nov 2025, 3 slots, 68 Q)",
+      "url": "https://iimcat.ac.in/",
+      "year": 2025
+    }
+  ],
+  "unofficial_papers": [
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "Careers360 (MBA)",
+      "stage": "Single Paper",
+      "title": "CAT 2025 Question Paper with Solutions — Slot 1, 2 & 3 memory-based PDFs (30 Nov 2025)",
+      "url": "https://www.careers360.com/mba/articles/cat-2025-question-paper-with-solutions",
+      "year": 2025
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "Prepp",
+      "stage": "Single Paper",
+      "title": "CAT Question Paper 2025 with Answer Key — Slot 1/2/3 PDFs + section-wise VARC/DILR/QA (30 Nov 2025)",
+      "url": "https://prepp.in/cat-exam/question-paper-2025",
+      "year": 2025
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "Shiksha",
+      "stage": "Single Paper",
+      "title": "CAT 2025 Question Paper with Solutions PDF — Slot 1, 2 & 3 + section-wise VARC/DILR/QA PDFs (browser-verified; curl 403 bot-block)",
+      "url": "https://www.shiksha.com/mba/articles/cat-2025-question-paper-pdf-download-slot-1-2-and-3-blogId-214800",
+      "year": 2025
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "Collegedunia",
+      "stage": "Single Paper",
+      "title": "CAT Previous Year Question Paper PDF (2025-2020) — 2025 slot-wise official + CD PDFs (Slots 1/2/3, 30 Nov 2025)",
+      "url": "https://collegedunia.com/exams/cat/practice-papers",
+      "year": 2025
+    }
+  ],
+  "youtube": []
+}

@@ -1,0 +1,85 @@
+{
+  "details": {
+    "official_page": "https://dsssb.delhi.gov.in/",
+    "sources": [
+      "https://testbook.com/amp/dsssb/previous-year-papers",
+      "https://www.adda247.com/jobs/wp-content/uploads/sites/22/2026/02/25152056/DSSSB-ASO-Questions-Paper-Held-On_-18-Aug-2025-Shift-2.pdf",
+      "https://www.adda247.com/jobs/wp-content/uploads/sites/22/2026/02/25152058/DSSSB-ASO-Questions-Paper-Held-On_-19-Aug-2025-Shift-2.pdf",
+      "https://www.adda247.com/jobs/wp-content/uploads/sites/22/2026/02/25152100/DSSSB-ASO-Questions-Paper-Held-On_-20-Aug-2025-Shift-1.pdf",
+      "https://teachingninja.in/wp-content/uploads/2025/10/DSSSB-PGT-English-Official-Paper-Held-On_-11-Jul-2025-Shift-1.pdf",
+      "https://www.yourmocktest.com/pyq/dsssb-tgt/dsssb-tgt-maths-official-paper-held-on-13-nov-2025-shift-2-previous-year-paper",
+      "https://quicksarkari.com/dsssb-mock-test/"
+    ]
+  },
+  "exam_id": "dsssb",
+  "exam_name": "DSSSB (TGT / PGT / LDC)",
+  "not_found_years": [],
+  "notes": "ROUND 3 — DSSSB 2025 FOUND. DSSSB runs post-wise exams year-round (no single annual paper); 2025 papers held across Apr-Nov 2025 are covered. 7 new URLs on 2026-11-21: Testbook hub (11+ official 2025 papers: Jr Environmental Engineer 8 Jun, Process Server 22 Jun, Asst Dietician 24 Apr, Jr Lab Analyst 22 Apr, Xerox Operator 30 Jun, Pharmacist 9 Jul, Combined Post 1/10 Oct & 3 Nov 2025) + 3 direct Adda247 ASO PDFs (18/19/20 Aug 2025) + TeachingNinja PGT English PDF (11 Jul 2025 Shift 1) + YourMockTest TGT Maths paper (13 Nov 2025 Shift 2, 200 Qs with answers) + QuickSarkari hub (932 mock tests incl 2025 papers). Deduped vs round 1: DSSSB official hub, Adda247 PGT hub, Prepp hub and Testbook DSSSB-PGT page already in round 1 were NOT re-added. Testbook amp page and YourMockTest page: browser-verified, curl 500 / curl 403 respectively.",
+  "official_papers": [],
+  "unofficial_papers": [
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "Testbook",
+      "stage": "Tier-I",
+      "title": "DSSSB Previous Year Question Papers 2025 — official papers with answers for 11+ posts/dates (Asst Dietician 24 Apr, Jr Lab Analyst 22 Apr, Jr Env Engineer 8 Jun, Process Server 22 Jun, Xerox Operator 30 Jun, Pharmacist 9 Jul, Combined Post 1/10 Oct & 3 Nov 2025)",
+      "url": "https://testbook.com/amp/dsssb/previous-year-papers",
+      "year": 2025
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "Adda247",
+      "stage": "Tier-I",
+      "title": "DSSSB ASO (Assistant Section Officer) previous year paper — 18 Aug 2025 Shift 2 (direct PDF, full paper with answers)",
+      "url": "https://www.adda247.com/jobs/wp-content/uploads/sites/22/2026/02/25152056/DSSSB-ASO-Questions-Paper-Held-On_-18-Aug-2025-Shift-2.pdf",
+      "year": 2025
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "Adda247",
+      "stage": "Tier-I",
+      "title": "DSSSB ASO (Assistant Section Officer) previous year paper — 19 Aug 2025 Shift 2 (direct PDF, full paper with answers)",
+      "url": "https://www.adda247.com/jobs/wp-content/uploads/sites/22/2026/02/25152058/DSSSB-ASO-Questions-Paper-Held-On_-19-Aug-2025-Shift-2.pdf",
+      "year": 2025
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "Adda247",
+      "stage": "Tier-I",
+      "title": "DSSSB ASO (Assistant Section Officer) previous year paper — 20 Aug 2025 Shift 1 (direct PDF, full paper with answers)",
+      "url": "https://www.adda247.com/jobs/wp-content/uploads/sites/22/2026/02/25152100/DSSSB-ASO-Questions-Paper-Held-On_-20-Aug-2025-Shift-1.pdf",
+      "year": 2025
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "TeachingNinja",
+      "stage": "Tier-I",
+      "title": "DSSSB PGT (English) official paper — held 11 Jul 2025 Shift 1 (direct PDF, full paper)",
+      "url": "https://teachingninja.in/wp-content/uploads/2025/10/DSSSB-PGT-English-Official-Paper-Held-On_-11-Jul-2025-Shift-1.pdf",
+      "year": 2025
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "YourMockTest",
+      "stage": "Tier-I",
+      "title": "DSSSB TGT (Maths) official paper — held 13 Nov 2025 Shift 2 (200 questions, 120 min, with answers, EN/HI)",
+      "url": "https://www.yourmocktest.com/pyq/dsssb-tgt/dsssb-tgt-maths-official-paper-held-on-13-nov-2025-shift-2-previous-year-paper",
+      "year": 2025
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "QuickSarkari",
+      "stage": "Tier-I",
+      "title": "DSSSB mock tests / previous year papers hub — 932 papers across 214 posts incl 2025 papers (TGT/PGT/PRT/LDC/Patwari/JE and more), official answer keys",
+      "url": "https://quicksarkari.com/dsssb-mock-test/",
+      "year": 2025
+    }
+  ],
+  "youtube": []
+}

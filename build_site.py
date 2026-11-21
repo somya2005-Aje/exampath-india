@@ -102,7 +102,7 @@ FOOTER = """<footer><div class="foot-grid">
 <p style="text-align:center;margin-top:22px;font-size:13px">© 2026 ExamPath India • Papers belong to their respective exam authorities. Always verify dates on the official website before applying.</p></footer>
 <div id="toast"></div>
 <div class="modal" id="modal"><div class="modal-box" id="modalBox"></div></div>
-<!-- Firebase web config (window.FIREBASE_CONFIG) is NOT set yet — it is provided by the separate Firebase setup. auth.js waits for it; until then Google Sign-In shows "setup ho raha hai" and no fake login is created. -->
+<script>window.FIREBASE_CONFIG = {apiKey: "AIzaSyB4GVHG-WPUd6SdKIUvRYVygHZ3yWZYE60", authDomain: "exampath-india.firebaseapp.com", projectId: "exampath-india", storageBucket: "exampath-india.firebasestorage.app", messagingSenderId: "426319352563", appId: "1:426319352563:web:5e9f1a75ca06f6af64dd86"};</script>
 <script src="/data.js"></script>
 <script src="/auth.js"></script>
 <script src="/site.js"></script>"""
@@ -151,6 +151,16 @@ def _papers_for(eid, year, stage, typ):
             continue
         out.append(pp)
     return out
+
+
+def _paper_count(eid, year):
+    """Total verified papers for one exam+year, all stages — shown on the year pill."""
+    return sum(1 for pp in PAPERS if pp["exam"] == eid and pp["year"] == year)
+
+
+def _paper_count_label(eid, year):
+    n = _paper_count(eid, year)
+    return f"{year} — {n} paper" + ("s" if n != 1 else "")
 
 
 def _origin(url):
@@ -207,10 +217,9 @@ def _paper_section(items, e, year, stage, official, fallback_html):
     if items:
         gallery = '<div class="paper-gallery">' + "".join(
             _paper_card(pp, e, year, stage, official, i) for i, pp in enumerate(items)) + '</div>'
-        # The complete numbered list is a "full detail" — it opens after login.
-        # The photo cards above stay free without login.
-        numlist = ('<div class="locked-detail" data-lock="paperlist"><div class="locked-body">' + _num_list(items, e, year, stage) + '</div>'
-                   f'<div class="locked-teaser">🔒 Login to see the complete numbered paper list ({len(items)} papers). <button class="btn sm" type="button" data-auth-login>Login with Google</button></div></div>')
+        # The numbered list is free to see without login (user order 21 Nov 2026);
+        # only Download buttons are login-gated.
+        numlist = _num_list(items, e, year, stage)
         body = gallery + numlist + _source_box(items)
     else:
         body = fallback_html
@@ -226,10 +235,9 @@ def paper_rows_static(e, year, stage):
     off = _papers_for(e[0], year, stage, "official")
     unoff = _papers_for(e[0], year, stage, "unofficial")
     p = portal_of(e)
-    is_rrb = bool(p and "rrbapply" in p["url"])  # RRB: answer keys/response sheets, not complete papers
     if p:
-        off_fb = (f'<div class="paper-item"><div><b>{esc(e[2])} {year} — {esc(stage)}</b><br><span class="small">No direct paper link verified for this year yet. The official archive is the real source — open it to find this year\'s papers.</span></div>'
-                  f'<div style="white-space:nowrap"><a class="btn sm" href="{p["url"]}" target="_blank" rel="noopener">{"Official Portal ↗" if is_rrb else "Official Archive ↗"}</a></div></div>')
+        off_fb = (f'<div class="paper-item"><div><b>Not available yet</b><br><span class="small">No official paper verified for {year} — {esc(stage)}. The official website link is in the Source Website box below.</span></div>'
+                  f'<div><button class="btn sm" onclick="requestPaper(\'{e[0]}\',{year},\'{esc(stage)}\',\'Question Paper\')">Request Paper</button></div></div>')
     else:
         off_fb = (f'<div class="paper-item"><div><b>Not available yet</b><br><span class="small">No official paper verified for {year} — {esc(stage)}.</span></div>'
                   f'<div><button class="btn sm" onclick="requestPaper(\'{e[0]}\',{year},\'{esc(stage)}\',\'Question Paper\')">Request Paper</button></div></div>')
@@ -400,7 +408,7 @@ def exam_page(e):
     p = portal_of(e)
     y0 = e[8][0]
     s0 = e[9][0]
-    years = "".join(f'<button class="pill {"active" if y == y0 else ""}" data-year="{y}">{y}</button>' for y in e[8])
+    years = "".join(f'<button class="pill {"active" if y == y0 else ""}" data-year="{y}">{_paper_count_label(e[0], y)}</button>' for y in e[8])
     stages = "".join(f'<button class="pill {"active" if s == s0 else ""}" data-stage="{esc(s)}">{esc(s)}</button>' for s in e[9])
     body = f"""<section class="container" data-exam="{e[0]}"><a href="/exams?cat={e[1]}">← {esc(cat_by_id(e[1])["name"])}</a>
 <div class="card" style="margin-top:10px"><div style="display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap"><div><h2 style="font-size:24px">{esc(e[2])}</h2><p>{esc(e[5])} • {esc(e[4])} • Eligibility: {esc(e[7])}</p></div>{status_badge(st)}</div>
@@ -479,7 +487,7 @@ def papers_page():
     _dflt = exam_by_id("ssc-cgl")
     _dy, _ds = _dflt[8][0], _dflt[9][0]
     _opts = "".join(f'<option value="{e[0]}" {"selected" if e[0]=="ssc-cgl" else ""}>{esc(e[2])}</option>' for e in EXAMS)
-    _pyears = "".join(f'<button class="pill {"active" if y == _dy else ""}" data-year="{y}">{y}</button>' for y in _dflt[8])
+    _pyears = "".join(f'<button class="pill {"active" if y == _dy else ""}" data-year="{y}">{_paper_count_label(_dflt[0], y)}</button>' for y in _dflt[8])
     _pstages = "".join(f'<button class="pill {"active" if s == _ds else ""}" data-stage="{esc(s)}">{esc(s)}</button>' for s in _dflt[9])
     body = f"""<section class="container"><div class="sec-head"><h2>📄 Previous Year Papers</h2><a href="/">← Home</a></div>
 <div class="notice">Flow: <b>Exam → Exam Papers button → Year → Stage → Official / Unofficial photo cards</b>. Selecting a year shows only that year's resources. Every year has two sections: <b>✅ Official</b> (verified on the official portal) and <b>⚠️ Unofficial</b> (other websites, clearly labelled with source + verification date). Click a photo card to open the paper itself. The source website link is only at the bottom of each section and in the Source Website box. A year with no verified link shows “Not available yet”.</div>

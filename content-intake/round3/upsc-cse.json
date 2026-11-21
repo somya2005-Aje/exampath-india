@@ -1,0 +1,86 @@
+{
+  "details": {
+    "eligibility": "Bachelor's degree from a recognised university; age 21–32 years (relaxations for reserved categories).",
+    "pattern": "Prelims: GS I (200 marks) + CSAT (200 marks, qualifying). Mains: 9 papers (1750 marks). Interview: 275 marks.",
+    "syllabus": "Polity, History, Geography, Economy, Environment, Science, Ethics, Essay, Current Affairs.",
+    "official_page": "https://upsc.gov.in/examinations/previous-question-papers",
+    "important_dates": "UPSC CSE 2027 notification tentatively 25 Jan 2027 (per UPSC annual calendar pattern — verify on upsc.gov.in).",
+    "sources": [
+      "https://upsc.gov.in/examinations/previous-question-papers",
+      "https://testbook.com/amp/upsc-civil-services/previous-year-papers",
+      "https://www.freejobalert.com/articles/upsc-civil-services-previous-year-question-papers-3007218"
+    ]
+  },
+  "exam_id": "upsc-cse",
+  "exam_name": "UPSC Civil Services (IAS/IPS)",
+  "not_found_years": [],
+  "notes": "ROUND 3 — 2026 is NEW. The brief said CSE Prelims 2026 was 'not held yet', but the live official UPSC archive (browser.open fetch, page crawled 2026-11-18) lists Civil Services (Preliminary) 2026 (GS I 34.19 MB, GS II 26.46 MB) and Civil Services (Main) 2026 (GS I–IV, Essay, optionals, compulsory languages); Prepp/StudyIQ confirm Prelims held 24 May 2026 and Mains from 21 Aug 2026. So 2026 official + 6 unofficial entries are added; the coordinator may strip 2026 if the exclusion was deliberate for another reason. Official per-paper PDF links could not be extracted: upsc.gov.in is a JS-rendered Next.js app and direct curl returns 404 (bot-block), so the official entry points at the archive hub as in round 1. All 6 unofficial URLs returned HTTP 200 via curl on 2026-11-21. No YouTube videos added (round 1 already has 3).",
+  "official_papers": [
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "UPSC",
+      "stage": "",
+      "title": "UPSC CSE 2026 — Official Previous Papers (Prelims GS I + CSAT, 24 May 2026; Mains from 21 Aug 2026)",
+      "url": "https://upsc.gov.in/examinations/previous-question-papers",
+      "year": 2026
+    }
+  ],
+  "unofficial_papers": [
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "Prepp",
+      "stage": "Prelims",
+      "title": "UPSC CSE Prelims 2026 — GS Paper 1 question paper + answer key, Sets A–D (24 May 2026)",
+      "url": "https://prepp.in/news/e-492-upsc-prelims-gs-question-paper-and-answer-key-pdf-may-24-2026",
+      "year": 2026
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "StudyIQ",
+      "stage": "Prelims",
+      "title": "UPSC Prelims 2026 — GS Paper 1 & CSAT question papers, set-wise (24 May 2026)",
+      "url": "https://www.studyiq.com/articles/upsc-question-paper-2026/",
+      "year": 2026
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "TheStudyIAS",
+      "stage": "Prelims",
+      "title": "UPSC Prelims 2026 — GS Paper 1 & CSAT PDFs with solutions (Hindi & English)",
+      "url": "https://www.thestudyias.com/blogs/upsc-prelims-question-paper-2026-pdf-download-gs-paper-1-csat-with-solutions",
+      "year": 2026
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "ExamGOAL",
+      "stage": "Prelims",
+      "title": "UPSC Civil Service Prelims Paper I 2026 (General Studies) — direct PDF with answer key (24 May 2026)",
+      "url": "https://pdf.questions.examgoal.com/download/paper/civil-services/upsc-civil-service/upsc-civil-service-prelims-paper-i-2026-general-studies/en-dark.pdf",
+      "year": 2026
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "Legacy IAS",
+      "stage": "Mains",
+      "title": "UPSC Mains 2026 — Essay, GS I–IV & Optional question papers (21–30 Aug 2026)",
+      "url": "https://www.legacyias.com/upsc-mains-2026-question-papers/",
+      "year": 2026
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "Vajirao Institute",
+      "stage": "",
+      "title": "UPSC CSE Previous Year Papers — Prelims & Mains archive 2013–2026 (official PDFs linked)",
+      "url": "https://www.vajiraoinstitute.com/upsc-previous-papers.aspx",
+      "year": 2026
+    }
+  ],
+  "youtube": []
+}

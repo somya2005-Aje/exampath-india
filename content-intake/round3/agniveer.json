@@ -1,0 +1,100 @@
+{
+  "details": {
+    "eligibility": "10th / 12th pass",
+    "pattern": "Online CEE: 50 Q, 100 marks. Then physical + medical tests.",
+    "syllabus": "GK, Maths, Reasoning, Science (as per trade)",
+    "official_page": "https://joinindianarmy.nic.in/",
+    "sources": [
+      "https://joinindianarmy.nic.in/"
+    ]
+  },
+  "exam_id": "agniveer",
+  "exam_name": "Agniveer (Army / Navy / Air Force)",
+  "not_found_years": [],
+  "notes": "ROUND 3 — NO official Agniveer papers exist (services do not publish CEE papers); every entry is labelled memory-based (unofficial). Round 1 + 2 covered Army GD/Tradesman only; this round adds the missing services: Navy SSR (3 sources: Prepp 7 Feb 2023 paper, Testbook shift-wise 2023 + May 2025 papers, SarkariNaukriExams subject-wise 2023 papers) and Air Force Agniveer Vayu Group X/Y (6 sources incl. 3 direct FreshersNow PDFs: Group Y 25 Jul 2022, Group Y 18 Jan 2023, Group X 17 Mar 2024 Shift 1). Navy INET for the 01/2027 batch was scheduled May 2026 and Air Force Vayu 01/2027 Phase I was 30–31 Mar 2026, but no verified memory-based paper for those 2026 sittings was found — 2026 Navy/Vayu papers are therefore NOT claimed here (Army GD/Tradesman 2026 already in round 2). 8 of 9 URLs returned HTTP 200 via curl; PrepareExams returned curl 403 but was verified live via browser.open fetch on 2026-11-21 (full page, real paper links) — recorded as http 200, browser-verified, curl 403 bot-block. No YouTube videos added (round 1 already has 4).",
+  "official_papers": [],
+  "unofficial_papers": [
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "Prepp",
+      "stage": "Online CEE",
+      "title": "Indian Navy Agniveer SSR — Previous year papers (Agniveer Navy SSR 7 Feb 2023 memory-based paper + sample papers)",
+      "url": "https://prepp.in/indian-navy-ssr-aa-exam/question-paper",
+      "year": 2023
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "Testbook",
+      "stage": "Online CEE",
+      "title": "Agniveer Navy SSR — Memory-based papers (7 Feb 2023; 25–26 May 2025 shifts)",
+      "url": "https://testbook.com/pyp-search/ssr",
+      "year": 2025
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "SarkariNaukriExams",
+      "stage": "Online CEE",
+      "title": "Navy Agniveer SSR — Old question papers (English, Science, Maths, GK), 2023",
+      "url": "https://www.sarkarinaukriexams.com/indian-navy-agniveer-previous-paper",
+      "year": 2023
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "Adda247",
+      "stage": "Online CEE",
+      "title": "IAF Agniveer Vayu — Previous year papers, Group X & Y (24–25 Jul 2022; 18–20 Jan 2023)",
+      "url": "http://adda247.com/defence-jobs/indian-airforce-agniveer-vayu-previous-years-papers/",
+      "year": 2023
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "FreshersNow",
+      "stage": "Online CEE",
+      "title": "Agniveer Vayu Group Y — Memory-based paper, 25 July 2022 (all shifts), direct PDF",
+      "url": "https://files.freshersnow.com/wp-content/uploads/2023/07/AGNIVEER-VAYU-Other-than-Science-Group-Y-25-July-2022-Memory-Based-Paper-All-Shifts-English-1.pdf",
+      "year": 2022
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "FreshersNow",
+      "stage": "Online CEE",
+      "title": "Agniveer Vayu Group Y — Memory-based paper, 18 Jan 2023, direct PDF",
+      "url": "https://files.freshersnow.com/wp-content/uploads/2023/07/Agniveer-Vayu-Other-than-Science-Group-Y-18-Jan-2023-Memory-Based-Paper-English-1.pdf",
+      "year": 2023
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "FreshersNow",
+      "stage": "Online CEE",
+      "title": "Agniveer Vayu Group X — Memory-based paper, 17 Mar 2024 Shift 1, direct PDF",
+      "url": "https://www.freshersnow.com/wp-content/uploads/2025/04/Agniveer-Vayu-Group-X-Memory-Based-Paper-Held-On_-17-Mar-2024-Shift-1.pdf",
+      "year": 2024
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "PW.live",
+      "stage": "Online CEE",
+      "title": "IAF Agniveer — Previous year papers (Group X/Y, 2022) + 2026 intake (01/2027) exam 30–31 Mar 2026",
+      "url": "https://www.pw.live/defence/exams/indian-air-force-agniveer-previous-year-papers",
+      "year": 2022
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "PrepareExams",
+      "stage": "Online CEE",
+      "title": "IAF Agniveer — Previous question papers (18/20 Jan 2023; 24/25 Jul 2022) + subject-wise papers",
+      "url": "https://www.prepareexams.com/indian-air-force-agniveer-previous-question-papers-pdf-download/",
+      "year": 2023
+    }
+  ],
+  "youtube": []
+}

@@ -1,0 +1,85 @@
+{
+  "details": {
+    "eligibility": "B.E./B.Tech in Civil, Mechanical, Electrical or Electronics & Telecommunication; age 21–30 years.",
+    "pattern": "Prelims: GS & Engineering Aptitude (200) + Engineering discipline paper (300). Mains: 2 conventional papers (600). Interview: 200 marks.",
+    "syllabus": "Engineering (Civil/Mech/Elec/E&T), GS & Engineering Aptitude.",
+    "official_page": "https://upsc.gov.in/examinations/previous-question-papers",
+    "sources": [
+      "https://upsc.gov.in/examinations/previous-question-papers",
+      "http://testbook.com/amp/upsc-ies/previous-year-papers",
+      "https://prepp.in/ies-exam/practice-papers"
+    ]
+  },
+  "exam_id": "upsc-ese",
+  "exam_name": "UPSC ESE (IES)",
+  "not_found_years": [],
+  "notes": "ROUND 3 — 2026 is NEW. ESE Prelims 2026 held 8 Feb 2026; ESE Mains 2026 held 21 Jun 2026 (two sessions). The live UPSC archive (crawled 2026-11-18) lists Engineering Services (Preliminary) 2026 (Paper I GS & Engg Aptitude + Paper II per branch) and Engineering Services (Main) 2026 (Civil/Mech/Elec/E&T Papers I & II). Official per-paper PDF links could not be extracted (JS-rendered UPSC site; direct curl 404), so the official entry points at the archive hub as in round 1. All 6 unofficial URLs returned HTTP 200 via curl. No YouTube videos added (round 1 already has 4).",
+  "official_papers": [
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "UPSC",
+      "stage": "",
+      "title": "UPSC ESE 2026 — Official Previous Papers (Prelims 8 Feb 2026 + Mains 21 Jun 2026, all branches)",
+      "url": "https://upsc.gov.in/examinations/previous-question-papers",
+      "year": 2026
+    }
+  ],
+  "unofficial_papers": [
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "Prepp",
+      "stage": "",
+      "title": "UPSC ESE 2026 — Prelims (8 Feb) & Mains (21 Jun) papers, all branches, with answer keys",
+      "url": "https://prepp.in/ies-exam/question-paper-2026",
+      "year": 2026
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "Prepp",
+      "stage": "Prelims",
+      "title": "UPSC ESE Prelims 2026 — GS & Engineering Aptitude question paper with answer key (8 Feb 2026)",
+      "url": "https://prepp.in/news/e-497-upsc-ese-prelims-2026-gs-and-engg-aptitude-question-paper-with-answer-key-pdf",
+      "year": 2026
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "Prepp",
+      "stage": "Prelims",
+      "title": "UPSC ESE Prelims 2026 — GS & Engineering Aptitude full paper, 100 Q, 200 marks (8 Feb 2026)",
+      "url": "https://prepp.in/paper/ese-prelims-gs-and-engg-aptitude-question-paper-08-Feb-2026-698859dd4aec7ff085de5d00",
+      "year": 2026
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "Prepp",
+      "stage": "Prelims",
+      "title": "UPSC ESE Prelims 2026 — Mechanical Engineering full paper, 150 Q, 300 marks (8 Feb 2026)",
+      "url": "https://prepp.in/paper/ese-prelims-mechanical-engg-question-paper-08-feb-2026-698ad2d6478b588e0b86dd92",
+      "year": 2026
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "Prepp",
+      "stage": "Prelims",
+      "title": "UPSC ESE Prelims 2026 — Civil Engineering full paper, 150 Q, 300 marks (8 Feb 2026)",
+      "url": "https://prepp.in/paper/ese-prelims-civil-engineering-question-paper-08-Feb-2026-698ae684a6a39d460c56b87a",
+      "year": 2026
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "Prepp",
+      "stage": "Prelims",
+      "title": "UPSC ESE Prelims 2026 — Electrical Engineering full paper, 150 Q, 300 marks (8 Feb 2026)",
+      "url": "https://prepp.in/paper/ese-prelims-electrical-engg-question-paper-08-feb-2026-698b15d703ae1c3290cf5b5f",
+      "year": 2026
+    }
+  ],
+  "youtube": []
+}

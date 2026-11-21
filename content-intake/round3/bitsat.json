@@ -1,0 +1,94 @@
+{
+  "details": {
+    "official_page": "https://admissions.bits-pilani.ac.in/",
+    "sources": [
+      "https://prepp.in/bitsat-exam/question-paper-2026",
+      "https://engineering.careers360.com/articles/bitsat-question-paper",
+      "https://engineering.careers360.com/download/ebooks/bitsat-2026-session-2-analysis-and-memory-based-questions",
+      "https://news.kollegeapply.com/news/bitsat-2026-session-2-examination-analysis-and-memory-questions",
+      "https://image-static.collegedunia.com/public/image/BITSAT_2026_May_26_Shift_2_Question_Paper_With_Solution_09ad7359e4dc8743b997e50cbcdfa9e3.pdf",
+      "https://image-static.collegedunia.com/public/image/BITSAT_2026_May_25_Shift_2_Question_Paper_With_Solutions_04cca439d29484251102d1f332b528c9.pdf",
+      "https://static.zollege.in/public/image/BITSAT_2026_May_27_Shift_2_Question_Paper_5681864bf787d17cdab0dcdd4bc79e23.pdf"
+    ]
+  },
+  "exam_id": "bitsat",
+  "exam_name": "BITSAT",
+  "not_found_years": [],
+  "notes": "ROUND 3 — BITSAT 2026 FOUND, both sessions. Session 1: 15-17 Apr 2026 (round 2 already holds the Careers360 16 Apr 2026 article — not duplicated). Session 2: 22-27 May 2026 (reports vary 22-26 vs 25-27 May; shift-wise memory-based PDFs verified for 25, 26, 27 May Shift 2). BITS Pilani publishes NO official papers — every entry here is memory-based and labelled unofficial. No official_papers exist for BITSAT by design.",
+  "official_papers": [],
+  "unofficial_papers": [
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "Prepp",
+      "stage": "Single Paper",
+      "title": "BITSAT 2026 Question Paper and Answer Key — memory-based papers 01 & 02 (Session 1, Apr 2026)",
+      "url": "https://prepp.in/bitsat-exam/question-paper-2026",
+      "year": 2026
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "Careers360 (Engineering)",
+      "stage": "Single Paper",
+      "title": "BITSAT Question Paper 2026 — Session 2 memory-based papers + day-wise analysis (25-27 May 2026) and Session 1 (15-16 Apr 2026)",
+      "url": "https://engineering.careers360.com/articles/bitsat-question-paper",
+      "year": 2026
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "Careers360 (Engineering)",
+      "stage": "Single Paper",
+      "title": "BITSAT 2026 Session 2 Analysis and Memory Based Questions — shift-wise eBook (May 2026)",
+      "url": "https://engineering.careers360.com/download/ebooks/bitsat-2026-session-2-analysis-and-memory-based-questions",
+      "year": 2026
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "KollegeApply",
+      "stage": "Single Paper",
+      "title": "BITSAT 2026 Session 2 Exam Analysis and Memory Questions (22-26 May 2026, multiple shifts)",
+      "url": "https://news.kollegeapply.com/news/bitsat-2026-session-2-examination-analysis-and-memory-questions",
+      "year": 2026
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "Collegedunia",
+      "stage": "Single Paper",
+      "title": "BITSAT 2026 May 26 Shift 2 Question Paper (Memory-Based) with Solutions — direct PDF",
+      "url": "https://image-static.collegedunia.com/public/image/BITSAT_2026_May_26_Shift_2_Question_Paper_With_Solution_09ad7359e4dc8743b997e50cbcdfa9e3.pdf",
+      "year": 2026
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "Collegedunia",
+      "stage": "Single Paper",
+      "title": "BITSAT 2026 May 25 Shift 2 Question Paper (Memory-Based) with Solutions — direct PDF",
+      "url": "https://image-static.collegedunia.com/public/image/BITSAT_2026_May_25_Shift_2_Question_Paper_With_Solutions_04cca439d29484251102d1f332b528c9.pdf",
+      "year": 2026
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "Zollege",
+      "stage": "Single Paper",
+      "title": "BITSAT 2026 May 27 Shift 2 Question Paper (Memory Based) — direct PDF",
+      "url": "https://static.zollege.in/public/image/BITSAT_2026_May_27_Shift_2_Question_Paper_5681864bf787d17cdab0dcdd4bc79e23.pdf",
+      "year": 2026
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "Careers360 (Engineering)",
+      "stage": "Single Paper",
+      "title": "BITSAT 2025 Phase 2 Question Paper with Solutions — shift-wise memory-based papers (22-25 June 2025)",
+      "url": "https://engineering.careers360.com/articles/bitsat-question-paper",
+      "year": 2025
+    }
+  ],
+  "youtube": []
+}

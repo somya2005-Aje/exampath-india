@@ -1,0 +1,95 @@
+{
+  "details": {
+    "eligibility": "12th pass (Physics, Chemistry & Maths for Air Force/Navy wings); age 16.5–19.5 years; unmarried.",
+    "pattern": "Written: Mathematics (300 marks) + General Ability Test (600 marks). SSB Interview: 900 marks.",
+    "syllabus": "Maths, English, Physics, Chemistry, GK, History, Geography, Current Affairs.",
+    "official_page": "https://upsc.gov.in/examinations/previous-question-papers",
+    "important_dates": "NDA 1 2026 exam 12 April 2026; NDA 2 2026 exam 13 September 2026 (per Testbook NDA page).",
+    "sources": [
+      "https://upsc.gov.in/examinations/previous-question-papers",
+      "http://testbook.com/amp/upsc-nda/previous-year-papers",
+      "https://www.adda247.com/defence-jobs/nda-previous-year-question-papers/"
+    ]
+  },
+  "exam_id": "upsc-nda",
+  "exam_name": "UPSC NDA",
+  "not_found_years": [],
+  "notes": "ROUND 3 — 2026 is NEW. The brief said NDA-I 2026 was 'not held', but NDA 1 2026 was held 12 Apr 2026 and NDA 2 2026 was held 13 Sep 2026 (Testbook, Prepp, NDAX — all verified). The live UPSC archive (crawled 2026-11-18) lists NDA (I) 2026 (Maths 30.43 MB, GAT 25.98 MB); NDA (II) 2026 papers are confirmed as published UPSC PDFs via NDAX (collection verified 14 Nov 2026) and Prepp, though the archive crawl excerpt did not show the (II) 2026 heading — recorded as unofficial via NDAX/Prepp, not as official, for that reason. Official per-paper PDF links could not be extracted (JS-rendered UPSC site; direct curl 404), so the official entry points at the archive hub as in round 1. All 7 unofficial URLs returned HTTP 200 via curl. No YouTube videos added (round 1 already has 3).",
+  "official_papers": [
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "UPSC",
+      "stage": "",
+      "title": "UPSC NDA 2026 — Official Previous Papers (NDA (I), 12 Apr 2026 — Mathematics + GAT)",
+      "url": "https://upsc.gov.in/examinations/previous-question-papers",
+      "year": 2026
+    }
+  ],
+  "unofficial_papers": [
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "Testbook",
+      "stage": "Written",
+      "title": "NDA 1 2026 — Mathematics & GAT official papers, Sets A–D (12 Apr 2026)",
+      "url": "https://testbook.com/news/upsc-nda-1-2026-official-question-paper/",
+      "year": 2026
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "Testbook",
+      "stage": "Written",
+      "title": "NDA 2 2026 — Mathematics & GAT question papers, set-wise (13 Sep 2026)",
+      "url": "https://testbook.com/news/nda-2-question-paper-2026-out-download-shift-wise-math-gat-paper-pdf/",
+      "year": 2026
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "Prepp",
+      "stage": "Written",
+      "title": "NDA 2026 — NDA 1 (12 Apr) & NDA 2 (13 Sep) Maths & GAT papers with answer keys",
+      "url": "https://prepp.in/nda-exam/question-paper-2026",
+      "year": 2026
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "DefenceGuru (Centurion Defence Academy)",
+      "stage": "Written",
+      "title": "NDA-1 2026 — Official Mathematics & GAT question papers, Sets A–D (12 Apr 2026)",
+      "url": "https://www.defenceguru.co.in/nda-preparation/nda-1-2026-official-question-paper-of-maths-gat",
+      "year": 2026
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "JagranJosh",
+      "stage": "Written",
+      "title": "UPSC NDA 2026 — Mathematics & GAT question papers, shift-wise (12 Apr 2026)",
+      "url": "https://www.jagranjosh.com/articles/upsc-nda-2026-question-paper-pdf-download-mathematics-and-gat-question-papers-shift-wise-1800010820-1",
+      "year": 2026
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "NDAX Defence",
+      "stage": "Written",
+      "title": "NDA 2026 — Official UPSC papers, NDA I & NDA II (4 PDFs: Maths + GAT each, verified 14 Nov 2026)",
+      "url": "https://www.ndaxdefence.com/study-material/nda-question-papers-2026",
+      "year": 2026
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "Careers360",
+      "stage": "Written",
+      "title": "NDA Question Papers — Official papers NDA 1 & 2 2026 + archive 2025–2018 (Maths + GAT)",
+      "url": "https://competition.careers360.com/articles/nda-question-papers",
+      "year": 2026
+    }
+  ],
+  "youtube": []
+}

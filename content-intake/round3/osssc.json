@@ -1,0 +1,46 @@
+{
+  "details": {
+    "official_page": "https://osssc.gov.in/",
+    "sources": [
+      "https://testbook.com/amp/osssc-assistant-revenue-inspector/previous-year-papers",
+      "https://prepp.in/osssc-group-c-exam/previous-year-question-paper",
+      "https://techofworld.in/osssc-group-c-previous-question-2022-free-pdf/amp/"
+    ]
+  },
+  "exam_id": "osssc",
+  "exam_name": "OSSSC RI / ARI / PEO",
+  "not_found_years": [],
+  "notes": "ROUND 3 — OSSSC 2022 FOUND: a CRE exam WAS held in 2022 — the CRE 2021-cycle official paper held 30 Jan 2022 (English), listed on Testbook's ARI page and Prepp's Group C page (2022 CRE Paper 1). So 2022 is no longer not-found. Testbook page browser-verified (real content incl. 2025 CRE shifts 8–9 Oct 2025 and RI papers 22–25 May 2026); curl returns 500 for that amp URL, recorded as browser-verified. Official site osssc.gov.in unreachable (curl 000 and browser fetch failed) — still 0 official papers. Round 2's 2025 CRE prelims (Testbook CDN + Result91) and 2026 mains (Result91) NOT duplicated. RI papers held 22–25 May 2026 exist on the Testbook page but are outside this round's scope — noted, not added.",
+  "official_papers": [],
+  "unofficial_papers": [
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "Testbook",
+      "stage": "Written",
+      "title": "OSSSC ARI Previous Year Papers — CRE 2021 Official Paper held 30 Jan 2022; also hosts CRE 2025 prelims shifts (8–9 Oct 2025) and RI 2026 papers",
+      "url": "https://testbook.com/amp/osssc-assistant-revenue-inspector/previous-year-papers",
+      "year": 2022,
+      "note": "browser-verified, curl 500"
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "Prepp",
+      "stage": "Written",
+      "title": "OSSSC Group C Previous Year Question Papers — 2022 CRE Paper 1 (RI/ARI/Amin/SFS) with solutions",
+      "url": "https://prepp.in/osssc-group-c-exam/previous-year-question-paper",
+      "year": 2022
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "TechofWorld",
+      "stage": "Written",
+      "title": "OSSSC Group C Previous Question 2022 — Combined Recruitment (RI, ARI, Amin, SFS, LSI, ICDS Supervisor) paper with answers",
+      "url": "https://techofworld.in/osssc-group-c-previous-question-2022-free-pdf/amp/",
+      "year": 2022
+    }
+  ],
+  "youtube": []
+}

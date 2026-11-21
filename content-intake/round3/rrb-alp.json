@@ -1,0 +1,72 @@
+{
+ "details": {
+  "eligibility": "10th pass + ITI (NCVT/SCVT) in relevant trade, or Diploma/Degree in Engineering. Age limit as per CEN notification - verify on rrbapply.gov.in.",
+  "pattern": "CBT 1: 75 questions, 75 marks, 60 minutes. CBT 2: 175 questions (Part A 100 Q + Part B trade 75 Q). Then Computer Based Aptitude Test (CBAT) for ALP posts, Document Verification and Medical Examination. Negative marking 1/3.",
+  "syllabus": "Mathematics, General Intelligence & Reasoning, General Science, General Awareness & Current Affairs, Basic Science & Engineering, Technical (trade) subjects.",
+  "official_page": "https://rrbapply.gov.in/",
+  "important_dates": "CEN 01/2024: CBT 1 held 25-29 Nov 2024; CBT 2 held 2 & 6 May 2025. CEN 01/2025: CBT 1 held 13-18 Feb & 11 Mar 2026; CBT 2 held 28 Jul 2026. CEN 01/2026: vacancies revised to 14,627 (Nov 2026).",
+  "sources": [
+   "https://testbook.com/rrb-alp/previous-year-papers",
+   "https://www.oliveboard.in/blog/rrb-alp-pyps/",
+   "https://prepp.in/rrb-alp-exam/practice_papers",
+   "https://rrbapply.gov.in/"
+  ]
+ },
+ "exam_id": "rrb-alp",
+ "exam_name": "RRB ALP",
+ "not_found_years": [],
+ "notes": "ROUND 3 — 2026-11-21. Years by HELD date. CEN 01/2024: CBT 1 held 25-29 Nov 2024, CBT 2 held 2 & 6 May 2025 (covered by round-1 hubs). CEN 01/2025: CBT 1 held 13-18 Feb & 11 Mar 2026, CBT 2 held 28 Jul 2026 — both new here. CBAT (held 15 May 2025 for the 2024 cycle) publishes no question papers. No ALP exam was held in 2020, 2021, 2022 or 2023 (Adda247). CEN 01/2026 CBT 1 was held 3-5 Nov 2026; its papers appear on the round-1 Prepp/Testbook hubs, so no new URL is added for it here. No official paper PDFs exist: RRB publishes only answer keys/response sheets per CEN on rrbapply.gov.in and regional portals.",
+ "official_papers": [],
+ "unofficial_papers": [
+  {
+   "checked": "2026-11-21",
+   "http": 200,
+   "source": "Prepp",
+   "stage": "",
+   "title": "RRB ALP 2025 (CEN 01/2025) CBT 1 & CBT 2 — shift-wise papers: CBT 1 13-18 Feb & 11 Mar 2026, CBT 2 28 Jul 2026 (all trades, EN/HI)",
+   "url": "https://prepp.in/rrb-alp-exam/question-paper-2025",
+   "year": 2026,
+   "note": "browser-verified, curl 403 bot-block"
+  },
+  {
+   "checked": "2026-11-21",
+   "http": 200,
+   "source": "QMaths",
+   "stage": "CBT 1",
+   "title": "RRB ALP 2025 CBT 1 (CEN 01/2025) — all 10 shifts, 13-18 Feb 2026, English, with official answer key",
+   "url": "https://cdn.qmaths.in/pdfs/rrb-alp-tech-sc/alp-2025-cbt1/whole/RRB-ALP-2025-CBT1-EN-Complete-Paper.pdf",
+   "year": 2026,
+   "note": "browser-verified, curl 403 bot-block"
+  },
+  {
+   "checked": "2026-11-21",
+   "http": 200,
+   "source": "QMaths",
+   "stage": "CBT 2",
+   "title": "RRB ALP 2025 CBT 2 (Electrician) (CEN 01/2025) — both shifts, 28 Jul 2026, English, with official answer key",
+   "url": "https://cdn.qmaths.in/pdfs/rrb-alp-2025-cbt2/complete/v1/RRB-ALP-2025-CBT2-EN-Electrician-Complete-Paper.pdf",
+   "year": 2026,
+   "note": "browser-verified, curl failed (000) — page content verified in browser"
+  },
+  {
+   "checked": "2026-11-21",
+   "http": 200,
+   "source": "Adda247",
+   "stage": "CBT 1",
+   "title": "RRB ALP 2025 CBT 1 Question Paper — shift-wise, 13, 16, 17, 18 Feb & 11 Mar 2026, English & Hindi",
+   "url": "https://www.adda247.com/jobs/?p=132154",
+   "year": 2026
+  },
+  {
+   "checked": "2026-11-21",
+   "http": 200,
+   "source": "YourMockTest",
+   "stage": "CBT 2",
+   "title": "RRB ALP CBT-II (Electrician) Official Paper (Held On 6 May 2025 Shift 2) — 175 questions with answers, EN/HI",
+   "url": "https://www.yourmocktest.com/pyq/rrb-alp/rrb-alp-cbt-ii-electrician-official-paper-held-on-06-may-2025-shift-2-previous-year-paper",
+   "year": 2025,
+   "note": "browser-verified (page content confirmed)"
+  }
+ ],
+ "youtube": []
+}

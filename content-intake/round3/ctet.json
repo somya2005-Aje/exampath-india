@@ -1,0 +1,37 @@
+{
+  "details": {
+    "official_page": "https://ctet.nic.in/",
+    "sources": [
+      "https://career.aglasem.com/tet/ctet/previous-papers",
+      "https://testbook.com/ctet/previous-year-papers?stage=Paper%202&year=2026,2024,2023"
+    ]
+  },
+  "exam_id": "ctet",
+  "exam_name": "CTET",
+  "not_found_years": [
+    2025
+  ],
+  "notes": "ROUND 3 — CTET 2025: NO EXAM WAS HELD IN 2025 (genuine absence). Verified three ways on 2026-11-21: (1) CBSE guidance article states 'No CTET exam was conducted in 2025 — neither in July nor December. This marks the first year without a CTET session since its inception in 2011'; the July 2025 session was skipped and the December 2025 session was held as the 21st edition on 8 Feb 2026. (2) AglaSem's year-wise table lists 2026, 2024, 2023, 2022... with NO 2025 row. (3) Economic Times / Careers360 / JagranJosh confirm the Dec 2025 session exam date was 8 Feb 2026. The task brief's 'CTET Jan 2025 held' premise is incorrect — the Jan 2024 exam was 21 Jan 2024 and the Dec 2024 exam was 14 Dec 2024; nothing followed until Feb 2026. Two new 2024-deepening sources added instead (AglaSem: 6 papers for 2024 with answer keys; Testbook CTET hub). AglaSem: browser-verified, curl 403 bot-block. Do NOT add any 2025 CTET paper.",
+  "official_papers": [],
+  "unofficial_papers": [
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "AglaSem",
+      "stage": "Paper I & II",
+      "title": "CTET previous year question papers 2011-2026 — year-wise list; 2024 edition has 6 PDFs with answer keys; NO 2025 edition exists in the table",
+      "url": "https://career.aglasem.com/tet/ctet/previous-papers",
+      "year": 2024
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "Testbook",
+      "stage": "Paper II",
+      "title": "CTET previous year question papers — Paper II view listing 2024 and 2023 papers with answers (hub covers Paper I & II, 2018-2026)",
+      "url": "https://testbook.com/ctet/previous-year-papers?stage=Paper%202&year=2026,2024,2023",
+      "year": 2024
+    }
+  ],
+  "youtube": []
+}

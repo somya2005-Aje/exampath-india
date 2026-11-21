@@ -1,0 +1,45 @@
+{
+  "details": {
+    "official_page": "https://www.rbi.org.in/commonman/English/Scripts/Opportunities.aspx",
+    "sources": [
+      "https://anujjindal.in/rbi-grade-b-question-papers-result/",
+      "https://www.oliveboard.in/blog/rbi-grade-b-pyps/",
+      "https://testbook.com/amp/rbi-grade-b/previous-year-papers"
+    ]
+  },
+  "exam_id": "rbi-b",
+  "exam_name": "RBI Grade B",
+  "not_found_years": [],
+  "notes": "ROUND 3 — RBI Grade B 2025 FOUND. Phase I held 18 Oct 2025; Phase II followed in the 2025 cycle. RBI does NOT officially release question papers (confirmed by EduTap and AnujJindal), so all entries are unofficial memory-based papers. 3 new URLs, all curl-200 on 2026-11-21. Deduped vs round 1: Adda247 page, EduTap page, C4S Courses page, Prepp and BYJU'S hubs already in round 1 were NOT re-added.",
+  "official_papers": [],
+  "unofficial_papers": [
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "AnujJindal",
+      "stage": "Phase I/Phase II",
+      "title": "RBI Grade B 2025 memory-based papers with solutions — Phase 1 (GA/English/Quant/Reasoning) and Phase 2 (ESI objective, F&M objective, ESI+F&M descriptive, English Writing Skills)",
+      "url": "https://anujjindal.in/rbi-grade-b-question-papers-result/",
+      "year": 2025
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "Oliveboard",
+      "stage": "Phase I/Phase II",
+      "title": "RBI Grade B 2025 previous year paper PDF download — Phase 1 & Phase 2 memory-based papers",
+      "url": "https://www.oliveboard.in/blog/rbi-grade-b-pyps/",
+      "year": 2025
+    },
+    {
+      "checked": "2026-11-21",
+      "http": 200,
+      "source": "Testbook",
+      "stage": "Phase I/Phase II",
+      "title": "RBI Grade B Previous Year Papers — 2025 section plus Phase I (2024-2007) and Phase II (2015-2010) memory-based PDF tables",
+      "url": "https://testbook.com/amp/rbi-grade-b/previous-year-papers",
+      "year": 2025
+    }
+  ],
+  "youtube": []
+}
