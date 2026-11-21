@@ -94,3 +94,13 @@ instead of `assembleDebug` — the proven pattern is in
 - Verified INSIDE the APK (aapt2 + unzip): bundled index.html contains countdown + "(36)" states label; RRB page contains honesty text; portals contain 9th RRB portal; manifest.json present.
 - Hosted: https://exampath-india.pages.dev/exampath.apk (200, byte-identical to built APK). Website redeployed with new APK.
 - Native-verification limit: verified the APK contents on this server only. NOT tested installed on a real phone — the user must install v1.1.0 on his phone and confirm it opens, the countdown shows, and the Download banner works. Local Gradle build still blocked (runtime TCP rule).
+
+## Update 2026-11-21 21:53 IST — APK v1.2.0 BUILT ✅ (App rebuilt — user reversed the "forget the app" order)
+- Synced android-app/www/ from current final-deploy/ (131 files; verified banner, paper-card gallery, Exam Papers button, videos.html, auth.js; no APK bundled inside www).
+- Version bumped: v1.1.0 (code 2) → v1.2.0 (code 3) in build.gradle + package.json.
+- Download banner restored on every page (build_site.py header() + .app-banner CSS), with Share button (shares website link) as before.
+- Built via GitHub Actions (repo somya2005-Aje/exampath-india, run 44924453638, push 2241b5f, success).
+- APK: exampath.apk (5,989,535 bytes, debug-signed, sideload only), package com.exampathindia.app, v1.2.0, label ExamPath India. apksigner verify: OK.
+- Verified INSIDE the APK (aapt2 + unzip): bundled data = 56 exams, 648 papers (178 Official + 470 Unofficial), 215 videos; index.html has app-banner + auth.js; ssc-cgl.html has paper-card gallery + Exam Papers button; videos.html + auth.js present.
+- Hosted: https://exampath-india.pages.dev/exampath.apk (200, byte-identical to built APK). Website redeployed with banner + new APK.
+- Native-verification limit: APK contents verified on this server only. NOT tested installed on a real phone — the user must install v1.2.0 on his phone and confirm it opens, the banner/paper cards/videos show, and Google sign-in still shows "setup ho raha hai" until the Firebase project is ready. Local Gradle build still blocked (runtime TCP rule).
