@@ -104,3 +104,12 @@ instead of `assembleDebug` — the proven pattern is in
 - Verified INSIDE the APK (aapt2 + unzip): bundled data = 56 exams, 648 papers (178 Official + 470 Unofficial), 215 videos; index.html has app-banner + auth.js; ssc-cgl.html has paper-card gallery + Exam Papers button; videos.html + auth.js present.
 - Hosted: https://exampath-india.pages.dev/exampath.apk (200, byte-identical to built APK). Website redeployed with banner + new APK.
 - Native-verification limit: APK contents verified on this server only. NOT tested installed on a real phone — the user must install v1.2.0 on his phone and confirm it opens, the banner/paper cards/videos show, and Google sign-in still shows "setup ho raha hai" until the Firebase project is ready. Local Gradle build still blocked (runtime TCP rule).
+
+## Update 2026-11-21 23:16 IST — APK v1.3.0 BUILT ✅ (Round-3 content + Firebase login live)
+- Synced android-app/www/ from current final-deploy/ (131 files; 1,029 papers, Firebase config wired, banner, Exam Papers button; no APK bundled inside www). Sync + version bump + push done by parent (push 801b8e5); this entry finishes the run.
+- Version bumped: v1.2.0 (code 3) → v1.3.0 (code 4) in build.gradle + package.json.
+- Built via GitHub Actions (repo somya2005-Aje/exampath-india, run 44931071593, push 801b8e5, 1m33s, success). No local ./gradlew attempt (runtime TCP rule).
+- APK: exampath.apk (6,044,239 bytes, debug-signed, sideload only), package com.exampathindia.app, v1.3.0, label ExamPath India. apksigner verify: OK (needed /home/hatch/jdk17/bin/java on PATH — java is not on the default PATH).
+- Verified INSIDE the APK (aapt2 + unzip): bundled data.js has 822 unofficial papers (v1.2.0 had 470) — the Round-3 site (1,029 papers: 207 Official + 822 Unofficial, 253 videos); index.html has app-banner + window.FIREBASE_CONFIG (projectId exampath-india); ssc-cgl.html has paper-card gallery + Exam Papers button; videos.html + auth.js present.
+- Hosted: https://exampath-india.pages.dev/exampath.apk (200, application/vnd.android.package-archive, byte-identical to built APK). Website redeployed with new APK.
+- Native-verification limit: APK contents verified on this server only. NOT tested installed on a real phone — the user must install v1.3.0 on his phone and confirm it opens, the new papers show, and Google sign-in works (Firebase project exampath-india, ajedharua@gmail.com, verified live on the website).
