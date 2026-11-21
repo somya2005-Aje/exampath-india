@@ -85,3 +85,12 @@ instead of `assembleDebug` — the proven pattern is in
 - APK: `dailytools.apk` (4,228,658 bytes, debug-signed, sideload only), package `com.dailytools.app`, v1.0.0, label DailyTools.
 - Verified inside the APK: full v2 web app (110 tools, 15 categories), Roman Hindi UI ("Aapke Saare Daily Tools"), zero Devanagari.
 - Also hosted at https://dailytools-o5b.pages.dev/dailytools.apk
+
+## Update 2026-11-21 21:13 IST — APK v1.1.0 BUILT ✅ (Step 3: App, after website)
+- Synced android-app/www/ from audited final-deploy/ (129 files; verified countdown #cd-d, "View All States & UTs (36)", RRB "Answer key on portal", 9th portal rrb.indianrailways.gov.in, manifest.json). No APK bundled inside www.
+- Version bumped: v1.0.0 (code 1) → v1.1.0 (code 2). Also fixed package.json description (it wrongly said DailyTools).
+- Built via GitHub Actions (repo somya2005-Aje/exampath-india, run 44920450283, push e618366, 1m53s).
+- APK: exampath.apk (5,806,957 bytes, debug-signed, sideload only), package com.exampathindia.app, v1.1.0, label ExamPath India. apksigner verify: OK.
+- Verified INSIDE the APK (aapt2 + unzip): bundled index.html contains countdown + "(36)" states label; RRB page contains honesty text; portals contain 9th RRB portal; manifest.json present.
+- Hosted: https://exampath-india.pages.dev/exampath.apk (200, byte-identical to built APK). Website redeployed with new APK.
+- Native-verification limit: verified the APK contents on this server only. NOT tested installed on a real phone — the user must install v1.1.0 on his phone and confirm it opens, the countdown shows, and the Download banner works. Local Gradle build still blocked (runtime TCP rule).
